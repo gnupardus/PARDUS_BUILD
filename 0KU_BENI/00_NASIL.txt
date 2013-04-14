@@ -1,18 +1,17 @@
 ADIM 1 :
 
       Pardus  DVD ' sini indirip kurun. 
-      Ya da herhangi Debian dagitimi kurup , live-build , git ve lzma paketlerini ekleyin.
 
 
 ADIM 2 :
 
       DVD uretme sistemini indirin.
 
-      Konsolda "git clone https://github.com/pardus/pardus" komutunu calisitirin.
+      Konsolda "git clone https://github.com/pardustopluluk/PARDUS_BUILD" komutunu calisitirin.
 
-      Daha sonra "cd pardus" ile dizine girin.
+      Daha sonra "cd PARDUS_BUILD" ile dizine girin.
 
-      Daha once indirdiyseniz guncellemek icin pardus dizininde "git pull" demeniz yeterli
+      Daha once indirdiyseniz guncellemek icin PARDUS_BUILD dizininde "git pull" demeniz yeterli
 
 
 ADIM 3 :
@@ -31,27 +30,15 @@ ADIM 3 :
 ADIM 4 :
 
      KDE   icin  sudo ./BUILD.sh tr bireysel KDE   
-     KDE   icin  sudo ./BUILD.sh tr kurumsal KDE   (kurumsal olusturmak icin)
 
      GNOME icin  sudo ./BUILD.sh tr bireysel GNOME 
-     GNOME icin  sudo ./BUILD.sh tr kurumsal GNOME (kurumsal olusturmak icin)
 
      XFCE  icin  sudo ./BUILD.sh tr bireysel XFCE  
-     XFCE  icin  sudo ./BUILD.sh tr kurumsal XFCE  (kurumsal olusturmak icin)
 
      demeniz yeter.
 
-     Bir ara "Password for root on localhost?" diye sorucaktir, enter diyerek gecmenizi oneririz.
+     Bir ara "Password for root on localhost?" diye sorucaktir, enter diyerek gecin.
 
 
 
-
-
-Yaklasik 1.5 saat sonra Calisan ve Kurulabilen bir ISO ' nuz olacaktir.
-
-
-NOT :
-
-32Bit 'leri 64Bit bir sistemden , 64Bit ' leri de 32Bit bir sistemden olusturmak mumkun. Ancak chroot gecisleri icin calisilan kernel ' in da bir kopyasi eklendiginden pek te hos bir ISO olmuyor.
-
-Bireysel/Kurumsal dagitim icin bireysel/kurumsal ISO larini , sunucu dagitimi olusturmak icin sunucu ISO larini kullanmaniz gerekir
+Yaklasik 1.5-2 GB paket indirecektir. Paketleri indirdikten sonra yaklasik 1.5 saat sonra Calisan ve Kurulabilen bir ISO ' nuz olacaktir.
