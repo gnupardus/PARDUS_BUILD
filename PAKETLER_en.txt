@@ -1,0 +1,4 @@
+firefox-locale-en                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Web browser based on Firefox
+thunderbird-locale-en            |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Bireysel| |wheezy|sid| mail/news client with RSS and integrated spam filter support
+pardus-config-kde-en             |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| English (us) localization files for KDE
+pardus-config-gnome-en           |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| English (us) localization files for GNOME

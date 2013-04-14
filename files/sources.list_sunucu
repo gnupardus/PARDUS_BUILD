@@ -1,0 +1,6 @@
+deb ftp://depo.pardus.org.tr/sunucu/anahavuz     wheezy                   main contrib non-free
+deb ftp://depo.pardus.org.tr/sunucu/anahavuz     wheezy-updates          main contrib non-free
+#deb ftp://depo.pardus.org.tr/sunucu/anahavuz     wheezy-proposed-updates main contrib non-free
+deb ftp://depo.pardus.org.tr/sunucu/cokluortam   wheezy                  main         non-free
+deb ftp://depo.pardus.org.tr/sunucu/guvenlik     wheezy/updates          main contrib non-free
+deb ftp://depo.pardus.org.tr/sunucu/ozelhavuz    wheezy                  main         non-free

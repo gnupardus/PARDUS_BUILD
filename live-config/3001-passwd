@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set +e
+
+echo "**************************** PASSWD.HOOK ****************************************"
+
+
+passwd pardus << EOF
+pardus
+pardus
+EOF

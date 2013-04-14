@@ -1,0 +1,35 @@
+#!/bin/sh
+
+
+Pardus_installer_launcher ()
+{
+	echo -n " pardus-installer-launcher"
+
+	# Reading kernel command line
+	for _PARAMETER in ${_CMDLINE}
+	do
+		case "${_PARAMETER}" in
+			live-config.username=*|username=*)
+				LIVE_USERNAME="${_PARAMETER#*username=}"
+				;;
+		esac
+	done
+
+	Configure_pardus_installer_launcher
+}
+
+Configure_pardus_installer_launcher ()
+{
+	# KDE4 needs the desktop file somewhere else,
+	# otherwise no Home and Trash icons on the desktop.
+	if [ -d  /usr/share/kde4/apps/kio_desktop/DesktopLinks ] && \
+	   [ -e /var/lib/dpkg/info/xdg-user-dirs.list ]
+	then
+		install -D -o ${LIVE_USERNAME} -g ${LIVE_USERNAME} /usr/share/applications/pardus-installer-launcher.desktop /usr/share/kde4/apps/kio_desktop/DesktopLinks/pardus-installer-launcher.desktop
+	else
+		install -D -o ${LIVE_USERNAME} -g ${LIVE_USERNAME} /usr/share/applications/pardus-installer-launcher.desktop /home/${LIVE_USERNAME}/Desktop/pardus-installer-launcher.desktop
+		chown ${LIVE_USERNAME}:${LIVE_USERNAME} /home/${LIVE_USERNAME}/Desktop -R
+	fi
+}
+
+Pardus_installer_launcher

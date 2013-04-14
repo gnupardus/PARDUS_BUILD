@@ -1,0 +1,7 @@
+firmware-ivtv firmware-ivtv/license/accepted boolean true
+firmware-ipw2x00 firmware-ipw2x00/license/accepted boolean true
+sun-java6-bin shared/accepted-sun-dlj-v1-1 boolean true 
+sun-java6-jre shared/accepted-sun-dlj-v1-1 boolean true 
+microcode.ctl microcode.ctl/check-new boolean true
+vdr vdr/create_video_dir boolean true 
+vdr vdr/select_dvb_card string Satellite

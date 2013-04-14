@@ -1,0 +1,957 @@
+# for internal use only
+user-setup	passwd/root-password-crypted	password	
+# Root parolası:
+user-setup	passwd/root-password	password	
+# Password for iodined (server):
+iodine	iodine/daemon_password	password	
+# Account passphrase:
+wvdial	wvdial/passphrase	password	
+# Yeni kullanıcı için bir parola girin:
+user-setup	passwd/user-password	password	
+# Confirm passphrase:
+wvdial	wvdial/passphrase2	password	
+# for internal use only
+user-setup	passwd/user-password-crypted	password	
+# Doğrulamak için parolayı tekrar girin:
+user-setup	passwd/root-password-again	password	
+# Doğrulamak için parolayı tekrar girin:
+user-setup	passwd/user-password-again	password	
+# Start gpsd automatically?
+gpsd	gpsd/start_daemon	boolean	false
+# Time zone:
+# Choices: Adelaide, Brisbane, Broken Hill, Kanbera, Currie, Darwin, Eukla, Hobart, Lindeman, Lord Howe, Melbourne, Perth, Sidney, Yankovina
+tzdata	tzdata/Zones/Australia	select	
+# Do you want system-wide readable home directories?
+adduser	adduser/homedir-permission	boolean	true
+# Declined Intel Pro Wireless 2100 and 2200/2915 License
+firmware-ipw2x00	firmware-ipw2x00/license/error	error	
+# What do you want to do about modified configuration file ?
+# Choices: install the package maintainer's version, keep the local version currently installed, show the differences between the versions, show a side-by-side difference between the versions, start a new shell to examine the situation
+ucf	ucf/changeprompt	select	keep_current
+# Tuş eşlemi
+# Choices: Programmer, latin1, latin1 - no dead keys
+console-data	console-data/keymap/qwertz/german/standard/keymap	select	
+# Yerel SSL sertifikaları değiştirilmeli
+ssl-cert	make-ssl-cert/vulnerable_prng	note	
+# Tuş eşlemi
+# Choices: No dead keys, Standard
+console-data	console-data/keymap/qwerty/estonian/standard/keymap	select	
+# Tuş eşlemi
+# Choices: latin1, latin1 - no dead keys
+console-data	console-data/keymap/qwertz/german/apple_usb/keymap	select	
+# Tuş eşlemi
+# Choices: Apple USB, Standard, latin1, latin1-lk450
+console-data	console-data/keymap/qwertz/swiss/german/keymap	select	
+# Enable saned as a standalone server?
+sane-utils	sane-utils/saned_run	boolean	false
+# kFreeBSD komut satırı:
+grub-pc	grub2/kfreebsd_cmdline	string	
+# /boot/grub/device.map dosyası yeniden oluşturuldu
+grub-pc	grub2/device_map_regenerated	note	
+# DECnet node address:
+dnet-common	dnet-common/nodeaddr	string	1.10
+# Override local changes to /etc/pam.d/common-*?
+libpam-runtime	libpam-runtime/override	boolean	false
+# depmod hatasından sonra kurulum iptal edilsin mi?
+linux-image-3.2.0-4-amd64	linux-image-3.2.0-4-amd64/postinst/depmod-error-initrd-3.2.0-4-amd64	boolean	false
+# ISP's telephone number:
+wvdial	wvdial/phone	string	
+# Geçersiz bir debconf değeri [] bulundu
+dictionaries-common	dictionaries-common/invalid_debconf_value	note	
+# Klavye alt türü:
+# Choices: Apple USB, Standard
+console-data	console-data/keymap/qwerty/swedish/variant	select	
+# PAM kitaplığının yükseltilmesi için yeniden başlatılacak olan hizmetler:
+libpam0g	libpam0g/restart-services	string	
+libpam0g:amd64	libpam0g/restart-services	string	
+libpam0g:i386	libpam0g/restart-services	string	
+# Time zone:
+# Choices: Aden, Almaty, Amman, Anadyr, Aqtau, Aqtobe, Ashgabat, Baghdad, Bahrain, Baku, Bangkok, Beirut, Bishkek, Brunei, Choibalsan, Chongqing, Colombo, Damascus, Dhaka, Dili, Dubai, Dushanbe, Gaza, Harbin, Hebron, Ho_Chi_Minh, Hong_Kong, Hovd, Irkutsk, Istanbul, Jakarta, Jayapura, Jerusalem, Kabul, Kamchatka, Karachi, Kashgar, Kathmandu, Kolkata, Krasnoyarsk, Kuala_Lumpur, Kuching, Kuwait, Macau, Magadan, Makassar, Manila, Muscat, Nicosia, Novokuznetsk, Novosibirsk, Omsk, Oral, Phnom_Penh, Pontianak, Pyongyang, Qatar, Qyzylorda, Rangoon, Riyadh, Riyadh87, Riyadh88, Riyadh89, Sakhalin, Samarkand, Seoul, Shanghai, Singapore, Taipei, Tashkent, Tbilisi, Tehran, Tel_Aviv, Thimphu, Tokyo, Ujung_Pandang, Ulaanbaatar, Urumqi, Vientiane, Vladivostok, Yakutsk, Yekaterinburg, Yerevan
+tzdata	tzdata/Zones/Asia	select	
+# User running the mount.davfs daemon:
+davfs2	davfs2/user_name	string	davfs2
+# CUPS'ın bilinmeyen görevleri ham (raw) görev olarak yazdırmasını istiyor musunuz?
+cups	cupsys/raw-print	boolean	true
+# Desteklenecek olan karakter seti:
+# Choices: . Arapça, # Ermenice, # Kiril - KOI8-R ve KOI8-U, # Kiril - Slav olmayan diller, # Kiril - Slav dilleri (ayrıca Boşnakça ve Latin Sırpça), . Etiyopyaca, # Gürcü Dili, # Yunanca, # İbranice, # Lao Dili, # Latin1 ve Latin5 - Batı Avrupa dilleri ve Türkî diller, # Latin2 - Orta Avrupa ve Romanya, # Latin3 ve Latin8 - Chichewa dili; Esperanto; İrlanda Dili; Galce ve Malta Dili, # Latin7 - Litvanya Dili; Letonca; Marshallese dili ve Yeni Zelanda Yerli Dili, . Latin - Vietnam Dili, # Tayca, . Birleştirilmiş - Latin; Slav Kirili; İbranice; temel Arapça, . Birleştirilmiş - Latin; Slav Kirili; Yunanca, . Birleştirilmiş - Latin; Slav Kirili ve Slav olmayan Kiril, En uygun karakter setini tahmin et
+console-setup	console-setup/codeset47	select	Guess optimal character set
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwertz/serbian/standard/keymap	select	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwertz/serbian/variant	select	
+# Add saned user to the scanner group?
+sane-utils	sane-utils/saned_scanner_group	boolean	true
+# Klavye düzeni:
+# Choices: 
+console-data	console-data/keymap/template/layout	select	
+# Klavye düzeni:
+# Choices: Brazilian, British, Bulgarian, Byelorussian, Canadian, Czech, Danish, Dutch, Estonian, Finnish, Greek, Hebrew, Hungarian, Icelandic, Italian, Japanese, Kirghiz, Latin American, Latvian, Lithuanian, Macedonian, Norwegian, Polish, Portugese, Romanian, Russian, Serbian, Slovak, Spanish, Swedish, Thai, Turkish, US american, Ukrainian
+console-data	console-data/keymap/qwerty/layout	select	
+# Time zone:
+# Choices: AST4, AST4ADT, CST6, CST6CDT, EST5, EST5EDT, HST10, MST7, MST7MDT, PST8, PST8PDT, YST9, YST9YDT
+tzdata	tzdata/Zones/SystemV	select	
+# Conflicting nouveau kernel module loaded
+nvidia-support	nvidia-support/warn-nouveau-module-loaded	error	
+# "root" olarak oturum açmaya izin verilsin mi?
+user-setup	passwd/root-login	boolean	true
+# Klavye düzeni:
+# Choices: Belgian, French
+console-data	console-data/keymap/azerty/layout	select	
+# Device the GPS receiver is attached to:
+gpsd	gpsd/device	string	
+# Conflicts found in three-way merge
+ucf	ucf/conflicts_found	error	
+# for internal use
+krb5-config	krb5-config/add_servers_realm	string	
+# Options to iodined (server):
+iodine	iodine/daemon_options	string	
+# Makine İsmi:
+ssl-cert	make-ssl-cert/hostname	string	localhost
+# Dummy template
+sun-java6-bin	shared/accepted-sun-dlj-v1-1	boolean	true 
+sun-java6-jre	shared/accepted-sun-dlj-v1-1	boolean	true 
+# Klavye alt türü:
+# Choices: Apple USB, PC keyboard (non-US 102 keys), Same as X11 (latin 1), With Euro (latin 9)
+console-data	console-data/keymap/azerty/french/variant	select	
+# Tuş eşlemi
+# Choices: latin4, unicode
+console-data	console-data/keymap/qwerty/lithuanian/standard/keymap	select	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwertz/polish/variant	select	
+# for internal use
+libfglrx	fglrx-driver/check-for-unsupported-gpu	boolean	true
+# Klavye alt türü:
+# Choices: Apple USB, Old (obsolete), Standard
+console-data	console-data/keymap/qwerty/finnish/variant	select	
+# For internal use only
+krb5-config	krb5-config/read_conf	boolean	true
+# Ekran için altpiksel taramasını etkinleştir:
+# Choices: Otomatik, Her zaman, Hiçbir zaman
+fontconfig-config	fontconfig/subpixel_rendering	select	Automatic
+# Ispell sözlüğü/sözcük listesi için ön tanımlı değerler burada ayarlanmıyor.
+dictionaries-common	dictionaries-common/selecting_ispell_wordlist_default	note	
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/thai/standard/keymap	select	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwertz/czech/variant	select	
+# Tuş eşlemi
+# Choices: Old keymap, Standard
+console-data	console-data/keymap/qwerty/portugese/standard/keymap	select	
+# Tuş eşlemi
+# Choices: F Layout, F Layout with Unicode
+console-data	console-data/keymap/fggiod/turkish/standard/keymap	select	
+# Options to gpsd:
+gpsd	gpsd/daemon_options	string	
+# Tuş eşlemi
+# Choices: CP-1251 (1), CP-1251 (2), CP-866, KOI8-R (102 Keys), KOI8-R (105 Keys), KOI8-R (MS Cyrillic Layout), KOI8-R (RightAlt), KOI8-R (RightCtrl), KOI8-R (Yawerty Layout)
+console-data	console-data/keymap/qwerty/russian/standard/keymap	select	
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/swedish/apple_usb/keymap	select	
+# Klavyenin kökeninin ülkesi:
+# Choices: 
+keyboard-configuration	keyboard-configuration/layout	select	qwerty
+# Klavye düzeni ailesi:
+# Choices: azerty, dvorak, fgGIod, qwerty, qwertz
+console-data	console-data/keymap/family	select	qwerty
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/brazilian/br-latin1/keymap	select	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/estonian/variant	select	
+# Should NTFS-3G be installed "setuid root"?
+ntfs-3g	ntfs-3g/setuid-root	boolean	false
+# Samba'nın nasıl çalışmasını istersiniz?
+# Choices: artalan süreçleri, inetd
+samba	samba/run_mode	select	daemons
+# Kullanılacak klavye düzeni:
+# Choices: Amerikan İngilizcesi, Arnavutça, Arapça, Asturyasça, Bangladeş, Beyaz Rusça, Bengalce, Belçika dili, Boşnakça, Brezilya dili, Britanya İngilizcesi, Bulgarca, Bulgarca (fonetik düzeni), Kanada Fransızcası, Kanada Çokdilli, Katalanca, Çince, Hırvatça, Çekçe, Danimarka dili, Flâmanca, Dvorak, Dzongkha (Butan), Esperanto, Estonya dili, Etiyopya, Fince, Fransızca, Gürcüce, Almanca, Yunanca, Gujarati (Hindistan), Gurmukhi, İbranice, Hindu, Macarca, İzlanda dili, İrlandaca, İtalyanca, Japonca, Kannada, Kazak Dili, Kmer dili, Kırgızca, Korece, Kürtçe (F düzeni), Kürtçe (Q düzeni), Laos Dili, Latin Amerikan, Litvanya dili, Letonya dili, Makedonca, Malayalam, Nepal, Kuzey Sami, Norveççe, Persce, Lehçe, Portekizce, Punjabi, Romanca, Rusça, Sırpça (Kiril alfabesi), Sintçe, Sinhala, Slovakça, Slovence, İspanyolca, İsveççe, İsviçre Fransızcası, İsviçre Almancası, Tamil, Telugu, Tayca, Türkçe (F düzeni), Türkçe (Q düzeni), Ukrayna dili, Uygurca, Vietnamca
+keyboard-configuration	keyboard-configuration/xkb-keymap	select	tr
+# Tuş eşlemi
+# Choices: Apple USB, Standard, latin1
+console-data	console-data/keymap/qwertz/swiss/french/keymap	select	
+# Klavye düzeni:
+# Choices: Turkish, Turkish - Crimean Tatar (Turkish Alt-Q), Turkish - Crimean Tatar (Turkish F), Turkish - Crimean Tatar (Turkish Q), Turkish - Kurdish (Turkey\, F), Turkish - Kurdish (Turkey\, Latin Alt-Q), Turkish - Kurdish (Turkey\, Latin Q), Turkish - Turkish (Alt-Q), Turkish - Turkish (F), Turkish - Turkish (Sun dead keys), Turkish - Turkish (international with dead keys), Other
+keyboard-configuration	keyboard-configuration/variant	select	Turkish
+# Would you like debconf to create magicfilter filters?
+printer-driver-pnm2ppa	pnm2ppa/create_magicfilter	boolean	false
+# Activate sysstat's cron job?
+sysstat	sysstat/enable	boolean	false
+# Time zone:
+# Choices: Apia, Auckland, Chatham, Chuuk, Easter, Efate, Enderbury, Fakaofo, Fiji, Funafuti, Galapagos, Gambier, Guadalcanal, Guam, Honolulu, Johnston, Kiritimati, Kosrae, Kwajalein, Majuro, Marquesas, Midway, Nauru, Niue, Norfolk, Noumea, Pago_Pago, Palau, Pitcairn, Pohnpei, Ponape, Port_Moresby, Rarotonga, Saipan, Samoa, Tahiti, Tarawa, Tongatapu, Truk, Wake, Wallis, Yap
+tzdata	tzdata/Zones/Pacific	select	
+# Klavye düzeni:
+# Choices: Unknown
+console-data	console-data/keymap/dvorak/layout	select	
+# System default ispell dictionary:
+# Choices: , Elle (Sembolik bağlarla) ayarla
+dictionaries-common	dictionaries-common/default-ispell	select	
+# Kullanılacak klavye düzeni:
+# Choices: Amerikan İngilizcesi, Beyaz Rusça, Belçika dili, Brezilya dili (ABNT2 düzeni), Brezilya dili (EUA düzeni), Britanya İngilizcesi, Bulgarca, Kanada Fransızcası, Kanada Çokdilli, Hırvatça, Çekçe, Danimarka dili, Flâmanca, Dvorak, Estonya dili, Fince, Fransızca, Almanca, Yunanca, İbranice, Macarca, İzlanda dili, İtalyanca, Japonca, Kırgızca, Latin Amerikan, Litvanya dili, Letonya dili, Makedonca, Norveççe, Lehçe, Portekizce, Romanca, Rusça, Sırpça, Slovakça, Slovence, İspanyolca, İsveççe, İsviçre Fransızcası, İsviçre Almancası, Tayca, Türkçe (F düzeni), Türkçe (Q düzeni), Ukrayna dili
+console-data	console-keymaps-at/keymap	select	
+# Kullanılacak klavye düzeni:
+# Choices: Amerikan İngilizcesi, Fransızca, Almanca, İtalyanca, İspanyolca, İsveççe, İsviçre Almancası
+console-data	console-keymaps-amiga/keymap	select	
+# for internal use
+nvidia-support	nvidia-support/check-xorg-conf-on-removal	boolean	true
+# Kerberos servers for your realm:
+krb5-config	krb5-config/kerberos_servers	string	
+# Hesabınız için kullanıcı adı:
+user-setup	passwd/username	string	
+# for internal use
+nvidia-support	nvidia-support/check-running-module-version	boolean	true
+# Tuş eşlemi
+# Choices: Academic, Standard, With comma
+console-data	console-data/keymap/qwerty/romanian/standard/keymap	select	
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/finnish/apple_usb/keymap	select	
+# Proceed with the udev upgrade despite the kernel incompatibility?
+udev	udev/new_kernel_needed	boolean	false
+# inetd girdileri etkisizleştirilsin mi?
+update-inetd	update-inetd/ask-disable-entries	boolean	false
+# Configure DECnet now:
+# Choices: configure now, configure later, skip and leave config as it is
+dnet-common	dnet-common/configure-action	select	skip and leave config as it is
+# Öntanımlı klavye seçenekleri () kullanılmaya devam edilsin mi?
+keyboard-configuration	keyboard-configuration/unsupported_options	boolean	true
+# Do you want to upgrade glibc now?
+libc6	glibc/upgrade	boolean	true
+libc6:amd64	glibc/upgrade	boolean	true
+libc6:i386	glibc/upgrade	boolean	true
+# Linux komut satırı:
+grub-pc	grub2/linux_cmdline	string	modprobe.blacklist=floppy splash quiet --
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/kirghiz/variant	select	
+# Klavye alt türü:
+# Choices: French, German
+console-data	console-data/keymap/qwertz/swiss/variant	select	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/norwegian/variant	select	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/slovak/variant	select	
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/canadian/french/keymap	select	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/hungarian/variant	select	
+# Biteşlemli yazıtipleri öntanımlı olarak etkinleştirilsin mi?
+fontconfig-config	fontconfig/enable_bitmaps	boolean	false
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/macedonian/variant	select	
+# Klavye alt türü:
+# Choices: Apple USB, Standard
+console-data	console-data/keymap/qwertz/german/variant	select	
+# GRUB kurulmadan devam edilsin mi?
+grub-pc	grub-pc/install_devices_empty	boolean	false
+# for internal use
+fglrx-driver	fglrx-driver/check-xorg-conf-on-removal	boolean	true
+# Incompatible PAM profiles selected.
+libpam-runtime	libpam-runtime/conflicts	error	
+# Birden fazla olan girdiler görmezden gelinsin ve hiçbir değişiklik yapılmadan devam edilsin mi?
+update-inetd	update-inetd/ask-several-entries	boolean	true
+# Sistem için öntanımlı yerel:
+# Choices: Hiçbiri, 
+locales	locales/default_environment_locale	select	None
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/azerty/belgian/apple_usb/keymap	select	
+# Tuş eşlemi
+# Choices: Standard ABNT2
+console-data	console-data/keymap/qwerty/brazilian/standard/keymap	select	
+# for internal use only
+user-setup	passwd/user-default-groups	string	audio cdrom dip floppy video plugdev netdev powerdev scanner bluetooth debian-tor
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwertz/slovene/standard/keymap	select	
+# Dummy template
+microcode.ctl	microcode.ctl/check-new	boolean	true
+# Rezerve edilmiş kullanıcı adı
+user-setup	passwd/username-reserved	error	
+# Klavye alt türü:
+# Choices: Apple USB, Standard
+console-data	console-data/keymap/qwerty/british/variant	select	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/ukrainian/variant	select	
+# Boot loader configuration check needed
+linux-base	linux-base/disk-id-manual-boot-loader	error	
+# X sunucusunu sonlandırmak için Control+Alt+Backspace kullanılsın mı?
+keyboard-configuration	keyboard-configuration/ctrl_alt_bksp	boolean	false
+# Parola şifrelemesi kullanılsın mı?
+samba-common	samba-common/encrypt_passwords	boolean	true
+# Continue with cryptsetup removal?
+cryptsetup	cryptsetup/prerm_active_mappings	boolean	true
+# Şimdi normal bir kullanıcı hesabı oluşturulsun mu?
+user-setup	passwd/make-user	boolean	true
+# smb.conf dosyası WINS ayarlarını DHCP sunucusundan alacak şekilde değiştirilsin mi?
+samba-common	samba-common/dhcp	boolean	false
+# Tuş eşlemi
+# Choices: Standard, US
+console-data	console-data/keymap/qwerty/icelandic/standard/keymap	select	
+# Seri port parametreleri otomatik yapılandırılsın mı?
+setserial	setserial/autosave	boolean	true
+# Start ufw automatically?
+ufw	ufw/enable	boolean	false
+# Would you like debconf to configure pnm2ppa?
+printer-driver-pnm2ppa	pnm2ppa/use_debconf	boolean	true
+# xscreensaver and xlockmore must be restarted before upgrading
+libc6	glibc/disable-screensaver	error	
+libc6:amd64	glibc/disable-screensaver	error	
+libc6:i386	glibc/disable-screensaver	error	
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/british/apple_usb/keymap	select	
+# Failure restarting some services for OpenSSL upgrade
+libssl1.0.0	libssl1.0.0/restart-failed	error	
+libssl1.0.0:amd64	libssl1.0.0/restart-failed	error	
+libssl1.0.0:i386	libssl1.0.0/restart-failed	error	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwertz/slovak/variant	select	
+# GRUB'u önyükleme aygıtına yazma işlemi başarısız oldu. Yine de devam edilsin mi?
+grub-pc	grub-pc/install_devices_failed	boolean	false
+# USB klavye için kullanılacak klavye düzeni:
+# Choices: Amerikan İngilizcesi, Belçika dili, Britanya İngilizcesi, Danimarka dili, Dvorak, Fince, Fransızca, Almanca, İtalyanca, İtalyanca, Portekizce, İspanyolca, İsveççe, İsviçre Fransızcası, İsviçre Almancası
+console-data	console-keymaps-usb/keymap	select	
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/bulgarian/standard/keymap	select	
+# Kullanılacak klavye düzeni:
+# Choices: Amerikan İngilizcesi, Beyaz Rusça, Belçika dili, Brezilya dili (ABNT2 düzeni), Brezilya dili (EUA düzeni), Britanya İngilizcesi, Bulgarca, Kanada Çokdilli, Hırvatça, Çekçe, Danimarka dili, Flâmanca, Dvorak, Estonya dili, Fince, Fransızca, Almanca, Yunanca, İbranice, Macarca, İzlanda dili, İtalyanca, Japonca, Kırgızca, Latin Amerikan, Litvanya dili, Letonya dili, Makedonca, Norveççe, Lehçe, Portekizce, Romanca, Rusça, Sırpça, Slovakça, Slovence, İspanyolca, İsveççe, İsviçre Fransızcası, İsviçre Almancası, Türkçe (F düzeni), Türkçe (Q düzeni), Ukrayna dili
+console-data	console-keymaps-acorn/keymap	select	
+# Tuş eşlemi
+# Choices: Programmer, Standard, US Layout
+console-data	console-data/keymap/qwerty/czech/standard/keymap	select	
+# for internal use
+keyboard-configuration	keyboard-configuration/variantcode	string	
+# Tuş eşlemi
+# Choices: latin4, latin7
+console-data	console-data/keymap/qwerty/latvian/standard/keymap	select	
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwertz/polish/standard/keymap	select	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/latin_american/variant	select	
+# Çalışma Grubu / Etki Alanı Adı:
+samba-common	samba-common/workgroup	string	WORKGROUP
+# Oluşturulacak yereller:
+# Choices: Tüm yereller, aa_DJ ISO-8859-1, aa_DJ.UTF-8 UTF-8, aa_ER UTF-8, aa_ER@saaho UTF-8, aa_ET UTF-8, af_ZA ISO-8859-1, af_ZA.UTF-8 UTF-8, am_ET UTF-8, an_ES ISO-8859-15, an_ES.UTF-8 UTF-8, ar_AE ISO-8859-6, ar_AE.UTF-8 UTF-8, ar_BH ISO-8859-6, ar_BH.UTF-8 UTF-8, ar_DZ ISO-8859-6, ar_DZ.UTF-8 UTF-8, ar_EG ISO-8859-6, ar_EG.UTF-8 UTF-8, ar_IN UTF-8, ar_IQ ISO-8859-6, ar_IQ.UTF-8 UTF-8, ar_JO ISO-8859-6, ar_JO.UTF-8 UTF-8, ar_KW ISO-8859-6, ar_KW.UTF-8 UTF-8, ar_LB ISO-8859-6, ar_LB.UTF-8 UTF-8, ar_LY ISO-8859-6, ar_LY.UTF-8 UTF-8, ar_MA ISO-8859-6, ar_MA.UTF-8 UTF-8, ar_OM ISO-8859-6, ar_OM.UTF-8 UTF-8, ar_QA ISO-8859-6, ar_QA.UTF-8 UTF-8, ar_SA ISO-8859-6, ar_SA.UTF-8 UTF-8, ar_SD ISO-8859-6, ar_SD.UTF-8 UTF-8, ar_SY ISO-8859-6, ar_SY.UTF-8 UTF-8, ar_TN ISO-8859-6, ar_TN.UTF-8 UTF-8, ar_YE ISO-8859-6, ar_YE.UTF-8 UTF-8, as_IN.UTF-8 UTF-8, ast_ES ISO-8859-15, ast_ES.UTF-8 UTF-8, az_AZ.UTF-8 UTF-8, be_BY CP1251, be_BY.UTF-8 UTF-8, be_BY@latin UTF-8, bem_ZM UTF-8, ber_DZ UTF-8, ber_MA UTF-8, bg_BG CP1251, bg_BG.UTF-8 UTF-8, bn_BD UTF-8, bn_IN UTF-8, bo_CN UTF-8, bo_IN UTF-8, br_FR ISO-8859-1, br_FR.UTF-8 UTF-8, br_FR@euro ISO-8859-15, bs_BA ISO-8859-2, bs_BA.UTF-8 UTF-8, byn_ER UTF-8, ca_AD ISO-8859-15, ca_AD.UTF-8 UTF-8, ca_ES ISO-8859-1, ca_ES.UTF-8 UTF-8, ca_ES.UTF-8@valencia UTF-8, ca_ES@euro ISO-8859-15, ca_ES@valencia ISO-8859-15, ca_FR ISO-8859-15, ca_FR.UTF-8 UTF-8, ca_IT ISO-8859-15, ca_IT.UTF-8 UTF-8, crh_UA UTF-8, cs_CZ ISO-8859-2, cs_CZ.UTF-8 UTF-8, csb_PL UTF-8, cv_RU UTF-8, cy_GB ISO-8859-14, cy_GB.UTF-8 UTF-8, da_DK ISO-8859-1, da_DK.UTF-8 UTF-8, de_AT ISO-8859-1, de_AT.UTF-8 UTF-8, de_AT@euro ISO-8859-15, de_BE ISO-8859-1, de_BE.UTF-8 UTF-8, de_BE@euro ISO-8859-15, de_CH ISO-8859-1, de_CH.UTF-8 UTF-8, de_DE ISO-8859-1, de_DE.UTF-8 UTF-8, de_DE@euro ISO-8859-15, de_LI.UTF-8 UTF-8, de_LU ISO-8859-1, de_LU.UTF-8 UTF-8, de_LU@euro ISO-8859-15, dv_MV UTF-8, dz_BT UTF-8, el_CY ISO-8859-7, el_CY.UTF-8 UTF-8, el_GR ISO-8859-7, el_GR.UTF-8 UTF-8, en_AG UTF-8, en_AU ISO-8859-1, en_AU.UTF-8 UTF-8, en_BW ISO-8859-1, en_BW.UTF-8 UTF-8, en_CA ISO-8859-1, en_CA.UTF-8 UTF-8, en_DK ISO-8859-1, en_DK.ISO-8859-15 ISO-8859-15, en_DK.UTF-8 UTF-8, en_GB ISO-8859-1, en_GB.ISO-8859-15 ISO-8859-15, en_GB.UTF-8 UTF-8, en_HK ISO-8859-1, en_HK.UTF-8 UTF-8, en_IE ISO-8859-1, en_IE.UTF-8 UTF-8, en_IE@euro ISO-8859-15, en_IN UTF-8, en_NG UTF-8, en_NZ ISO-8859-1, en_NZ.UTF-8 UTF-8, en_PH ISO-8859-1, en_PH.UTF-8 UTF-8, en_SG ISO-8859-1, en_SG.UTF-8 UTF-8, en_US ISO-8859-1, en_US.ISO-8859-15 ISO-8859-15, en_US.UTF-8 UTF-8, en_ZA ISO-8859-1, en_ZA.UTF-8 UTF-8, en_ZM UTF-8, en_ZW ISO-8859-1, en_ZW.UTF-8 UTF-8, eo ISO-8859-3, eo.UTF-8 UTF-8, es_AR ISO-8859-1, es_AR.UTF-8 UTF-8, es_BO ISO-8859-1, es_BO.UTF-8 UTF-8, es_CL ISO-8859-1, es_CL.UTF-8 UTF-8, es_CO ISO-8859-1, es_CO.UTF-8 UTF-8, es_CR ISO-8859-1, es_CR.UTF-8 UTF-8, es_DO ISO-8859-1, es_DO.UTF-8 UTF-8, es_EC ISO-8859-1, es_EC.UTF-8 UTF-8, es_ES ISO-8859-1, es_ES.UTF-8 UTF-8, es_ES@euro ISO-8859-15, es_GT ISO-8859-1, es_GT.UTF-8 UTF-8, es_HN ISO-8859-1, es_HN.UTF-8 UTF-8, es_MX ISO-8859-1, es_MX.UTF-8 UTF-8, es_NI ISO-8859-1, es_NI.UTF-8 UTF-8, es_PA ISO-8859-1, es_PA.UTF-8 UTF-8, es_PE ISO-8859-1, es_PE.UTF-8 UTF-8, es_PR ISO-8859-1, es_PR.UTF-8 UTF-8, es_PY ISO-8859-1, es_PY.UTF-8 UTF-8, es_SV ISO-8859-1, es_SV.UTF-8 UTF-8, es_US ISO-8859-1, es_US.UTF-8 UTF-8, es_UY ISO-8859-1, es_UY.UTF-8 UTF-8, es_VE ISO-8859-1, es_VE.UTF-8 UTF-8, et_EE ISO-8859-1, et_EE.ISO-8859-15 ISO-8859-15, et_EE.UTF-8 UTF-8, eu_ES ISO-8859-1, eu_ES.UTF-8 UTF-8, eu_ES@euro ISO-8859-15, eu_FR ISO-8859-1, eu_FR.UTF-8 UTF-8, eu_FR@euro ISO-8859-15, fa_IR UTF-8, ff_SN UTF-8, fi_FI ISO-8859-1, fi_FI.UTF-8 UTF-8, fi_FI@euro ISO-8859-15, fil_PH UTF-8, fo_FO ISO-8859-1, fo_FO.UTF-8 UTF-8, fr_BE ISO-8859-1, fr_BE.UTF-8 UTF-8, fr_BE@euro ISO-8859-15, fr_CA ISO-8859-1, fr_CA.UTF-8 UTF-8, fr_CH ISO-8859-1, fr_CH.UTF-8 UTF-8, fr_FR ISO-8859-1, fr_FR.UTF-8 UTF-8, fr_FR@euro ISO-8859-15, fr_LU ISO-8859-1, fr_LU.UTF-8 UTF-8, fr_LU@euro ISO-8859-15, fur_IT UTF-8, fy_DE UTF-8, fy_NL UTF-8, ga_IE ISO-8859-1, ga_IE.UTF-8 UTF-8, ga_IE@euro ISO-8859-15, gd_GB ISO-8859-15, gd_GB.UTF-8 UTF-8, gez_ER UTF-8, gez_ER@abegede UTF-8, gez_ET UTF-8, gez_ET@abegede UTF-8, gl_ES ISO-8859-1, gl_ES.UTF-8 UTF-8, gl_ES@euro ISO-8859-15, gu_IN UTF-8, gv_GB ISO-8859-1, gv_GB.UTF-8 UTF-8, ha_NG UTF-8, he_IL ISO-8859-8, he_IL.UTF-8 UTF-8, hi_IN UTF-8, hne_IN UTF-8, hr_HR ISO-8859-2, hr_HR.UTF-8 UTF-8, hsb_DE ISO-8859-2, hsb_DE.UTF-8 UTF-8, ht_HT UTF-8, hu_HU ISO-8859-2, hu_HU.UTF-8 UTF-8, hy_AM UTF-8, hy_AM.ARMSCII-8 ARMSCII-8, ia UTF-8, id_ID ISO-8859-1, id_ID.UTF-8 UTF-8, ig_NG UTF-8, ik_CA UTF-8, is_IS ISO-8859-1, is_IS.UTF-8 UTF-8, it_CH ISO-8859-1, it_CH.UTF-8 UTF-8, it_IT ISO-8859-1, it_IT.UTF-8 UTF-8, it_IT@euro ISO-8859-15, iu_CA UTF-8, iw_IL ISO-8859-8, iw_IL.UTF-8 UTF-8, ja_JP.EUC-JP EUC-JP, ja_JP.UTF-8 UTF-8, ka_GE GEORGIAN-PS, ka_GE.UTF-8 UTF-8, kk_KZ PT154, kk_KZ RK1048, kk_KZ.UTF-8 UTF-8, kl_GL ISO-8859-1, kl_GL.UTF-8 UTF-8, km_KH UTF-8, kn_IN UTF-8, ko_KR.EUC-KR EUC-KR, ko_KR.UTF-8 UTF-8, kok_IN UTF-8, ks_IN UTF-8, ks_IN@devanagari UTF-8, ku_TR ISO-8859-9, ku_TR.UTF-8 UTF-8, kw_GB ISO-8859-1, kw_GB.UTF-8 UTF-8, ky_KG UTF-8, lg_UG ISO-8859-10, lg_UG.UTF-8 UTF-8, li_BE UTF-8, li_NL UTF-8, lo_LA UTF-8, lt_LT ISO-8859-13, lt_LT.UTF-8 UTF-8, lv_LV ISO-8859-13, lv_LV.UTF-8 UTF-8, mai_IN UTF-8, mg_MG ISO-8859-15, mg_MG.UTF-8 UTF-8, mi_NZ ISO-8859-13, mi_NZ.UTF-8 UTF-8, mk_MK ISO-8859-5, mk_MK.UTF-8 UTF-8, ml_IN UTF-8, mn_MN UTF-8, mr_IN UTF-8, ms_MY ISO-8859-1, ms_MY.UTF-8 UTF-8, mt_MT ISO-8859-3, mt_MT.UTF-8 UTF-8, my_MM UTF-8, nan_TW@latin UTF-8, nb_NO ISO-8859-1, nb_NO.UTF-8 UTF-8, nds_DE UTF-8, nds_NL UTF-8, ne_NP UTF-8, nl_AW UTF-8, nl_BE ISO-8859-1, nl_BE.UTF-8 UTF-8, nl_BE@euro ISO-8859-15, nl_NL ISO-8859-1, nl_NL.UTF-8 UTF-8, nl_NL@euro ISO-8859-15, nn_NO ISO-8859-1, nn_NO.UTF-8 UTF-8, nr_ZA UTF-8, nso_ZA UTF-8, oc_FR ISO-8859-1, oc_FR.UTF-8 UTF-8, om_ET UTF-8, om_KE ISO-8859-1, om_KE.UTF-8 UTF-8, or_IN UTF-8, os_RU UTF-8, pa_IN UTF-8, pa_PK UTF-8, pap_AN UTF-8, pl_PL ISO-8859-2, pl_PL.UTF-8 UTF-8, ps_AF UTF-8, pt_BR ISO-8859-1, pt_BR.UTF-8 UTF-8, pt_PT ISO-8859-1, pt_PT.UTF-8 UTF-8, pt_PT@euro ISO-8859-15, ro_RO ISO-8859-2, ro_RO.UTF-8 UTF-8, ru_RU ISO-8859-5, ru_RU.CP1251 CP1251, ru_RU.KOI8-R KOI8-R, ru_RU.UTF-8 UTF-8, ru_UA KOI8-U, ru_UA.UTF-8 UTF-8, rw_RW UTF-8, sa_IN UTF-8, sc_IT UTF-8, sd_IN UTF-8, sd_IN@devanagari UTF-8, se_NO UTF-8, shs_CA UTF-8, si_LK UTF-8, sid_ET UTF-8, sk_SK ISO-8859-2, sk_SK.UTF-8 UTF-8, sl_SI ISO-8859-2, sl_SI.UTF-8 UTF-8, so_DJ ISO-8859-1, so_DJ.UTF-8 UTF-8, so_ET UTF-8, so_KE ISO-8859-1, so_KE.UTF-8 UTF-8, so_SO ISO-8859-1, so_SO.UTF-8 UTF-8, sq_AL ISO-8859-1, sq_AL.UTF-8 UTF-8, sq_MK UTF-8, sr_ME UTF-8, sr_RS UTF-8, sr_RS@latin UTF-8, ss_ZA UTF-8, st_ZA ISO-8859-1, st_ZA.UTF-8 UTF-8, sv_FI ISO-8859-1, sv_FI.UTF-8 UTF-8, sv_FI@euro ISO-8859-15, sv_SE ISO-8859-1, sv_SE.ISO-8859-15 ISO-8859-15, sv_SE.UTF-8 UTF-8, sw_KE UTF-8, sw_TZ UTF-8, ta_IN UTF-8, te_IN UTF-8, tg_TJ KOI8-T, tg_TJ.UTF-8 UTF-8, th_TH TIS-620, th_TH.UTF-8 UTF-8, ti_ER UTF-8, ti_ET UTF-8, tig_ER UTF-8, tk_TM UTF-8, tl_PH ISO-8859-1, tl_PH.UTF-8 UTF-8, tn_ZA UTF-8, tr_CY ISO-8859-9, tr_CY.UTF-8 UTF-8, tr_TR ISO-8859-9, tr_TR.UTF-8 UTF-8, ts_ZA UTF-8, tt_RU.UTF-8 UTF-8, tt_RU.UTF-8@iqtelif UTF-8, ug_CN UTF-8, uk_UA KOI8-U, uk_UA.UTF-8 UTF-8, ur_PK UTF-8, uz_UZ ISO-8859-1, uz_UZ.UTF-8 UTF-8, uz_UZ@cyrillic UTF-8, ve_ZA UTF-8, vi_VN UTF-8, vi_VN.TCVN TCVN5712-1, wa_BE ISO-8859-1, wa_BE.UTF-8 UTF-8, wa_BE@euro ISO-8859-15, wo_SN UTF-8, xh_ZA ISO-8859-1, xh_ZA.UTF-8 UTF-8, yi_US CP1255, yi_US.UTF-8 UTF-8, yo_NG UTF-8, zh_CN GB2312, zh_CN.GB18030 GB18030, zh_CN.GBK GBK, zh_CN.UTF-8 UTF-8, zh_HK BIG5-HKSCS, zh_HK.UTF-8 UTF-8, zh_SG GB2312, zh_SG.GBK GBK, zh_SG.UTF-8 UTF-8, zh_TW BIG5, zh_TW.EUC-TW EUC-TW, zh_TW.UTF-8 UTF-8, zu_ZA ISO-8859-1, zu_ZA.UTF-8 UTF-8
+locales	locales/locales_to_be_generated	multiselect	
+# Display manager must be restarted manually
+libpam0g	libpam0g/xdm-needs-restart	error	
+libpam0g:amd64	libpam0g/xdm-needs-restart	error	
+libpam0g:i386	libpam0g/xdm-needs-restart	error	
+# X sunucuyu çalıştırabilecek kullanıcılar:
+# Choices: Sadece Root, Sadece Konsol Kullanıcıları, Herhangi Birisi
+x11-common	x11-common/xwrapper/allowed_users	select	Console Users Only
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/spanish/apple_usb/keymap	select	
+# man ve mandb'nin 'setuid man' olarak kurulmasını ister misiniz?
+man-db	man-db/install-setuid	boolean	false
+# Failure restarting some services for GNU libc upgrade
+libc6	glibc/restart-failed	error	
+libc6:amd64	glibc/restart-failed	error	
+libc6:i386	glibc/restart-failed	error	
+# Line by line differences between versions
+ucf	ucf/show_diff	note	
+# Schedule a daily execution of the 'rundig' script?
+htdig	htdig/run-rundig	boolean	false
+# Automatically download and install stable updates?
+unattended-upgrades	unattended-upgrades/enable_auto_updates	boolean	false
+# Reboot needed after this upgrade
+udev	udev/reboot_needed	error	
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/dvorak/unknown/right_single-handed/keymap	select	
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/us_american/apple_usb/keymap	select	
+# ADB tuş kodlarına geçiş için hazır mısınız?
+console-data	console-data/keymap/powerpcadb	boolean	
+# divert lpr with a wrapper that points to gpr?
+gpr	gpr/divert_lpr	boolean	false
+# Group for users who will be allowed to mount WebDAV resources:
+davfs2	davfs2/group_name	string	davfs2
+# Bazı hizmetler PAM yükseltmesi için yeniden başlatılamadı
+libpam0g	libpam0g/restart-failed	error	
+libpam0g:amd64	libpam0g/restart-failed	error	
+libpam0g:i386	libpam0g/restart-failed	error	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/serbian/variant	select	
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/azerty/belgian/standard/keymap	select	
+# menu.lst dosyasından zincirleme yükleme yapılsın mı?
+grub-pc	grub-pc/chainload_from_menu.lst	boolean	true
+# Mevcut girdi olduğu gibi bırakılsın ve hiçbir değişiklik yapılmadan devam edilsin mi?
+update-inetd	update-inetd/ask-entry-present	boolean	true
+# for internal use
+console-setup	console-setup/store_defaults_in_debconf_db	boolean	true
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwertz/croat/variant	select	
+# (for internal use only)
+foomatic-filters	foomatic-filters/config_parsed	boolean	true
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwertz/czech/standard/keymap	select	
+# Printer spooler backend for Foomatic:
+# Choices: cups, lpd, lprng, pdq, ppr, direct
+foomatic-filters	foomatic-filters/spooler	select	cups
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/canadian/english/keymap	select	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/fggiod/turkish/variant	select	
+# Declined Hauppauge End-User Firmware License Agreement
+firmware-ivtv	firmware-ivtv/license/error	error	
+# The running kernel has incompatible options enabled
+udev	udev/sysfs_deprecated_incompatibility	error	
+# Kullanılacak klavye düzeni:
+# Choices: Amerikan İngilizcesi, Britanya İngilizcesi, Çekçe, Fince, Fransızca, Almanca, Japonca (tip 4), Japonca (tip 5), Norveççe (tip 4), Norveççe (tip 5), Lehçe, Rusça, İspanyolca (tip 4), İspanyolca (tip 5), Türkçe (Q düzeni)
+console-data	console-keymaps-sun/keymap	select	
+# Klavye alt türü:
+# Choices: 
+console-data	console-data/keymap/template/variant	select	
+# Do you want to create a new group?
+davfs2	davfs2/new_group	boolean	true
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/romanian/variant	select	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/greek/variant	select	
+# Klavye alt türü:
+# Choices: CP 1251 coding, Standard
+console-data	console-data/keymap/qwerty/bulgarian/variant	select	
+# for internal use only
+user-setup	passwd/user-uid	string	
+# 
+libglide3	libglide3/error	note	
+# Command for converting text files to PostScript:
+# Choices: Automagic, a2ps, mpage, enscript, Custom
+foomatic-filters	foomatic-filters/textfilter	select	Automagic
+# Add locations of default Kerberos servers to /etc/krb5.conf?
+krb5-config	krb5-config/add_servers	boolean	false
+# Tuş eşlemi
+# Choices: ANSI, Dvorak Classic, Dvorak French, Dvorak French Bepo, Dvorak French Bepo (UTF8), Dvorak German, Dvorak Lisp machine, Dvorak Russian, Dvorak United Kingdom, Standard, With French and Spanish accents
+console-data	console-data/keymap/dvorak/unknown/standard/keymap	select	
+# Time zone:
+# Choices: Azorlar, Bermuda, Kanarya, Yeşilburun, Faro, Jan Mayen, Madeyra, Reykavik, Güney Gürcistan, Sen Helen, Stanley
+tzdata	tzdata/Zones/Atlantic	select	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/polish/variant	select	
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/dvorak/unknown/left_single-handed/keymap	select	
+# DECnet node name:
+dnet-common	dnet-common/nodename	string	linux
+# Should NTFS-3G be included in initramfs?
+ntfs-3g	ntfs-3g/initramfs	boolean	true
+# What do you want to do about modified configuration file ?
+# Choices: install the package maintainer's version, keep the local version currently installed, show the differences between the versions, show a side-by-side difference between the versions, show a 3-way difference between available versions, do a 3-way merge between available versions (experimental), start a new shell to examine the situation
+ucf	ucf/changeprompt_threeway	select	keep_current
+# for internal use
+keyboard-configuration	keyboard-configuration/optionscode	string	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/turkish/variant	select	
+# Eski bir dizinde bulunan açılış zamanında yüklenmek niyetiyle hazırlanmış bir klavye düzeni göz ardı edildi.
+console-data	console-data/keymap/ignored	note	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/icelandic/variant	select	
+# Enable logging debug output into a log file (INSECURE)?
+foomatic-filters	foomatic-filters/filter_debug	boolean	false
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/azerty/belgian/wang/keymap	select	
+# for internal use
+console-setup	console-setup/fontsize	string	8x16
+# No PAM profiles have been selected.
+libpam-runtime	libpam-runtime/no_profiles_chosen	error	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/danish/variant	select	
+# System default wordlist:
+# Choices: american (American English), Elle (Sembolik bağlarla) ayarla
+dictionaries-common	dictionaries-common/default-wordlist	select	american (American English)
+# Delete nvidia-installer files?
+nvidia-installer-cleanup	nvidia-installer-cleanup/delete-nvidia-installer	boolean	true
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/finnish/standard/keymap	select	
+# Kesme istekleri bir kereliğine dengelensin mi?
+irqbalance	irqbalance/oneshot	boolean	false
+# Dummy template
+vdr	vdr/select_dvb_card	string	Satellite
+# gpsd control socket path:
+gpsd	gpsd/socket	string	/var/run/gpsd.sock
+# Kullanılacak klavye düzeni:
+# Choices: Amerikan İngilizcesi
+console-data	console-keymaps-dec/keymap	select	
+# Time zone:
+# Choices: Alaska, Aleutian, Arizona, Central, Eastern, Hawaii, Indiana-Starke, Michigan, Mountain, Pacific, Pacific-New, Samoa
+tzdata	tzdata/Zones/US	select	
+# for internal use
+grub-pc	grub-pc/kopt_extracted	boolean	false
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/bulgarian/cp_1251_coding/keymap	select	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/latvian/variant	select	
+# Klavye alt türü:
+# Choices: Apple USB, Left single-handed, Right single-handed, Standard
+console-data	console-data/keymap/dvorak/unknown/variant	select	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/hebrew/variant	select	
+# Existing configuration found
+ufw	ufw/existing_configuration	error	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/lithuanian/variant	select	
+# PAM profiles to enable:
+# Choices: Unix authentication, Winbind NT/Active Directory authentication, GNOME Keyring Daemon - Login keyring management, eCryptfs Key/Mount Management, ConsoleKit Session Management
+libpam-runtime	libpam-runtime/profiles	multiselect	unix, winbind, gnome-keyring, ecryptfs-utils, consolekit
+# Tuş eşlemi
+# Choices: unicode
+console-data	console-data/keymap/qwerty/kirghiz/standard/keymap	select	
+# Etkinleştirilecek sertifikalar:
+# Choices: cacert.org/cacert.org.crt, debconf.org/ca.crt, mozilla/A-Trust-nQual-03.crt, mozilla/ACEDICOM_Root.crt, mozilla/AC_Raíz_Certicámara_S.A..crt, mozilla/Actalis_Authentication_Root_CA.crt, mozilla/AddTrust_External_Root.crt, mozilla/AddTrust_Low-Value_Services_Root.crt, mozilla/AddTrust_Public_Services_Root.crt, mozilla/AddTrust_Qualified_Certificates_Root.crt, mozilla/AffirmTrust_Commercial.crt, mozilla/AffirmTrust_Networking.crt, mozilla/AffirmTrust_Premium.crt, mozilla/AffirmTrust_Premium_ECC.crt, mozilla/America_Online_Root_Certification_Authority_1.crt, mozilla/America_Online_Root_Certification_Authority_2.crt, mozilla/ApplicationCA_-_Japanese_Government.crt, mozilla/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.crt, mozilla/Baltimore_CyberTrust_Root.crt, mozilla/Buypass_Class_2_CA_1.crt, mozilla/Buypass_Class_2_Root_CA.crt, mozilla/Buypass_Class_3_CA_1.crt, mozilla/Buypass_Class_3_Root_CA.crt, mozilla/CA_Disig.crt, mozilla/CNNIC_ROOT.crt, mozilla/COMODO_Certification_Authority.crt, mozilla/COMODO_ECC_Certification_Authority.crt, mozilla/Camerfirma_Chambers_of_Commerce_Root.crt, mozilla/Camerfirma_Global_Chambersign_Root.crt, mozilla/Certigna.crt, mozilla/Certinomis_-_Autorité_Racine.crt, mozilla/Certplus_Class_2_Primary_CA.crt, mozilla/Certum_Root_CA.crt, mozilla/Certum_Trusted_Network_CA.crt, mozilla/Chambers_of_Commerce_Root_-_2008.crt, mozilla/ComSign_CA.crt, mozilla/ComSign_Secured_CA.crt, mozilla/Comodo_AAA_Services_root.crt, mozilla/Comodo_Secure_Services_root.crt, mozilla/Comodo_Trusted_Services_root.crt, mozilla/Cybertrust_Global_Root.crt, mozilla/DST_ACES_CA_X6.crt, mozilla/DST_Root_CA_X3.crt, mozilla/Deutsche_Telekom_Root_CA_2.crt, mozilla/DigiCert_Assured_ID_Root_CA.crt, mozilla/DigiCert_Global_Root_CA.crt, mozilla/DigiCert_High_Assurance_EV_Root_CA.crt, mozilla/Digital_Signature_Trust_Co._Global_CA_1.crt, mozilla/Digital_Signature_Trust_Co._Global_CA_3.crt, mozilla/E-Guven_Kok_Elektronik_Sertifika_Hizmet_Saglayicisi.crt, mozilla/EBG_Elektronik_Sertifika_Hizmet_Sağlayıcısı.crt, mozilla/EC-ACC.crt, mozilla/EE_Certification_Centre_Root_CA.crt, mozilla/Entrust.net_Premium_2048_Secure_Server_CA.crt, mozilla/Entrust.net_Secure_Server_CA.crt, mozilla/Entrust_Root_Certification_Authority.crt, mozilla/Equifax_Secure_CA.crt, mozilla/Equifax_Secure_Global_eBusiness_CA.crt, mozilla/Equifax_Secure_eBusiness_CA_1.crt, mozilla/Equifax_Secure_eBusiness_CA_2.crt, mozilla/Firmaprofesional_Root_CA.crt, mozilla/GTE_CyberTrust_Global_Root.crt, mozilla/GeoTrust_Global_CA.crt, mozilla/GeoTrust_Global_CA_2.crt, mozilla/GeoTrust_Primary_Certification_Authority.crt, mozilla/GeoTrust_Primary_Certification_Authority_-_G2.crt, mozilla/GeoTrust_Primary_Certification_Authority_-_G3.crt, mozilla/GeoTrust_Universal_CA.crt, mozilla/GeoTrust_Universal_CA_2.crt, mozilla/GlobalSign_Root_CA.crt, mozilla/GlobalSign_Root_CA_-_R2.crt, mozilla/GlobalSign_Root_CA_-_R3.crt, mozilla/Global_Chambersign_Root_-_2008.crt, mozilla/Go_Daddy_Class_2_CA.crt, mozilla/Go_Daddy_Root_Certificate_Authority_-_G2.crt, mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2011.crt, mozilla/Hongkong_Post_Root_CA_1.crt, mozilla/IGC_A.crt, mozilla/Izenpe.com.crt, mozilla/Juur-SK.crt, mozilla/Microsec_e-Szigno_Root_CA.crt, mozilla/Microsec_e-Szigno_Root_CA_2009.crt, mozilla/NetLock_Arany_=Class_Gold=_Főtanúsítvány.crt, mozilla/NetLock_Business_=Class_B=_Root.crt, mozilla/NetLock_Express_=Class_C=_Root.crt, mozilla/NetLock_Notary_=Class_A=_Root.crt, mozilla/NetLock_Qualified_=Class_QA=_Root.crt, mozilla/Network_Solutions_Certificate_Authority.crt, mozilla/OISTE_WISeKey_Global_Root_GA_CA.crt, mozilla/QuoVadis_Root_CA.crt, mozilla/QuoVadis_Root_CA_2.crt, mozilla/QuoVadis_Root_CA_3.crt, mozilla/RSA_Root_Certificate_1.crt, mozilla/RSA_Security_2048_v3.crt, mozilla/Root_CA_Generalitat_Valenciana.crt, mozilla/S-TRUST_Authentication_and_Encryption_Root_CA_2005_PN.crt, mozilla/SecureSign_RootCA11.crt, mozilla/SecureTrust_CA.crt, mozilla/Secure_Global_CA.crt, mozilla/Security_Communication_EV_RootCA1.crt, mozilla/Security_Communication_RootCA2.crt, mozilla/Security_Communication_Root_CA.crt, mozilla/Sonera_Class_1_Root_CA.crt, mozilla/Sonera_Class_2_Root_CA.crt, mozilla/Staat_der_Nederlanden_Root_CA.crt, mozilla/Staat_der_Nederlanden_Root_CA_-_G2.crt, mozilla/Starfield_Class_2_CA.crt, mozilla/Starfield_Root_Certificate_Authority_-_G2.crt, mozilla/Starfield_Services_Root_Certificate_Authority_-_G2.crt, mozilla/StartCom_Certification_Authority.crt, mozilla/StartCom_Certification_Authority_G2.crt, mozilla/SwissSign_Gold_CA_-_G2.crt, mozilla/SwissSign_Platinum_CA_-_G2.crt, mozilla/SwissSign_Silver_CA_-_G2.crt, mozilla/Swisscom_Root_CA_1.crt, mozilla/T-TeleSec_GlobalRoot_Class_3.crt, mozilla/TC_TrustCenter_Class_2_CA_II.crt, mozilla/TC_TrustCenter_Class_3_CA_II.crt, mozilla/TC_TrustCenter_Universal_CA_I.crt, mozilla/TC_TrustCenter_Universal_CA_III.crt, mozilla/TDC_Internet_Root_CA.crt, mozilla/TDC_OCES_Root_CA.crt, mozilla/TURKTRUST_Certificate_Services_Provider_Root_1.crt, mozilla/TURKTRUST_Certificate_Services_Provider_Root_2.crt, mozilla/TWCA_Root_Certification_Authority.crt, mozilla/Taiwan_GRCA.crt, mozilla/Thawte_Premium_Server_CA.crt, mozilla/Thawte_Server_CA.crt, mozilla/Trustis_FPS_Root_CA.crt, mozilla/TÜBİTAK_UEKAE_Kök_Sertifika_Hizmet_Sağlayıcısı_-_Sürüm_3.crt, mozilla/UTN_DATACorp_SGC_Root_CA.crt, mozilla/UTN_USERFirst_Email_Root_CA.crt, mozilla/UTN_USERFirst_Hardware_Root_CA.crt, mozilla/ValiCert_Class_1_VA.crt, mozilla/ValiCert_Class_2_VA.crt, mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.crt, mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.crt, mozilla/VeriSign_Universal_Root_Certification_Authority.crt, mozilla/Verisign_Class_1_Public_Primary_Certification_Authority.crt, mozilla/Verisign_Class_1_Public_Primary_Certification_Authority_-_G2.crt, mozilla/Verisign_Class_1_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Verisign_Class_2_Public_Primary_Certification_Authority_-_G2.crt, mozilla/Verisign_Class_2_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Verisign_Class_3_Public_Primary_Certification_Authority.crt, mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G2.crt, mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Verisign_Class_4_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Visa_eCommerce_Root.crt, mozilla/WellsSecure_Public_Root_Certificate_Authority.crt, mozilla/Wells_Fargo_Root_CA.crt, mozilla/XRamp_Global_CA_Root.crt, mozilla/certSIGN_ROOT_CA.crt, mozilla/ePKI_Root_Certification_Authority.crt, mozilla/thawte_Primary_Root_CA.crt, mozilla/thawte_Primary_Root_CA_-_G2.crt, mozilla/thawte_Primary_Root_CA_-_G3.crt, spi-inc.org/spi-ca-2003.crt, spi-inc.org/spi-cacert-2008.crt
+ca-certificates	ca-certificates/enable_crts	multiselect	cacert.org/cacert.org.crt, debconf.org/ca.crt, mozilla/A-Trust-nQual-03.crt, mozilla/ACEDICOM_Root.crt, mozilla/AC_Raíz_Certicámara_S.A..crt, mozilla/Actalis_Authentication_Root_CA.crt, mozilla/AddTrust_External_Root.crt, mozilla/AddTrust_Low-Value_Services_Root.crt, mozilla/AddTrust_Public_Services_Root.crt, mozilla/AddTrust_Qualified_Certificates_Root.crt, mozilla/AffirmTrust_Commercial.crt, mozilla/AffirmTrust_Networking.crt, mozilla/AffirmTrust_Premium.crt, mozilla/AffirmTrust_Premium_ECC.crt, mozilla/America_Online_Root_Certification_Authority_1.crt, mozilla/America_Online_Root_Certification_Authority_2.crt, mozilla/ApplicationCA_-_Japanese_Government.crt, mozilla/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.crt, mozilla/Baltimore_CyberTrust_Root.crt, mozilla/Buypass_Class_2_CA_1.crt, mozilla/Buypass_Class_2_Root_CA.crt, mozilla/Buypass_Class_3_CA_1.crt, mozilla/Buypass_Class_3_Root_CA.crt, mozilla/CA_Disig.crt, mozilla/CNNIC_ROOT.crt, mozilla/COMODO_Certification_Authority.crt, mozilla/COMODO_ECC_Certification_Authority.crt, mozilla/Camerfirma_Chambers_of_Commerce_Root.crt, mozilla/Camerfirma_Global_Chambersign_Root.crt, mozilla/Certigna.crt, mozilla/Certinomis_-_Autorité_Racine.crt, mozilla/Certplus_Class_2_Primary_CA.crt, mozilla/Certum_Root_CA.crt, mozilla/Certum_Trusted_Network_CA.crt, mozilla/Chambers_of_Commerce_Root_-_2008.crt, mozilla/ComSign_CA.crt, mozilla/ComSign_Secured_CA.crt, mozilla/Comodo_AAA_Services_root.crt, mozilla/Comodo_Secure_Services_root.crt, mozilla/Comodo_Trusted_Services_root.crt, mozilla/Cybertrust_Global_Root.crt, mozilla/DST_ACES_CA_X6.crt, mozilla/DST_Root_CA_X3.crt, mozilla/Deutsche_Telekom_Root_CA_2.crt, mozilla/DigiCert_Assured_ID_Root_CA.crt, mozilla/DigiCert_Global_Root_CA.crt, mozilla/DigiCert_High_Assurance_EV_Root_CA.crt, mozilla/Digital_Signature_Trust_Co._Global_CA_1.crt, mozilla/Digital_Signature_Trust_Co._Global_CA_3.crt, mozilla/E-Guven_Kok_Elektronik_Sertifika_Hizmet_Saglayicisi.crt, mozilla/EBG_Elektronik_Sertifika_Hizmet_Sağlayıcısı.crt, mozilla/EC-ACC.crt, mozilla/EE_Certification_Centre_Root_CA.crt, mozilla/Entrust.net_Premium_2048_Secure_Server_CA.crt, mozilla/Entrust.net_Secure_Server_CA.crt, mozilla/Entrust_Root_Certification_Authority.crt, mozilla/Equifax_Secure_CA.crt, mozilla/Equifax_Secure_Global_eBusiness_CA.crt, mozilla/Equifax_Secure_eBusiness_CA_1.crt, mozilla/Equifax_Secure_eBusiness_CA_2.crt, mozilla/Firmaprofesional_Root_CA.crt, mozilla/GTE_CyberTrust_Global_Root.crt, mozilla/GeoTrust_Global_CA.crt, mozilla/GeoTrust_Global_CA_2.crt, mozilla/GeoTrust_Primary_Certification_Authority.crt, mozilla/GeoTrust_Primary_Certification_Authority_-_G2.crt, mozilla/GeoTrust_Primary_Certification_Authority_-_G3.crt, mozilla/GeoTrust_Universal_CA.crt, mozilla/GeoTrust_Universal_CA_2.crt, mozilla/GlobalSign_Root_CA.crt, mozilla/GlobalSign_Root_CA_-_R2.crt, mozilla/GlobalSign_Root_CA_-_R3.crt, mozilla/Global_Chambersign_Root_-_2008.crt, mozilla/Go_Daddy_Class_2_CA.crt, mozilla/Go_Daddy_Root_Certificate_Authority_-_G2.crt, mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2011.crt, mozilla/Hongkong_Post_Root_CA_1.crt, mozilla/IGC_A.crt, mozilla/Izenpe.com.crt, mozilla/Juur-SK.crt, mozilla/Microsec_e-Szigno_Root_CA.crt, mozilla/Microsec_e-Szigno_Root_CA_2009.crt, mozilla/NetLock_Arany_=Class_Gold=_Főtanúsítvány.crt, mozilla/NetLock_Business_=Class_B=_Root.crt, mozilla/NetLock_Express_=Class_C=_Root.crt, mozilla/NetLock_Notary_=Class_A=_Root.crt, mozilla/NetLock_Qualified_=Class_QA=_Root.crt, mozilla/Network_Solutions_Certificate_Authority.crt, mozilla/OISTE_WISeKey_Global_Root_GA_CA.crt, mozilla/QuoVadis_Root_CA.crt, mozilla/QuoVadis_Root_CA_2.crt, mozilla/QuoVadis_Root_CA_3.crt, mozilla/RSA_Root_Certificate_1.crt, mozilla/RSA_Security_2048_v3.crt, mozilla/Root_CA_Generalitat_Valenciana.crt, mozilla/S-TRUST_Authentication_and_Encryption_Root_CA_2005_PN.crt, mozilla/SecureSign_RootCA11.crt, mozilla/SecureTrust_CA.crt, mozilla/Secure_Global_CA.crt, mozilla/Security_Communication_EV_RootCA1.crt, mozilla/Security_Communication_RootCA2.crt, mozilla/Security_Communication_Root_CA.crt, mozilla/Sonera_Class_1_Root_CA.crt, mozilla/Sonera_Class_2_Root_CA.crt, mozilla/Staat_der_Nederlanden_Root_CA.crt, mozilla/Staat_der_Nederlanden_Root_CA_-_G2.crt, mozilla/Starfield_Class_2_CA.crt, mozilla/Starfield_Root_Certificate_Authority_-_G2.crt, mozilla/Starfield_Services_Root_Certificate_Authority_-_G2.crt, mozilla/StartCom_Certification_Authority.crt, mozilla/StartCom_Certification_Authority_G2.crt, mozilla/SwissSign_Gold_CA_-_G2.crt, mozilla/SwissSign_Platinum_CA_-_G2.crt, mozilla/SwissSign_Silver_CA_-_G2.crt, mozilla/Swisscom_Root_CA_1.crt, mozilla/T-TeleSec_GlobalRoot_Class_3.crt, mozilla/TC_TrustCenter_Class_2_CA_II.crt, mozilla/TC_TrustCenter_Class_3_CA_II.crt, mozilla/TC_TrustCenter_Universal_CA_I.crt, mozilla/TC_TrustCenter_Universal_CA_III.crt, mozilla/TDC_Internet_Root_CA.crt, mozilla/TDC_OCES_Root_CA.crt, mozilla/TURKTRUST_Certificate_Services_Provider_Root_1.crt, mozilla/TURKTRUST_Certificate_Services_Provider_Root_2.crt, mozilla/TWCA_Root_Certification_Authority.crt, mozilla/Taiwan_GRCA.crt, mozilla/Thawte_Premium_Server_CA.crt, mozilla/Thawte_Server_CA.crt, mozilla/Trustis_FPS_Root_CA.crt, mozilla/TÜBİTAK_UEKAE_Kök_Sertifika_Hizmet_Sağlayıcısı_-_Sürüm_3.crt, mozilla/UTN_DATACorp_SGC_Root_CA.crt, mozilla/UTN_USERFirst_Email_Root_CA.crt, mozilla/UTN_USERFirst_Hardware_Root_CA.crt, mozilla/ValiCert_Class_1_VA.crt, mozilla/ValiCert_Class_2_VA.crt, mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.crt, mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.crt, mozilla/VeriSign_Universal_Root_Certification_Authority.crt, mozilla/Verisign_Class_1_Public_Primary_Certification_Authority.crt, mozilla/Verisign_Class_1_Public_Primary_Certification_Authority_-_G2.crt, mozilla/Verisign_Class_1_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Verisign_Class_2_Public_Primary_Certification_Authority_-_G2.crt, mozilla/Verisign_Class_2_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Verisign_Class_3_Public_Primary_Certification_Authority.crt, mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G2.crt, mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Verisign_Class_4_Public_Primary_Certification_Authority_-_G3.crt, mozilla/Visa_eCommerce_Root.crt, mozilla/WellsSecure_Public_Root_Certificate_Authority.crt, mozilla/Wells_Fargo_Root_CA.crt, mozilla/XRamp_Global_CA_Root.crt, mozilla/certSIGN_ROOT_CA.crt, mozilla/ePKI_Root_Certification_Authority.crt, mozilla/thawte_Primary_Root_CA.crt, mozilla/thawte_Primary_Root_CA_-_G2.crt, mozilla/thawte_Primary_Root_CA_-_G3.crt, spi-inc.org/spi-ca-2003.crt, spi-inc.org/spi-cacert-2008.crt
+# Tuş eşlemi
+# Choices: Old Phonetic, Phonetic, Standard, il-Heb
+console-data	console-data/keymap/qwerty/hebrew/standard/keymap	select	
+# Kullanılacak arayüz:
+# Choices: Diyalog, Readline, Gnome, Kde, Düzenleyici, Etkileşimsiz
+debconf	debconf/frontend	select	Dialog
+# Time zone:
+# Choices: GMT, GMT+0, GMT+1, GMT+10, GMT+11, GMT+12, GMT+2, GMT+3, GMT+4, GMT+5, GMT+6, GMT+7, GMT+8, GMT+9, GMT-0, GMT-1, GMT-10, GMT-11, GMT-12, GMT-13, GMT-14, GMT-2, GMT-3, GMT-4, GMT-5, GMT-6, GMT-7, GMT-8, GMT-9, GMT0, Greenwich, UCT, UTC, Universal, Zulu
+tzdata	tzdata/Zones/Etc	select	UTC
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwertz/hungarian/standard/keymap	select	
+# Etkinleştirilecek yeni sertifikalar:
+# Choices: 
+ca-certificates	ca-certificates/new_crts	multiselect	
+# for internal use
+x11-common	x11-common/xwrapper/actual_allowed_users	string	console
+# Klavye düzeni:
+# Choices: Turkish
+console-data	console-data/keymap/fggiod/layout	select	
+# Tuş eşlemi
+# Choices: Standard, latin1
+console-data	console-data/keymap/qwerty/norwegian/standard/keymap	select	
+# for internal use
+keyboard-configuration	keyboard-configuration/modelcode	string	pc105
+# Do you agree to the "Hauppauge End-User Firmware License Agreement"?
+firmware-ivtv	firmware-ivtv/license/accepted	boolean	true
+# Yapılandırma dosyasındaki desteklenmeyen klavye seçenekleri kullanılmaya devam edilsin mi?
+keyboard-configuration	keyboard-configuration/unsupported_config_options	boolean	true
+# inetd girdileri kaldırılsın mı?
+update-inetd	update-inetd/ask-remove-entries	boolean	false
+# Tuş eşlemi
+# Choices: Programmer, Standard
+console-data	console-data/keymap/qwertz/slovak/standard/keymap	select	
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/british/standard/keymap	select	
+# GRUB kurulum aygıtları:
+# Choices: 
+grub-pc	grub-pc/install_devices	multiselect	
+# Uçbirimde kullanılacak yazıtipi:
+# Choices: Fixed, Goha, GohaClassic, Terminus, TerminusBold, TerminusBoldVGA, VGA, Do not change the boot/kernel font, Let the system select a suitable font
+console-setup	console-setup/fontface47	select	Fixed
+# Enable realtime process priority?
+jackd2	jackd/tweak_rt_limits	boolean	false
+#  eşleştirme dosyası () yeniden oluşturulurken hata
+dictionaries-common	dictionaries-common/ispell-autobuildhash-message	note	
+# Yapılandırma dosyasındaki mevcut klavye düzeni kullanılmaya devam edilsin mi?
+keyboard-configuration	keyboard-configuration/unsupported_config_layout	boolean	true
+# Additional authorized services:
+ufw	ufw/allow_custom_ports	string	
+# /boot/grub yolundan GRUB  2 kaldırılsın mı?
+grub-pc	grub-pc/postrm_purge_boot_grub	boolean	false
+# Ulusal ve Latin kipler arasında geçiş için kullanılacak yöntem:
+# Choices: Caps Lock (Büyük Harf Kilidi), Sağ Alt (AltGr), Sağ Control, Sağ Shift, Sağ Logo tuşu, Menü tuşu, Alt+Shift, Control+Shift, Control+Alt, Alt+Caps Lock (Büyük Harf Kilidi), Sol Control+Sol Shift, Sol Alt, Sol Control, Sol Shift, Sol Logo tuşu, Kaydırma Kilidi (Scroll Lock) tuşu:, Kip değiştirme yok
+keyboard-configuration	keyboard-configuration/toggle	select	No toggling
+# Yazıtipi boyutu
+# Choices: 
+console-setup	console-setup/fontsize-text47	select	8x16
+# Yazıcı bağlantı arka uçları:
+# Choices: ipp, ipp14, lpd, soket, usb, snmp, dnssd
+cups	cupsys/backend	multiselect	ipp, lpd, socket, usb, snmp, dnssd
+# Remove conflicting library files?
+nvidia-installer-cleanup	nvidia-installer-cleanup/remove-conflicting-libraries	boolean	true
+# Tuş eşlemi
+# Choices: Standard, US International (ISO 8859-1), US International (ISO 8859-15), With latin1
+console-data	console-data/keymap/qwerty/us_american/standard/keymap	select	
+# Birleştirme (Compose) tuşu:
+# Choices: Birleştirme (Compose) tuşu yok, Sağ Alt (AltGr), Sağ Control, Sağ Logo tuşu, Menü tuşu, Sol Logo tuşu, Caps Lock (Büyük Harf Kilidi)
+keyboard-configuration	keyboard-configuration/compose	select	No compose key
+# Passphrase mismatch
+wvdial	wvdial/passphrases_mismatch	error	
+# Time zone:
+# Choices: Longyearbyen
+tzdata	tzdata/Zones/Arctic	select	
+# Failed to update disk device IDs
+linux-base	linux-base/disk-id-update-failed	error	
+# Gölge (shadow) parolaları etkinleştirilsin mi?
+user-setup	passwd/shadow	boolean	true
+# Çekirdeği kaldırma işlemi iptal edilsin mi?
+linux-image-3.2.0-4-amd64	linux-image-3.2.0-4-amd64/prerm/removing-running-kernel-3.2.0-4-amd64	boolean	true
+# Manually select driver for 3Dfx card?
+libglide3	libglide3/no_card	boolean	false
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwertz/hungarian/variant	select	
+# Install fglrx driver despite unsupported graphics card?
+libfglrx	fglrx-driver/install-even-if-unsupported-gpu-exists	boolean	false
+# irqbalance'ı etkinleştirmek ister misiniz?
+irqbalance	irqbalance/enable	boolean	true
+# Ulusal ve Latin kipler arasında geçici geçiş için kullanılacak yöntem:
+# Choices: Geçici geçiş yok, Her iki Logo tuşu, Sağ Alt (AltGr), Sağ Logo tuşu, Sol Alt, Sol Logo tuşu
+keyboard-configuration	keyboard-configuration/switch	select	No temporary switch
+# GRUB'u önyükleme aygıtına yazma işlemi başarısız oldu. Tekrar denensin mi?
+grub-pc	grub-pc/install_devices_failed_upgrade	boolean	true
+# Uçbirimde kullanılacak kodlama:
+# Choices: ARMSCII-8, CP1251, CP1255, CP1256, GEORGIAN-ACADEMY, GEORGIAN-PS, IBM1133, ISIRI-3342, ISO-8859-1, ISO-8859-10, ISO-8859-11, ISO-8859-13, ISO-8859-14, ISO-8859-15, ISO-8859-16, ISO-8859-2, ISO-8859-3, ISO-8859-4, ISO-8859-5, ISO-8859-6, ISO-8859-7, ISO-8859-8, ISO-8859-9, KOI8-R, KOI8-U, TIS-620, UTF-8, VISCII
+console-setup	console-setup/charmap47	select	UTF-8
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/czech/variant	select	
+# Generate ht://Dig endings database now?
+htdig	htdig/generate-databases	boolean	true
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/hungarian/standard/keymap	select	
+# Alternative name(s):
+ssl-cert	make-ssl-cert/altname	string	
+# Nvidia driver is still enabled in xorg.conf
+nvidia-support	nvidia-support/removed-but-enabled-in-xorg-conf	error	
+# Tuş eşlemi
+# Choices: Alternate, Alternate - unicode, Standard (koi8u), WS, WS - unicode, unicode
+console-data	console-data/keymap/qwerty/ukrainian/standard/keymap	select	
+# Tuş eşlemi
+# Choices: AltGr only diacritics, Diacritics with AltGr and Alt
+console-data	console-data/keymap/qwerty/polish/standard/keymap	select	
+# Unprivileged users allowed to mount WebDAV resources
+davfs2	davfs2/non_root_users_confimed	note	
+# Fglrx driver is still enabled in xorg.conf
+fglrx-driver	fglrx-driver/removed-but-enabled-in-xorg-conf	note	
+# Klavye alt türü:
+# Choices: English, French, Multilingual
+console-data	console-data/keymap/qwerty/canadian/variant	select	
+# Kurulacak paketler:
+# Choices: 
+discover	discover/install_hw_packages	multiselect	
+# Font tuning method for screen (system default):
+# Choices: Yerel, Otomatik kaplayıcı, Hiçbiri
+fontconfig-config	fontconfig/hinting_type	select	Native
+# Should unprivileged users be allowed to mount WebDAV resources?
+davfs2	davfs2/suid_file	boolean	false
+# Mismatching nvidia kernel module loaded
+nvidia-support	nvidia-support/warn-mismatching-module-version	error	
+# Time zone:
+# Choices: Casey, Davis, DumontDUrville, Macquarie, Mawson, McMurdo, Palmer, Rothera, Syowa, Vostok
+tzdata	tzdata/Zones/Antarctica	select	
+# Do you want to create a new user?
+davfs2	davfs2/new_user	boolean	true
+# Enable PostScript accounting for CUPS?
+foomatic-filters	foomatic-filters/ps_accounting	boolean	true
+# Default Kerberos version 5 realm:
+krb5-config	krb5-config/default_realm	string	
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/dvorak/unknown/apple_usb/keymap	select	
+# Klavye alt türü:
+# Choices: Apple USB, Standard
+console-data	console-data/keymap/qwerty/spanish/variant	select	
+# Aşağıdakinden daha düşük önceliğe sahip soruları göz ardı et:
+# Choices: kritik, yüksek, orta, düşük
+debconf	debconf/priority	select	high
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/italian/variant	select	
+# for internal use
+nvidia-support	nvidia-support/last-mismatching-module-version	string	none
+# Güncelliğini kaybetmiş /etc/dictionary bağı silinsin mi?
+dictionaries-common	dictionaries-common/old_wordlist_link	boolean	true
+# Ramdisk yapılandırılmasının güncellenmesi gerekli
+linux-image-3.2.0-4-amd64	linux-image-3.2.0-4-amd64/postinst/ignoring-ramdisk	error	
+# AltGR olarak işlev görecek olan tuş:
+# Choices: Öntanımlı klavye düzeni, AltGr tuşu yok, Sağ Alt (AltGr), Sağ Control, Sağ Logo tuşu, Menü tuşu, Sol Alt, Sol Logo tuşu, Tuş takımı Enter tuşu, Her iki Logo tuşu, Her iki Alt tuşu
+keyboard-configuration	keyboard-configuration/altgr	select	The default for the keyboard layout
+# for internal use; can be preseeded
+man-db	man-db/auto-update	boolean	true
+# Klavye alt türü:
+# Choices: BR-Latin1, Standard
+console-data	console-data/keymap/qwerty/brazilian/variant	select	
+# Manual configuration required to enable Nvidia driver
+nvidia-support	nvidia-support/needs-xorg-conf-to-enable	note	
+# Remove old format statistics data files?
+sysstat	sysstat/remove_files	boolean	true
+# Kullanılacak klavye düzeni:
+# Choices: Amerikan İngilizcesi, Britanya İngilizcesi, Fransızca, Almanca, İsveççe
+console-data	console-keymaps-atari/keymap	select	
+# Tuş eşlemi
+# Choices: Alternate, Q Layout, Q Layout with Unicode
+console-data	console-data/keymap/qwerty/turkish/standard/keymap	select	
+# Time zone:
+# Choices: Amsterdam, Andora, Atina, Belfast, Belgrad, Berlin, Bratislava, Brüksel, Bükreş, Budapeşte, Kişinev, Kopenhag, Dublin, Cebelitarık, Guernsey, Helsinki, Man Adası, İstanbul, Jersey, Kaliningrad, Kiev, Lizbon, Ljubljana, Londra, Lüksemburg, Madrid, Malta, Mariehamn, Minsk, Monako, Moskova, Lefkoşa, Oslo, Paris, Podgorica, Prag, Riga, Roma, Samara, San Marino, Saraybosna, Akmescit, Üsküp, Sofya, Stockholm, Tallinn, Tiran, Tiraspol, Uzhgorod, Vaduz, Vatikan, Viyana, Vilnüs, Volgograd, Varşova, Zagreb, Zaporosya, Zürih
+tzdata	tzdata/Zones/Europe	select	
+# Command to convert standard input to PostScript:
+foomatic-filters	foomatic-filters/custom_textfilter	string	
+# Tuş eşlemi
+# Choices: Apple USB, Dead keys, Standard
+console-data	console-data/keymap/qwerty/danish/standard/keymap	select	
+# Driver for 3D acceleration:
+# Choices: h3, h5
+libglide3	libglide3/driver	select	h5
+# Configuration files still contain deprecated device names
+linux-base	linux-base/disk-id-manual	error	
+# Parola giriş hatası
+user-setup	user-setup/password-mismatch	error	
+# Geçersiz kullanıcı adı
+user-setup	passwd/username-bad	error	
+# Apply configuration changes to disk device IDs?
+linux-base	linux-base/disk-id-convert-plan-no-relabel	boolean	true
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/byelorussian/standard/keymap	select	
+# Klavye düzeni:
+# Choices: Croat, Czech, German, Hungarian, Polish, Serbian, Slovak, Slovene, Swiss
+console-data	console-data/keymap/qwertz/layout	select	
+# Services to restart for GNU libc library upgrade:
+libc6	glibc/restart-services	string	
+libc6:amd64	glibc/restart-services	string	
+libc6:i386	glibc/restart-services	string	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/dutch/variant	select	
+# Do you agree to the "Intel Pro Wireless 2100 and 2200/2915 License"?
+firmware-ipw2x00	firmware-ipw2x00/license/accepted	boolean	true
+# Gerekli aygıt yazılımları eksik
+linux-image-3.2.0-4-amd64	linux-image-3.2.0-4-amd64/postinst/missing-firmware-3.2.0-4-amd64	note	
+# Manual configuration required to enable fglrx driver
+fglrx-driver	fglrx-driver/needs-xorg-conf-to-enable	note	
+# Restart services during package upgrades without asking?
+libc6	libraries/restart-without-asking	boolean	false
+libc6:amd64	libraries/restart-without-asking	boolean	false
+libc6:i386	libraries/restart-without-asking	boolean	false
+libpam0g	libraries/restart-without-asking	boolean	false
+libpam0g:amd64	libraries/restart-without-asking	boolean	false
+libpam0g:i386	libraries/restart-without-asking	boolean	false
+# Tuş eşlemi
+# Choices: unicode
+console-data	console-data/keymap/qwerty/macedonian/standard/keymap	select	
+# Klavye alt türü:
+# Choices: PC 110, Standard
+console-data	console-data/keymap/qwerty/japanese/variant	select	
+# Öntanımlı kFreeBSD komut satırı:
+grub-pc	grub2/kfreebsd_cmdline_default	string	quiet
+# Should gpsd handle attached USB GPS receivers automatically?
+gpsd	gpsd/autodetection	boolean	true
+# for internal use
+console-setup	console-setup/codesetcode	string	guess
+# Update disk device IDs in system configuration?
+linux-base	linux-base/disk-id-convert-auto	boolean	true
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/portugese/variant	select	
+# Time zone:
+# Choices: Abidjan, Accra, Addis_Ababa, Algiers, Asmara, Bamako, Bangui, Banjul, Bissau, Blantyre, Brazzaville, Bujumbura, Cairo, Casablanca, Ceuta, Conakry, Dakar, Dar_es_Salaam, Djibouti, Douala, El_Aaiun, Freetown, Gaborone, Harare, Johannesburg, Juba, Kampala, Khartoum, Kigali, Kinshasa, Lagos, Libreville, Lome, Luanda, Lubumbashi, Lusaka, Malabo, Maputo, Maseru, Mbabane, Mogadishu, Monrovia, Nairobi, Ndjamena, Niamey, Nouakchott, Ouagadougou, Porto-Novo, Sao_Tome, Timbuktu, Tripoli, Tunis, Windhoek
+tzdata	tzdata/Zones/Africa	select	
+# Tuş eşlemi
+# Choices: CP850, Standard
+console-data	console-data/keymap/qwerty/spanish/standard/keymap	select	
+# Öntanımlı klavye düzeni () kullanılmaya devam edilsin mi?
+keyboard-configuration	keyboard-configuration/unsupported_layout	boolean	true
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/russian/variant	select	
+# Boot loader may need to be upgraded
+linux-base	linux-base/do-bootloader-default-changed	error	
+# Time zone:
+# Choices: Adak, Anchorage, Anguilla, Antigua, Araguaina, Argentina/Buenos_Aires, Argentina/Catamarca, Argentina/Cordoba, Argentina/Jujuy, Argentina/La_Rioja, Argentina/Mendoza, Argentina/Rio_Gallegos, Argentina/Salta, Argentina/San_Juan, Argentina/San_Luis, Argentina/Tucuman, Argentina/Ushuaia, Aruba, Asuncion, Atikokan, Atka, Bahia, Bahia_Banderas, Barbados, Belem, Belize, Blanc-Sablon, Boa_Vista, Bogota, Boise, Cambridge_Bay, Campo_Grande, Cancun, Caracas, Cayenne, Cayman, Chicago, Chihuahua, Coral_Harbour, Costa_Rica, Creston, Cuiaba, Curacao, Danmarkshavn, Dawson, Dawson_Creek, Denver, Detroit, Dominica, Edmonton, Eirunepe, El_Salvador, Ensenada, Fortaleza, Glace_Bay, Godthab, Goose_Bay, Grand_Turk, Grenada, Guadeloupe, Guatemala, Guayaquil, Guyana, Halifax, Havana, Hermosillo, Indiana/Indianapolis, Indiana/Knox, Indiana/Marengo, Indiana/Petersburg, Indiana/Tell_City, Indiana/Vevay, Indiana/Vincennes, Indiana/Winamac, Inuvik, Iqaluit, Jamaica, Juneau, Kentucky/Louisville, Kentucky/Monticello, Kralendijk, La_Paz, Lima, Los_Angeles, Lower_Princes, Maceio, Managua, Manaus, Marigot, Martinique, Matamoros, Mazatlan, Menominee, Merida, Metlakatla, Mexico_City, Miquelon, Moncton, Monterrey, Montevideo, Montreal, Montserrat, Nassau, New_York, Nipigon, Nome, Noronha, North_Dakota/Beulah, North_Dakota/Center, North_Dakota/New_Salem, Ojinaga, Panama, Pangnirtung, Paramaribo, Phoenix, Port-au-Prince, Port_of_Spain, Porto_Acre, Porto_Velho, Puerto_Rico, Rainy_River, Rankin_Inlet, Recife, Regina, Resolute, Rio_Branco, Santa_Isabel, Santarem, Santiago, Santo_Domingo, Sao_Paulo, Scoresbysund, Shiprock, Sitka, St_Barthelemy, St_Johns, St_Kitts, St_Lucia, St_Thomas, St_Vincent, Swift_Current, Tegucigalpa, Thule, Thunder_Bay, Tijuana, Toronto, Tortola, Vancouver, Virgin, Whitehorse, Winnipeg, Yakutat, Yellowknife
+tzdata	tzdata/Zones/America	select	
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/finnish/old__obsolete_/keymap	select	
+# Sertifika yetkililerinin yeni sertifikalarına güvenilsin mi?
+# Choices: evet, hayır, sor
+ca-certificates	ca-certificates/trust_new_crts	select	yes
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/serbian/standard/keymap	select	
+# Create a minimal Xorg configuration to enable NVIDIA?
+nvidia-support	nvidia-support/create-nvidia-conf	boolean	true
+# Boş parola
+user-setup	user-setup/password-empty	error	
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/dutch/standard/keymap	select	
+# Run "nvidia-installer --uninstall"?
+nvidia-installer-cleanup	nvidia-installer-cleanup/uninstall-nvidia-installer	boolean	true
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwertz/croat/standard/keymap	select	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/byelorussian/variant	select	
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/japanese/pc_110/keymap	select	
+# Klavye modeli:
+# Choices: A4Tech KB-21, A4Tech KBS-8, A4Tech Wireless Desktop RFKB-23, Acer AirKey V, Acer C300, Acer Ferrari 4000, Acer Laptop, Advance Scorpius KI, Amiga, Apple, Apple Aluminium Keyboard (ANSI), Apple Aluminium Keyboard (ISO), Apple Aluminium Keyboard (JIS), Apple Laptop, Asus Laptop, Atari TT, Azona RF2300 wireless Internet Keyboard, BTC 5090, BTC 5113RF Multimedia, BTC 5126T, BTC 6301URF, BTC 9000, BTC 9000A, BTC 9001AH, BTC 9019U, BTC 9116U Mini Wireless Internet and Gaming, BenQ X-Touch, BenQ X-Touch 730, BenQ X-Touch 800, Brother Internet Keyboard, Cherry B.UNLIMITED, Cherry Blue Line CyBo@rd, Cherry Blue Line CyBo@rd (alternate option), Cherry CyBo@rd USB-Hub, Cherry CyMotion Expert, Cherry CyMotion Master Linux, Cherry CyMotion Master XPress, Chicony Internet Keyboard, Chicony KB-9885, Chicony KU-0108, Chicony KU-0420, Classmate PC, Compaq Easy Access Keyboard, Compaq Internet Keyboard (13 keys), Compaq Internet Keyboard (18 keys), Compaq Internet Keyboard (7 keys), Compaq iPaq Keyboard, Creative Desktop Wireless 7000, DTK2000, Dell, Dell 101-key PC, Dell Laptop/notebook Inspiron 6xxx/8xxx, Dell Laptop/notebook Precision M series, Dell Latitude series laptop, Dell Precision M65, Dell SK-8125, Dell SK-8135, Dell USB Multimedia Keyboard, Dexxa Wireless Desktop Keyboard, Diamond 9801 / 9802 series, Ennyah DKB-1008, Everex STEPnote, FL90, Fujitsu-Siemens Computers AMILO laptop, Generic 101-key PC, Generic 102-key (Intl) PC, Generic 104-key PC, Generic 105-key (Intl) PC, Genius Comfy KB-12e, Genius Comfy KB-16M / Genius MM Keyboard KWD-910, Genius Comfy KB-21e-Scroll, Genius KB-19e NB, Genius KKB-2050HS, Gyration, HTC Dream, Happy Hacking Keyboard, Happy Hacking Keyboard for Mac, Hewlett-Packard Internet Keyboard, Hewlett-Packard Mini 110 Notebook, Hewlett-Packard Omnibook 500 FA, Hewlett-Packard Omnibook 5xx, Hewlett-Packard Omnibook 6000/6100, Hewlett-Packard Omnibook XE3 GC, Hewlett-Packard Omnibook XE3 GF, Hewlett-Packard Omnibook XT1000, Hewlett-Packard Pavilion ZT11xx, Hewlett-Packard Pavilion dv5, Hewlett-Packard SK-250x Multimedia Keyboard, Hewlett-Packard nx9020, Honeywell Euroboard, Htc Dream phone, IBM Rapid Access, IBM Rapid Access II, IBM Space Saver, IBM ThinkPad 560Z/600/600E/A22E, IBM ThinkPad R60/T60/R61/T61, IBM ThinkPad Z60m/Z60t/Z61m/Z61t, Keytronic FlexPro, Kinesis, Laptop/notebook Compaq (eg. Armada) Laptop Keyboard, Laptop/notebook Compaq (eg. Presario) Internet Keyboard, Laptop/notebook eMachines m68xx, Logitech Access Keyboard, Logitech Cordless Desktop, Logitech Cordless Desktop (alternate option), Logitech Cordless Desktop EX110, Logitech Cordless Desktop LX-300, Logitech Cordless Desktop Navigator, Logitech Cordless Desktop Optical, Logitech Cordless Desktop Pro (alternate option 2), Logitech Cordless Desktop iTouch, Logitech Cordless Freedom/Desktop Navigator, Logitech G15 extra keys via G15daemon, Logitech Generic Keyboard, Logitech Internet 350 Keyboard, Logitech Internet Keyboard, Logitech Internet Navigator Keyboard, Logitech Media Elite Keyboard, Logitech Ultra-X Cordless Media Desktop Keyboard, Logitech Ultra-X Keyboard, Logitech diNovo Edge Keyboard, Logitech diNovo Keyboard, Logitech iTouch, Logitech iTouch Cordless Keyboard (model Y-RB6), Logitech iTouch Internet Navigator Keyboard SE, Logitech iTouch Internet Navigator Keyboard SE (USB), MacBook/MacBook Pro, MacBook/MacBook Pro (Intl), Macintosh, Macintosh Old, Memorex MX1998, Memorex MX2500 EZ-Access Keyboard, Memorex MX2750, Microsoft Comfort Curve Keyboard 2000, Microsoft Internet Keyboard, Microsoft Internet Keyboard Pro\, Swedish, Microsoft Natural, Microsoft Natural Keyboard Elite, Microsoft Natural Keyboard Pro / Microsoft Internet Keyboard Pro, Microsoft Natural Keyboard Pro OEM, Microsoft Natural Keyboard Pro USB / Microsoft Internet Keyboard Pro, Microsoft Natural Wireless Ergonomic Keyboard 4000, Microsoft Natural Wireless Ergonomic Keyboard 7000, Microsoft Office Keyboard, Microsoft Wireless Multimedia Keyboard 1.0A, Northgate OmniKey 101, OLPC, Ortek MCK-800 MM/Internet keyboard, PC-98xx Series, Propeller Voyager (KTEZ-1000), QTronix Scorpius 98N+, SILVERCREST Multimedia Wireless Keyboard, SK-1300, SK-2500, SK-6200, SK-7100, SVEN Ergonomic 2500, SVEN Slim 303, Samsung SDM 4500P, Samsung SDM 4510P, Sanwa Supply SKB-KG3, Sun Type 4, Sun Type 5, Sun Type 5/6, Super Power Multimedia Keyboard, Symplon PaceBook (tablet PC), Targa Visionary 811, Toshiba Satellite S3000, Trust Direct Access Keyboard, Trust Slimline, Trust Wireless Keyboard Classic, TypeMatrix EZ-Reach 2020, TypeMatrix EZ-Reach 2030 PS2, TypeMatrix EZ-Reach 2030 USB, TypeMatrix EZ-Reach 2030 USB (102/105:EU mode), TypeMatrix EZ-Reach 2030 USB (106:JP mode), Unitek KB-1925, ViewSonic KU-306 Internet Keyboard, Winbook Model XP5, Yahoo! Internet Keyboard
+keyboard-configuration	keyboard-configuration/model	select	Generic 105-key (Intl) PC
+# Automatically detect and configure the modem?
+wvdial	wvdial/wvdialconf	boolean	true
+# Create the TUN/TAP device?
+openvpn	openvpn/create_tun	boolean	false
+# Yeni kullanıcının tam adı:
+user-setup	passwd/user-fullname	string	
+# Kullanılacak klavye düzeni:
+# Choices: Amerikan İngilizcesi (82 tuş), Amerikan İngilizcesi (uzatılmış klavye), Fransızca (alternatif), Fransızca (uzatılmış klavye), Almanca (uzatılmış klavye)
+console-data	console-keymaps-mac/keymap	select	
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/japanese/standard/keymap	select	
+# Apply configuration changes to disk device IDs?
+linux-base	linux-base/disk-id-convert-plan	boolean	true
+# DECnet startup changes your ethernet hardware address
+dnet-common	dnet-common/warning	note	
+# Tuş eşlemi
+# Choices: 
+console-data	console-data/keymap/template/keymap	select	
+# 'dash' öntanımlı sistem kabuğu (/bin/sh) olarak kullanılsın mı?
+dash	dash/sh	boolean	true
+# /usr/dict içindeki FHS uyumlu olmayan öğeler /usr/dict-pre-FHS dizinine taşınsın mı?
+dictionaries-common	dictionaries-common/move_old_usr_dict	boolean	true
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/latin_american/standard/keymap	select	
+# What model of HP Deskjet printer do you use?
+# Choices: 710, 712, 720, 722, 820, 1000
+printer-driver-pnm2ppa	pnm2ppa/printer_model	select	710
+# Kullanılacak otomatik seri port yapılandırma tipi:
+# Choices: bir defalık otomatik kaydet, elle, herzaman otomatik kaydet, çekirdek
+setserial	setserial/autosave-types	select	autosave once
+# for internal use
+keyboard-configuration	keyboard-configuration/layoutcode	string	tr
+# BSD lpd uyumlu sunucuyu ayarlamak ister misiniz?
+cups-bsd	cups-bsd/setuplpd	boolean	false
+# GRUB kurulum aygıtları:
+# Choices: 
+grub-pc	grub-pc/install_devices_disks_changed	multiselect	
+# Öntanımlı Linux komut satırı:
+grub-pc	grub2/linux_cmdline_default	string	
+# Services to restart to make them use the new libraries:
+libssl1.0.0	libssl1.0.0/restart-services	string	
+libssl1.0.0:amd64	libssl1.0.0/restart-services	string	
+libssl1.0.0:i386	libssl1.0.0/restart-services	string	
+# Account username:
+wvdial	wvdial/login	string	
+# Dummy template
+vdr	vdr/create_video_dir	boolean	true 
+# System's default paper size:
+# Choices: letter, a4, note, legal, executive, halfletter, halfexecutive, 11x17, statement, folio, quarto, 10x14, ledger, tabloid, a0, a1, a2, a3, a5, a6, a7, a8, a9, a10, b0, b1, b2, b3, b4, b5, c5, DL, Comm10, Monarch, archE, archD, archC, archB, archA, flsa, flse, csheet, dsheet, esheet
+libpaper1	libpaper/defaultpaper	select	a4
+libpaper1:amd64	libpaper/defaultpaper	select	a4
+# Default display manager:
+# Choices: gdm3
+gdm3	shared/default-x-display-manager	select	gdm3
+# Klavye alt türü:
+# Choices: Apple USB, Standard
+console-data	console-data/keymap/qwerty/us_american/variant	select	
+# Geographic area:
+# Choices: Africa, America, Antarctica, Australia, Arctic, Asia, Atlantic, Europe, Indian, Pacific, SystemV, US, Etc
+tzdata	tzdata/Areas	select	Etc
+# Klavye alt türü:
+# Choices: Apple USB, Standard, Wang
+console-data	console-data/keymap/azerty/belgian/variant	select	
+# Enable cpufreq governor at install time?
+cpufrequtils	cpufrequtils/enable	boolean	true
+# Do you want Opera to be kept up-to-date with the rest of the system?
+opera	opera/add-deb-source	boolean	true
+# Klavye düzenlerinin idaresinde uyulacak yöntem:
+# Choices: Klavye düzenini mimari (arch) listesinden seç, Klavye ayarına dokunma, Çekirdekle gelen klavye düzenini koru, Klavye düzenini tam listeden seç
+console-data	console-data/keymap/policy	select	Select keymap from full list
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/canadian/multilingual/keymap	select	
+# Should iodined (server) start on boot?
+iodine	iodine/start_daemon	boolean	false
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwerty/thai/variant	select	
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/azerty/french/apple_usb/keymap	select	
+# smb.conf dosyası kendiliğinden yapılandırılsın mı?
+samba-common	samba-common/do_debconf	boolean	true
+# Yazıtipi boyutu
+# Choices: 8x13, 8x14, 8x15, 8x16, 8x18
+console-setup	console-setup/fontsize-fb47	select	8x16
+# for internal use
+keyboard-configuration	keyboard-configuration/store_defaults_in_debconf_db	boolean	true
+# Card to use for 3D acceleration:
+# Choices: 
+libglide3	libglide3/card	select	
+# Setserial için update-modules yapılandırmasında hata oluştu
+setserial	setserial/update-modules-failed	error	
+# for internal use
+console-data	console-data/bootmap-md5sum	string	none
+# Tuş eşlemi
+# Choices: Standard, gr-pc
+console-data	console-data/keymap/qwerty/greek/standard/keymap	select	
+# Administrative server for your Kerberos realm:
+krb5-config	krb5-config/admin_server	string	
+# Klavye alt türü:
+# Choices: Standard
+console-data	console-data/keymap/qwertz/slovene/variant	select	
+# GRUB 2'ye dönüşüm bitirilsin mi?
+grub-pc	grub-pc/mixed_legacy_and_grub2	boolean	true
+# Tuş eşlemi
+# Choices: Alternate programmer, Programmer, Standard
+console-data	console-data/keymap/qwerty/slovak/standard/keymap	select	
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/qwerty/swedish/standard/keymap	select	
+# Authorized services:
+# Choices: CUPS, DNS, IMAPS, POP3S, SSH, CIFS (Samba), SMTP, HTTP, HTTPS
+ufw	ufw/allow_known_ports	multiselect	
+# Yükseltme işleminden önce xscreensaver ve xlockmore yeniden başlatılmalı
+libpam-modules	libpam-modules/disable-screensaver	error	
+# Güncelliğini kaybetmiş /etc/dictionary bağı silinsin mi?
+dictionaries-common	dictionaries-common/remove_old_usr_dict_link	boolean	false
+# Tuş eşlemi
+# Choices: IBM, Standard, it2
+console-data	console-data/keymap/qwerty/italian/standard/keymap	select	
+# for internal use only
+gdm3	gdm3/daemon_name	string	/usr/sbin/gdm3
+# Tuş eşlemi
+# Choices: Standard
+console-data	console-data/keymap/azerty/french/same_as_x11__latin_9_/keymap	select	
+# Time zone:
+# Choices: Antananarivo, Chagos, Christmas, Cocos, Komoro, Kerguelen, Mahe, Maldivler, Mauritius, Mayotte, Reunion
+tzdata	tzdata/Zones/Indian	select	

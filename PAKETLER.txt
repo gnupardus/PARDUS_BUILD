@@ -1,0 +1,1296 @@
+hwinfo                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Hardware identification system
+firefox                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Web browser based on Firefox
+thunderbird                      |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Bireysel| |wheezy|sid| mail/news client with RSS and integrated spam filter support
+
+freeglut3                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| OpenGL Utility Toolkit
+
+scanbuttond                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Scanner button daemon
+simple-scan                      |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Simple Scanning Utility
+gpointing-device-settings        |32|64| |---|GNOME|----| |------|-----|Kurumsal|Bireysel| |wheezy|sid| configuration tool for pointing devices
+kde-config-touchpad              |32|64| |KDE|-----|----| |------|-----|Kurumsal|Bireysel| |wheezy|sid| touchpad configuration tool (synaptiks)
+
+cinnamon                         |32|64| |---|GNOME|----| |------|-----|--------|Bireysel| |wheezy|sid| Cinnamon desktop
+cinnamon-themes                  |32|64| |---|GNOME|----| |------|-----|--------|Bireysel| |wheezy|sid| Cinnamon themes
+muffin-common                    |32|64| |---|GNOME|----| |------|-----|--------|Bireysel| |wheezy|sid| shared files for the Muffin window manager
+libmuffin0                       |32|64| |---|GNOME|----| |------|-----|--------|Bireysel| |wheezy|sid| window manager library from the Muffin window manager
+gir1.2-muffin-3.0                |32|64| |---|GNOME|----| |------|-----|--------|Bireysel| |wheezy|sid| GObject introspection data for Muffin
+
+florence                         |32|64| |---|GNOME|----| |------|Fatih|--------|--------| |wheezy|sid| extensible and scalable virtual keyboard for GNOME
+
+libnss-winbind                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Samba nameservice integration plugins
+libpam-winbind                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Samba nameservice and authentication integration plugins
+winbind                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Samba nameservice integration server
+
+nvidia-glx                       |32|--| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| NVIDIA metapackage
+nvidia-kernel-486                |32|--| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| NVIDIA kernel module for Linux (486 flavor)
+nvidia-kernel-686-pae            |32|--| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| NVIDIA kernel module for Linux (686-pae flavor)
+nvidia-kernel-amd64              |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| NVIDIA kernel module for Linux (amd64 flavor)
+nvidia-settings                  |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Tool for configuring the NVIDIA graphics driver
+nvidia-xconfig                   |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| X configuration tool for non-free NVIDIA drivers
+xserver-xorg-video-nvidia        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| NVIDIA binary Xorg driver
+nvidia-vdpau-driver              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| NVIDIA vdpau driver
+
+
+software-properties-kde          |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| manage the repositories that you install software from (kde)
+gtk3-engines-oxygen              |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Oxygen widget theme for GTK3-based applications
+gtk2-engines-oxygen              |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Oxygen widget theme for GTK+-based applications
+software-properties-gtk          |32|64| |---|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| manage the repositories that you install software from (gtk)
+xvba-va-driver                   |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| XvBA-based backend for VA API (AMD fglrx implementation)
+xserver-xephyr                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| nested X server
+putty                            |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Bireysel| |wheezy|sid| Telnet/SSH client for X
+python-aptdaemon.pkcompat        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| PackageKit compatibilty for AptDaemon
+cpuid                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Intel and AMD x86 CPUID display program
+libfglrx-amdxvba1                |32|64| |KDE|GNOME|XFCE| |......|Fatih|Kurumsal|Bireysel| |wheezy|sid| AMD XvBA (X-Video Bitstream Acceleration) runtime libraries
+fglrx-control                    |32|64| |KDE|GNOME|XFCE| |......|Fatih|Kurumsal|Bireysel| |wheezy|sid| control panel for the non-free ATI/AMD RadeonHD display driver
+fglrx-driver                     |32|64| |KDE|GNOME|XFCE| |......|Fatih|Kurumsal|Bireysel| |wheezy|sid| non-free ATI/AMD RadeonHD display driver
+fglrx-modules-dkms               |32|64| |KDE|GNOME|XFCE| |......|Fatih|Kurumsal|Bireysel| |wheezy|sid| dkms module source for the non-free ATI/AMD RadeonHD display driver
+x264                             |32|64| |KDE|GNOME|XFCE| |......|Fatih|Kurumsal|Bireysel| |wheezy|sid| video encoder for the H.264/MPEG-4 AVC standard
+cfengine-community               |32|64| |KDE|GNOME|XFCE| |------|Fatih|--------|--------| |wheezy|sid| xxxxxxxxxxxxxxx
+grub-customizer                  |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Bireysel| |wheezy|sid| xxxxxxxxxxxxxxx
+gnome-session-canberra           |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME session log in and log out sound events
+libcanberra-gtk3-module          |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| translates GTK3 widgets signals to event sounds
+libcanberra-gtk-module           |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| translates GTK+ widgets signals to event sounds
+libcanberra-pulse                |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| PulseAudio backend for libcanberra
+totem-plugins                    |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Plugins for the Totem media player
+update-notifier                  |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Daemon which notifies about package updates
+update-notifier-kde              |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| update notifier for the KDE Plasma Desktop
+software-center                  |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Utility for browsing, installing, and removing software
+python-piston-mini-client        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| software-center icin authentication ara birimi
+gir1.2-gstreamer-0.10            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| GObject introspection data for the GStreamer library -SoftwareCenter
+libsasl2-2                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| xxxxxxxxxxxxxxx
+libsasl2-modules                 |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-artwork-release           |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-artwork-release-old       |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-config                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-config-xorg               |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-config-gnome              |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-config-gnome-sunucu       |32|64| |---|GNOME|----| |Sunucu|-----|--------|--------| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-config-gnome-fatih        |32|64| |---|GNOME|----| |------|Fatih|--------|--------| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-config-gnome-kurumsal     |32|64| |---|GNOME|----| |------|-----|Kurumsal|--------| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-config-gnome-bireysel     |32|64| |---|GNOME|----| |------|-----|--------|Bireysel| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-config-kde                |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-config-kde-sunucu         |32|64| |KDE|-----|----| |Sunucu|-----|        |--------| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-config-kde-fatih          |32|64| |KDE|-----|----| |------|Fatih|--------|--------| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-config-kde-kurumsal       |32|64| |KDE|-----|----| |------|-----|Kurumsal|--------| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-config-kde-bireysel       |32|64| |KDE|-----|----| |------|-----|--------|Bireysel| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-icon-theme-milky-index    |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-icon-theme-milky-png      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-icon-theme-milky-svg      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-kdm-theme                 |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-ksplash-theme             |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-ksplash-theme-milky       |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-plymouth-theme            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-sound-theme               |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| xxxxxxxxxxxxxxx
+starboardsoftware                |32|64| |KDE|GNOME|XFCE| |------|Fatih|--------|--------| |wheezy|sid| xxxxxxxxxxxxxxx
+thegate                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|--------|--------| |wheezy|sid| xxxxxxxxxxxxxxx
+tlsimgesi                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| xxxxxxxxxxxxxxx
+webmin                           |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| xxxxxxxxxxxxxxx
+icedtea-6-plugin                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| plugin based on OpenJDK and IcedTea to execute Java applets
+libgtk2.0-bin                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| programs for the GTK+ graphical user interface library
+libclutter-1.0-common            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Open GL based interactive canvas library (common files)
+aisleriot                        |32|64| |---|GNOME|----| |------|-----|--------|Bireysel| |wheezy|sid| GNOME solitaire card game collection
+accountsservice                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| query and manipulate user account information
+acl                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Access control list utilities
+ufsutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| UFS filesystems utilities
+acpid                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Advanced Configuration and Power Interface event daemon
+archivemount                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| mounts an archive for access as a file system
+acpi-support                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| scripts for handling many ACPI events
+acpi-support-base                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| scripts for handling base ACPI events such as the power button
+adduser                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| add and remove users and groups
+akonadi-server                   |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Akonadi PIM storage service
+alacarte                         |32|64| |---|GNOME|----| |------|-----|Kurumsal|Bireysel| |wheezy|sid| easy GNOME menu editing tool
+alien                            |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Bireysel| |wheezy|sid| convert and install rpm and other packages
+alsa-base                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| ALSA driver configuration files
+alsa-firmware-loaders            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| ALSA software loaders for specific hardware
+alsa-utils                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Utilities for configuring and using ALSA
+amarok                           |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| easy to use media player based on the KDE Platform
+amarok-common                    |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| architecture independent files for Amarok
+amarok-utils                     |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| utilities for Amarok media player
+amd64-microcode                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Processor microcode firmware for AMD CPUs
+apache2                          |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| Apache HTTP Server metapackage
+apt                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Advanced front-end for dpkg
+aptitude                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| terminal-based package manager (terminal interface only)
+apt-show-versions                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| lists available package versions with distribution
+apt-utils                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| APT utility programs
+apt-xapian-index                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| maintenance and search tools for a Xapian index of Debian packages
+ark                              |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| archive utility
+aspell                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU Aspell spell-checker
+aspell-en                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| English dictionary for GNU Aspell
+at                               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Delayed job execution and batch processing
+atmel-firmware                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Firmware for Atmel at76c50x wireless networking chips.
+at-spi2-core                     |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Assistive Technology Service Provider Interface (dbus core)
+audacity                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| fast, cross-platform audio editor
+autoconf                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| automatic configure script builder
+automake                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Tool for generating GNU Standards-compliant Makefiles
+autopoint                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| The autopoint program from GNU gettext
+avahi-autoipd                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Avahi IPv4LL network address configuration daemon
+avahi-daemon                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Avahi mDNS/DNS-SD daemon
+avahi-utils                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Avahi browsing, publishing and discovery utilities
+b43-fwcutter                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Utility for extracting Broadcom 43xx firmware
+baobab                           |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME disk usage analyzer
+base-files                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Debian base system miscellaneous files
+base-passwd                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Debian base system master password and group files
+bash                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU Bourne Again SHell
+bash-completion                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| programmable completion for the bash shell
+bc                               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| The GNU bc arbitrary precision calculator language
+bind9-host                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Version of 'host' bundled with BIND 9.X
+binfmtc                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Execute C program as script
+binfmt-support                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Support for extra binary formats
+binutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU assembler, linker and binary utilities
+bison                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| A parser generator that is compatible with YACC
+blender                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Very fast and versatile 3D modeller/renderer
+bluedevil                        |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| The KDE Bluetooth stack
+bluez                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Bluetooth tools and daemons
+bluez-alsa                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Bluetooth ALSA support
+bluez-cups                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Bluetooth printer driver for CUPS
+bluez-firmware                   |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Firmware for Bluetooth devices
+bluez-pcmcia-support             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| PCMCIA support files for BlueZ 2.0 Bluetooth tools
+brasero                          |32|64| |---|GNOME|----| |Sunucu|-----|Kurumsal|Bireysel| |wheezy|sid| CD/DVD burning application for GNOME
+brasero-cdrkit                   |32|64| |---|GNOME|----| |Sunucu|-----|Kurumsal|Bireysel| |wheezy|sid| cdrkit extensions for the Brasero burning application
+broadcom-sta-dkms                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| dkms source for the Broadcom STA Wireless driver
+browser-plugin-vlc               |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| multimedia plugin for web browsers based on VLC
+bsdmainutils                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| collection of more utilities from FreeBSD
+bsdutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Basic utilities from 4.4BSD-Lite
+btrfs-tools                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Checksumming Copy on Write Filesystem utilities
+build-essential                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Informational list of build-essential packages
+busybox                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Tiny utilities for small and embedded systems
+bzip2                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| high-quality block-sorting file compressor - utilities
+cabextract                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Microsoft Cabinet file unpacker
+ca-certificates                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Common CA certificates
+ca-certificates-java             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Common CA certificates (JKS keystore)
+cdparanoia                       |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|Kurumsal|Bireysel| |wheezy|sid| audio extraction tool for sampling CDs
+cdrdao                           |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|Kurumsal|Bireysel| |wheezy|sid| records CDs in Disk-At-Once (DAO) mode
+cfv                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| versatile file checksum creator and verifier
+cheese                           |32|64| |---|GNOME|----| |------|-----|Kurumsal|Bireysel| |wheezy|sid| tool to take pictures and videos from your webcam
+chromium                         |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Bireysel| |wheezy|sid| Google's open source chromium web browser
+chromium-inspector               |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Bireysel| |wheezy|sid| page inspector for the chromium browser
+chromium-l10n                    |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Bireysel| |wheezy|sid| chromium-browser language packages
+cifs-utils                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Common Internet File System utilities
+cmake                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| cross-platform, open-source make system
+cmake-data                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| CMake data files (modules, templates and documentation)
+colord                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| system service to manage device colour profiles -- system daemon
+colorgcc                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Colorizer for GCC warning/error messages
+comgt                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Option GlobeTrotter and Vodafone datacard control tool
+console-data                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| keymaps, fonts, charset maps, fallback tables for console-tools
+consolekit                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| framework for defining and tracking users, sessions and seats
+console-setup                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| console font and keymap setup program
+console-setup-linux              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Linux specific part of console-setup
+coreutils                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU core utilities
+cpio                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU cpio -- a program to manage archives of files
+cpp                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU C preprocessor (cpp)
+cpufrequtils                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| utilities to deal with the cpufreq Linux kernel feature
+crda                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| wireless Central Regulatory Domain Agent
+cron                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| process scheduling daemon
+cryptsetup                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| configures encrypted block devices
+cups                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Common UNIX Printing System(tm) - server
+cups-bsd                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Common UNIX Printing System(tm) - BSD commands
+cups-client                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Common UNIX Printing System(tm) - client programs (SysV)
+cups-common                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Common UNIX Printing System(tm) - common files
+cups-pdf                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| PDF writer backend for CUPS
+cups-pk-helper                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| PolicyKit helper to configure cups with fine-grained privileges
+cups-ppdc                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Common UNIX Printing System(tm) - PPD manipulation utilities
+curl                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| command line tool for transferring data with URL syntax
+dash                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| POSIX-compliant shell
+davfs2                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| mount a WebDAV resource as a regular file system
+dbus                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| simple interprocess messaging system (daemon and utilities)
+dbus-x11                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| simple interprocess messaging system (X11 deps)
+dc                               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| The GNU dc arbitrary precision reverse-polish calculator
+dconf-gsettings-backend          |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| simple configuration storage system - GSettings back-end
+dconf-service                    |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| simple configuration storage system - D-Bus service
+dconf-tools                      |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| simple configuration storage system - utilities
+debconf                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Debian configuration management system
+debconf-i18n                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| full internationalization support for debconf
+debconf-utils                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| debconf utilities
+debhelper                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| helper programs for debian/rules
+debianutils                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Miscellaneous utilities specific to Debian
+debootstrap                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Bootstrap a basic Debian system
+deborphan                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| program that can find unused packages, e.g. libraries
+deluge-gtk                       |32|64| |---|GNOME|----| |------|-----|--------|Bireysel| |wheezy|sid| bittorrent client written in Python/PyGTK (GTK+ ui)
+desktop-base                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| common files for the Debian Desktop
+desktop-file-utils               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Utilities for .desktop files
+dia                              |32|64| |KDE|-----|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Diagram editor
+dia-gnome                        |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Diagram editor (GNOME version)
+dialog                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Displays user-friendly dialog boxes from shell scripts
+dia-shapes                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Diagram editor
+dictionaries-common              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Common utilities for spelling dictionary tools
+diffutils                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| File comparison utilities
+digikam                          |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| digital photo management application for KDE
+discover                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| hardware identification system
+dkms                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Dynamic Kernel Module Support Framework
+dmraid                           |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| Device-Mapper Software RAID support tool
+dmsetup                          |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| Linux Kernel Device Mapper userspace library
+dmidecode                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| SMBIOS/DMI table decoder
+dmz-cursor-theme                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Style neutral, scalable cursor theme
+dnet-common                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Base package for Linux DECnet
+dnet-progs                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| DECnet user programs and daemons
+dnsmasq-base                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Small caching DNS proxy and DHCP/TFTP server
+dnsutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Clients provided with BIND
+dolphin                          |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| file manager
+dosfstools                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| utilities for making and checking MS-DOS FAT filesystems
+dpatch                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| patch maintenance system for Debian source packages
+dpkg                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Debian package management system
+dpkg-dev                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Debian package development tools
+dv4l                             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Redirect V4L API to access a camcorder from a V4L program
+dvd+rw-tools                     |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|Kurumsal|Bireysel| |wheezy|sid| DVD+-RW/R tools
+e2fslibs                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| ext2/ext3/ext4 file system libraries
+e2fsprogs                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| ext2/ext3/ext4 file system utilities
+ecryptfs-utils                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| ecryptfs cryptographic filesystem (utilities)
+eject                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| ejects CDs and operates CD-Changers under Linux
+enblend                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| image blending tool
+enchant                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Wrapper for various spell checker engines (binary programs)
+enfuse                           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| image exposure blending tool
+eog                              |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Eye of GNOME graphics viewer program
+escputil                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| maintenance utility for Epson Stylus printers
+esound-common                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Enlightened Sound Daemon - Common files
+espeak                           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Multi-lingual software speech synthesizer
+espeak-data                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Multi-lingual software speech synthesizer: speech data files
+evince                           |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Document (PostScript, PDF) viewer
+exif                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| command-line utility to show EXIF information in JPEG files
+exiv2                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| EXIF/IPTC metadata manipulation tool
+expect                           |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| Automates interactive applications
+fakeroot                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| tool for simulating superuser privileges
+fancontrol                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| utilities to read temperature/voltage/fan sensors
+ffmpeg                           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| audio/video encoder, streaming server & audio/video file converter.
+ffmpegthumbnailer                |32|64| |---|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| fast and lightweight video thumbnailer
+ffmpegthumbs                     |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| video thumbnail generator using ffmpeg
+file                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Determines file type using "magic" numbers
+file-roller                      |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| archive manager for GNOME
+filezilla                        |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Bireysel| |wheezy|sid| Full-featured graphical FTP/FTPS/SFTP client
+filezilla-common                 |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Bireysel| |wheezy|sid| Architecture independent files for filezilla
+findutils                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| utilities for finding files--find, xargs
+firmware-atheros                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Binary firmware for Atheros wireless cards
+firmware-bnx2                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Binary firmware for Broadcom NetXtremeII
+firmware-bnx2x                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Binary firmware for Broadcom NetXtreme II 10Gb
+firmware-intelwimax              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Binary firmware for Intel WiMAX Connection
+firmware-ipw2x00                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Binary firmware for Intel Pro Wireless 2100, 2200 and 2915
+firmware-ivtv                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Binary firmware for iTVC15-family MPEG codecs (ivtv and pvrusb2 drivers)
+firmware-iwlwifi                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Binary firmware for Intel Wireless 3945, 4965 and 5000-series cards
+firmware-libertas                |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Binary firmware for Marvell Libertas 8xxx wireless cards
+firmware-linux                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Binary firmware for various drivers in the Linux kernel (meta-package)
+firmware-linux-free              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Binary firmware for various drivers in the Linux kernel
+firmware-linux-nonfree           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Binary firmware for various drivers in the Linux kernel
+firmware-myricom                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Binary firmware for Myri-10G Ethernet adapters
+firmware-netxen                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Binary firmware for QLogic Intelligent Ethernet (3000 and 3100 Series)
+firmware-qlogic                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Binary firmware for QLogic IBA7220, QLA1xxx, ISP2xxx and SP2x2
+firmware-ralink                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Binary firmware for Ralink wireless cards
+firmware-realtek                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Binary firmware for Realtek wired and wireless network adapters
+flac                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Free Lossless Audio Codec - command line tools
+flashplayer-mozilla              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Macromedia Flash Player.
+flex                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| A fast lexical analyzer generator.
+folks-common                     |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| library to aggregates people into metacontacts (common files)
+fontconfig                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| generic font configuration library - support binaries
+fontconfig-config                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| generic font configuration library - configuration
+fonts-beteckna                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| geometric Futura-like sans-serif TrueType font
+fonts-bpg-georgian               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| BPG Georgian fonts
+fonts-breip                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Informal handwriting font
+fonts-cantarell                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| sans serif font family designed for on-screen readability
+fonts-century-catalogue          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| century-style font revival
+fonts-comfortaa                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| stylish, modern true type font
+fonts-droid                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| handheld device font with extensive style and language support
+fonts-dustin                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Various TrueType fonts from dustismo.com
+fonts-ecolier-lignes-court       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| cursive roman font (with réglure Seyès and small descenders)
+fonts-f500                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Wipeout 3 Font
+fonts-fanwood                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| font similar to the Fairfield font
+fonts-freefont-otf               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Freefont Serif, Sans and Mono OpenType fonts
+fonts-freefont-ttf               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Freefont Serif, Sans and Mono Truetype fonts
+fonts-inconsolata                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| monospace font for pretty code listings and for the terminal
+fonts-johnsmith-induni           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| OTF fonts with exhaustive set of Roman characters
+fonts-junicode                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Unicode font for medievalists (Latin, IPA and Runic)
+fonts-jura                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| monospaced, sans-serif font
+fonts-konatu                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| TrueType Font originally for BeOS
+fonts-lato                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| sans-serif typeface family font
+fonts-levien-museum              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| metal Centaur fonts revival family
+fonts-liberation                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Fonts with the same metrics as Times, Arial and Courier
+fonts-lindenhill                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Regular and italic serif font
+fonts-linex                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Fonts suitable for education and institutional use
+fonts-linuxlibertine             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Linux Libertine family of fonts
+fonts-lobstertwo                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| updated and improved family version of the Lobster font
+fonts-mgopen                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Magenta MgOpen TrueType fonts
+fonts-ocr-a                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| ANSI font readable by the computers of the 1960s
+fonts-oflb-asana-math            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| extended smart Unicode Math font
+fonts-oflb-euterpe               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| unicode musical font
+fonts-okolaks                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| decorative, sans serif font
+fonts-oldstandard                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| smart font with wide range of Latin, Greek and Cyrillic characters
+fonts-opendin                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Open DIN font
+fonts-opensymbol                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| OpenSymbol TrueType font
+fonts-pecita                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| OpenType hand-written font whose letters are connected
+fonts-quattrocento               |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| classic, elegant, sober and strong Roman typeface
+fonts-rufscript                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| handwriting-based font for Latin characters
+fonts-sil-charis                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| smart Unicode font family for Roman or Cyrillic-based writing systems
+fonts-sil-doulos                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| smart Unicode font for Latin and Cyrillic scripts
+fonts-sil-gentium                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| extended Unicode Latin font ("a typeface for the nations")
+fonts-sil-gentium-basic          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| smart Unicode font families (Basic and Book Basic) based on Gentium
+fonts-stix                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Scientific and Technical Information eXchange fonts
+fonts-tuffy                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| The Tuffy Truetype Font Family
+fonts-vollkorn                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| serif body text type
+fonts-yanone-kaffeesatz          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Font in four weights
+foomatic-db                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| OpenPrinting printer support - database
+foomatic-db-engine               |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| OpenPrinting printer support - programs
+foomatic-db-gutenprint           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| OpenPrinting printer support - database for Gutenprint printer drivers
+foomatic-filters                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| OpenPrinting printer support - filters
+freeglut3                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| OpenGL Utility Toolkit
+fuse                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Filesystem in Userspace
+fuseiso                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| FUSE module to mount ISO filesystem images
+fusesmb                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| filesystem client based on the SMB file transfer protocol
+fxload                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Firmware download to EZ-USB devices
+g++                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU C++ compiler
+gawk                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU awk, a pattern scanning and processing language
+gcalctool                        |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME desktop calculator
+gcc                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU C compiler
+gcolor2                          |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Simple GTK2 color selector and picker
+gconf2                           |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME configuration database system (support tools)
+gconf2-common                    |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME configuration database system (common files)
+gconf-defaults-service           |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME configuration database system (system defaults service)
+gconf-editor                     |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| editor for the GConf configuration system
+gconf-gsettings-backend          |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME configuration database system - GSettings back-end
+gdebi                            |32|64| |---|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| simple tool to install deb files - GNOME GUI
+gdebi-kde                        |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| simple tool to install deb files - KDE GUI
+gdm3                             |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Next generation GNOME Display Manager
+gedit                            |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| official text editor of the GNOME desktop environment
+gedit-plugins                    |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| set of plugins for gedit
+genisoimage                      |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|Kurumsal|Bireysel| |wheezy|sid| Creates ISO-9660 CD-ROM filesystem images
+geoclue                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Geographic information framework
+geoip-database                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| IP lookup command line tools that use the GeoIP library (country database)
+gettext                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU Internationalization utilities
+gettext-base                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU Internationalization utilities for the base system
+ghostscript                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| interpreter for the PostScript language and for PDF
+ghostscript-cups                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| interpreter for the PostScript language and for PDF - CUPS filters
+ghostscript-x                    |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| interpreter for the PostScript language and for PDF - X11 support
+gimp                             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| The GNU Image Manipulation Program
+gimp-data                        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Data files for GIMP
+gimp-data-extras                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| An extra set of brushes, palettes, and gradients for The GIMP
+gimp-gutenprint                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| print plugin for the GIMP
+gimp-ufraw                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| gimp importer for raw camera images
+gir1.2-brasero-3.0               |32|64| |---|GNOME|----| |Sunucu|-----|Kurumsal|Bireysel| |wheezy|sid| CD/DVD burning library for GNOME - GObject introspection data
+gir1.2-gdesktopenums-3.0         |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GObject introspection for GSettings desktop-wide schemas
+gir1.2-gnomedesktop-3.0          |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Introspection data for GnomeDesktop
+gir1.2-mx-1.0                    |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GObject introspection data for the libmx library
+gir1.2-nautilus-3.0              |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| libraries for nautilus components - gir bindings
+git-daemon-run                   |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| fast, scalable, distributed revision control system
+git                              |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|Kurumsal|Bireysel| |wheezy|sid| fast, scalable, distributed revision control system
+gkbd-capplet                     |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME Panel applet for libgnomekbd
+gksu                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| graphical frontend to su
+glew-utils                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| OpenGL Extension Wrangler - utilities
+glib-networking                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| network-related giomodules for GLib
+glib-networking-common           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| network-related giomodules for GLib - data files
+glib-networking-services         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| network-related giomodules for GLib - D-Bus services
+glx-alternative-mesa             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| allows the selection of MESA as GLX provider
+glx-diversions                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| prepare for using accelerated GLX implementations from GPU vendors
+gnome-alsamixer                  |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| ALSA sound mixer for GNOME
+gnome-applets                    |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Various applets for the GNOME panel - binary files
+gnome-backgrounds                |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Set of backgrounds packaged with the GNOME desktop
+gnome-bluetooth                  |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME Bluetooth tools
+gnome-common                     |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| common scripts and macros to develop with GNOME
+gnome-control-center             |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| utilities to configure the GNOME desktop
+gnome-disk-utility               |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| manage and configure disk drives and media
+gnome-font-viewer                |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| font viewer for GNOME
+gnome-games                      |32|64| |---|GNOME|----| |------|-----|--------|Bireysel| |wheezy|sid| games for the GNOME desktop
+gnome-games-extra-data           |32|64| |---|GNOME|----| |------|-----|--------|Bireysel| |wheezy|sid| games for the GNOME desktop (extra artwork)
+gnome-icon-theme                 |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME Desktop icon theme
+gnome-icon-theme-extras          |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME Desktop icon theme (additional icons)
+gnome-icon-theme-symbolic        |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME desktop icon theme (symbolic icons)
+gnome-keyring                    |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME keyring services (daemon and tools)
+gnome-mag                        |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| a screen magnifier for the GNOME desktop
+gnome-media                      |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME media utilities
+gnome-mime-data                  |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| base MIME and Application database for GNOME.
+gnome-nettool                    |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| network information tool for GNOME
+gnome-power-manager              |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| power management tool for the GNOME desktop
+gnome-ppp                        |32|64| |---|GNOME|----| |------|-----|Kurumsal|Bireysel| |wheezy|sid| modem internet connection tool for the GNOME Desktop
+gnome-screensaver                |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME screen saver and locker
+gnome-screenshot                 |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| screenshot application for GNOME
+gnome-search-tool                |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME tool to search files
+gnome-session                    |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME Session Manager - GNOME 3 session
+gnome-session-common             |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME Session Manager - common files
+gnome-session-fallback           |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME Session Manager - GNOME fallback session
+gnome-shell-extensions           |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Extensions to extend functionality of GNOME Shell
+gnome-sushi                      |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| sushi is a quick previewer for nautilus
+gnome-system-log                 |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| system log viewer for GNOME
+gnome-system-monitor             |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Process viewer and system resource monitor for GNOME
+gnome-system-tools               |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Cross-platform configuration utilities for GNOME
+gnome-terminal                   |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME terminal emulator application
+gnome-themes                     |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| official themes for the GNOME desktop
+gnome-themes-standard            |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Standard gnome themes
+gnome-tweak-tool                 |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| tool to adjust advanced configuration settings for GNOME
+gnome-user-guide                 |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME user's guide
+gnome-user-share                 |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| User level public file sharing via WebDAV or ObexFTP
+gnu-fdisk                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Linux fdisk replacement based on libparted
+gnupg2                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU privacy guard - a free PGP replacement (new v2.x)
+gnupg                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU privacy guard - a free PGP replacement
+gnupg-agent                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU privacy guard - password agent
+gobi-loader                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Firmware loader for Qualcomm Gobi USB chipsets.
+gpart                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Guess PC disk partition table, find lost partitions
+gparted                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME partition editor
+gpgsm                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU privacy guard - S/MIME version
+gpgv                             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU privacy guard - signature verification tool
+gpr                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GUI for lpr: print files and configure printer-specific options
+gpsd                             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Global Positioning System - daemon
+grep                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU grep, egrep and fgrep
+groff-base                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU troff text-formatting system (base system components)
+growisofs                        |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|Kurumsal|Bireysel| |wheezy|sid| DVD+-RW/R recorder
+grub-common                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GRand Unified Bootloader (common files)
+grub-pc                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GRand Unified Bootloader, version 2 (PC/BIOS version)
+grub-pc-bin                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GRand Unified Bootloader, version 2 (PC/BIOS binaries)
+gsettings-desktop-schemas        |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GSettings deskop-wide schemas
+gsfonts                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Fonts for the Ghostscript interpreter(s)
+gsfonts-other                    |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Additional fonts for the ghostscript interpreter
+gsfonts-x11                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Make Ghostscript fonts available to X11
+gstreamer0.10-alsa               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GStreamer plugin for ALSA
+gstreamer0.10-crystalhd          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Crystal HD Video Decoder (GStreamer plugin)
+gstreamer0.10-ffmpeg             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| FFmpeg plugin for GStreamer
+gstreamer0.10-gconf              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GStreamer plugin for getting the sink/source information from GConf
+gstreamer0.10-gnomevfs           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GStreamer plugin for GnomeVFS
+gstreamer0.10-nice               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| ICE library (GStreamer plugin)
+gstreamer0.10-plugins-bad        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GStreamer plugins from the "bad" set
+gstreamer0.10-plugins-base       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GStreamer plugins from the "base" set
+gstreamer0.10-plugins-base-apps  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GStreamer helper programs from the "base" set
+gstreamer0.10-plugins-good       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GStreamer plugins from the "good" set
+gstreamer0.10-plugins-ugly       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GStreamer plugins from the "ugly" set
+gstreamer0.10-pulseaudio         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GStreamer plugin for PulseAudio
+gstreamer0.10-tools              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Tools for use with GStreamer
+gstreamer0.10-x                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GStreamer plugins for X11 and Pango
+gstreamer-tools                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Tools for use with GStreamer
+gtkam-gimp                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| gtkam gimp plugin to open digital camera pictures
+gtklp                            |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| printing tool for CUPS on the GNOME Desktop
+gtk-recordmydesktop              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Graphical frontend for recordMyDesktop screencast tool
+gucharmap                        |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Unicode character picker and font browser
+gutenprint-locales               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| locale data files for Gutenprint
+gvfs                             |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| userspace virtual filesystem - GIO module
+gvfs-backends                    |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| userspace virtual filesystem - backends
+gvfs-common                      |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| userspace virtual filesystem - common data files
+gvfs-daemons                     |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| userspace virtual filesystem - servers
+gvfs-libs                        |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| userspace virtual filesystem - private libraries
+gwenview                         |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| image viewer
+gzip                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU compression utilities
+hannah-foo2zjs                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Graphical firmware downloader for the foo2zjs package
+hdparm                           |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| tune hard disk parameters for high performance
+hfsplus                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Tools to access HFS+ formatted volumes
+hfsprogs                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| mkfs and fsck for HFS and HFS+ file systems
+hfsutils                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Tools for reading and writing Macintosh volumes
+hicolor-icon-theme               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| default fallback theme for FreeDesktop.org icon themes
+hostname                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| utility to set/show the host name or domain name
+hpijs-ppds                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| HP Linux Printing and Imaging - HPIJS PPD files
+hplip                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| HP Linux Printing and Imaging System (HPLIP)
+hplip-data                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| HP Linux Printing and Imaging - data files
+hplip-gui                        |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| HP Linux Printing and Imaging - GUI utilities (Qt-based)
+hp-ppd                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| HP Postscript Printer Definition (PPD) files
+htdig                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| web search and indexing system - binaries
+html2text                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| advanced HTML to text converter
+htop                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| interactive processes viewer
+hwdata                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| hardware identification / configuration data
+hyphen-en-us                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| US English hyphenation patterns for LibreOffice/OpenOffice.org
+i965-va-driver                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Video Acceleration (VA) API for Linux -- i965 VA driver
+ibus-qt4                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| qt-immodule for ibus (QT4)
+icc-profiles                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| ICC color profiles for use with color profile aware software
+icoutils                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Create and extract MS Windows icons and cursors
+ifhp                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Printer filter for HP LaserJet printers
+ijsgutenprint                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| inkjet server - Ghostscript driver for Gutenprint
+imagemagick                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| image manipulation programs
+xinetd                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| replacement for inetd with many enhancements
+info                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Standalone GNU Info documentation browser
+initramfs-tools                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| tools for generating an initramfs
+initscripts                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| scripts for initializing and shutting down the system
+inkscape                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| vector-based drawing program
+inputattach                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| utility to connect serial-attached peripherals to the input subsystem
+insserv                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Tool to organize boot sequence using LSB init.d script dependencies
+intel-microcode                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Processor microcode data file for Intel CPUs
+intltool                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Utility scripts for internationalizing XML
+intltool-debian                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Help i18n of RFC822 compliant config files
+iproute                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| networking and traffic control tools
+iptables                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| administration tools for packet filtering and NAT
+iputils-arping                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Tool to send ICMP echo requests to an ARP address
+iputils-ping                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Tools to test the reachability of network hosts
+iputils-tracepath                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Tools to trace the network path to a remote host
+ir-keytable                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Alter keymaps of Remote Controller devices
+irqbalance                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Daemon to balance interrupts for SMP systems
+isc-dhcp-client                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| ISC DHCP client
+isc-dhcp-common                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| common files used by all the isc-dhcp* packages
+isc-dhcp-server                  |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| ISC DHCP server for automatic IP address assignment
+iso-codes                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| ISO language, territory, currency, script codes and their translations
+ivtv-utils                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| utilities for use with the ivtv kernel driver
+iw                               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| tool for configuring Linux wireless devices
+jackd2                           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| JACK Audio Connection Kit (server and example clients)
+jackd2-firewire                  |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| JACK Audio Connection Kit (FFADO and FreeBoB backends)
+jarwrapper                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Run executable Java .jar files
+java-common                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Base of all Java packages
+javascript-common                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Base support for javascript library packages
+jfsutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| utilities for managing the JFS filesystem
+k3b                              |32|64| |KDE|-----|----| |Sunucu|-----|Kurumsal|Bireysel| |wheezy|sid| Sophisticated CD/DVD burning application
+k3b-i18n                         |32|64| |KDE|-----|----| |Sunucu|-----|Kurumsal|Bireysel| |wheezy|sid| Sophisticated CD/DVD burning application - localizations files
+kamera                           |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| digital camera support for KDE applications
+kamoso                           |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| tool to take pictures and videos from your webcam
+kbd                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Linux console font and keytable utilities
+kcalc                            |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| simple and scientific calculator
+kdeartwork-theme-icon            |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| additional icon themes
+kdebase-bin                      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| core binaries for the KDE base applications
+kdebase-runtime                  |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| runtime components from the official KDE release
+kde-config-tablet                |32|64| |KDE|-----|----| |------|-----|Kurumsal|Bireysel| |wheezy|sid| implements a KDE configuration GUI for the Wacom drivers
+kdegames                         |32|64| |KDE|-----|----| |------|-----|--------|Bireysel| |wheezy|sid| games from the official KDE release
+kdegraphics-libs-data            |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| data files for libraries from the kdegraphics module
+kdelibs5-data                    |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| core shared data for all KDE Applications
+kdelibs5-plugins                 |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| core plugins for KDE Applications
+kdelibs-bin                      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| core executables for KDE Applications
+kdemultimedia-kio-plugins        |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| transparent audio CD access for applications using the KDE Platform
+kdenetwork-filesharing           |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| network filesharing configuration module
+kdepasswd                        |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| graphical password changing utility
+kdepimlibs-kio-plugins           |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| kio slaves used by KDE PIM applications
+kdepim-runtime                   |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Runtime components for akonadi-kde
+kdeplasma-addons                 |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| addons for Plasma
+kde-runtime                      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| runtime components from the official KDE release
+kde-style-qtcurve                |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Unified widget styles for KDE and GTK+
+kdesudo                          |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| sudo frontend for KDE
+kdewallpapers                    |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| wallpapers released with KDE Plasma Workspaces
+kde-window-manager               |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| K window manager (KWin)
+kde-workspace                    |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| KDE Plasma Workspace components
+kde-workspace-bin                |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| core binaries for the KDE Plasma Workspace
+kde-workspace-kgreet-plugins     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| KDE greet libraries for authentication
+kde-zeroconf                     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| zeroconf plugins and kio slaves for KDE
+kdm                              |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| KDE Display Manager for X11
+kernel-package                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| A utility for building Linux kernel related Debian packages.
+keyboard-configuration           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| system-wide keyboard preferences
+kfind                            |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| file search utility
+kgpg                             |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| graphical front end for GNU Privacy Guard
+khelpcenter4                     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| help center
+kinfocenter                      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| system information viewer
+kipi-plugins                     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| image manipulation/handling plugins for KIPI aware programs
+klibc-utils                      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| small utilities built with klibc for early boot
+kmag                             |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| screen magnifier tool
+kmess                            |32|64| |KDE|-----|----| |------|-----|--------|Bireysel| |wheezy|sid| MSN messenger for KDE
+kmix                             |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| volume control and mixer
+konsole                          |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X terminal emulator
+kppp                             |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| modem dialer for KDE
+krb5-config                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Configuration files for Kerberos Version 5
+krb5-user                        |--|--| |---|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Basic programs to authenticate using MIT Kerberos !LIVE DVD ile sorunlu!
+krb5-locales                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Internationalization support for MIT Kerberos
+kscreensaver                     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Additional screensavers for KScreenSaver
+ksnapshot                        |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| screen capture tool
+ksysguard                        |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| process monitor and system statistics
+ksysguardd                       |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| System Guard Daemon
+ksystemlog                       |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| system log viewer
+kuser                            |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| user and group administration tool
+kvkbd                            |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Virtual keyboard for KDE
+kwalletmanager                   |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| secure password wallet manager
+kwin-style-qtcurve               |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Unified window decoration for KDE and GTK+
+kwrite                           |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| simple graphical text editor
+lame                             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| LAME Ain't an MP3 Encoder
+laptop-detect                    |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Bireysel| |wheezy|sid| attempt to detect a laptop
+ldb-tools                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| LDAP-like embedded database - tools
+lib32asound2                     |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| shared library for ALSA applications (32 bit)
+lib32bz2-1.0                     |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| high-quality block-sorting file compressor library - 32bit runtime
+lib32cr0                         |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| (32bit) Libraries to Checkpoint and Restart Linux processes
+lib32ffi5                        |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Foreign Function Interface library runtime (32bit)
+lib32gcc1                        |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| GCC support library (32 bit Version)
+lib32gfortran3                   |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Runtime library for GNU Fortran applications (32bit)
+lib32gmp10                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Multiprecision arithmetic library (32bit)
+lib32gmpxx4                      |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Multiprecision arithmetic library (C++ bindings, 32bit)
+lib32go0                         |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Runtime library for GNU Go applications (32bit)
+lib32gomp1                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| GCC OpenMP (GOMP) support library (32bit)
+lib32itm1                        |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU Transactional Memory Library (32bit)
+lib32mpfr4                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| multiple precision floating-point computation (32bit)
+lib32mudflap0                    |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| GCC mudflap shared support libraries (32bit)
+lib32ncurses5                    |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| shared libraries for terminal handling (32-bit)
+lib32ncursesw5                   |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| shared libraries for terminal handling (wide character support) (32-bit)
+lib32nss-mdns                    |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| NSS module for Multicast DNS name resolution (32-bits version)
+lib32objc3                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Runtime library for GNU Objective-C applications (32bit)
+lib32objc4                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Runtime library for GNU Objective-C applications (32bit)
+lib32quadmath0                   |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| GCC Quad-Precision Math Library (32bit)
+lib32readline6                   |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU readline and history libraries, run-time libraries (32-bit)
+lib32stdc++6                     |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU Standard C++ Library v3 (32 bit Version)
+lib32tinfo5                      |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| shared low-level terminfo library for terminal handling (32-bit)
+lib32v4l-0                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|---| Collection of video4linux support libraries (32 bits)
+lib32z1                          |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| compression library - 32 bit runtime
+libaacs0                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| free-and-libre implementation of AACS
+libalgorithm-merge-perl          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Perl module for three-way merge of textual data
+libapache2-mod-auth-kerb         |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| apache2 module for Kerberos authentication
+libapache2-mod-auth-openid       |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| OpenID authentication module for Apache2
+libapache2-mod-auth-pam          |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| module for Apache2 which authenticate using PAM
+libapache2-mod-auth-pgsql        |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| Module for Apache2 which provides pgsql authentication
+libapache2-mod-fastcgi           |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| Apache 2 FastCGI module for long-running CGI scripts
+libapache2-mod-php5              |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| server-side, HTML-embedded scripting language (Apache 2 module)
+libapache2-mod-python            |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| Python-embedding module for Apache 2
+libapt-pkg-perl                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Perl interface to libapt-pkg
+libasound2-plugins               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| ALSA library additional plugins
+libatk-adaptor                   |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| at-spi2-atk
+libatk-adaptor-data              |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| AT-SPI 2 toolkit bridge - data
+libatm1                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| shared library for ATM (Asynchronous Transfer Mode)
+libauthen-pam-perl               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Perl interface to PAM library
+libc6-i386                       |--|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Embedded GNU C Library: 32-bit shared libraries for AMD64
+libc6-i686                       |32|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Embedded GNU C Library: Shared libraries [i686 optimized]
+libclass-accessor-perl           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Perl module that automatically generates accessors
+libclass-isa-perl                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| report the search path for a class's ISA tree
+libcogl-common                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Object oriented GL/GLES Abstraction/Utility Layer (common files)
+libconfig-file-perl              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Parses simple configuration files
+libcrypt-passwdmd5-perl          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| interoperable MD5-based crypt() for perl
+libdpkg-perl                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Dpkg perl modules
+libegl1-mesa                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| free implementation of the EGL API -- runtime
+libegl1-mesa-drivers             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| free implementation of the EGL API -- hardware drivers
+libencode-locale-perl            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| utility to determine the locale encoding
+libfile-basedir-perl             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Perl module to use the freedesktop basedir specification
+libfile-copy-recursive-perl      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Perl extension for recursively copying files and directories
+libfile-desktopentry-perl        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Perl module to handle freedesktop .desktop files
+libfile-listing-perl             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| module to parse directory listings
+libfile-mimeinfo-perl            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Perl module to determine file types
+libfont-afm-perl                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Font::AFM - Interface to Adobe Font Metrics files
+libfont-freetype-perl            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Read font files and render glyphs from Perl using FreeType2
+libgl1-mesa-glx                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| A free implementation of the OpenGL API -- GLX runtime
+libgles1-mesa                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| free implementation of the OpenGL|ES 1.x API -- runtime
+libgles2-mesa                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| free implementation of the OpenGL|ES 2.x API -- runtime
+libglewmx1.7                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| OpenGL Extension Wrangler (Multiple Rendering Contexts)
+libglw1-mesa                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| free implementation of the OpenGL API -- runtime
+libgphoto2-l10n                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| gphoto2 digital camera library - localized messages
+libgtk2-gladexml-perl            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Perl interface to use user interfaces created with glade-2
+libgtk2-perl                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Perl interface to the 2.x series of the Gimp Toolkit library
+libgtk2-trayicon-perl            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Perl interface to fill the system tray
+libgtk2-traymanager-perl         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Perl interface to fill the system tray
+libgtk2-unique-perl              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| module for single instance applications
+libhtml-format-perl              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| module for transforming HTML into various formats
+libhtml-form-perl                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| module that represents an HTML form element
+libhtml-parser-perl              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| collection of modules that parse HTML text documents
+libhtml-tagset-perl              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Data tables pertaining to HTML
+libhtml-tree-perl                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Perl module to represent and create HTML syntax trees
+libhttp-cookies-perl             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| HTTP cookie jars
+libhttp-daemon-perl              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| simple http server class
+libhttp-date-perl                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| module of date conversion routines
+libhttp-message-perl             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| perl interface to HTTP style messages
+libhttp-negotiate-perl           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| implementation of content negotiation
+libimage-exiftool-perl           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Library and program to read and write meta information in multimedia files
+libio-pty-perl                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Perl module for pseudo tty IO
+libio-socket-inet6-perl          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| object interface for AF_INET6 domain sockets
+libio-socket-ssl-perl            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Perl module implementing object oriented interface to SSL sockets
+libio-string-perl                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Emulate IO::File interface for in-core strings
+liblist-moreutils-perl           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Perl module with additional list functions not found in List::Util
+liblocale-gettext-perl           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| module using libc functions for internationalization in Perl
+liblwp-mediatypes-perl           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| module to guess media type for a file or a URL
+liblwp-protocol-https-perl       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| https driver for LWP::UserAgent
+libmagickcore5-extra             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| low-level image manipulation library - extra codecs
+libmailtools-perl                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Manipulate email in perl programs
+libmono-i18n-west4.0-cil         |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Mono I18N.West library (for CLI 4.0)
+libmx-bin                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| toolkit for the Moblin user experience (utilities)
+libnet-dbus-glib-perl            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| extension for the DBus GLib bindings
+libnet-dbus-perl                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Extension for the DBus bindings
+libnet-http-perl                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| module providing low-level HTTP connection client
+libnet-ssleay-perl               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Perl module for Secure Sockets Layer (SSL)
+libnss-mdns                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| NSS module for Multicast DNS name resolution
+libopengl-perl                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Perl interface providing graphics display using OpenGL
+libosmesa6                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Mesa Off-screen rendering extension
+libpam-ck-connector              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| ConsoleKit PAM module
+libpam-gnome-keyring             |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| PAM module to unlock the GNOME keyring upon login
+libpam-krb5                      |--|--| |---|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| PAM module for MIT Kerberos - !LIVE_DVD ile sorunlu!
+libpthread-stubs0                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| pthread stubs not provided by native libc
+libregexp-assemble-perl          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Assemble multiple Regular Expressions into a single RE
+libreoffice                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite
+libreoffice-base                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- database
+libreoffice-base-core            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- shared library
+libreoffice-calc                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- spreadsheet
+libreoffice-common               |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- arch-independent files
+libreoffice-core                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- arch-dependent files
+libreoffice-draw                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- drawing
+libreoffice-emailmerge           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- email mail merge
+libreoffice-filter-binfilter     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- legacy filters (e.g. StarOffice 5.2)
+libreoffice-filter-mobiledev     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- mobile devices filters
+libreoffice-gnome                |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- GNOME integration
+libreoffice-gtk3                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- GTK+ 3.0 integration
+libreoffice-help-en-us           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- English_american help
+libreoffice-impress              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- presentation
+libreoffice-java-common          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- arch-independent Java support files
+libreoffice-kde                  |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- KDE integration
+libreoffice-math                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- equation editor
+libreoffice-pdfimport            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| LibreOffice extension for importing PDF documents
+libreoffice-report-builder-bin   |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| LibreOffice extension for building database reports -- libraries
+libreoffice-style-galaxy         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- Galaxy (Default) symbol style
+libreoffice-style-oxygen         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- Oxygen symbol style
+libreoffice-style-tango          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- Tango symbol style
+libreoffice-writer               |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- word processor
+libreoffice-zemberek             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Turkish spell checker extension for LibreOffice
+libsasl2-modules                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Cyrus SASL - pluggable authentication modules
+libsub-name-perl                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| module for assigning a new name to referenced sub
+libswitch-perl                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| switch statement for Perl
+libtext-charwidth-perl           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| get display widths of characters on the terminal
+libtext-iconv-perl               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| converts between character sets in Perl
+libtext-wrapi18n-perl            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| internationalized substitute of Text::Wrap
+libtimedate-perl                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| collection of modules to manipulate date/time information
+liburi-perl                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| module to manipulate and access URI strings
+libuuid-perl                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Perl extension for using UUID interfaces as defined in e2fsprogs
+libva-glx1                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Video Acceleration (VA) API for Linux -- GLX runtime
+libva-egl1                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Video Acceleration (VA) API for Linux -- EGL runtime
+libva-tpi1                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Video Acceleration (VA) API for Linux -- TPI runtime
+libwmf-bin                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Windows metafile conversion tools
+libwww-perl                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| simple and consistent interface to the world-wide web
+libwww-robotrules-perl           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| database of robots.txt-derived permissions
+libx11-guitest-perl              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| collection of functions for X11 GUI wheezy/interaction
+libx11-protocol-perl             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Perl module for the X Window System Protocol, version 11
+libxcb1                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding
+libxcb-composite0                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding, composite extension
+libxcb-damage0                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding, damage extension
+libxcb-dpms0                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding, dpms extension
+libxcb-dri2-0                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding, dri2 extension
+libxcb-ewmh2                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| utility libraries for X C Binding -- ewmh
+libxcb-glx0                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding, glx extension
+libxcb-icccm4                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| utility libraries for X C Binding -- icccm
+libxcb-image0                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| utility libraries for X C Binding -- image
+libxcb-keysyms1                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| utility libraries for X C Binding -- keysyms
+libxcb-randr0                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding, randr extension
+libxcb-record0                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding, record extension
+libxcb-render0                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding, render extension
+libxcb-render-util0              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| utility libraries for X C Binding -- render-util
+libxcb-res0                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding, res extension
+libxcb-screensaver0              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding, screensaver extension
+libxcb-shape0                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding, shape extension
+libxcb-shm0                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding, shm extension
+libxcb-sync0                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding, sync extension
+libxcb-util0                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| utility libraries for X C Binding -- atom, aux and event
+libxcb-xevie0                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding, xevie extension
+libxcb-xf86dri0                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding, xf86dri extension
+libxcb-xfixes0                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding, xfixes extension
+libxcb-xinerama0                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding, xinerama extension
+libxcb-xprint0                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding, xprint extension
+libxcb-xtest0                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding, xtest extension
+libxcb-xv0                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding, xv extension
+libxcb-xvmc0                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding, xvmc extension
+libxml-parser-perl               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Perl module for parsing XML files
+linux-base                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Linux image base package
+linux-headers-486                |32|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Header files for Linux 2.6-486 (meta-package)
+linux-headers-686-pae            |32|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Header files for Linux 2.6-686 (meta-package)
+linux-headers-amd64              |--|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Header files for Linux amd64 configuration
+linux-image-486                  |32|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Linux for old PCs (meta-package)
+linux-image-686                  |32|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Linux for modern PCs (meta-package)
+linux-image-amd64                |--|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Linux 3.2 for 64-bit PCs
+linux-libc-dev                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Linux support headers for userspace development
+lirc                             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| infra-red remote control support
+lm-sensors                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| utilities to read temperature/voltage/fan sensors
+locales                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Embedded GNU C Library: National Language (locale) data [support]
+locales-all                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Embedded GNU C Library: Precompiled locale data
+login                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| system login tools
+logrotate                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Log rotation utility
+lsb-base                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Linux Standard Base 3.2 init script functionality
+lsb-release                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Linux Standard Base version reporting utility
+lshw                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| information about hardware configuration
+lsof                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| List open files
+ltrace                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Tracks runtime library calls in dynamically linked programs
+lvm2                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Linux Logical Volume Manager
+lzma                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Compression and decompression in the LZMA format - command line utility
+m4                               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| a macro processing language
+madfuload                        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Firmware loader for M-Audio DFU audio devices
+madwimax                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| user-space driver for mWiMAX equipment based on Samsung CMC-730
+make                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| An utility for Directing compilation.
+makedev                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| creates device files in /dev
+man-db                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| on-line manual pager
+manpages                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Manual pages about using a GNU/Linux system
+mawk                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| a pattern scanning and text processing language
+mdadm                            |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| tool to administer Linux MD arrays (software RAID)
+menu                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| generates programs menu for all menu-aware applications
+menu-l10n                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| generates programs menu for all menu-aware applications
+menu-xdg                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| freedesktop.org menu compliant window manager scripts
+mesa-utils                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Miscellaneous Mesa GL utilities
+metacity                         |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| lightweight GTK+ window manager
+midisport-firmware               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Firmware loader for M-Audio's MidiSport devices
+mime-support                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| MIME files 'mime.types' & 'mailcap', and support programs
+mlocate                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| quickly find files on the filesystem based on their name
+mobile-broadband-provider-info   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| database of mobile broadband service providers
+modemmanager                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| D-Bus service for managing modems
+module-assistant                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| tool to make module package creation easier
+module-init-tools                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| tools for managing Linux kernel modules
+mono-runtime                     |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Mono runtime
+most                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Pager program similar to more and less
+mount                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Tools for mounting and manipulating filesystems
+mousetweaks                      |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| mouse accessibility enhancements for the GNOME desktop
+mpg123                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| MPEG layer 1/2/3 audio player
+mscompress                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Microsoft "compress.exe/expand.exe" compatible (de)compressor
+mtools                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Tools for manipulating MSDOS files
+mtr-tiny                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Full screen ncurses traceroute tool
+multiarch-support                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Transitional package to ensure multiarch compatibility
+mysql-client                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| MySQL database client (metapackage depending on the latest version)
+nautilus-sendto                  |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| integrates Evolution and Pidgin into the Nautilus file manager
+nautilus-share                   |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Nautilus extension to share folder using Samba
+ncpfs                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| utilities to use resources from NetWare servers
+ncurses-base                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| basic terminal type definitions
+ncurses-bin                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| terminal-related programs and man pages
+ncurses-term                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| additional terminal type definitions
+ndisgtk                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| graphical frontend for ndiswrapper (installation of Windows WiFi drivers)
+ndiswrapper-common               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Common scripts required to use the utilities for ndiswrapper
+ndiswrapper-dkms                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Source for the ndiswrapper Linux kernel module (DKMS)
+ndiswrapper-utils-1.9            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Userspace utilities for the ndiswrapper Linux kernel module
+netbase                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Basic TCP/IP networking system
+netcat-openbsd                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| TCP/IP swiss army knife
+netcat-traditional               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| TCP/IP swiss army knife
+netpbm                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Graphics conversion tools between image formats
+net-tools                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| The NET-3 networking toolkit
+network-manager                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| network management framework (daemon and userspace tools)
+network-manager-gnome            |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| network management framework (GNOME frontend)
+network-manager-iodine           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| network management framework (iodine plugin core)
+network-manager-iodine-gnome     |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| network management framework (iodine plugin GNOME GUI)
+network-manager-openconnect      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| network management framework (OpenConnect plugin)
+network-manager-openconnect-gnome|32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| network management framework (OpenConnect plugin GNOME GUI)
+network-manager-openvpn          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| network management framework (OpenVPN plugin core)
+network-manager-openvpn-gnome    |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| network management framework (OpenVPN plugin GNOME GUI)
+network-manager-pptp             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| network management framework (PPTP plugin core)
+network-manager-pptp-gnome       |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| network management framework (PPTP plugin GNOME GUI)
+network-manager-vpnc             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| network management framework (VPNC plugin core)
+network-manager-vpnc-gnome       |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| network management framework (VPNC plugin GNOME GUI)
+nfs-common                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| NFS support files common to client and server
+nfs-kernel-server                |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| support for NFS kernel server
+nmap                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| The Network Mapper
+ntfs-3g                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| read/write NTFS driver for FUSE
+ntp                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Network Time Protocol daemon and utility programs
+ntpdate                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| client for setting system time from NTP servers
+ntrack-module-libnl-0            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| libnl based ntrack module
+nvidia-detect                    |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| NVIDIA GPU detection utility
+obex-data-server                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| D-Bus service for OBEX client and server side functionality
+obexd-client                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| D-Bus OBEX client
+odbcinst1debian2                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Support library for accessing odbc ini files
+odbcinst                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Helper program for accessing odbc ini files
+okular                           |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| universal document viewer
+okular-extra-backends            |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| additional document format support for Okular
+openprinting-ppds                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| OpenPrinting printer support - PostScript PPD files
+openssh-blacklist                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| list of default blacklisted OpenSSH RSA and DSA keys
+openssh-blacklist-extra          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| list of non-default blacklisted OpenSSH RSA and DSA keys
+openssh-client                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| secure shell (SSH) client, for secure access to remote machines
+openssh-server                   |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| secure shell (SSH) server, for secure access from remote machines
+openssl                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Secure Socket Layer (SSL) binary and related cryptographic tools
+openvpn                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| virtual private network daemon
+orage                            |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Calendar for Xfce Desktop Environment
+os-prober                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| utility to detect other OSes on a set of drives
+oss-compat                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Open Sound System (OSS) compatibility package
+oxygen-icon-theme                |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Oxygen icon theme
+p7zip                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| 7z file archiver with high compression ratio
+p7zip-full                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| 7z and 7za file archivers with high compression ratio
+p7zip-rar                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| non-free rar module for p7zip
+pango-graphite                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| SILGraphite support for pango
+parted                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| disk partition manipulator
+partitionmanager                 |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| A partition management utility
+passwd                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| change and administer password and group data
+patch                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Apply a diff file to an original
+pavucontrol                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| PulseAudio Volume Control
+pciutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Linux PCI Utilities
+pcmciautils                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| PCMCIA utilities for Linux 2.6
+perl                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Larry Wall's Practical Extraction and Report Language
+perl-base                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| minimal Perl system
+perl-modules                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Core Perl modules
+pgadmin3                         |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| graphical administration tool for PostgreSQL
+phonon                           |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| multimedia framework from KDE - metapackage
+phonon-backend-gstreamer         |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Phonon GStreamer 0.10.x backend
+php5                             |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| server-side, HTML-embedded scripting language (metapackage)
+php5-cgi                         |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| server-side, HTML-embedded scripting language (CGI binary)
+php5-cli                         |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| command-line interpreter for the php5 scripting language
+php5-gd                          |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| GD module for php5
+php5-geoip                       |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| GeoIP module for php5
+php5-pgsql                       |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| PostgreSQL module for php5
+php-pear                         |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| PEAR - PHP Extension and Application Repository
+phppgadmin                       |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| web-based administration tool for PostgreSQL
+pidgin                           |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Bireysel| |wheezy|sid| graphical multi-protocol instant messaging client for X
+pidgin-plugin-pack               |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Bireysel| |wheezy|sid| Collection of Pidgin plugins
+pidgin-sipe                      |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Bireysel| |wheezy|sid| Pidgin protocol plugin to connect to MS Office Communicator
+pidgin-skype                     |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Bireysel| |wheezy|sid| Skype plugin for libpurple messengers
+pidgin-twitter                   |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Bireysel| |wheezy|sid| Pidgin plugin for Twitter
+pidgin-lastfm                    |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Bireysel| |wheezy|sid| Last.fm plugin for Pidgin
+pidgin-musictracker              |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Bireysel| |wheezy|sid| Plugin for Pidgin which displays the current music track in your status
+pinentry-curses                  |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| curses-based PIN or pass-phrase entry dialog for GnuPG
+pinentry-qt4                     |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Qt-4-based PIN or pass-phrase entry dialog for GnuPG
+pkg-config                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| manage compile and link flags for libraries
+plasma-containments-addons       |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| additional containment plugins for Plasma
+plasma-dataengines-addons        |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| additional data engines for Plasma
+plasma-dataengines-workspace     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| KDE Plasma data engines
+plasma-desktop                   |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| KDE Plasma workspace for desktop and laptop computers
+plasma-desktopthemes-artwork     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| desktop themes for KDE Plasma Workspaces
+plasma-netbook                   |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| KDE Plasma workspace for netbook computers
+plasma-runners-addons            |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| additional runners for Plasma and Krunner
+plasma-scriptengine-javascript   |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| JavaScript script engine for Plasma
+plasma-scriptengine-python       |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python script engine for Plasma
+plasma-scriptengine-ruby         |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Ruby script engine for Plasma
+plasma-scriptengines             |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| metapackage to install all Plasma script engines
+plasma-scriptengine-superkaramba |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| SuperKaramba theme support for the Plasma Workspaces
+plasma-scriptengine-webkit       |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Web and Mac OS X dashboard widget support for Plasma
+plasma-wallpapers-addons         |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| additional wallpaper plugins for Plasma
+plasma-widget-folderview         |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| plasma widget showing the content of a folder
+plasma-widget-lancelot           |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| lancelot widget for Plasma
+plasma-widget-networkmanagement  |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Network Management widget for KDE Plasma workspaces
+plasma-widgets-addons            |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| additional widgets for Plasma
+plasma-widgets-workspace         |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| plasma widgets and containments for the KDE Plasma Workspace
+playonlinux                      |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Bireysel| |wheezy|sid| This program is a front-end for wine.
+plymouth                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Graphical Boot Animation and Logger
+plymouth-drm                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Graphical Boot Animation and Logger
+plymouth-x11                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Graphical Boot Animation and Logger
+pm-utils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| utilities and scripts for power management
+po-debconf                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| tool for managing templates file translations with gettext
+policykit-1                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| framework for managing administrative policies and privileges
+policykit-1-gnome                |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME authentication agent for PolicyKit-1
+polkit-kde-1                     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| KDE dialogs for PolicyKit
+poppler-data                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Encoding data for the poppler PDF rendering library
+poppler-utils                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| PDF utilities (based on Poppler)
+postfix                          |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| High-performance mail transport agent
+postfix-cluebringer              |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| anti-spam plugin for Postfix
+postfix-cluebringer-webui        |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| anti-spam plugin for Postfix
+postfix-ldap                     |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| LDAP map support for Postfix
+postfix-pgsql                    |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| PostgreSQL map support for Postfix
+postgresql                       |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| object-relational SQL database (supported version)
+postgresql-client                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| front-end programs for PostgreSQL
+powermgmt-base                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Common utils and configs for power management
+ppp                              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Point-to-Point Protocol (PPP) - daemon
+pppconfig                        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| A text menu based utility for configuring ppp
+pppoe                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| PPP over Ethernet driver
+pptp-linux                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Point-to-Point Tunneling Protocol (PPTP) Client
+preload                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| adaptive readahead daemon
+printer-applet                   |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| manages your printing jobs
+printer-driver-all               |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| printer drivers metapackage
+printer-driver-c2050             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| printer driver for Lexmark 2050 Color Jetprinter
+printer-driver-c2esp             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| printer driver for Kodak ESP AiO color inkjet Series
+printer-driver-cjet              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| printer driver for Canon LBP laser printers
+printer-driver-escpr             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| printer driver for Epson Inkjet that use ESC/P-R
+printer-driver-foo2zjs           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| printer driver for ZjStream-based printers
+printer-driver-gutenprint        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| printer drivers for CUPS
+printer-driver-hpcups            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| HP Linux Printing and Imaging - CUPS Raster driver (hpcups)
+printer-driver-hpijs             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| HP Linux Printing and Imaging - gs IJS driver (hpijs)
+printer-driver-m2300w            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| printer driver for Minolta magicolor 2300W/2400W color laser printers
+printer-driver-min12xxw          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| printer driver for KonicaMinolta PagePro 1[234]xxW
+printer-driver-pnm2ppa           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| printer driver for HP-GDI printers
+printer-driver-postscript-hp     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| HP Printers PostScript Descriptions
+printer-driver-ptouch            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| printer driver Brother P-touch label printers
+printer-driver-pxljr             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| printer driver for HP Color LaserJet 35xx/36xx
+printer-driver-sag-gdi           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| printer driver for Ricoh Aficio SP 1000s/SP 1100s
+printer-driver-splix             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Driver for Samsung and Xerox SPL2 and SPLc laser printers
+prism2-usb-firmware-installer    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| firmware files for the prism2_usb kernel driver
+procmail                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Versatile e-mail processor
+procps                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| /proc file system utilities
+psmisc                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| utilities that use the proc file system
+pulseaudio                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| PulseAudio sound server
+pulseaudio-esound-compat         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| PulseAudio ESD compatibility layer
+pulseaudio-module-bluetooth      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Bluetooth module for PulseAudio sound server
+pulseaudio-module-gconf          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GConf module for PulseAudio sound server
+pulseaudio-module-jack           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| jackd modules for PulseAudio sound server
+pulseaudio-module-lirc           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| lirc module for PulseAudio sound server
+pulseaudio-module-x11            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X11 module for PulseAudio sound server
+pulseaudio-module-zeroconf       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Zeroconf module for PulseAudio sound server
+pulseaudio-utils                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Command line tools for the PulseAudio sound server
+python2.6                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| An interactive high-level object-oriented language (version 2.6)
+python2.6-minimal                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| A minimal subset of the Python language (version 2.6)
+python2.7                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| An interactive high-level object-oriented language (version 2.7)
+python2.7-minimal                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| A minimal subset of the Python language (version 2.7)
+python                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| interactive high-level object-oriented language (default version)
+python3                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| interactive high-level object-oriented language (default python3 version)
+python-apt                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python interface to libapt-pkg
+python-apt-common                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python interface to libapt-pkg (locales)
+python-argparse                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| optparse-inspired command-line parsing library
+python-cairo                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python bindings for the Cairo vector graphics library
+python-central                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| register and build utility for Python packages
+python-chardet                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| universal character encoding detector
+python-crypto                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| cryptographic algorithms and protocols for Python
+python-cups                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python bindings for CUPS
+python-cupshelpers               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python utility modules around the CUPS printing system
+python-dbus                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| simple interprocess messaging system (Python interface)
+python-debian                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python modules to work with Debian-related data formats
+python-debianbts                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python interface to Debian's Bug Tracking System
+python-defer                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Small framework for asynchronous programming
+python-fpconst                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Utilities for handling IEEE 754 floating point special values
+python-gconf                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python bindings for the GConf configuration database system
+python-gdbm                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU dbm database support for Python
+python-geoip                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python bindings for the GeoIP IP-to-country resolver library
+python-gi                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python 2.x bindings for gobject-introspection libraries
+python-gi-cairo                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python Cairo bindings for the GObject library
+python-glade2                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GTK+ bindings: Glade support
+python-gnome2                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python bindings for the GNOME desktop environment
+python-gnupginterface            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python interface to GnuPG (GPG)
+python-gobject-2                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| deprecated static Python bindings for the GObject library
+python-gobject                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python 2.x bindings for GObject - transitional package
+python-gpgme                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| python wrapper for the GPGME library
+python-httplib2                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| comprehensive HTTP client library written for Python
+python-imaging                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python Imaging Library
+python-kde4                      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python bindings for the KDE Development Platform
+python-keyring                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| store and access your passwords safely
+python-launchpadlib              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Launchpad web services client library
+python-lazr.restfulclient        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| client for lazr.restful-based web services
+python-lazr.uri                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| library for parsing, manipulating, and generating URIs
+python-libxml2                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python bindings for the GNOME XML library
+python-minimal                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| minimal subset of the Python language (default version)
+python-notify                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python bindings for libnotify
+python-numpy                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Numerical Python adds a fast array facility to the Python language
+python-oauth                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python library implementing of the OAuth protocol
+python-omniorb                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python bindings for omniORB
+python-omniorb-omg               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| CORBA OMG standard files for python-omniorb
+python-paramiko                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Make ssh v2 connections with Python
+python-parted                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python interface for libparted
+python-pexpect                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python module for automating interactive applications
+python-pkg-resources             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Package Discovery and Resource Access using pkg_resources
+python-pycurl                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python bindings to libcurl
+python-pyexiv2                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python binding to Exiv2
+python-pyicu                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python extension wrapping the ICU C++ API
+python-pyinotify                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| simple Linux inotify Python bindings
+python-pyorbit                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| A Python language binding for the ORBit2 CORBA implementation
+python-pyudev                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python bindings for libudev
+python-qt4                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python bindings for Qt4
+python-qt4-dbus                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| DBus Support for PyQt4
+python-renderpm                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| python low level render interface
+python-reportlab                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| ReportLab library to create PDF documents using Python
+python-reportlab-accel           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| C coded extension accelerator for the ReportLab Toolkit
+python-rsvg                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python bindings for the RSVG library
+python-simplejson                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| simple, fast, extensible JSON encoder/decoder for Python
+python-sip                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python/C++ bindings generator runtime library
+python-smbc                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python bindings for the Samba client library
+python-soappy                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| SOAP Support for Python
+python-support                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| automated rebuilding support for Python modules
+python-twisted                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Event-based framework for internet applications (dependency package)
+python-uno                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python-UNO bridge
+python-urlgrabber                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| A high-level cross-protocol url-grabber
+python-vte                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python bindings for the VTE widget set
+python-wadllib                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python library for navigating WADL files
+python-webkit                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| WebKit/Gtk Python bindings
+python-xapian                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Xapian search engine interface for Python
+python-xcbgen                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding - protocol binding generator
+python-xdg                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python library to access freedesktop.org standards
+python-xlib                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Interface for Python to the X11 Protocol
+python-xpyb                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Python bindings to XCB
+python-zope.interface            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Interfaces for Python
+qbittorrent                      |32|64| |KDE|-----|----| |------|-----|--------|Bireysel| |wheezy|sid| bittorrent client based on libtorrent-rasterbar with a Qt4 GUI
+qdbus                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Qt 4 D-Bus tool
+qtcurve                          |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Unified window decoration for KDE and GTK+ (meta-package)
+qtcurve-i18n                     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Translation files for QtCurve
+quassel                          |32|64| |KDE|-----|----| |------|-----|--------|Bireysel| |wheezy|sid| distributed IRC client - Qt-based monolithic core+client
+quassel-data                     |32|64| |KDE|-----|----| |------|-----|--------|Bireysel| |wheezy|sid| distributed IRC client - shared data (Qt version)
+radvd                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Router Advertisement Daemon
+rar                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Archiver for .rar files
+rarian-compat                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Documentation meta-data library (compatibility tools)
+rdate                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| sets the system's date from a remote host
+readahead-fedora                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Fedora's implementation of readahead to preload boot process files
+readline-common                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU readline and history libraries, common files
+reiser4progs                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| administration utilities for the Reiser4 filesystem
+reiserfsprogs                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| User-level tools for ReiserFS filesystems
+rfkill                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| tool for enabling and disabling wireless devices
+rhythmbox                        |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| music player and organizer for GNOME
+rhythmbox-plugin-cdrecorder      |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| burning plugin for rhythmbox music player
+rhythmbox-plugins                |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| plugins for rhythmbox music player
+rpcbind                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| converts RPC program numbers into universal addresses
+rpm2cpio                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| tool to convert RPM package to CPIO archive
+rpm                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| package manager for RPM
+rpm-common                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| common files for RPM
+rsync                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| fast, versatile, remote (and local) file-copying tool
+zsync                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| client-side implementation of the rsync algorithm
+rtkit                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Realtime Policy and Watchdog Daemon
+ruby-kde4                        |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| KDE bindings for the Ruby language
+ruby-plasma                      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Plasma Ruby bindings
+ruby-qt4                         |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Qt 4 bindings for the Ruby language
+ruby-qt4-webkit                  |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| QtWebKit bindings for the Ruby language
+runit                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| system-wide service supervision
+samba                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| SMB/CIFS file, print, and login server for Unix
+samba-common                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| common files used by both the Samba server and client
+samba-common-bin                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| common files used by both the Samba server and client
+sane-utils                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| API library for scanners -- utilities
+scdaemon                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU privacy guard - password agent
+scribus                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Open Source Desktop Page Layout - squeeze branch
+seahorse                         |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNOME front end for GnuPG
+sed                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| The GNU sed stream editor
+sensible-utils                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Utilities for sensible alternative selection
+setserial                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| controls configuration of serial ports
+sgml-base                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| SGML infrastructure and SGML catalog file support
+sgml-data                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| common SGML and XML data
+shared-desktop-ontologies        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| shared ontologies for semantic searching
+shared-mime-info                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| FreeDesktop.org shared MIME database and spec
+smb4k                            |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Samba (SMB) share advanced browser for KDE
+smbclient                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| command-line SMB/CIFS clients for Unix
+smbldap-tools                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Scripts to manage Unix and Samba accounts stored on LDAP
+soprano-daemon                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| daemon for the Soprano RDF framework
+sound-theme-freedesktop          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| freedesktop.org sound theme
+sox                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Swiss army knife of sound processing
+speech-dispatcher                |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Common interface to speech synthesizers
+squirrelmail                     |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| Webmail for nuts
+ssl-cert                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| simple debconf wrapper for OpenSSL
+strace                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| A system call tracer
+subversion                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Advanced version control system
+sudo                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Provide limited super user privileges to specific users
+sux                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| wrapper around su which will transfer your X credentials
+synaptic                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Graphical package manager
+syslog-ng                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Next generation system logging daemon (metapackage)
+sysstat                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| system performance tools for Linux
+system-config-printer            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| graphical interface to configure the printing system
+system-config-printer-udev       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Utilities to detect and configure printers automatically
+systemsettings                   |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| KDE System Settings
+system-tools-backends            |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| System Tools to manage computer configuration -- scripts
+sysvinit                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| System-V-like init utilities
+sysvinit-utils                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| System-V-like utilities
+t1-xfree86-nonfree               |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| non-free Postscript Type 1 fonts from XFree86
+tar                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| GNU version of the tar archiving utility
+tcl                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| The Tool Command Language (default version) - run-time files
+tcl8.5                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Tcl (the Tool Command Language) v8.5 - run-time files
+tcpd                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Wietse Venema's TCP wrapper utilities
+tcpdump                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| command-line network traffic analyzer
+telnet                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| The telnet client
+testdisk                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Partition scanner and disk recovery tool
+time                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| The GNU time program for measuring cpu resource usage
+tk                               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| The Tk toolkit for Tcl and X11 (default version) - run-time files
+tk8.5                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Tk toolkit for Tcl and X11, v8.5 - run-time files
+toshset                          |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Bireysel| |wheezy|sid| Access much of the Toshiba laptop hardware interface
+tp-smapi-dkms                    |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| ThinkPad hardware/firmware access modules source - dkms version
+traceroute                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Traces the route taken by packets over an IPv4/IPv6 network
+tree                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| displays directory tree, in color
+tsconf                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| touch screen library common files
+ttf-dejavu                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Metapackage to pull in ttf-dejavu-core and ttf-dejavu-extra
+ttf-dejavu-core                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Vera font family derivate with additional characters
+ttf-dejavu-extra                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Vera font family derivate with additional characters
+ttf-freefont                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Freefont Serif, Sans and Mono Truetype fonts
+ttf-mscorefonts-installer        |32|64| |KDE|GNOME|XFCE| |------|Fatih|--------|--------| |wheezy|sid| Installer for Microsoft TrueType core fonts
+ttf-xfree86-nonfree              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| non-free TrueType fonts from XFree86
+tzdata                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| time zone and daylight-saving time data
+tzdata-java                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| time zone and daylight-saving time data for use by java runtimes
+ucf                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Update Configuration File: preserve user changes to config files.
+udev                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| /dev/ and hotplug management daemon
+udisks                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| storage media interface
+ufraw                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| standalone importer for raw camera images
+ufraw-batch                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| batch importer for raw camera images
+ufw                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| program for managing a Netfilter firewall
+unattended-upgrades              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| automatic installation of security upgrades
+unionfs-fuse                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Fuse implementation of unionfs
+unixodbc                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Basic ODBC tools
+unoconv                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| converter between LibreOffice document formats
+uno-libs3                        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| LibreOffice UNO runtime environment -- public shared libraries
+unrar                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Unarchiver for .rar files (non-free version)
+unshield                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| extracts CAB files from InstallShield installers
+unzip                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| De-archiver for .zip files
+upower                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| abstraction for power management
+usb-modeswitch                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| mode switching tool for controlling "flip flop" USB devices
+usb-modeswitch-data              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| mode switching data for usb-modeswitch
+usbmuxd                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| USB multiplexor daemon for iPhone and iPod Touch devices
+usbutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Linux USB utilities
+user-setup                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Set up initial user and password
+util-linux                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Miscellaneous system utilities
+util-linux-locales               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Locales files for util-linux
+uuid-runtime                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| runtime components for the Universally Unique ID library
+uvcdynctrl                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Command line tool to control v4l2 devices
+v4l2loopback-dkms                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Source for the v4l2loopback driver (DKMS)
+v4l2loopback-utils               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Commandline utilities for the for the v4l2-loopback module
+v4l2ucp                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Video for Linux 2 Universal Control Panel
+v4l-conf                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| tool to configure video4linux drivers
+v4l-utils                        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Collection of command line video4linux utilities
+vainfo                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Video Acceleration (VA) API for Linux -- info program
+vbetool                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| run real-mode video BIOS code to alter hardware state
+vcdimager                        |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|Kurumsal|Bireysel| |wheezy|sid| VideoCD (VCD) image mastering and ripping tool
+vim                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Vi IMproved - enhanced vi editor
+vim-common                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Vi IMproved - Common files
+vim-runtime                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Vi IMproved - Runtime files
+vim-tiny                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Vi IMproved - enhanced vi editor - compact version
+vino                             |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| VNC server for GNOME
+vlc                              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| multimedia player and streamer
+vlc-data                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Common data for VLC
+vlc-plugin-jack                  |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Jack audio plugins for VLC
+vlc-plugin-notify                |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| LibNotify plugin for VLC
+vlc-plugin-pulse                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| PulseAudio plugin for VLC
+vlc-plugin-sdl                   |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| SDL video and audio output plugin for VLC
+vlc-plugin-svg                   |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| SVG plugin for VLC
+vlc-plugin-zvbi                  |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| VBI teletext plugin for VLC
+vpnc                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Cisco-compatible VPN client
+vsftpd                           |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| lightweight, efficient FTP server written for security
+w32codecs                        |32|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| win64 binary codecs
+w64codecs                        |--|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| win64 binary codecs
+wamerican                        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| American English dictionary words for /usr/share/dict
+wget                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| retrieves files from the web
+whiptail                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Displays user-friendly dialog boxes from shell scripts
+whois                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| intelligent WHOIS client
+wine                             |32|--| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Windows API implementation - standard suite
+wine-bin                         |32|--| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Windows API implementation - standard suite
+libwine-alsa                     |32|--| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Windows API implementation - standard suite
+libwine-capi                     |32|--| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Windows API implementation - standard suite
+libwine-cms                      |32|--| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Windows API implementation - standard suite
+libwine-gl                       |32|--| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Windows API implementation - standard suite
+libwine-gphoto2                  |32|--| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Windows API implementation - standard suite
+libwine-openal                   |32|--| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Windows API implementation - standard suite
+libwine-oss                      |32|--| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Windows API implementation - standard suite
+libwine-print                    |32|--| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Windows API implementation - standard suite
+libwine-sane                     |32|--| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| Windows API implementation - standard suite
+winetricks                       |32|--| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| package manager for WINE to install software easily
+wireless-regdb                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| wireless regulatory database
+wireless-tools                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Tools for manipulating Linux Wireless Extensions
+wodim                            |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|Kurumsal|Bireysel| |wheezy|sid| command line CD/DVD writing tool
+wpasupplicant                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| client support for WPA and WPA2 (IEEE 802.11i)
+wvdial                           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| intelligent Point-to-Point Protocol dialer
+wwwconfig-common                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Debian web auto configuration
+x11-apps                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X applications
+x11-common                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X Window System (X.Org) infrastructure
+x11-session-utils                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X session utilities
+x11-utils                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X11 utilities
+x11-xfs-utils                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X font server utilities
+x11-xkb-utils                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X11 XKB utilities
+x11-xserver-utils                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X server utilities
+xauth                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X authentication utility
+xbitmaps                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Base X bitmaps
+xcb                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Pigeon holes for your cut and paste selections
+xcb-proto                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X C Binding - protocol descriptions
+xclip                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| command line interface to X selections
+xcompmgr                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X composition manager
+xcursor-themes                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Base X cursor themes
+xdg-user-dirs                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| tool to manage well known user directories
+xdg-utils                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| desktop integration utilities from freedesktop.org
+xfce4-goodies                    |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| enhancements for the Xfce4 Desktop Environment
+xfce4-mixer                      |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Xfce mixer application
+xfce4-power-manager              |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| power manager for Xfce desktop
+xfce4-session                    |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Xfce4 Session Manager
+xfce4-settings                   |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| graphical application for managing Xfce settings
+xfce4-utils                      |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Various tools for Xfce
+xfdesktop4                       |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| xfce desktop background, icons and root menu manager
+xfonts-100dpi                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| 100 dpi fonts for X
+xfonts-75dpi                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| 75 dpi fonts for X
+xfonts-base                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| standard fonts for X
+xfonts-encodings                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Encodings for X.Org fonts
+xfonts-mathml                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Type1 Symbol font for MathML
+xfonts-scalable                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| scalable fonts for X
+xfonts-terminus                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Fixed-width fonts for fast reading
+xfonts-utils                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X Window System font utility programs
+xfsprogs                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Utilities for managing the XFS filesystem
+xfwm4                            |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| window manager of the Xfce project
+xinit                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X server initialisation tool
+xinput                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Runtime configuration and test of XInput devices
+xkb-data                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X Keyboard Extension (XKB) configuration data
+xml-core                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| XML infrastructure and XML catalog file support
+xorg                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X Window System
+xorriso                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| command line ISO 9660 and Rock Ridge manipulation tool
+xsane                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| featureful graphical frontend for SANE (Scanner Access Now Easy)
+xserver-common                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| common files used by various X servers
+xserver-xorg-core                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Xorg X server - core server
+xserver-xorg-input-acecad        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- AceCad input driver
+xserver-xorg-input-aiptek        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- Aiptek input driver
+xserver-xorg-input-elographics   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- ELOGraphics input driver
+xserver-xorg-input-evdev         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- evdev input driver
+xserver-xorg-input-joystick      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- joystick input driver
+xserver-xorg-input-kbd           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- keyboard input driver
+xserver-xorg-input-mouse         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- mouse input driver
+xserver-xorg-input-multitouch    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Multitouch X input driver
+xserver-xorg-input-mutouch       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Multitouch X input driver
+xserver-xorg-input-synaptics     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Synaptics TouchPad driver for X.Org server
+xserver-xorg-input-vmmouse       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- VMMouse input driver to use with VMWare
+xserver-xorg-input-wacom         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- Wacom input driver
+xserver-xorg-video-apm           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- APM display driver
+xserver-xorg-video-ark           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- ark display driver
+xserver-xorg-video-ati           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- AMD/ATI display driver wrapper
+xserver-xorg-video-chips         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- Chips display driver
+xserver-xorg-video-cirrus        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- Cirrus display driver
+xserver-xorg-video-fbdev         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- fbdev display driver
+xserver-xorg-video-glamo         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- SMedia Glamo display driver
+xserver-xorg-video-glide         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- Glide display driver
+xserver-xorg-video-glint         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- Glint display driver
+xserver-xorg-video-i128          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- i128 display driver
+xserver-xorg-video-i740          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- i740 display driver
+xserver-xorg-video-intel         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- Intel i8xx, i9xx display driver
+xserver-xorg-video-ivtv          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- IVTV display driver
+xserver-xorg-video-mach64        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- ATI Mach64 display driver
+xserver-xorg-video-mga           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- MGA display driver
+xserver-xorg-video-neomagic      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- Neomagic display driver
+xserver-xorg-video-nouveau       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- Nouveau display driver
+xserver-xorg-video-openchrome    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- VIA display driver
+xserver-xorg-video-qxl           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- QXL display driver
+xserver-xorg-video-r128          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- ATI r128 display driver
+xserver-xorg-video-radeon        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- AMD/ATI Radeon display driver
+xserver-xorg-video-rendition     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- Rendition display driver
+xserver-xorg-video-s3            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- legacy S3 display driver
+xserver-xorg-video-s3virge       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- S3 ViRGE display driver
+xserver-xorg-video-savage        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- Savage display driver
+xserver-xorg-video-siliconmotion |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- SiliconMotion display driver
+xserver-xorg-video-sis           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- SiS display driver
+xserver-xorg-video-sisusb        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- SiS USB display driver
+xserver-xorg-video-tdfx          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- tdfx display driver
+xserver-xorg-video-tga           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- TGA display driver
+xserver-xorg-video-trident       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- Trident display driver
+xserver-xorg-video-tseng         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- Tseng display driver
+xserver-xorg-video-vesa          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- VESA display driver
+xserver-xorg-video-vmware        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- VMware display driver
+xserver-xorg-video-voodoo        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X.Org X server -- Voodoo display driver
+xterm                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| X terminal emulator
+xz-utils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| XZ-format compression utilities
+yelp                             |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Help browser for GNOME
+zd1211-firmware                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Firmware images for the zd1211rw wireless driver
+zenity                           |32|64| |KDE|GNOME|RXFCE |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Display graphical dialog boxes from shell scripts
+zip                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Archiver for .zip files

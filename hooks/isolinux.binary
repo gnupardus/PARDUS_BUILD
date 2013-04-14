@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+echo "REPLACING ISOLINUX"
+
+cp -r -f binary/isolinux ORJ.isolinux
+cp -r -f isolinux/* binary/isolinux/
+
+echo "DONE"

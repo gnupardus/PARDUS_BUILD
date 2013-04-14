@@ -1,0 +1,8 @@
+console-data console-data/keymap/policy select Select keymap from full list
+console-data console-data/keymap/full select trqu
+console-setup console-setup/fontface47 select GohaClassic
+keyboard-configuration keyboard-configuration/model select Soysal 105 tuşlu (uluslararası) PC
+keyboard-configuration keyboard-configuration/variant select Türkçe Q Klavye
+keyboard-configuration keyboard-configuration/layout select qwerty
+keyboard-configuration keyboard-configuration/layoutcode string tr
+keyboard-configuration keyboard-configuration/xkb-keymap select tr

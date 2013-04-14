@@ -1,0 +1,18 @@
+firmware-ivtv firmware-ivtv/license/accepted boolean true
+firmware-ipw2x00 firmware-ipw2x00/license/accepted boolean true
+sun-java6-bin shared/accepted-sun-dlj-v1-1 boolean true 
+sun-java6-jre shared/accepted-sun-dlj-v1-1 boolean true 
+microcode.ctl microcode.ctl/check-new boolean true
+vdr vdr/create_video_dir boolean true 
+vdr vdr/select_dvb_card string Satellite
+
+console-data console-data/keymap/policy select Select keymap from full list
+console-data console-data/keymap/full select trfu
+console-setup console-setup/fontface47 select Terminus
+
+keyboard-configuration keyboard-configuration/xkb-keymap select tr(f)
+keyboard-configuration keyboard-configuration/model select Generic 105-key (Intl) PC
+keyboard-configuration keyboard-configuration/variant select Türkçe Q Klavye - Türkçe F Klavye
+keyboard-configuration keyboard-configuration/variantcode string f
+keyboard-configuration keyboard-configuration/layout select qwerty
+keyboard-configuration keyboard-configuration/layoutcode string tr

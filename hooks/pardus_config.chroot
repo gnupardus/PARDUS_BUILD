@@ -1,0 +1,193 @@
+#!/bin/bash
+set -e
+
+echo "PARDUS_CONFIG BASLADI"
+
+PARDUS_DAGITIM=`cat /opt/PARDUS/pardus_dagitim.txt`
+PARDUS_ARCH=`cat /opt/PARDUS/pardus_arch.txt`
+PARDUS_LANG=`cat /opt/PARDUS/pardus_lang.txt`
+
+
+# MESA ' yi default OpenGL motoru yapalim
+
+update-alternatives --set glx /usr/lib/mesa-diverted
+
+# software-center ' in dizini acilmiyor , elle acalim
+
+mkdir -p /var/cache/software-center/xapian
+
+############# # apt-file icin cache olusturulmali
+############# 
+############# apt-file update
+
+#
+# update-initramfs ayarlarini yapalim
+#
+
+sed -i "s/update_initramfs=yes/update_initramfs=all/" /etc/initramfs-tools/update-initramfs.conf
+
+#
+# Consol klavye ayarlarini yapalim
+#
+
+sed -i "s/KEYMAP=n/KEYMAP=y/" /etc/initramfs-tools/initramfs.conf
+
+#
+# timezone ve grub ayarlarini yapalim
+#
+
+if [ "$PARDUS_LANG" = "tr" ]; then
+    PARDUS_TIMEZONE="Europe/Istanbul"
+    echo $PARDUS_TIMEZONE > /etc/timezone
+    cp -f /usr/share/zoneinfo/$PARDUS_TIMEZONE /etc/localtime
+else
+    sed -i "s/(Guvenli Mod)/(Safe Mode)/" /etc/grub.d/10_linux
+fi
+
+###### TTY'larin login olmasini kapatalim
+###### cd /lib/live/config
+###### sed -i "s/sed.*inittab/# &/" 0170-sysvinit
+###### cd -
+###### sed -i "s/1:2345:respawn/1:23:respawn/" etc/inittab
+
+###### lsb-release / pardus-release / pardus_version
+cp -f /opt/PARDUS/files/lsb-release /etc/lsb-release
+cp -f /opt/PARDUS/files/lsb-release /etc/pardus-release
+
+cp -f /opt/PARDUS/files/pardus_version /etc/
+
+
+
+PARDUS_DAGITIM=`cat /opt/PARDUS/pardus_dagitim.txt`
+
+###### Sunucuda boot text ve detayli olsun
+if [ "$PARDUS_DAGITIM" == "Sunucu" ]
+then
+    sed -i "s| splash quiet||" /etc/default/grub
+    sed -i "s|GRUB_DISABLE_RECOVERY=.*|#GRUB_DISABLE_RECOVERY=\"true\"|" /etc/default/grub
+else
+    ############### hp-plugin -i             # HP Firmware ' lerini indirelim 1000,1005,vs
+    if [ "$PARDUS_ARCH" == "64" ]
+    then
+         # sources.list ' i Multiarch hale getirelim
+         sed -i 's/deb\ /deb\ [arch=amd64,i386]\ /g' /opt/PARDUS/files/sources.list
+         cp -f /opt/PARDUS/files/sources.list_wine /etc/apt/sources.list
+     
+         # Multiarch ile 32Bit wine kurulacak
+         dpkg --add-architecture i386
+         apt-get update
+         apt-get -y install winetricks    wine-bin:i386 libwine-alsa:i386 libwine-capi:i386 libwine-cms:i386 libwine-gl:i386 libwine-gphoto2:i386 \
+                                          libwine-openal:i386 libwine-oss:i386 libwine-print:i386 libwine-sane:i386 libc6-i686:i386 libgl1-mesa-dri:i386 \
+                                          libvdpau1:i386 libfglrx-amdxvba1:i386 libfglrx:i386 libgl1-fglrx-glx:i386 nvidia-vdpau-driver:i386 \
+                                          ia32-libs ia32-libs-gtk libwine-bin:i386 libwine:i386 ia32-libs-i386:i386 ia32-libs-gtk-i386:i386 \
+                                          libgl1-nvidia-glx:i386
+    fi
+fi
+
+if [ "$PARDUS_DAGITIM" == "Bireysel" ]
+then
+    apt-get -y --force-yes install teamviewer skype:i386
+fi
+
+
+###### gtk-record-mydesktop duzeltiliyor
+if [ -e /usr/share/applications/gtk-recordmydesktop.desktop ]
+then
+    sed -i "s/^Exec=gtk-.*/Exec=gtk-recordmydesktop --device oss -o MASAUSTU_KAYDI.ogv/" /usr/share/applications/gtk-recordmydesktop.desktop
+fi
+
+###### CFEngine ayarlaniyor
+if [ "$PARDUS_DAGITIM" == "Fatih" ]
+then
+    /var/cfengine/bin/cf-agent --bootstrap --policy-server 193.140.100.83
+    /etc/init.d/cfengine3 stop
+    mv -f /usr/share/applications/kde4/hitachi-starboard.desktop /usr/share/applications/hitachi-starboard.desktop
+fi
+
+###### issue
+if [ -e /etc/issue ]
+then
+    cp /etc/issue /opt/PARDUS/files/issue.ORJ
+fi
+cp -f /opt/PARDUS/files/issue            /etc/issue
+
+###### issue.net
+if [ -e /etc/issue.net ]
+then
+    cp /etc/issue.net /opt/PARDUS/files/issue.net.ORJ
+fi
+cp -f /opt/PARDUS/files/issue.net            /etc/issue.net
+
+
+###### inputrc 
+if [ -e /etc/inputrc ]
+then
+    cp /etc/inputrc                     /opt/PARDUS/files/inputrc.ORJ
+fi
+cp -f /opt/PARDUS/files/inputrc         /etc/inputrc
+
+
+
+
+##### Eger yukluyse KDE ayarlarini yapalim
+
+if [  -d /usr/share/kde4/servicetypes ]
+then
+     /opt/PARDUS/files/pardus_config_kde.sh
+fi
+
+
+
+##### Eger yukluyse GNOME ayarlarini yapalim
+
+if [ -d /usr/share/gnome-panel ]
+then
+     /opt/PARDUS/files/pardus_config_gnome.sh
+fi
+
+
+
+##### Pardus Plymouth Theme
+
+if [ -e /etc/plymouth/plymouthd.conf ]
+then
+    echo "Plymouth AYARLANIYOR"
+    # echo FRAMEBUFFER=y > /etc/initramfs-tools/conf.d/splash
+    plymouth-set-default-theme -R pardus
+    echo "Pardus PlyMouth Theme AYARLANDI"
+fi
+
+
+
+##### Synaptic ' i Ayarla
+
+mkdir -p /root/.synaptic
+cp /opt/PARDUS/files/synaptic.conf /root/.synaptic/
+# Close turkish translations
+# echo "Acquire::Languages { \"none\"; \"en\"; };" >> /etc/apt/apt.conf.d/70debconf
+
+
+
+
+
+##### broadcom-sta surucusunu kur
+
+if [ -e /usr/src/broadcom-sta.tar.bz2 ]
+then
+    m-a a-i -q broadcom-sta   
+fi
+
+
+# Gereksiz dosyalari silelim
+
+rm -f /null
+rm -f /*.old
+rm -f /boot/*dkms
+rm -f /.pulse-cookie
+rm -f /webmin-setup.out
+rm -f -r /.config
+rm -f -r /.pulse
+
+
+
+echo "PARDUS_CONFIG BITTI"

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+set -e
+
+echo "**************************** SOURCES.LIST HOOK ****************************************"
+
+rm -f /etc/apt/sources.list.d/*
+
+
+echo "# /etc/apt/sources.list" > /etc/apt/sources.list
+
+echo "# Pardus pools" >> /etc/apt/sources.list
+
+cat /opt/PARDUS/files/sources.list >> /etc/apt/sources.list

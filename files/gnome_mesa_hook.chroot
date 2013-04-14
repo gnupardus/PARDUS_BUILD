@@ -1,0 +1,4 @@
+# Correct MESA & GLX
+# gnome-core ' un paket bagimliligindaki hata yuzunden bu isleme ihtiyac var
+
+apt-get -y --force-yes purge libgl1-mesa-swx11 libosmesa6 glx-alternative-mesa+ glx-diversions+ libgl1-mesa-glx+

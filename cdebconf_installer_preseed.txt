@@ -1,0 +1,1230 @@
+# Kullanılacak hizmetler:
+# Choices: güvenlik güncellemeleri ( adresinden), sürüm güncellemeleri
+apt-setup-udeb	apt-setup/services-select	multiselect	security
+# Var olmayan fiziksel cilt
+partman-auto-lvm	partman-auto-lvm/no_such_pv	error	
+# Başka bir CD-ROM test etmek ister misiniz?
+d-i	cdrom-checker/nextcd	boolean	false
+# GRUB kurulsun mu?
+grub-installer	grub-installer/grub_not_mature_on_this_platform	boolean	false
+# RAID dizisine ait etkin aygıtlar:
+# Choices: 
+partman-md	partman-md/raiddevs	multiselect	
+# Web sunucusu başlatıldı, fakat ağ çalışmıyor
+d-i	save-logs/no_network	note	
+save-logs	save-logs/no_network	note	
+# Debootstrap Hatası
+bootstrap-base	base-installer/debootstrap/error/invalidrel	error	
+# for internal use only
+d-i	debian-installer/consoledisplay	string	console-setup
+# GRUB yapılandırması başarısız
+grub-installer	grub-installer/sataraid-error	error	
+# Diskiniz için gerekli sürücü:
+# Choices: disk sürücü olmadan devam et, , yukarıdakilerden hiçbiri
+disk-detect	disk-detect/module_select	select	continue with no disk drive
+# 
+d-i	debian-installer/shell-plugin	terminal	
+# for internal use; can be preseeded
+disk-detect	disk-detect/multipath/enable	boolean	false
+# "root" olarak oturum açmaya izin verilsin mi?
+user-setup-udeb	passwd/root-login	boolean	true
+# Ülke, bölge veya alan:
+# Choices: Kıbrıs, Türkiye, diğer
+d-i	localechooser/shortlist	select	TR
+# İki dosya sistemi için aynı bağlama noktası
+partman-target	partman-target/same_mountpoint	error	
+# FireWire Ethernet kullanmayı düşünür müsünüz?
+ethdetect	ethdetect/use_firewire_ethernet	boolean	false
+# Bölümleme yöntemi:
+# Choices: 
+partman-auto	partman-auto/choose_recipe	select	
+# Menüye geri dönerek hataları düzeltmek ister misiniz?
+partman-basicfilesystems	partman-basicfilesystems/check_failed	boolean	
+# Bu bölüm için şifreleme anahtar türü:
+# Choices: 
+partman-crypto	partman-crypto/keytype	select	
+# Girilen boyut geçerli değil.
+partman-partitioning	partman-partitioning/bad_new_size	error	
+# Daraltılacak cilt grubu:
+# Choices: 
+partman-lvm	partman-lvm/vgreduce_names	select	
+# Yeni cilt grubu için aygıtlar:
+# Choices: 
+partman-lvm	partman-lvm/vgcreate_parts	multiselect	
+# Temel sistem kurulamadı
+bootstrap-base	base-installer/cannot_install	error	
+# Seçilen diskin bölümlenmesi başarısız oldu
+partman-auto	partman-auto/autopartitioning_failed	error	
+# Önceki değişiklikler diske kaydedilerek devam edilsin mi?
+partman-partitioning	partman-partitioning/confirm_copy	boolean	
+# Makine adı:
+d-i	netcfg/get_hostname	string	pardus
+netcfg	netcfg/get_hostname	string	pardus
+# Cilt grubu oluşturulurken beklenmeyen bir hata oluştu
+partman-auto-lvm	partman-auto-lvm/vg_create_error	error	
+# for internal use; can be preseeded
+d-i	preseed/include_command	string	
+# location
+# Choices: Lizbon, Madeira, Azorlar
+tzsetup-udeb	tzsetup/country/PT	select	
+# Cilt grubu silinirken hata oluştu
+partman-lvm	partman-lvm/vgdelete_error	error	
+# Klavyenin kökeninin ülkesi:
+# Choices: 
+d-i	keyboard-configuration/layout	select	
+# Şifreleme bileşenlerinin kurulumuna yetersiz belleğe rağmen devam edilsin mi?
+partman-crypto	partman-crypto/install_udebs_low_mem	boolean	
+# Kullanılamayan boş alan
+partman-auto	partman-auto/unusable_space	error	
+# Bu bilgiler doğru mu?
+netcfg	netcfg/confirm_static	boolean	true
+# 
+# Choices: Kanada, Meksika, Sen Piyer ve Miquelon, Birleşik Devletler
+d-i	localechooser/countrylist/North_America	select	
+# 
+# Choices: Greece, Cyprus, other
+d-i	localechooser/shortlist/el	select	
+# Sistem saati UTC'ye mi ayarlı?
+clock-setup	clock-setup/utc	boolean	true
+d-i	clock-setup/utc	boolean	true
+# Geçersiz geçiş parolası
+netcfg	netcfg/invalid_pass	error	
+# Bu bölüm için "ilklendirme vektörü" üretim algoritması:
+# Choices: 
+partman-crypto	partman-crypto/ivalgorithm	select	
+# Klavye düzeni:
+# Choices: 
+d-i	keyboard-configuration/variant	select	
+# 
+# Choices: Cezayir, Angola, Benin, Botsvana, Burkina Faso, Burundi, Kamerun, Verde Burnu, Orta Afrika Cumhuriyeti, Çad, Kongo, Kongo Demokratik Cumhuriyeti, Fildişi Sahili, Cibuti, Mısır, Ekvatoral Gine, Eritre, Etiyopya, Gabon, Gambiya, Gana, Gine, Gine-Bissau, Kenya, Lesoto, Liberya, Libya, Malavi, Mali, Moritanya, Fas, Mozambik, Namibya, Nijer, Nijerya, Ruanda, Sao Tome ve Principe, Senegal, Sierra Leone, Somali, Güney Afrika, Güney Sudan, Sudan, Svaziland, Tanzanya Birleşik Cumhuriyeti, Togo, Tunus, Uganda, Batı Sahra, Zambiya, Zimbabve
+d-i	localechooser/countrylist/Africa	select	
+# Geçiş parolası giriş hatası
+partman-crypto	partman-crypto/passphrase-mismatch	error	
+# Bölümlemeye devam edilsin mi?
+partman-partitioning	partman-partitioning/unknown_label	boolean	true
+# Hesabınız için kullanıcı adı:
+user-setup-udeb	passwd/username	string	cvural
+# Gerekli şifreleme seçenekleri eksik
+partman-crypto	partman-crypto/options_missing	error	
+# Yeni mantıksal cilt oluşturulurken bir sorun yaşandı
+partman-lvm	partman-lvm/lvcreate_error	error	
+# Dummy template for preseeding unavailable questions
+d-i	popularity-contest/participate	string	false
+# Önyüklenebilir bayrağını ayarlamak için menüye geri dönülsün mü?
+partman-ext3	partman-ext3/boot_not_bootable	boolean	
+# 
+# Choices: Finland, Sweden, other
+d-i	localechooser/shortlist/sv	select	
+# Öntanımlı klavye seçenekleri () kullanılmaya devam edilsin mi?
+d-i	keyboard-configuration/unsupported_options	boolean	true
+# Yeniden boyutlandırma hatası
+partman-partitioning	partman-partitioning/new_size_commit_failed	error	
+# 
+# Choices: Kıbrıs, Türkiye, diğer
+d-i	localechooser/shortlist/tr	select	
+# Etkileşimli kabuk
+d-i	di-utils-shell/do-shell	note	
+# for internal use; can be preseeded
+disk-detect	disk-detect/dmraid/enable	boolean	false
+# 
+# Choices: 
+partman-base	partman/exception_handler	select	
+# Bölümlemeye devam etmek istiyor musunuz?
+partman-target	partman-target/mount_failed	boolean	true
+# for internal use only
+# Choices: stable, testing, unstable
+d-i	cdrom/suite	select	wheezy
+# for internal use; can be preseeded
+partman-auto	partman-auto/expert_recipe	string	
+# Bu bölümün nasıl kullanılacağını belirtin:
+# Choices: Ext4 günlüklü dosya sistemi, Ext3 günlüklü dosya sistemi, Ext2 dosya sistemi, JFS günlüklü dosya sistemi, XFS günlüklü dosya sistemi, FAT16 dosya sistemi, FAT32 dosya sistemi, takas alanı, şifreleme için fiziksel cilt, RAID için kullanılacak fiziksel cilt, LVM için fiziksel cilt, Bölümü kullanma
+partman-target	partman-target/choose_method	select	25filesystem__________ext4
+# Debian yansı dizinini girin:
+choose-mirror-bin	mirror/http/directory	string	/debian/
+# Kurulacak çekirdek:
+# Choices: , hiçbiri
+bootstrap-base	base-installer/kernel/image	select	
+# Ethernet kartınız için gerekli sürücü:
+# Choices: ethernet kartı yok, , yukarıdakilerden hiçbiri
+ethdetect	ethdetect/module_select	select	no ethernet card
+# LVM verisi otomatik olarak silinemiyor
+partman-lvm	partman-lvm/device_remove_lvm_span	error	
+# Şifreleme yapılandırma hatası
+partman-crypto	partman-crypto/crypto_root_needs_boot	error	
+# Cilt grubu:
+# Choices: 
+partman-lvm	partman-lvm/lvcreate_vgnames	select	
+# city
+# Choices: Batı (Sumatra\, Jakarta\, Java\, Batı ve Merkez Kalimantan), Merkez (Sulawesi\, Bali\, Nusa Tengara\, Doğu ve Güney Kalimantan), Doğu (Maluku\, Papua)
+tzsetup-udeb	tzsetup/country/ID	select	
+#  üzerindeki verilerin silinmesi başarısız
+partman-crypto	partman-crypto/erase_failed	error	
+# Menüye geri dönerek bölümleme işlemine devam edilsin mi?
+partman-efi	partman-efi/no_efi	boolean	
+# RAID dizisine ait etkin aygıtların sayısı:
+partman-md	partman-md/raiddevcount	string	
+# Debootstrap Hatası
+bootstrap-base	base-installer/debootstrap/error/unknownrelsig	error	
+# Bir kurulum adımı seçin:
+# Choices: 
+d-i	debian-installer/missing-provide	select	${DEFAULT}
+# CD-ROM'un doğruluğu denetlensin mi?
+d-i	cdrom-checker/start	boolean	false
+# Debian yansısının bulunduğu ülke:
+# Choices: bilgileri elle girin, Cezayir, Arjantin, Avustralya, Avusturya, Bangladeş, Beyaz Rusya, Belçika, Bosna-Hersek, Brezilya, Bulgaristan, Kanada, Şili, Çin, Kolombiya, Kosta Rika, Hırvatistan, Çek Cumhuriyeti, Danimarka, El Salvador, Estonya, Finlandiya, Fransa, Fransız Polinezyası, Almanya, Yunanistan, Hong Kong, Macaristan, İzlanda, Hindistan, Endonezya, İrlanda, İsrail, İtalya, Japonya, Kazakistan, Kore Cumhuriyeti, Latviya, Litvanya, Lüksemburg, Makedonya Cumhuriyeti, Madagaskar, Malezya, Malta, Meksika, Moldova, Hollanda, Yeni Kaledonya, Yeni Zelanda, Nikaragua, Norveç, Filipinler, Polonya, Portekiz, Romanya, Rusya Federasyonu, Sırbistan, Singapur, Slovakya, Slovenya, Güney Afrika, İspanya, İsveç, İsviçre, Tayvan, Tacikistan, Tayland, Tunus, Türkiye, Ukrayna, Birleşik Krallık, Birleşik Devletler, Özbekistan, Venezuella, Vietnam
+choose-mirror-bin	mirror/http/countries	select	TR
+# for internal use only
+user-setup-udeb	passwd/user-default-groups	string	audio cdrom dip floppy video plugdev netdev powerdev scanner bluetooth debian-tor
+# location
+# Choices: Guayaquil, Galapagos
+tzsetup-udeb	tzsetup/country/EC	select	
+# Temiz durumda olmayan hedef dizine kurulum yapılmayacak
+base-installer	base-installer/unclean_target_cancel	error	
+# Herhangi bir bölüm bulunamadı
+partman-crypto	partman-crypto/nothing_to_setup	note	
+# Yeni bölüm boyutu:
+partman-partitioning	partman-partitioning/new_partition_size	string	some number
+# for internal use; can be preseeded
+# Choices: Network Manager, ifupdown (/etc/network/interfaces), No network configuration
+netcfg	netcfg/target_network_config	select	nm_config
+# Ön yapılandırma dosyası alınamadı
+d-i	preseed/retrieve_error	error	
+# Hata ayıklama bilgilerinin kaydedileceği dizin:
+d-i	save-logs/directory	string	/mnt
+save-logs	save-logs/directory	string	/mnt
+# Otomatik ağ yapılandırması başarısızlıkla sonuçlandı
+d-i	netcfg/dhcp_failed	note	
+netcfg	netcfg/dhcp_failed	note	
+# for internal use only
+d-i	debconf/showold	boolean	false
+# Sağlama toplamı dosyası açılamadı
+d-i	cdrom-checker/md5file_failed	error	
+# FTP vekil sunucu bilgileri (kullanmıyorsanız boş bırakın):
+choose-mirror-bin	mirror/ftp/proxy	string	
+# Bu yazılımsal RAID aygıtı gerçekten silinsin mi?
+partman-md	partman-md/deleteverify	boolean	false
+# for internal use only
+clock-setup	clock-setup/system-time-changed	boolean	false
+# Yeni bölüm boyutu:
+partman-partitioning	partman-partitioning/new_size	string	some number
+# 
+# Choices: Andorra, Spain, France, Italy, other
+d-i	localechooser/shortlist/ca	select	
+# Değişiklikler depolama aygıtlarına kaydedilerek RAID yapılandırılsın mı?
+d-i	partman-md/confirm_nooverwrite	boolean	false
+#  için kablosuz ESSID:
+netcfg	netcfg/wireless_essid	string	
+# Mantıksal cilt:
+# Choices: 
+partman-lvm	partman-lvm/lvdelete_lvnames	select	
+# Geçersiz ağ bağlantı algılama bekleme zamanı
+netcfg	netcfg/bad_link_wait_timeout	error	
+# Seçilen çekirdek kurulamıyor
+bootstrap-base	base-installer/kernel/failed-install	error	
+# GRUB yapılandırması başarısız
+grub-installer	grub-installer/update-grub-failed	error	
+# PCMCIA kaynak aralığı seçenekleri:
+d-i	hw-detect/pcmcia_resources	string	
+# for internal use; can be preseeded
+# Choices: none, safe-upgrade, full-upgrade
+d-i	pkgsel/upgrade	select	none
+pkgsel	pkgsel/upgrade	select	none
+# Menüye geri dönerek hataları düzeltmek ister misiniz?
+partman-ufs	partman-ufs/root_not_ufs	boolean	
+# Ağ geçidine erişilemiyor
+netcfg	netcfg/gateway_unreachable	error	
+# for internal use; can be preseeded
+grub-installer	grub-installer/skip	boolean	false
+# for internal use; can be preseeded
+bootstrap-base	base-installer/kernel/linux/extra-packages	string	
+# Herhangi bir RAID bölümü mevcut değil
+partman-md	partman-md/noparts	error	
+# RAID0 dizisine ait etkin aygıtlar:
+# Choices: 
+partman-md	partman-md/raid0devs	multiselect	
+# IPv6, noktadan noktaya bağlantılarda desteklenmez.
+netcfg	netcfg/no_ipv6_pointopoint	error	
+# Genişletilecek cilt grubu:
+# Choices: 
+partman-lvm	partman-lvm/vgextend_names	select	
+# Otomatik önyükleme için aygıt yazılımındaki değişkenler ayarlanıyor
+nobootloader	nobootloader/confirmation_powerpc_chrp_pegasos	note	
+# Disket sürücünün bağlanması başarısız
+d-i	save-logs/floppy_mount_failed	error	
+save-logs	save-logs/floppy_mount_failed	error	
+# Geri dönülüp farklı bir yansı denensin mi?
+choose-mirror-bin	mirror/no-default	boolean	true
+# for internal use only
+d-i	debconf/language	string	tr
+# Kullanılacak NTP sunucusu:
+clock-setup	clock-setup/ntp-server	string	0.debian.pool.ntp.org
+# Cilt grubunda herhangi bir fiziksel cilt tanımlanmadı
+partman-auto-lvm	partman-auto-lvm/no_pv_in_vg	error	
+# 
+# Choices: China, Singapore, Taiwan, Hong Kong, other
+d-i	localechooser/shortlist/zh_TW	select	
+# Alan adı sunucusu adresleri:
+netcfg	netcfg/get_nameservers	string	192.168.1.2
+# Dummy template for preseeding unavailable questions
+d-i	debian-installer/dummy	string	
+#  modülü için ek parametreler:
+d-i	hw-detect/retry_params	string	
+# Menüye geri dönerek hataları düzeltmek ister misiniz?
+partman-ext3	partman-ext3/boot_not_ext2_or_ext3	boolean	
+# Geçersiz CD-ROM belirlendi
+d-i	cdrom-detect/wrong-cd	error	
+# Şifreleme yapılandırma hatası
+partman-crypto	partman-crypto/crypto_boot_not_possible	error	
+# Başarısız anahtar takası ve ilişkilendirmesi
+netcfg	netcfg/wpa_supplicant_failed	note	
+# Birincil ağ arayüzü:
+# Choices: eth0: Realtek Semiconductor Co.\, Ltd. RTL8111/8168B PCI Express Gigabit Ethernet controller, wlan0: Ralink corp. RT2561/RT61 802.11g PCI (kablosuz)
+netcfg	netcfg/choose_interface	select	eth0: Realtek Semiconductor Co., Ltd. RTL8111/8168B PCI Express Gigabit Ethernet controller
+# for internal use; can be preseeded
+d-i	cdrom-detect/eject	boolean	true
+# Şifreleme bileşenleri indirilemedi
+partman-crypto	partman-crypto/install_udebs_failure	error	
+# for internal use only
+user-setup-udeb	passwd/user-uid	string	
+# 
+# Choices: Argentina, Bolivia, Chile, Colombia, Costa Rica, Ecuador, El Salvador, Spain, United States, Guatemala, Honduras, Mexico, Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Dominican Republic, Uruguay, Venezuela, other
+d-i	localechooser/shortlist/es	select	
+# RAID yapılandırma hatası
+partman-md	partman-md/commit_failed	error	
+# for internal use; can be preseeded
+d-i	preseed/run	string	
+# Değişiklikler disklere kaydedilerek LVM yapılandırılsın mı?
+d-i	partman-lvm/confirm_nooverwrite	boolean	false
+# Günlükler kaydedilemedi
+d-i	save-logs/bad_directory	error	
+save-logs	save-logs/bad_directory	error	
+# 
+# Choices: Belgium, Canada, France, Luxembourg, Switzerland, other
+d-i	localechooser/shortlist/fr	select	
+# Şifreleme yapılandırması
+# Choices: Şifrelenmiş cilt oluşturma, Bitir
+partman-crypto	partman-crypto/mainmenu	select	
+# Debootstrap Hatası
+bootstrap-base	base-installer/debootstrap/fallback-error	error	
+# for internal use; can be preseeded
+apt-setup-udeb	apt-setup/security_host	string	
+d-i	apt-setup/security_host	string	
+# Insufficient memory
+d-i	lowmem/insufficient	error	
+# for internal use
+d-i	keyboard-configuration/optionscode	string	
+# Kullanımda olan aygıt
+partman-base	partman-base/devicelocked	error	
+# Herhangi bir fiziksel cilt seçilmedi
+partman-lvm	partman-lvm/vgreduce_nosel	error	
+# /target/proc bağlanması başarısız
+nobootloader	nobootloader/mounterr	error	
+# Bölümlenecek diski seçin:
+# Choices: 
+partman-auto	partman-auto/select_disk	select	
+# for internal use; can be preseeded
+netcfg	netcfg/enable	boolean	true
+# Kurulacak Debian sürümü:
+# Choices: 
+choose-mirror-bin	mirror/suite	select	
+# 
+# Choices: China, Taiwan, Singapore, Hong Kong, other
+d-i	localechooser/shortlist/zh_CN	select	
+# zone
+# Choices: Doğu (Eastern), Merkez (Central), Mountain, Pasifik, ABD/Alaska, ABD/Hawaii, ABD/Arizona, ABD/Doğu Indiana, ABD/Samoa
+tzsetup-udeb	tzsetup/country/US	select	US/Eastern
+# Eksik aygıt yazılımları taşınabilir ortamdan yüklensin mi?
+d-i	hw-detect/load_firmware	boolean	true
+# 
+# Choices: Italy, Switzerland, other
+d-i	localechooser/shortlist/it	select	
+# Herhangi bir cilt grubu bulunamadı
+partman-lvm	partman-lvm/vgdelete_novg	error	
+# 'initrd'ye dahil edilecek sürücüler:
+# Choices: genel: tüm mevcut sürücüleri dahil et, özel: yalnızca bu sistem için gerekli sürücüleri dahil et
+bootstrap-base	base-installer/initramfs-tools/driver-policy	select	
+# 
+# Choices: Antarktika
+d-i	localechooser/countrylist/Antarctica	select	
+# Ağ yapılandırma yöntemi:
+# Choices: Otomatik ağ yapılandırmasını tekrar dene, Otomatik ağ yapılandırmasını bir DHCP makine adıyla tekrar dene, Ağı elle yapılandır, , Ağı şu an yapılandırma
+d-i	netcfg/dhcp_options	select	Configure network manually
+netcfg	netcfg/dhcp_options	select	Configure network manually
+# Kurulumun bir sonraki adımını seçin:
+# Choices: Dil seç/Choose language, Konuşma sentezleyici sesini yapılandır, Klavye yapılandırması, CD-ROM'u algıla ve bağla, Debconf önyapılandırma dosyasını yükle, Kurulum bileşenlerini CD'den yükle, Ağ donanımını algıla, Ağı yapılandır, Kullanıcıları ve parolaları oluştur, Saati yapılandır, Diskleri algıla, Diskleri bölümle, Sistem kur, Paket yöneticisini yapılandır, GRUB önyükleyiciyi bir sabit diske kur, LILO önyükleyiciyi bir sabit diske kur, Önyükleyicisiz devam et, Kurulumu bitir, Debconf önceliğini değiştir, CD-ROM(ların) bütünlüğünü denetle, Hata ayıklama bilgilerini kaydet, Bir kabuk çalıştır, Kurulumdan çık
+d-i	debian-installer/main-menu	select	Kurulumu bitir
+# Bu boş alan üzerinde yürütülecek işlem:
+# Choices: 
+partman-base	partman/free_space	select	
+# Debian arşivi yansısının adresini girin:
+choose-mirror-bin	mirror/ftp/hostname	string	mirror
+# Cilt grubu daraltılırken hata oluştu
+partman-lvm	partman-lvm/vgreduce_error	error	
+# for internal use; can be preseeded
+partman-auto	partman-auto/expert_recipe_file	string	
+# Kurulum bileşeni yüklenemedi
+d-i	anna/install_failed	error	
+# 
+# Choices: Russian Federation, Ukraine, other
+d-i	localechooser/shortlist/ru	select	
+# for internal use
+d-i	keyboard-configuration/modelcode	string	pc105
+# Entering low memory mode
+d-i	lowmem/low	note	
+# state
+# Choices: Avustralya Başkent Bölgesi, Yeni Güney Galler, Viktorya, Kuzey Bölgesi, Queensland, Güney Avustralya, Tazmanya, Batı Avustralya, Eyre Otoyolu, Yancowinna Bölgesi, Lord Howe
+tzsetup-udeb	tzsetup/country/AU	select	Australia/Canberra
+# 
+# Choices: Jordan, United Arab Emirates, Bahrain, Algeria, Syrian Arab Republic, Saudi Arabia, Sudan, Iraq, Kuwait, Morocco, India, Yemen, Tunisia, Oman, Qatar, Lebanon, Libya, Egypt, other
+d-i	localechooser/shortlist/ar	select	
+# Yapılandırma dosyasındaki desteklenmeyen klavye seçenekleri kullanılmaya devam edilsin mi?
+d-i	keyboard-configuration/unsupported_config_options	boolean	true
+# for internal use; can be preseeded
+partman-auto	partman-auto/disk	string	
+# city
+# Choices: Almaata, Qyzylorda, Aqtobe, Aqtau, Ural
+tzsetup-udeb	tzsetup/country/KZ	select	
+# Dummy template for preseeding unavailable questions
+d-i	apt-setup/cdrom/set-first	string	false
+# Yeterli sayıda RAID bölümü belirtilmemiş
+partman-auto-raid	partman-auto-raid/notenoughparts	error	
+# 
+# Choices: Antigua and Barbuda, Australia, Botswana, Canada, Hong Kong, India, Ireland, New Zealand, Nigeria, Philippines, Singapore, South Africa, United Kingdom, United States, Zambia, Zimbabwe, other
+d-i	localechooser/shortlist/en	select	
+# Ulusal ve Latin kipler arasında geçiş için kullanılacak yöntem:
+# Choices: Caps Lock (Büyük Harf Kilidi), Sağ Alt (AltGr), Sağ Control, Sağ Shift, Sağ Logo tuşu, Menü tuşu, Alt+Shift, Control+Shift, Control+Alt, Alt+Caps Lock (Büyük Harf Kilidi), Sol Control+Sol Shift, Sol Alt, Sol Control, Sol Shift, Sol Logo tuşu, Kaydırma Kilidi (Scroll Lock) tuşu:, Kip değiştirme yok
+d-i	keyboard-configuration/toggle	select	No toggling
+# Mantıksal cilt üzerindeki mevcut veriler silinsin mi?
+partman-lvm	partman-lvm/device_remove_lvm	boolean	false
+# /target/proc bağlanması başarısız
+grub-installer	grub-installer/mounterr	error	
+# for internal use only
+d-i	anna/retriever	string	cdrom-retriever
+# for internal use; can be preseeded
+netcfg	netcfg/dhcp_timeout	string	25
+# Bu bölüm için bağlama noktası:
+partman-basicfilesystems	partman-basicfilesystems/mountpoint_manual	string	
+# for internal use; can be preseeded
+bootstrap-base	base-installer/debootstrap_script	string	
+# Çok büyük bir boyut değeri girildi
+partman-partitioning	partman-partitioning/big_new_size	error	
+# Gölge (shadow) parolaları etkinleştirilsin mi?
+user-setup-udeb	passwd/shadow	boolean	true
+# Noktadan-noktaya (Point-to-point) adres:
+netcfg	netcfg/get_pointopoint	string	
+# 
+# Choices: Curaçao
+d-i	localechooser/countrylist/other	select	
+# 
+# Choices: Arnavutluk, Andorra, Ermenistan, Avusturya, Azerbaycan, Beyaz Rusya, Belçika, Bosna-Hersek, Bulgaristan, Hırvatistan, Kıbrıs, Çek Cumhuriyeti, Danimarka, Estonya, Faroe Adaları, Finlandiya, Fransa, Gürcistan, Almanya, Cebelitarık, Yunanistan, Grönland, Guernsey, Vatikan, Macaristan, İzlanda, İrlanda, Man Adası, İtalya, Jersey, Latviya, Lihtenştayn, Litvanya, Lüksemburg, Makedonya Cumhuriyeti, Malta, Moldova, Monako, Karadağ, Hollanda, Norveç, Polonya, Portekiz, Romanya, Rusya Federasyonu, San Marino, Sırbistan, Slovakya, Slovenya, İspanya, Svalbard ve Jan Mayen Adaları, İsveç, İsviçre, Ukrayna, Birleşik Krallık, Åland Adaları
+d-i	localechooser/countrylist/Europe	select	
+# Mevcut bölümleme düzeni korunarak LVM yapılandırılsın mı?
+partman-lvm	partman-lvm/confirm_nochanges	boolean	false
+# HTTP vekil bilgileri (kullanmıyorsanız boş bırakın):
+choose-mirror-bin	mirror/http/proxy	string	
+# yerel
+d-i	localechooser/help/locale	note	
+# CD-ROM sürücüleri taşınabilir ortamdan yüklensin mi?
+d-i	cdrom-detect/load_media	boolean	true
+# Katkı yazılımlar kullanılsın mı?
+apt-mirror-setup	apt-setup/contrib	boolean	false
+# for internal use; can be preseeded
+d-i	debian-installer/framebuffer	boolean	true
+# Herhangi bir ağ arayüzü algılanamadı
+netcfg	netcfg/no_interfaces	error	
+# for internal use; can be preseeded
+live-installer	live-installer/enable	boolean	true
+# for internal use
+d-i	espeakup/voice	string	
+# Yeni bölüm için yer:
+# Choices: Başlangıç, Son
+partman-partitioning	partman-partitioning/new_partition_place	select	
+# for internal use; can be preseeded
+d-i	preseed/include	string	
+# for internal use
+bootstrap-base	base-installer/kernel/linux/initramfs-tools/driver-policy	string	most
+# "Release" dosyası okunurken hata
+d-i	cdrom-detect/no-release	error	
+# Göz ardı edilecek sorular aşağıdakinden daha düşük öncelikte olacak:
+# Choices: kritik, yüksek, orta, düşük
+d-i	debconf/priority	select	high
+# for internal use; can be preseeded
+finish-install	finish-install/keep-consoles	boolean	false
+# Bir çekirdek kurmadan kuruluma devam edilsin mi?
+bootstrap-base	base-installer/kernel/skip-install	boolean	false
+# Yerel depo anahtarı indirilemedi:
+# Choices: Tekrar dene, Gözardı et
+apt-setup-udeb	apt-setup/local/key-error	select	Retry
+# Herhangi bir cilt grubu bulunamadı
+partman-lvm	partman-lvm/vgreduce_novg	error	
+# AltGR olarak işlev görecek olan tuş:
+# Choices: Öntanımlı klavye düzeni, AltGr tuşu yok, Sağ Alt (AltGr), Sağ Control, Sağ Logo tuşu, Menü tuşu, Sol Alt, Sol Logo tuşu, Tuş takımı Enter tuşu, Her iki Logo tuşu, Her iki Alt tuşu
+d-i	keyboard-configuration/altgr	select	The default for the keyboard layout
+# Bu bağlama noktası için geçersiz dosya sistemi:
+partman-basicfilesystems	partman-basicfilesystems/posix_filesystem_required	error	
+# Şimdi  aygıtı için şifreleme anahtarı üretiliyor.
+partman-crypto	partman-crypto/entropy	entropy	
+# GRUB önyükleyici çokyollu aygıta kurulsun mu?
+grub-installer	grub-installer/multipath	boolean	true
+# CD-ROM sürücü belirlendi
+d-i	cdrom-detect/success	note	
+# 
+# Choices: Bouvet Adası, Falkland Adaları (Malvinas), Sen Helen\, Ascension and Tristan da Cunha, Güney Gürcistan ve Güney Sandöviç Adası
+d-i	localechooser/countrylist/Atlantic_Ocean	select	
+# Çekirdek modüllerini yüklemeden kuruluma devam edilsin mi?
+d-i	anna/no_kernel_modules	boolean	false
+# GRUB önyükleyici Seri ATA RAID diskine kurulsun mu?
+grub-installer	grub-installer/sataraid	boolean	true
+# Cilt grubu adı aygıt adıyla çakışıyor
+partman-lvm	partman-lvm/vgcreate_devnameused	error	
+# Debian arşivi yansısının adresini girin:
+choose-mirror-bin	mirror/http/hostname	string	mirror
+# for internal use; can be preseeded
+d-i	debian-installer/exit/poweroff	boolean	false
+# Süper-kullanıcı için rezerve edilmiş sistem bloklarının yüzdesi:
+partman-basicfilesystems	partman-basicfilesystems/specify_reserved	string	
+# Cilt grubu adı:
+partman-lvm	partman-lvm/vgcreate_name	string	
+# 
+# Choices: Bangladesh, India, other
+d-i	localechooser/shortlist/bn	select	
+# for internal use; can be preseeded
+bootstrap-base	base-installer/kernel/linux/extra-packages-2.6	string	
+# for internal use; can be preseeded
+d-i	preseed/include/checksum	string	
+# LILO kurulumu başarısız
+lilo-installer	lilo-installer/failed	error	
+# Doğrulama testi başarısız
+d-i	cdrom-checker/mismatch	error	
+# Yeni sistem için cilt grubu adı:
+partman-auto-lvm	partman-auto-lvm/new_vg_name_exists	string	
+# Debootstrap Hatası
+bootstrap-base	base-installer/no_codename	error	
+# for internal use; can be preseeded
+grub-installer	grub-installer/grub2_instead_of_grub_legacy	boolean	true
+# Geçersiz kullanıcı adı
+user-setup-udeb	passwd/username-bad	error	
+# LILO'nun kurulacağı hedef:
+# Choices: : yazılımsal RAID dizisi, Diğer seçenek (Uzman kullanıcılar için)
+lilo-installer	lilo-installer/bootdev_raid	select	
+# Eksik sürücüler taşınabilir ortamdan yüklensin mi?
+d-i	hw-detect/load_media	boolean	false
+# Herhangi bir fiziksel cilt seçilmedi
+partman-lvm	partman-lvm/vgcreate_nosel	error	
+# Geçersiz WEP anahtarı
+netcfg	netcfg/invalid_wep	error	
+# for internal use; can be preseeded
+network-preseed	auto-install/defaultroot	string	d-i/wheezy/./preseed.cfg
+# for internal use; can be preseeded
+bootstrap-base	base-installer/excludes	string	
+# Bir ağ yansısı kullanılmadan devam edilsin mi?
+apt-mirror-setup	apt-setup/no_mirror	boolean	false
+#  arayüzündeki Durdurma Anahtarı ("Kill Switch") etkinleştirildi
+netcfg	netcfg/kill_switch_enabled	note	
+# Öntanımlı klavye düzeni () kullanılmaya devam edilsin mi?
+d-i	keyboard-configuration/unsupported_layout	boolean	true
+# PC kart hizmetleri başlatılsın mı?
+d-i	hw-detect/start_pcmcia	boolean	true
+# Seçilen diskin bölümlenmesi başarısız oldu
+partman-auto-lvm	partman-auto-lvm/unusable_recipe	error	
+# Cilt grubu daraltılırken hata oluştu
+partman-lvm	partman-lvm/vgcreate_error	error	
+# Yazılımsal RAID aygıtı mevcut değil
+partman-md	partman-md/delete_no_md	error	
+# Boş parola
+user-setup-udeb	user-setup/password-empty	error	
+# Menüye geri dönerek hataları düzeltmek ister misiniz?
+partman-ext3	partman/boot_not_first_partition	boolean	
+# Debootstrap Hatası
+bootstrap-base	base-installer/debootstrap/error/couldntdl	error	
+# zone
+# Choices: Merkez (Central), Mountain, Pasifik
+tzsetup-udeb	tzsetup/country/MX	select	
+# LVM yapılandırma hatası
+partman-lvm	partman-lvm/commit_failed	error	
+# Yeni kullanıcının tam adı:
+user-setup-udeb	passwd/user-fullname	string	Cavit VURAL
+# for internal use; can be preseeded
+d-i	debian-installer/add-kernel-opts	string	
+# RAID ayarlanırken hata oluştu
+partman-auto-raid	partman-auto-raid/error	error	
+# DHCP makine adı:
+netcfg	netcfg/dhcp_hostname	string	
+# Çok küçük bir boyut değeri girildi
+partman-partitioning	partman-partitioning/small_new_size	error	
+# for internal use; can be preseeded
+partman-auto	partman-auto/method	string	
+# Bölümleme menüsüne dönmek ister misiniz?
+partman-basicfilesystems	partman-basicfilesystems/no_mount_point	boolean	
+# for internal use; can be preseeded
+d-i	mouse/protocol	string	
+# for internal use; can be preseeded
+d-i	mouse/left	boolean	false
+# Cilt grubundan çıkarılacak aygıtlar:
+# Choices: 
+partman-lvm	partman-lvm/vgreduce_parts	multiselect	
+# for internal use
+d-i	keyboard-configuration/layoutcode	string	tr
+# Bu bölümün tipik kullanımını:
+# Choices: 
+partman-basicfilesystems	partman-basicfilesystems/specify_usage	select	
+# Kök dosya sistemi yok
+partman-target	partman-target/no_root	error	
+# state
+# Choices: Akre, Alagoas, Amazonlar, Amapá, Bahia, Ceará, Federal Bölge, Espirito Santo, Fernando de Noronha, Goiás, Maranhão, Minas Gerais, Mato Grosso (Kuzey), Mato Grosso, Pará, Paraiba, Pernambuko, Piauí, Paraná, Rio de Janeiro, Rio Grande (Kuzey), Rondônia, Rorayma, Rio Grande (Güney), Santa Katarina, Sergipe, Sao Paulo, Tokantins
+tzsetup-udeb	tzsetup/country/BR	select	America/Sao_Paulo
+# for internal use; can be preseeded
+apt-setup-udeb	apt-setup/multiarch	string	
+# Yeni bölümün türü:
+# Choices: Birincil, Mantıksal
+partman-partitioning	partman-partitioning/new_partition_type	select	
+# Hata
+netcfg	netcfg/error	error	
+# Mimarî desteklenmiyor
+choose-mirror-bin	mirror/noarch	error	
+# Mevcut bölüm yapılandırmanız ve bağlama noktaları aşağıda görülüyor. Ayarlarını (dosya sistemi, bağlama noktaları vb.) değiştirmek istediğiniz bir bölüm, bölümler oluşturmak için boş bir alan veya bölümleme tablosunu ilklendireceğiniz bir aygıt seçin.
+# Choices: Bölümleme yardımcısını kullanarak bölümle, Yazılımsal RAID desteğini yapılandır, Mantıksal Disk Yöneticisini (LVM) yapılandır, Şifrelenmiş cilt yapılandır, , SCSI7 (0\,0\,0) (sda) - 750.2 GB ATA ST3750640AS, >   ${!TAB}${!ALIGN=RIGHT}#1${!TAB}birincil${!TAB}${!ALIGN=RIGHT}52.4 GB${!TAB}B${!TAB}F${!TAB}ext4${!TAB}${!TAB}/${!TAB}, >   ${!TAB}${!ALIGN=RIGHT}#2${!TAB}birincil${!TAB}${!ALIGN=RIGHT}52.4 GB${!TAB}${!TAB}${!TAB}ext4${!TAB}${!TAB}${!TAB}, >   ${!TAB}${!ALIGN=RIGHT}#3${!TAB}birincil${!TAB}${!ALIGN=RIGHT}52.4 GB${!TAB}${!TAB}${!TAB}ext4${!TAB}${!TAB}${!TAB}, >   ${!TAB}${!ALIGN=RIGHT}#5${!TAB}mantıksal${!TAB}${!ALIGN=RIGHT}5.2 GB${!TAB}${!TAB}F${!TAB}takas${!TAB}${!TAB}takas${!TAB}, >   ${!TAB}${!ALIGN=RIGHT}#6${!TAB}mantıksal${!TAB}${!ALIGN=RIGHT}52.4 GB${!TAB}${!TAB}${!TAB}ext4${!TAB}${!TAB}${!TAB}, >   ${!TAB}${!TAB}mantıksal${!TAB}${!ALIGN=RIGHT}535.2 GB${!TAB}${!TAB}${!TAB}BOŞ ALAN${!TAB}${!TAB}${!TAB}, SCSI9 (0\,0\,0) (sdb) - 8.0 GB Kingston DataTraveler G3, >   ${!TAB}${!ALIGN=RIGHT}#1${!TAB}birincil${!TAB}${!ALIGN=RIGHT}1.5 GB${!TAB}B${!TAB}${!TAB}${!TAB}${!TAB}${!TAB}, >   ${!TAB}${!TAB}bir/man${!TAB}${!ALIGN=RIGHT}6.5 GB${!TAB}${!TAB}${!TAB}BOŞ ALAN${!TAB}${!TAB}${!TAB}, , Bölümlerdeki değişiklikleri geri al, Bölümlendirmeyi bitir ve değişiklikleri diske kaydet
+partman-base	partman/choose_partition	select	90finish__________finish
+# Seçilen diskin bölümlenmesi başarısız oldu
+partman-auto	partman-auto/no_recipe	error	
+# for internal use
+d-i	keyboard-configuration/store_defaults_in_debconf_db	boolean	true
+# Debootstrap Hatası
+bootstrap-base	base-installer/debootstrap/error/nogetrelsig	error	
+# Boş geçiş parolası
+partman-crypto	partman-crypto/passphrase-empty	error	
+# yazılımsal RAID aygıtının silinmesi başarısız
+partman-md	partman-md/deletefailed	error	
+# 
+# Choices: Brazil, Portugal, other
+d-i	localechooser/shortlist/pt	select	
+# for internal use; can be preseeded
+d-i	preseed/early_command	string	
+# Desteklenmeyen "initrd" üreteci
+bootstrap-base	base-installer/initramfs/unsupported	error	
+# Kablosuz  aygıtı için WEP anahtarı:
+netcfg	netcfg/wireless_wep	string	
+# location
+# Choices: Madrid, Ceuta, Kanarya Adaları
+tzsetup-udeb	tzsetup/country/ES	select	
+# GRUB yapılandırması başarısız
+grub-installer	grub-installer/multipath-error	error	
+# for internal use; can be preseeded
+bootstrap-base	base-installer/includes	string	
+# for internal use only
+d-i	debian-installer/exit/always_halt	boolean	false
+# Kullanımda olan bölüm
+partman-base	partman-base/partlocked	error	
+# location
+# Choices: Auckland, Chatham
+tzsetup-udeb	tzsetup/country/NZ	select	
+# for internal use; can be preseeded
+netcfg	netcfg/hostname	string	
+# Arşive ulaşılamıyor
+apt-setup-udeb	apt-setup/service-failed	error	
+# 
+# Choices: Afrika, Antarktika, Asya, Atlantik Okyanusu, Karayipler, Orta Amerika, Avrupa, Hint Okyanusu, Kuzey Amerika, Okyanusya, Güney Amerika, diğer
+d-i	localechooser/continentlist	select	
+# Değişiklikler diske kaydedilsin mi?
+d-i	partman/confirm	boolean	false
+partman-base	partman/confirm	boolean	false
+# Rastgele bir anahtar kullanmak istediğinize emin misiniz?
+partman-crypto	partman-crypto/use_random_for_nonswap	boolean	false
+# Önyükleyici kurulacak aygıt:
+grub-installer	grub-installer/bootdev	string	
+# IP adresi:
+netcfg	netcfg/get_ipaddress	string	192.168.1.1
+#  üzerindeki tüm verinin silinmesini gerçekten istiyor musunuz?
+partman-crypto	partman-crypto/warn_erase	boolean	false
+# Geçersiz mantıksal cilt veya cilt grubu adı
+partman-lvm	partman-lvm/badnamegiven	error	
+# Bu bölüm için şifreleme:
+# Choices: 
+partman-crypto	partman-crypto/cipher	select	
+# Debian açılış CD'sini yerleştirin
+d-i	cdrom-checker/firstcd	note	
+# IP adres biçimi hatalı
+netcfg	netcfg/bad_ipaddress	error	
+# Hata ayıklama bilgileri nasıl kaydedilsin veya aktarılsın?
+# Choices: disket, web, bağlanmış dosya sistemi
+d-i	save-logs/menu	select	
+save-logs	save-logs/menu	select	
+# Öntanımlı bir yönlendirici olmadan devam edilsin mi?
+netcfg	netcfg/no_default_route	boolean	
+# GRUB  aygıtına kurulamadı
+grub-installer	grub-installer/grub-install-failed	error	
+# GRUB kurulumu başarısız
+grub-installer	grub-installer/apt-install-failed	error	
+# Silinecek cilt grubu:
+# Choices: 
+partman-lvm	partman-lvm/vgdelete_names	select	
+# Yeni bölüm için kullanılacak bayraklar:
+# Choices: 
+partman-partitioning	partman-partitioning/set_flags	multiselect	
+# Kuruluma devam edilsin mi?
+partman-base	partman/confirm_nochanges	boolean	false
+# Mantıksal Cilt Yönetimi
+partman-lvm	partman-lvm/help	note	
+# LILO seri konsolları kullanacak şekilde yapılandırıldı
+lilo-installer	lilo-installer/serial-console	note	
+# Mantıksal cilt adı:
+partman-lvm	partman-lvm/lvcreate_name	string	
+# Şifrelenmiş ciltlerin ilklendirilmesi başarısız
+partman-crypto	partman-crypto/init_failed	error	
+# Değişiklikler depolama aygıtlarına kaydedilerek RAID yapılandırılsın mı?
+partman-md	partman-md/confirm	boolean	false
+# for internal use; can be preseeded
+d-i	rescue/enable	boolean	false
+# for internal use only
+d-i	cdrom-detect/cdrom_fs	string	iso9660
+# Herhangi bir mantıksal cilt adı girilmedi
+partman-lvm	partman-lvm/lvcreate_nonamegiven	error	
+# Disket sürücüye biçimlendirilmiş bir disket yerleştirin
+d-i	save-logs/insert_floppy	note	
+save-logs	save-logs/insert_floppy	note	
+# Şifrelenecek aygıtlar:
+# Choices: 
+partman-crypto	partman-crypto/create/partitions	multiselect	
+# "/boot" dosya sistemi olarak JFS tavsiye edilmez. JFS kullanılsın mı?
+partman-jfs	partman-jfs/jfs_boot	boolean	false
+# Translations temporarily not available
+d-i	localechooser/translation/none-yet	note	
+# Dummy template for preseeding unavailable questions
+d-i	samba/run_mode	string	inetd
+# Kurulum boş olmayan hedef dizine yapılsın mı?
+base-installer	base-installer/use_unclean_target	boolean	true
+# 'hwclock'un saati ayarlaması için bir 30 saniye daha beklensin mi?
+clock-setup	clock-setup/hwclock-wait	boolean	false
+# Kullanılacak klavye düzeni:
+# Choices: Amerikan İngilizcesi, Arnavutça, Arapça, Asturyasça, Bangladeş, Beyaz Rusça, Bengalce, Belçika dili, Boşnakça, Brezilya dili, Britanya İngilizcesi, Bulgarca, Bulgarca (fonetik düzeni), Kanada Fransızcası, Kanada Çokdilli, Katalanca, Çince, Hırvatça, Çekçe, Danimarka dili, Flâmanca, Dvorak, Dzongkha (Butan), Esperanto, Estonya dili, Etiyopya, Fince, Fransızca, Gürcüce, Almanca, Yunanca, Gujarati (Hindistan), Gurmukhi, İbranice, Hindu, Macarca, İzlanda dili, İrlandaca, İtalyanca, Japonca, Kannada, Kazak Dili, Kmer dili, Kırgızca, Korece, Kürtçe (F düzeni), Kürtçe (Q düzeni), Laos Dili, Latin Amerikan, Litvanya dili, Letonya dili, Makedonca, Malayalam, Nepal, Kuzey Sami, Norveççe, Persce, Lehçe, Portekizce, Punjabi, Romanca, Rusça, Sırpça (Kiril alfabesi), Sintçe, Sinhala, Slovakça, Slovence, İspanyolca, İsveççe, İsviçre Fransızcası, İsviçre Almancası, Tamil, Telugu, Tayca, Türkçe (F düzeni), Türkçe (Q düzeni), Ukrayna dili, Uygurca, Vietnamca
+d-i	keyboard-configuration/xkb-keymap	select	tr
+#  aygıtının kablosuz ağ türü:
+# Choices: WEP/Açık Ağ, WPA/WPA2 PSK
+netcfg	netcfg/wireless_security_type	select	
+# for internal use; can be preseeded
+d-i	mouse/device	string	
+# for internal use only
+d-i	cdrom-detect/hybrid	boolean	false
+# for internal use only
+d-i	debconf/translations-dropped	boolean	false
+# Otomatik önyükleme için aygıt yazılımındaki değişkenler ayarlanıyor
+nobootloader	nobootloader/confirmation_powerpc_pasemi	note	
+# Öntanımlı yerel ayarlarının temel alınacağı ülke:
+# Choices: Kıbrıs${!TAB}-${!TAB}tr_CY.UTF-8, Türkiye${!TAB}-${!TAB}tr_TR.UTF-8
+d-i	localechooser/preferred-locale	select	tr_TR.UTF-8
+# 
+# Choices: Spain, France, other
+d-i	localechooser/shortlist/eu	select	
+# Menüye geri dönülsün mü?
+partman-basicmethods	partman-basicmethods/method_only	boolean	
+# Burada ayrı bir dosya sistemine izin verilmiyor
+partman-target	partman-target/must_be_on_root	error	
+# Herhangi bir fiziksel cilt seçilmedi
+partman-lvm	partman-lvm/vgextend_nosel	error	
+# Mantıksal cilt silinirken hata oluştu
+partman-lvm	partman-lvm/pvcreate_error	error	
+# Dummy template for preseeding unavailable questions
+d-i	apt-setup/security-updates	string	false
+# 
+# Choices: Arjantin, Bolivya, Brezilya, Şili, Kolombiya, Ekvator, Fransız Guyanası, Guyana, Paraguay, Peru, Surinam, Uruguay, Venezuella
+d-i	localechooser/countrylist/South_America	select	
+# Mevcut bölümleme düzeni korunarak şifrelenmiş ciltler yapılandırılsın mı?
+partman-crypto	partman-crypto/confirm_nochanges	boolean	false
+# CD-ROM bağlanamadı
+d-i	cdrom-checker/mntfailed	error	
+# CD'yi bağlamayı tekrar denemek ister misiniz?
+d-i	cdrom-detect/retry	boolean	true
+# 
+# Choices: Serbia, Montenegro, other
+d-i	localechooser/shortlist/sr	select	
+# for internal use; can be preseeded
+netcfg	netcfg/dhcpv6_timeout	string	15
+# Geçersiz boyut
+partman-partitioning	partman-partitioning/bad_new_partition_size	error	
+# Önceki değişiklikler diske kaydedilerek devam edilsin mi?
+partman-partitioning	partman-partitioning/confirm_resize	boolean	
+# Bölüm ayarları:
+# Choices: Nasıl kullanılacağı:${!TAB}Ext4 günlüklü dosya sistemi, , Bölümü biçimlendir:${!TAB}evet\, biçimle, Bağlama noktası:${!TAB}/, Bağlama seçenekleri:${!TAB}defaults, Etiket:${!TAB}hiçbiri, Rezerve edilmiş bloklar:${!TAB}5%, Tipik kullanım şekli:${!TAB}standart, Önyüklenebilir bayrağı:${!TAB}açık, , Bölümü tekrar boyutlandır (şu anki boyut 52.4 GB), Veriyi başka bir bölümden kopyala, Bu bölümdeki verileri sil, Bölümü sil, Bölüm ayarlandı
+partman-base	partman/active_partition	select	99finish__________finished
+# Alan adı:
+netcfg	netcfg/get_domain	string	abc.com
+# CD-ROM'a erişim için gerekli modül:
+# Choices: 
+d-i	cdrom-detect/cdrom_module	select	none
+# Kablosuz ağ:
+# Choices:  ESSID'yi elle gir
+netcfg	netcfg/wireless_show_essids	select	
+# for internal use; can be preseeded
+d-i	preseed/file	string	file:///cdrom/install/preseed.cfg
+# location
+# Choices: McMurdo, Rothera, Palmer, Mawson, Davis, Casey, Vostok, DumontDUrville, Syowa
+tzsetup-udeb	tzsetup/country/AQ	select	
+# for internal use; can be preseeded
+d-i	hw-detect/load-ide	boolean	false
+# for internal use; can be preseeded
+d-i	preseed/interactive	boolean	false
+# Kurulum adımı başarısız oldu
+d-i	debian-installer/main-menu/item-failure	error	
+# '' çalıştırılırken bir hata oluştu
+d-i	hw-detect/modprobe_error	error	
+# Bölümlemeye devam edilsin mi?
+partman-partitioning	partman-partitioning/unsupported_label	boolean	false
+# for internal use; can be preseeded
+# Choices: cylinder, minimal, optimal
+partman-base	partman/alignment	select	optimal
+# GRUB önyükleyici ana önyükleme kaydına (MBR) kurulsun mu?
+d-i	grub-installer/with_other_os	boolean	true
+grub-installer	grub-installer/with_other_os	boolean	true
+# Herhangi bir cilt grubu bulunamadı
+partman-lvm	partman-lvm/lvcreate_nofreevg	error	
+# Rezerve edilmiş kullanıcı adı
+user-setup-udeb	passwd/username-reserved	error	
+# for internal use only
+partman-auto-raid	partman-auto-raid/raidnum	string	
+# Herhangi bir aygıt seçilmedi
+partman-crypto	partman-crypto/create/nosel	error	
+# 
+partman-base	partman/exception_handler_note	note	
+# Geçersiz makine adı
+netcfg	netcfg/invalid_hostname	error	
+# 
+# Choices: Pakistan, India, other
+d-i	localechooser/shortlist/pa	select	
+# X sunucusunu sonlandırmak için Control+Alt+Backspace kullanılsın mı?
+d-i	keyboard-configuration/ctrl_alt_bksp	boolean	false
+# for internal use; can be preseeded
+partman-base	partman/early_command	string	
+# city
+# Choices: Ulanbator, Hovd, Choibalsan
+tzsetup-udeb	tzsetup/country/MN	select	
+# for internal use; can be preseeded
+partman-base	partman/default_filesystem	string	ext4
+# for internal use; can be preseeded
+network-preseed	auto-install/enable	boolean	false
+# Şimdi normal bir kullanıcı hesabı oluşturulsun mu?
+user-setup-udeb	passwd/make-user	boolean	true
+# Dummy template for preseeding unavailable questions
+d-i	samba-common/dhcp	string	false
+# Yeni sistem için cilt grubu adı:
+partman-auto-lvm	partman-auto-lvm/new_vg_name	string	
+# 
+# Choices: China, India, other
+d-i	localechooser/shortlist/bo	select	
+# Language:
+# Choices: C, Albanian, Amharic, Arabic, Asturian, Basque, Belarusian, Bengali, Bosnian, Bulgarian, Burmese, Catalan, Chinese (Simplified), Chinese (Traditional), Croatian, Czech, Danish, Dutch, Dzongkha, English, Esperanto, Estonian, Finnish, French, Galician, Georgian, German, Greek, Gujarati, Hebrew, Hindi, Hungarian, Icelandic, Indonesian, Irish, Italian, Japanese, Kannada, Kazakh, Khmer, Korean, Kurdish, Lao, Latvian, Lithuanian, Macedonian, Malayalam, Marathi, Nepali, Northern Sami, Norwegian Bokmaal, Norwegian Nynorsk, Persian, Polish, Portuguese, Portuguese (Brazil), Punjabi (Gurmukhi), Romanian, Russian, Serbian (Cyrillic), Sinhala, Slovak, Slovenian, Spanish, Swedish, Tagalog, Tamil, Telugu, Thai, Tibetan, Turkish, Ukrainian, Uyghur, Vietnamese, Welsh
+d-i	localechooser/languagelist	select	tr
+# Yeterli sayıda RAID bölümü mevcut değil
+partman-md	partman-md/notenoughparts	error	
+# Yüklenecek kurulum bileşenleri:
+# Choices: 
+d-i	anna/choose_modules_lowmem	multiselect	
+# Debootstrap uyarısı
+bootstrap-base	base-installer/debootstrap/fallback-warning	error	
+# Kablosuz  aygıtı için WPA/WPA2 geçiş parolası:
+netcfg	netcfg/wireless_wpa	string	
+# Güvenli olmayan takas alanı algılandı
+partman-crypto	partman-crypto/unsafe_swap	error	
+# for internal use only
+d-i	debian-installer/language	string	tr
+# city
+# Choices: Kinshasa, Lubumbashi
+tzsetup-udeb	tzsetup/country/CD	select	
+# Herhangi bir DHCP istemcisi bulunamadı
+netcfg	netcfg/no_dhcp_client	error	
+# location
+# Choices: Tahiti, Marquesas, Gambier
+tzsetup-udeb	tzsetup/country/PF	select	
+# Menüye geri dönerek hataları düzeltmek ister misiniz?
+partman-basicfilesystems	partman-basicfilesystems/swap_check_failed	boolean	
+# Yazılımsal RAID aygıtının türü:
+# Choices: RAID0, RAID1, RAID5, RAID6, RAID10
+partman-md	partman-md/createmain	select	
+# Bağlantı algılama için bekleme süresi (saniye cinsinde):
+netcfg	netcfg/link_wait_timeout	string	3
+# for internal use
+d-i	keyboard-configuration/variantcode	string	
+# Bu bölümdeki dosya sistemi için etiket:
+partman-basicfilesystems	partman-basicfilesystems/choose_label	string	
+# Parola giriş hatası
+grub-installer	grub-installer/password-mismatch	error	
+# Debian arşivi yansısı:
+# Choices: 
+choose-mirror-bin	mirror/http/mirror	select	
+# 
+# Choices: Anguila, Antigua-Barbuda, Aruba, Bahamalar, Barbados, Bermuda, Bonaire\, Sint Eustatius ve Saba, Seyman Adaları, Küba, Dominik, Dominik Cumhuriyeti, Granada, Guadalup, Haiti, Jamaika, Martinik, Monserat, Porto Riko, Sen Barthélemy, Sen Kitts ve Nevis, Sen Lucia, Sen Martin (Fransız kısmı), Sen Vinsınt ve Granadalar, Sen Martin (Hollanda kısmı), Trinidad ve Tobago, Türk ve Kaykos Adaları, İngiliz Virgin Adaları, Amerikan Virgin Adaları
+d-i	localechooser/countrylist/Caribbean	select	
+# Dil seçimi artık mümkün değil
+d-i	localechooser/translation/no-select	note	
+# Dummy template for preseeding unavailable questions
+d-i	samba-common/workgroup	string	PARDUS
+# CD-ROM'dan dosya kopyalama başarısız. Tekrar denensin mi?
+d-i	retriever/cdrom/error	boolean	true
+# 
+# Choices: Afganistan, Bahreyn, Bangladeş, Butan, Brunei Krallığı, Kamboçya, Çin, Hong Kong, Hindistan, Endonezya, İran İslâm Cumhuriyeti, Irak, İsrail, Japonya, Ürdün, Kazakistan, Kore Demokratik Halk Cumhuriyeti, Kore Cumhuriyeti, Kuveyt, Kırgızistan, Lao Demokratik Halk Cumhuriyeti, Lübnan, Makao, Malezya, Moğolistan, Miyanmar, Nepal, Umman, Pakistan, Filistin Özerk Bölgesi, Filipinler, Katar, Suudi Arabistan, Singapur, Sri Lanka, Suriye Arap Cumhuriyeti, Tayvan, Tacikistan, Tayland, Timor-Leste, Türkiye, Türkmenistan, Birleşik Arap Emirlikleri, Özbekistan, Vietnam, Yemen
+d-i	localechooser/countrylist/Asia	select	
+# Değişiklikler diske kaydedilerek şifrelenmiş ciltler yapılandırılsın mı?
+d-i	partman-crypto/confirm_nooverwrite	boolean	false
+# zone
+# Choices: Tarawa (Gilbert Adaları), Enderbury (Anka Adaları), Kiritimati (Line Adaları)
+tzsetup-udeb	tzsetup/country/KI	select	
+# Debian yansı dizinini girin:
+choose-mirror-bin	mirror/ftp/directory	string	/debian/
+# Saat NTP kullanılarak ayarlansın mı?
+clock-setup	clock-setup/ntp	boolean	true
+d-i	clock-setup/ntp	boolean	true
+# for internal use; can be preseeded
+d-i	debian-installer/country	string	TR
+# for internal use only
+bootstrap-base	base-installer/kernel/linux/link_in_boot	boolean	false
+# '/target'a herhangi bir dosya sistemi bağlanmamış
+base-installer	base-installer/no_target_mounted	error	
+# Bu aygıt üzerinde yürütülecek işlem:
+# Choices: 
+partman-base	partman/storage_device	select	
+# Temel sistem kurulum hatası
+bootstrap-base	base-installer/debootstrap/error-abnormal	error	
+# Geçerli bir Debian CD'si değil
+d-i	cdrom-checker/wrongcd	error	
+# Bölümleme yöntemi:
+# Choices: Kılavuzla - en büyük kesintisiz boş alanı kullan, Kılavuzla - diskin tamamı, Kılavuzla - diskin tamamını LVM ile ayarlayarak kullan, Kılavuzla - diskin tamamını şifrelenmiş LVM ile kullan, Elle
+partman-auto	partman-auto/init_automatically_partition	select	80custom__________custom
+# for internal use; can be preseeded
+netcfg	netcfg/disable_autoconfig	boolean	false
+# Takas alanı oluşturulamadı
+partman-basicfilesystems	partman-basicfilesystems/create_swap_failed	error	
+# 
+# Choices: Belgium, Germany, Liechtenstein, Luxembourg, Austria, Switzerland, other
+d-i	localechooser/shortlist/de	select	
+# Değişiklikler disklere kaydedilerek LVM yapılandırılsın mı?
+partman-lvm	partman-lvm/confirm	boolean	false
+# Yazılımsal RAID aygıtı mevcut değil
+partman-md	partman-md/nomd	error	
+# for internal use; can be preseeded
+d-i	anna/standard_modules	boolean	true
+# Cilt grubu silinsin mi?
+partman-lvm	partman-lvm/vgdelete_confirm	boolean	true
+# Ön yapılandırma dosyası işlenemedi
+d-i	preseed/load_error	error	
+# for internal use; can be preseeded
+partman-partitioning	partman-partitioning/default_label	string	
+# for internal use; can be preseeded
+d-i	preseed/file/checksum	string	
+# for internal use; can be preseeded
+grub-installer	grub-installer/make_active	boolean	true
+# Herhangi bir cilt grubu bulunamadı
+partman-lvm	partman-lvm/vgextend_novg	error	
+# CD-ROM'a erişim için aygıt dosyası:
+d-i	cdrom-detect/cdrom_device	string	/dev/cdrom
+# for internal use; can be preseeded (deprecated)
+d-i	netcfg/disable_dhcp	boolean	true
+netcfg	netcfg/disable_dhcp	boolean	true
+# for internal use only
+choose-mirror-bin	mirror/codename	string	
+# /boot bölümü olmadan kuruluma devam edilsin mi?
+partman-auto-lvm	partman-auto-lvm/no_boot	boolean	
+# Yeni ve boş bir bölümleme tablosu kaydedilsin mi?
+partman-partitioning	partman-partitioning/confirm_write_new_label	boolean	false
+# Özgür olmayan yazılım kullanacak mısınız?
+apt-mirror-setup	apt-setup/non-free	boolean	false
+# Değişiklikler diske kaydedilerek şifrelenmiş ciltler yapılandırılsın mı?
+partman-crypto	partman-crypto/confirm	boolean	false
+# for internal use; can be preseeded
+# Choices: traditional, label, uuid
+partman-target	partman/mount_style	select	uuid
+# for internal use; can be preseeded
+d-i	directfb/hw-accel	boolean	false
+#  için kablosuz ESSID:
+netcfg	netcfg/wireless_essid_again	string	
+# location
+# Choices: Godthab, Danmarkshavn, Scoresbysund, Thule
+tzsetup-udeb	tzsetup/country/GL	select	
+# Anahtar dosyası oluşturma hatası
+partman-crypto	partman-crypto/keyfile-problem	error	
+# Yazılımsal RAID yapılandırması
+# Choices: MD aygıtı oluştur, MD aygıtı sil, Bitir
+partman-md	partman-md/mainmenu	select	
+# zone
+# Choices: Kaliningrad, Moskova+00 - Moskova, Moskova+02 - Yekaterinburg, Moskova+03 - Omsk, Moskova+04 - Krasnoyarsk, Moskova+05 - Irkutsk, Moskova+06 - Yakut, Moskova+07 - Vladivostok, Magadan
+tzsetup-udeb	tzsetup/country/RU	select	Europe/Moscow
+# Geçerli LVM yapılandırması
+partman-lvm	partman-lvm/displayall	note	
+# Çekirdek kurulamıyor
+bootstrap-base	base-installer/kernel/no-kernels-found	error	
+# for internal use; can be preseeded
+d-i	debian-installer/allow_unauthenticated	boolean	false
+# Bir dosya indirilemedi:
+# Choices: Tekrar dene, Yansıyı değiştir, Gözardı et
+apt-mirror-setup	apt-setup/mirror/error	select	Retry
+# for internal use only
+bootstrap-base	base-installer/kernel/linux/initrd-2.6	boolean	true
+# for internal use; can be preseeded
+ethdetect	ethdetect/prompt_missing_firmware	boolean	true
+# Kuruluma seçilen dilde devam edilsin mi?
+d-i	localechooser/translation/warn-severe	boolean	true
+# for internal use; can be preseeded
+d-i	debian-installer/theme	string	
+# 
+# Choices: Amerikan Samoası, Avustralya, Cook Adaları, Fiji, Fransız Polinezyası, Guam, Kiribati, Marşal Adaları, Mikronezya Federe Devletleri, Nauru, Yeni Kaledonya, Yeni Zelanda, Nie, Norfolk Adası, Kuzey Meryem Adaları, Palau, Papua Yeni Gine, Pitcairn, Samoa, Solomon Adaları, Tokelau, Tonga, Tuvalu, Minor Outlying Adaları Birleşik Devletleri, Vanuatu, Wallis ve Futuna
+d-i	localechooser/countrylist/Oceania	select	
+# Herhangi bir önyükleyici kurulu değil
+nobootloader	nobootloader/confirmation_common	note	
+# zone
+# Choices: Santiago, Easter
+tzsetup-udeb	tzsetup/country/CL	select	
+# Şimdi çıkmak istediğinize emin misiniz?
+d-i	di-utils-reboot/really_reboot	boolean	false
+# 
+# Choices: Brazil, Portugal, other
+d-i	localechooser/shortlist/pt_BR	select	
+# Önyüklenecek "initrd"yi üretmekte kullanılacak araç:
+# Choices: 
+bootstrap-base	base-installer/initramfs/generator	select	
+# for internal use only
+d-i	debconf/frontend	string	
+# Mantıksal cilt silinirken hata oluştu
+partman-lvm	partman-lvm/lvdelete_error	error	
+# Kök dosya sistemi olarak JFS tavsiye edilmez. JFS kullanılsın mı?
+partman-jfs	partman-jfs/jfs_root	boolean	false
+# Geçersiz bölüm adı
+lilo-installer	lilo-installer/manual_bootdev_error	error	
+# Geçersiz ESSID
+netcfg	netcfg/invalid_essid	error	
+# Kurulum türü:
+# Choices: normal, canlı
+live-installer	live-installer/mode	select	normal
+# for internal use; can be preseeded
+d-i	debian-installer/exit/halt	boolean	false
+# Bölümleme tablosu türü:
+# Choices: 
+partman-partitioning	partman-partitioning/choose_label	select	
+# Kullanılabilir özellikte bir fiziksel cilt bulunamıyor
+partman-lvm	partman-lvm/nopartitions	error	
+# Bu bölümü etkinleştirmek ister misiniz?
+lilo-installer	lilo-installer/activate-part	boolean	true
+# Kötü Debian yansısı
+choose-mirror-bin	mirror/bad	error	
+# 
+# Choices: Belize, Kosta Rika, El Salvador, Guatemala, Honduras, Nikaragua, Panama
+d-i	localechooser/countrylist/Central_America	select	
+# Yapılandırma dosyasındaki mevcut klavye düzeni kullanılmaya devam edilsin mi?
+d-i	keyboard-configuration/unsupported_config_layout	boolean	true
+# 
+# Choices: 
+d-i	time/zone	select	Europe/Istanbul
+tzsetup-udeb	time/zone	select	Europe/Istanbul
+# Dosya sistemi oluşturulamadı
+partman-basicfilesystems	partman-basicfilesystems/create_failed	error	
+# LILO'nun kurulacağı hedef:
+# Choices: : Ana Önyükleme Kaydı (MBR), : yeni Debian bölümü, Diğer seçenek (Uzman kullanıcılar için)
+lilo-installer	lilo-installer/bootdev	select	
+# Zayıf geçiş parolası kullanılsın mı?
+partman-crypto	partman-crypto/weak_passphrase	boolean	false
+# Bir ağ yansısı kullanılsın mı?
+apt-mirror-setup	apt-setup/use_mirror	boolean	false
+d-i	apt-setup/use_mirror	boolean	false
+# Dosyalar indirilirken kullanılacak protokol:
+# Choices: 
+choose-mirror-bin	mirror/protocol	select	http
+# Kaynak bölüm:
+# Choices: 
+partman-partitioning	partman-partitioning/source_partition	select	
+# Debootstrap Hatası
+bootstrap-base	base-installer/debootstrap/error/nogetrel	error	
+# Birleştirme (Compose) tuşu:
+# Choices: Birleştirme (Compose) tuşu yok, Sağ Alt (AltGr), Sağ Control, Sağ Logo tuşu, Menü tuşu, Sol Logo tuşu, Caps Lock (Büyük Harf Kilidi)
+d-i	keyboard-configuration/compose	select	No compose key
+# Ethernet kartı bulunamadı
+ethdetect	ethdetect/cannot_find	error	
+# for internal use; can be preseeded
+network-preseed	preseed/url/checksum	string	
+# Bu cilt grubu adı zaten kullanılıyor
+partman-lvm	partman-lvm/vgcreate_nameused	error	
+# Bu bölüm için bağlama noktası:
+# Choices: / - kök dosya sistemi, /boot - önyükleyiciye ait statik dosyalar, /home - kullanıcı ev dizinleri, /tmp - geçici dosyalar, /usr - statik veriler, /var - değişken veriler, /srv - bu sistem tarafından sunulan hizmetlere ait veriler, /opt - sonradan eklenen yazılım paketleri, /usr/local - yerel dizin hiyerarşisi, Elle gir, Bunu bağlama
+partman-basicfilesystems	partman-basicfilesystems/mountpoint	select	/ - the root file system
+# Ulusal ve Latin kipler arasında geçici geçiş için kullanılacak yöntem:
+# Choices: Geçici geçiş yok, Her iki Logo tuşu, Sağ Alt (AltGr), Sağ Logo tuşu, Sol Alt, Sol Logo tuşu
+d-i	keyboard-configuration/switch	select	No temporary switch
+# location
+# Choices: Yap, Truk, Ponpei, Kosrae
+tzsetup-udeb	tzsetup/country/FM	select	
+# RAID dizisine ait yedek aygıtlar:
+# Choices: 
+partman-md	partman-md/raidsparedevs	multiselect	
+# Bu bölüm için anahtar uzunluğu:
+# Choices: 
+partman-crypto	partman-crypto/keysize	select	
+# Bölümlenebilir ortam yok
+disk-detect	disk-detect/cannot_find	error	
+# Yüklenecek kurulum bileşenleri:
+# Choices: cfdisk-udeb: Manually partition a hard drive (cfdisk), choose-mirror: Choose mirror to install from (menu item), cpuburn-udeb: perform CPU stress test (burn in) - expert use only, crc-modules-3.2.0-4-amd64-di: CRC modules, crypto-dm-modules-3.2.0-4-amd64-di: devicemapper crypto module, di-utils-exit-installer: Exit installer, driver-injection-disk-detect: Detect OEM driver injection disks, eject-udeb: ejects CDs from d-i menu, emdebian-archive-keyring-udeb: GnuPG keys of the Emdebian archive - udeb, event-modules-3.2.0-4-amd64-di: Event support, fuse-modules-3.2.0-4-amd64-di: FUSE modules, hyperv-modules-3.2.0-4-amd64-di: Hyper-V modules, i2c-modules-3.2.0-4-amd64-di: i2c support modules, irda-modules-3.2.0-4-amd64-di: Infrared devices support, load-media: Load installer components from removable media, lowmem: free memory for lowmem install, mbr-udeb: Master Boot Record for IBM-PC compatible computers, mmc-core-modules-3.2.0-4-amd64-di: MMC/SD/SDIO core modules, multipath-modules-3.2.0-4-amd64-di: Multipath support, nbd-modules-3.2.0-4-amd64-di: Network Block Device modules, network-console: Continue installation remotely using SSH, ntfs-modules-3.2.0-4-amd64-di: NTFS filesystem support, openssh-client-udeb: secure shell client for the Debian installer, parted-udeb: Manually partition a hard drive (parted), partman-reiserfs: Add to partman support for reiserfs, plip-modules-3.2.0-4-amd64-di: PLIP drivers, ppp-modules-3.2.0-4-amd64-di: PPP drivers, ppp-udeb: Point-to-Point Protocol (PPP) - package for Debian Installer, qnx4-modules-3.2.0-4-amd64-di: QNX4 filesystem support, reiserfs-modules-3.2.0-4-amd64-di: Reiser filesystem support, rescue-mode: mount requested partition and start a rescue shell, sound-modules-3.2.0-4-amd64-di: sound support, squashfs-modules-3.2.0-4-amd64-di: squashfs modules, udf-modules-3.2.0-4-amd64-di: UDF modules, uinput-modules-3.2.0-4-amd64-di: uinput support, virtio-modules-3.2.0-4-amd64-di: virtio modules
+d-i	anna/choose_modules	multiselect	
+# Doğrulama testi başarılı
+d-i	cdrom-checker/passed	note	
+# Bölümleme menüsüne dönmek ister misiniz?
+partman-basicfilesystems	partman-basicfilesystems/no_swap	boolean	true
+# Bölüm başlangıcı: , bölüm bitişi: .
+partman-base	partman/show_partition_chs	note	
+# Silinecek yazılımsal RAID aygıtı:
+# Choices: 
+partman-md	partman-md/deletemenu	select	
+# Önyüklenebilir bir mantıksal bölüm istediğinize emin misiniz?
+partman-partitioning	partman-partitioning/bootable_logical	boolean	false
+# Bu bölüm için bağlama noktası:
+# Choices: /dos, /windows, Elle gir, Bunu bağlama
+partman-basicfilesystems	partman-basicfilesystems/fat_mountpoint	select	
+# Cilt grubu genişletilirken hata oluştu
+partman-lvm	partman-lvm/vgextend_error	error	
+# Bu cilt grubu adı zaten kullanılıyor
+partman-auto-lvm	partman-auto-lvm/vg_exists	error	
+# Bölümleme işlemi hakkında yardım
+partman-target	partman-target/help	note	
+# Ağ otomatik yapılandırılsın mı?
+netcfg	netcfg/use_autoconfig	boolean	false
+# country code or "manual" (for internal use)
+choose-mirror-bin	mirror/country	string	
+# Elle bir CD-ROM modülü ve aygıtı seçmek ister misiniz?
+d-i	cdrom-detect/manual_config	boolean	true
+# Cilt grubu adı girilmedi
+partman-lvm	partman-lvm/vgcreate_nonamegiven	error	
+# Gerekli programlar eksik
+partman-crypto	partman-crypto/tools_missing	note	
+# Mantıksal cilt boyutu:
+partman-lvm	partman-lvm/lvcreate_size	string	
+# Debootstrap Hatası
+bootstrap-base	base-installer/debootstrap/error/missingrelentry	error	
+# LILO'nun kurulacağı hedef:
+lilo-installer	lilo-installer/manual_bootdev	string	
+# Cilt grubuna eklenecek aygıtlar:
+# Choices: 
+partman-lvm	partman-lvm/vgextend_parts	multiselect	
+# for internal use; can be preseeded
+lilo-installer	lilo-installer/skip	boolean	false
+# zone
+# Choices: Newfoundland, Atlantik, Doğu (Eastern), Merkez (Central), Doğu Saskatchewan, Saskatchewan, Mountain, Pasifik
+tzsetup-udeb	tzsetup/country/CA	select	Canada/Eastern
+# Uçbirim eklentisi mevcut değil
+d-i	debian-installer/terminal-plugin-unavailable	error	
+# Bir Debian CD'si yerleştirin
+d-i	cdrom-checker/askmount	note	
+# Parola giriş hatası
+user-setup-udeb	user-setup/password-mismatch	error	
+# Ek yereller:
+# Choices: aa_DJ.UTF-8, aa_DJ, aa_ER, aa_ER@saaho, aa_ET, af_ZA.UTF-8, af_ZA, am_ET, an_ES.UTF-8, an_ES, ar_AE.UTF-8, ar_AE, ar_BH.UTF-8, ar_BH, ar_DZ.UTF-8, ar_DZ, ar_EG.UTF-8, ar_EG, ar_IN, ar_IQ.UTF-8, ar_IQ, ar_JO.UTF-8, ar_JO, ar_KW.UTF-8, ar_KW, ar_LB.UTF-8, ar_LB, ar_LY.UTF-8, ar_LY, ar_MA.UTF-8, ar_MA, ar_OM.UTF-8, ar_OM, ar_QA.UTF-8, ar_QA, ar_SA.UTF-8, ar_SA, ar_SD.UTF-8, ar_SD, ar_SY.UTF-8, ar_SY, ar_TN.UTF-8, ar_TN, ar_YE.UTF-8, ar_YE, az_AZ.UTF-8, as_IN.UTF-8, ast_ES.UTF-8, ast_ES, be_BY.UTF-8, be_BY, be_BY@latin, bem_ZM, ber_DZ, ber_MA, bg_BG.UTF-8, bg_BG, bn_BD, bn_IN, bo_CN, bo_IN, br_FR.UTF-8, br_FR, br_FR@euro, bs_BA.UTF-8, bs_BA, byn_ER, ca_AD.UTF-8, ca_AD, ca_ES.UTF-8, ca_ES, ca_ES@euro, ca_ES.UTF-8@valencia, ca_ES@valencia, ca_FR.UTF-8, ca_FR, ca_IT.UTF-8, ca_IT, crh_UA, cs_CZ.UTF-8, cs_CZ, csb_PL, cv_RU, cy_GB.UTF-8, cy_GB, da_DK.UTF-8, da_DK, de_AT.UTF-8, de_AT, de_AT@euro, de_BE.UTF-8, de_BE, de_BE@euro, de_CH.UTF-8, de_CH, de_DE.UTF-8, de_DE, de_DE@euro, de_LI.UTF-8, de_LU.UTF-8, de_LU, de_LU@euro, dv_MV, dz_BT, el_GR.UTF-8, el_GR, el_CY.UTF-8, el_CY, en_AG, en_AU.UTF-8, en_AU, en_BW.UTF-8, en_BW, en_CA.UTF-8, en_CA, en_DK.UTF-8, en_DK.ISO-8859-15, en_DK, en_GB.UTF-8, en_GB, en_GB.ISO-8859-15, en_HK.UTF-8, en_HK, en_IE.UTF-8, en_IE, en_IE@euro, en_IN, en_NG, en_NZ.UTF-8, en_NZ, en_PH.UTF-8, en_PH, en_SG.UTF-8, en_SG, en_US.UTF-8, en_US, en_US.ISO-8859-15, en_ZA.UTF-8, en_ZA, en_ZM, en_ZW.UTF-8, en_ZW, eo.UTF-8, eo, es_AR.UTF-8, es_AR, es_BO.UTF-8, es_BO, es_CL.UTF-8, es_CL, es_CO.UTF-8, es_CO, es_CR.UTF-8, es_CR, es_DO.UTF-8, es_DO, es_EC.UTF-8, es_EC, es_ES.UTF-8, es_ES, es_ES@euro, es_GT.UTF-8, es_GT, es_HN.UTF-8, es_HN, es_MX.UTF-8, es_MX, es_NI.UTF-8, es_NI, es_PA.UTF-8, es_PA, es_PE.UTF-8, es_PE, es_PR.UTF-8, es_PR, es_PY.UTF-8, es_PY, es_SV.UTF-8, es_SV, es_US.UTF-8, es_US, es_UY.UTF-8, es_UY, es_VE.UTF-8, es_VE, et_EE.UTF-8, et_EE, et_EE.ISO-8859-15, eu_ES.UTF-8, eu_ES, eu_ES@euro, eu_FR.UTF-8, eu_FR, eu_FR@euro, fa_IR, ff_SN, fi_FI.UTF-8, fi_FI, fi_FI@euro, fil_PH, fo_FO.UTF-8, fo_FO, fr_BE.UTF-8, fr_BE, fr_BE@euro, fr_CA.UTF-8, fr_CA, fr_CH.UTF-8, fr_CH, fr_FR.UTF-8, fr_FR, fr_FR@euro, fr_LU.UTF-8, fr_LU, fr_LU@euro, fur_IT, fy_NL, fy_DE, ga_IE.UTF-8, ga_IE, ga_IE@euro, gd_GB.UTF-8, gd_GB, gez_ER, gez_ER@abegede, gez_ET, gez_ET@abegede, gl_ES.UTF-8, gl_ES, gl_ES@euro, gu_IN, gv_GB.UTF-8, gv_GB, ha_NG, he_IL.UTF-8, he_IL, hi_IN, hne_IN, hr_HR.UTF-8, hr_HR, hsb_DE.UTF-8, hsb_DE, ht_HT, hu_HU.UTF-8, hu_HU, hy_AM, hy_AM.ARMSCII-8, ia, id_ID.UTF-8, id_ID, ig_NG, ik_CA, is_IS.UTF-8, is_IS, it_CH.UTF-8, it_CH, it_IT.UTF-8, it_IT, it_IT@euro, iu_CA, iw_IL.UTF-8, iw_IL, ja_JP.UTF-8, ja_JP.EUC-JP, ka_GE.UTF-8, ka_GE, kk_KZ.UTF-8, kk_KZ, kl_GL.UTF-8, kl_GL, km_KH, kn_IN, ko_KR.UTF-8, ko_KR.EUC-KR, kok_IN, ks_IN, ks_IN@devanagari, ku_TR.UTF-8, ku_TR, kw_GB.UTF-8, kw_GB, ky_KG, lg_UG.UTF-8, lg_UG, li_BE, li_NL, lo_LA, lt_LT.UTF-8, lt_LT, lv_LV.UTF-8, lv_LV, mai_IN, mg_MG.UTF-8, mg_MG, mi_NZ.UTF-8, mi_NZ, mk_MK.UTF-8, mk_MK, ml_IN, mn_MN, mr_IN, ms_MY.UTF-8, ms_MY, mt_MT.UTF-8, mt_MT, my_MM, nan_TW@latin, nb_NO.UTF-8, nb_NO, nds_DE, nds_NL, ne_NP, nl_AW, nl_BE.UTF-8, nl_BE, nl_BE@euro, nl_NL.UTF-8, nl_NL, nl_NL@euro, nn_NO.UTF-8, nn_NO, nr_ZA, nso_ZA, oc_FR.UTF-8, oc_FR, om_ET, om_KE.UTF-8, om_KE, or_IN, os_RU, pa_IN, pa_PK, pap_AN, pl_PL.UTF-8, pl_PL, ps_AF, pt_BR.UTF-8, pt_BR, pt_PT.UTF-8, pt_PT, pt_PT@euro, ro_RO.UTF-8, ro_RO, ru_RU.UTF-8, ru_RU.KOI8-R, ru_RU, ru_RU.CP1251, ru_UA.UTF-8, ru_UA, rw_RW, sa_IN, sc_IT, sd_IN, sd_IN@devanagari, se_NO, shs_CA, si_LK, sid_ET, sk_SK.UTF-8, sk_SK, sl_SI.UTF-8, sl_SI, so_DJ.UTF-8, so_DJ, so_ET, so_KE.UTF-8, so_KE, so_SO.UTF-8, so_SO, sq_AL.UTF-8, sq_AL, sq_MK, sr_ME, sr_RS, sr_RS@latin, ss_ZA, st_ZA.UTF-8, st_ZA, sv_FI.UTF-8, sv_FI, sv_FI@euro, sv_SE.UTF-8, sv_SE, sv_SE.ISO-8859-15, sw_KE, sw_TZ, ta_IN, te_IN, tg_TJ.UTF-8, tg_TJ, th_TH.UTF-8, th_TH, ti_ER, ti_ET, tig_ER, tk_TM, tl_PH.UTF-8, tl_PH, tn_ZA, tr_CY.UTF-8, tr_CY, tr_TR, ts_ZA, tt_RU.UTF-8, tt_RU.UTF-8@iqtelif, ug_CN, uk_UA.UTF-8, uk_UA, ur_PK, uz_UZ.UTF-8, uz_UZ, uz_UZ@cyrillic, ve_ZA, vi_VN, vi_VN.TCVN, wa_BE.UTF-8, wa_BE, wa_BE@euro, wo_SN, xh_ZA.UTF-8, xh_ZA, yi_US.UTF-8, yi_US, yo_NG, zh_CN.UTF-8, zh_CN.GB18030, zh_CN.GBK, zh_CN, zh_HK.UTF-8, zh_HK, zh_SG.UTF-8, zh_SG.GBK, zh_SG, zh_TW.UTF-8, zh_TW.EUC-TW, zh_TW, zu_ZA.UTF-8, zu_ZA
+d-i	localechooser/supported-locales	multiselect	
+# Temel sistem kurulamadı
+bootstrap-base	base-installer/debootstrap-failed	error	
+# for internal use only
+d-i	cdrom-detect/usb-hdd	boolean	false
+# LVM yapılandırma eylemi:
+# Choices: 
+partman-lvm	partman-lvm/mainmenu	select	
+# Yeni mantıksal cilt oluşturulurken bir sorun yaşandı
+partman-lvm	partman-lvm/lvcreate_exists	error	
+# İlk önyapılandırma dosyasının yeri:
+network-preseed	preseed/url	string	
+# Temel sistem kurulum hatası
+bootstrap-base	base-installer/debootstrap/error-exitcode	error	
+# Bölümleme menüsüne dönmek ister misiniz?
+partman-ext3	partman-ext3/bad_alignment	boolean	
+# location
+# Choices: Johnston, Midway, Wake
+tzsetup-udeb	tzsetup/country/UM	select	
+# RAID dizisine ait yedek aygıtların sayısı:
+partman-md	partman-md/raidsparecount	string	
+# for internal use; can be preseeded
+d-i	preseed/late_command	string	
+# Kopyalama işlemi hatası
+partman-partitioning	partman-partitioning/copy_commit_failed	error	
+# Bölümleme yöntemi:
+# Choices: 
+partman-auto	partman-auto/automatically_partition	select	
+# Şifrelenmiş ciltlerin yapılandırılması başarısız
+partman-crypto	partman-crypto/commit_failed	error	
+# önyanıtlanmış komut çalıştırılamadı
+d-i	preseed/command_failed	error	
+# Yüklenecek modüller:
+# Choices: 
+d-i	hw-detect/select_modules	multiselect	
+# Yeniden boyutlandırma mümkün değil
+partman-partitioning	partman-partitioning/impossible_resize	error	
+# Şifreleme paketinin kurulumu başarısız
+partman-crypto	partman-crypto/module_package_missing	error	
+# Klavye modeli:
+# Choices: 
+d-i	keyboard-configuration/model	select	
+# for internal use; can be preseeded
+partman-auto-raid	partman-auto-raid/recipe	string	
+# Bu bölüm için şifreleme yöntemi:
+# Choices: 
+partman-crypto	partman-crypto/crypto_type	select	
+# Kuruluma seçilen dilde devam edilsin mi?
+d-i	localechooser/translation/warn-light	boolean	true
+# 
+# Choices: Aruba, Belgium, Netherlands, other
+d-i	localechooser/shortlist/nl	select	
+# Geçersiz bağlama noktası
+partman-basicfilesystems	partman-basicfilesystems/bad_mountpoint	error	
+# Bu bölüm için şifreleme anahtar türü:
+# Choices: 
+partman-crypto	partman-crypto/keyhash	select	
+# İki dosya sistemi için aynı etiket
+partman-target	partman-target/same_label	error	
+# EFI bölümü çok küçük
+partman-efi	partman-efi/too_small_efi	error	
+# Bu aygıtta yeni ve boş bir bölümleme tablosu oluşturulsun mu?
+partman-partitioning	partman-partitioning/confirm_new_label	boolean	false
+# Değişiklikler diske kaydedilsin mi?
+partman-base	partman/confirm_nooverwrite	boolean	false
+# Herhangi bir mantıksal cilt bulunamadı
+partman-lvm	partman-lvm/lvdelete_nolv	error	
+# for internal use only
+d-i	cdrom/codename	string	wheezy
+# Mevcut bölümleme düzeni korunarak RAID yapılandırılsın mı?
+partman-md	partman-md/confirm_nochanges	boolean	false
+# Mevcut yazılım tabanlı RAID bölümleri kaldırılsın mı?
+partman-md	partman-md/device_remove_md	boolean	false
+# RAID10 dizisinin düzeni:
+partman-md	partman-md/raid10layout	string	
+#  paketi kurulamıyor
+bootstrap-base	base-installer/kernel/failed-package-install	error	
+# Kurulum tamamlandı
+finish-install	finish-install/reboot_in_progress	note	
+# Boş alan başlangıcı: , boş alan bitişi: .
+partman-base	partman/show_free_chs	note	
+# for internal use; can be preseeded
+pkgsel	pkgsel/include	string	
+# 
+# Choices: Britanya Hint Okyanusu Toprakları, Christmas Adası, Cocos (Keeling) Adaları, Komorlar, Fransız Güney Bölgeleri, Heard Adası ve McDonald Adaları, Madagaskar, Maldivler, Mauritius, Mayotte, Réunion, Seyşeller
+d-i	localechooser/countrylist/Indian_Ocean	select	
+# for internal use; can be preseeded
+d-i	preseed/boot_command	string	
+# GRUB önyükleyici ana önyükleme kaydına (MBR) kurulsun mu?
+grub-installer	grub-installer/only_debian	boolean	true
+# Bölüm adı:
+partman-partitioning	partman-partitioning/set_name	string	
+# Web sunucusu başlatıldı
+d-i	save-logs/httpd_running	note	
+save-logs	save-logs/httpd_running	note	
+# Sistemin yereli:
+# Choices: 
+d-i	debian-installer/locale	select	tr_TR.UTF-8
+# Mantıksal Disk Yöneticisi kullanılamaz
+partman-lvm	partman-lvm/nolvm	error	
+# for internal use; can be preseeded
+base-installer	base-installer/install-recommends	boolean	true
+# Ağ geçidi:
+netcfg	netcfg/get_gateway	string	192.168.1.2
+# 
+# Choices: Macedonia\, Republic of, Albania, other
+d-i	localechooser/shortlist/sq	select	
+# LILO kurulumu başarısız.  Yine de devam etmek istiyor musunuz?
+lilo-installer	lilo-installer/apt-install-failed	boolean	true
+# Ağ maskesi:
+netcfg	netcfg/get_netmask	string	255.255.255.0
+# Bağlama seçenekleri:
+# Choices: 
+partman-basicfilesystems	partman-basicfilesystems/mountoptions	multiselect	
+# Kablosuz ağ türü:
+# Choices: Planlı ağ (Managed), Plansız ağ (Ad-hoc / Peer to peer)
+netcfg	netcfg/wireless_adhoc_managed	select	Infrastructure (Managed) network
