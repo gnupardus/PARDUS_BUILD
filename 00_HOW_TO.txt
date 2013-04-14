@@ -1,0 +1,42 @@
+STEP 1 :
+
+      Download Pardus DVD.
+
+
+STEP 2 :
+
+      Download Pardus Build 
+
+      In a console run "git clone https://github.com/pardustopluluk/PARDUS_BUILD" command.
+
+      Enter the directory with "cd PARDUS_BUILD"
+
+      If you download it before just update with "git pull" in PARDUS_BUILD directory.
+
+
+STEP 3 :
+
+      If you will not change anything , go to STEP 4.
+
+      Change what you want.
+
+      To add a new package add its name to PAKETLER.txt.
+
+      Remove package(s) you dont want from PAKETLER.txt.
+
+      Ypu can chanhge BUILD.sh in an editor (gedit, kwrite, vim , nano)
+
+
+STEP 4 :
+
+     For KDE   sudo ./BUILD.sh tr bireysel KDE   
+
+     For GNOME sudo ./BUILD.sh tr bireysel GNOME 
+
+     For XFCE  sudo ./BUILD.sh tr bireysel XFCE  
+
+     After a while it will ask "Password for root on localhost?". Just ENTER (leave it empty)
+
+
+
+     It will download about 1.5-2 GB. After downloading the packages it will take about 2 hours to build the ISO.
