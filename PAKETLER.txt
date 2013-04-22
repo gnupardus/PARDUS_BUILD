@@ -1,3 +1,4 @@
+blcr-dkms                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| DKMS support for BLCR kernel module
 hwinfo                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Hardware identification system
 firefox                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Web browser based on Firefox
 thunderbird                      |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Bireysel| |wheezy|sid| mail/news client with RSS and integrated spam filter support
