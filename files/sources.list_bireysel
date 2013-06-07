@@ -1,5 +1,0 @@
-deb ftp://depo.pardus.org.tr/bireysel/anahavuz     wheezy                   main contrib non-free
-deb ftp://depo.pardus.org.tr/bireysel/anahavuz     wheezy-proposed-updates  main contrib non-free
-deb ftp://depo.pardus.org.tr/bireysel/cokluortam   wheezy                   main         non-free
-deb ftp://depo.pardus.org.tr/bireysel/guvenlik     wheezy/updates           main contrib non-free
-deb ftp://depo.pardus.org.tr/bireysel/ozelhavuz    wheezy                   main         non-free

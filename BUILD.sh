@@ -4,14 +4,14 @@ set -e
 
 unset GREP_OPTIONS
 PARDUS_SURUM="2013.1"
-PARDUS_ISO_SURUM="2013.1beta"
+PARDUS_ISO_SURUM="2013.6beta1"
 DIST_ARCH=i386
 PARDUS_ARCH=32
 PARDUS_desk="kde"
-PARDUS_dagitim="bireysel"
-PARDUS_DAGITIM="Bireysel"
-PARDUS_dagitim_lang="bireysel"
-PARDUS_DAGITIM_LANG="Bireysel"
+PARDUS_dagitim="topluluk"
+PARDUS_DAGITIM="Topluluk"
+PARDUS_dagitim_lang="topluluk"
+PARDUS_DAGITIM_LANG="Topluluk"
 PARDUS_lang_surum=$PARDUS_dagitim_lang"_"$PARDUS_SURUM
 PARDUS_LANG_SURUM=$PARDUS_DAGITIM_LANG" "$PARDUS_SURUM
 DIST_BASE=wheezy
@@ -31,7 +31,7 @@ fi
 
 function KULLANIM_MESAJI ()
 {
-	echo "Kullanim : sudo ./BUILD.sh [tr,en] [fatih , kurumsal , sunucu , bireysel] [KDE,GNOME,XFCE] [wheezy,sid] [32,64] [localhost]"
+	echo "Kullanim : sudo ./BUILD.sh [tr,en] [topluluk, kurumsal, fatih , sunucu] [KDE,GNOME,XFCE] [32,64] [localhost]"
 	exit 2
 }
 
@@ -84,9 +84,11 @@ function PARAMETRELERI_KONTROL_ET()
                    ;;
             esac
             ;;
-        bireysel|Bireysel)
-            PARDUS_DAGITIM=Bireysel
-            PARDUS_dagitim=bireysel
+        topluluk|Topluluk)
+            PARDUS_DAGITIM=Topluluk
+            PARDUS_dagitim=topluluk
+            DIST_BASE=sid
+            DELETE_BASE=wheezy
             case "$PARDUS_LANG" in
                 en)
                     PARDUS_DAGITIM_LANG=
@@ -127,16 +129,6 @@ function PARAMETRELERI_KONTROL_ET()
     if ! [ "$4" == "" ]
     then
         case "$4" in
-            wheezy|sid)
-                ;;
-            *)
-                KULLANIM_MESAJI
-                ;;
-        esac
-    fi
-    if ! [ "$5" == "" ]
-    then
-        case "$5" in
             32|i386)
                 DIST_ARCH=i386
                 PARDUS_ARCH=32
@@ -157,12 +149,7 @@ PARAMETRELERI_KONTROL_ET $*
 
 
 PARDUS_DESK_ENV=$3
-LOCALHOST=$6
-if [ "$4" == "sid" ]
-then
-    DIST_BASE=sid
-    DELETE_BASE=wheezy
-fi
+LOCALHOST=$5
 
 if [ "$LOCALHOST" == "localhost" ]
 then
@@ -239,36 +226,38 @@ then
     echo "deb $MULTIMEDIA_POOL  wheezy                    main         non-free"  >> config/archives/pardus-mirrors.list.chroot
     echo "deb $OZEL_HAVUZ       wheezy                    main contrib non-free"  >> config/archives/pardus-mirrors.list.chroot
 else
-    echo "deb $MULTIMEDIA_POOL  sid                       main         non-free"  >> config/archives/pardus-mirrors.list.chroot
-    echo "deb $OZEL_HAVUZ       sid                       main contrib non-free"  >> config/archives/pardus-mirrors.list.chroot
+    echo "deb $MULTIMEDIA_POOL  sid                    main         non-free"  >> config/archives/pardus-mirrors.list.chroot
+    echo "deb $OZEL_HAVUZ       sid                    main contrib non-free"  >> config/archives/pardus-mirrors.list.chroot
 fi
 
-lb config --parent-archive-areas            "main contrib non-free"
+lb config --parent-archive-areas "main contrib non-free"
 
-lb config --parent-mirror-bootstrap         $DEBIAN_POOL
-lb config --mirror-bootstrap         $DEBIAN_POOL
+lb config --parent-mirror-bootstrap $DEBIAN_POOL
+lb config --mirror-bootstrap $DEBIAN_POOL
 
-lb config --parent-mirror-chroot            $DEBIAN_POOL
-lb config --parent-mirror-chroot-security   $SECURITY_POOL
-lb config --parent-mirror-chroot-updates    $DEBIAN_POOL
-lb config --parent-mirror-chroot-backports  $BACKPORTS_POOL
-lb config --mirror-chroot            $DEBIAN_POOL
-lb config --mirror-chroot-security   $SECURITY_POOL
-lb config --mirror-chroot-updates    $DEBIAN_POOL
-lb config --mirror-chroot-backports  $BACKPORTS_POOL
+lb config --parent-mirror-chroot $DEBIAN_POOL
+lb config --parent-mirror-chroot-security $SECURITY_POOL
+lb config --parent-mirror-chroot-updates $DEBIAN_POOL
+lb config --parent-mirror-chroot-backports $BACKPORTS_POOL
+lb config --mirror-chroot $DEBIAN_POOL
+lb config --mirror-chroot-security $SECURITY_POOL
+lb config --mirror-chroot-updates $DEBIAN_POOL
+lb config --mirror-chroot-backports $BACKPORTS_POOL
 
-lb config --parent-mirror-binary            $DEBIAN_POOL
-lb config --parent-mirror-binary-security   $SECURITY_POOL
-lb config --parent-mirror-binary-updates    $DEBIAN_POOL
-lb config --parent-mirror-binary-backports  $BACKPORTS_POOL
-lb config --mirror-binary            $DEBIAN_POOL
-lb config --mirror-binary-security   $SECURITY_POOL
-lb config --mirror-binary-updates    $DEBIAN_POOL
-lb config --mirror-binary-backports  $BACKPORTS_POOL
+lb config --parent-mirror-binary $DEBIAN_POOL
+lb config --parent-mirror-binary-security $SECURITY_POOL
+lb config --parent-mirror-binary-updates $DEBIAN_POOL
+lb config --parent-mirror-binary-backports $BACKPORTS_POOL
+lb config --mirror-binary $DEBIAN_POOL
+lb config --mirror-binary-security $SECURITY_POOL
+lb config --mirror-binary-updates $DEBIAN_POOL
+lb config --mirror-binary-backports $BACKPORTS_POOL
 
 
-lb config --parent-mirror-debian-installer  $DEBIAN_POOL
-lb config --mirror-debian-installer         $DEBIAN_POOL
+lb config --parent-mirror-debian-installer $DEBIAN_POOL
+lb config --mirror-debian-installer $DEBIAN_POOL
+
+
 
 
 echo "$PACKAGES"                      > config/package-lists/pardus.list.chroot
@@ -332,7 +321,7 @@ if [ "$PARDUS_DAGITIM" == "Sunucu" ]
 then
     lb config --debian-installer live
     lb config --debian-installer-gui true
-    lb config --debian-installer-distribution sid
+    lb config --debian-installer-distribution wheezy
     cp  ../files/preseed_"$PARDUS_LANG".cfg config/debian-installer/preseed.cfg
     cat ../files/preseed_common.cfg >> config/debian-installer/preseed.cfg
     # preseed.cfg atamasi yapildiktan sonr tekrar lb config demek gerekiyor
@@ -398,9 +387,9 @@ then
     ISO_TARGET="/SDA1/FTP/qetujgda/gunluk/$PARDUS_LANG"
 fi
 
-if [ -d /LINUX ]
+if [ -d /ARSIV ]
 then
-    ISO_TARGET="/LINUX"
+    ISO_TARGET="/ARSIV"
 fi
 
 if ! [ "$ISO_TARGET" == "" ]

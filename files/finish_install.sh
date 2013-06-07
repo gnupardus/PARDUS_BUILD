@@ -21,7 +21,7 @@ rm -f  /etc/apt/sources.list.d/*
 cp -f /opt/PARDUS/files/sources.list /etc/apt/sources.list
 
 # Auto login
-if [ "$PARDUS_DAGITIM" == "Bireysel" ] 
+if [ "$PARDUS_DAGITIM" == "Topluluk" ] 
 then
     sh /opt/PARDUS/files/pardus_auto_login.sh
 fi

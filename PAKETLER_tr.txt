@@ -1,8 +1,8 @@
-firefox-locale-tr                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Web browser based on Firefox
-thunderbird-locale-tr            |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Bireysel| |wheezy|sid| mail/news client with RSS and integrated spam filter support
-kde-l10n-tr                      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Turkish (tr) localization files for KDE
-pardus-config-kde-tr             |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Turkish (tr) localization files for KDE
-pardus-config-gnome-tr           |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Turkish (tr) localization files for GNOME
-libreoffice-l10n-tr              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- Turkish language package
-libreoffice-help-tr              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Bireysel| |wheezy|sid| office productivity suite -- Turkish help package
-manpages-tr                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Bireysel| |wheezy|sid| Turkish version of the manual pages
+firefox-locale-tr                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Web browser based on Firefox
+thunderbird-locale-tr            |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|sid| mail/news client with RSS and integrated spam filter support
+kde-l10n-tr                      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Turkish (tr) localization files for KDE
+pardus-config-kde-tr             |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Turkish (tr) localization files for KDE
+pardus-config-gnome-tr           |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Turkish (tr) localization files for GNOME
+libreoffice-l10n-tr              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| office productivity suite -- Turkish language package
+libreoffice-help-tr              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| office productivity suite -- Turkish help package
+manpages-tr                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Turkish version of the manual pages

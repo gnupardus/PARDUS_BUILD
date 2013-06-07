@@ -1,22 +1,28 @@
-########## deb [arch=amd64,i386] ftp://ftp.de.debian.org/debian/                  wheezy                    main contrib non-free
-########## deb [arch=amd64,i386] ftp://ftp.de.debian.org/debian/                  wheezy-proposed-updates   main contrib non-free
-########## deb [arch=amd64,i386] http://deb-multimedia.org/                       wheezy                    main         non-free
-########## deb [arch=amd64,i386] http://security.debian.org/                      wheezy/updates            main contrib non-free
-########## deb [arch=amd64,i386] ftp://depo.pardus.org.tr/bireysel/ozelhavuz      wheezy                    main         non-free
-########## #deb [arch=amd64,i386] ftp://backports.debian.org/debian-backports/     wheezy                    main contrib non-free
+#deb [arch=amd64,i386] ftp://localhost/topluluk/anahavuz    sid                     main contrib non-free
+#deb [arch=amd64,i386] ftp://localhost/topluluk/cokluortam  sid                     main         non-free
+#deb [arch=amd64,i386] ftp://localhost/topluluk/ozelhavuz   sid                     main         non-free
 
-########## deb [arch=amd64,i386] ftp://depo.pardus.org.tr/bireysel/anahavuz    wheezy                   main contrib non-free
-########## deb [arch=amd64,i386] ftp://depo.pardus.org.tr/bireysel/anahavuz    wheezy-proposed-updates  main contrib non-free
-########## deb [arch=amd64,i386] ftp://depo.pardus.org.tr/bireysel/cokluortam  wheezy                   main         non-free
-########## deb [arch=amd64,i386] ftp://depo.pardus.org.tr/bireysel/guvenlik    wheezy/updates           main contrib non-free
-########## deb [arch=amd64,i386] ftp://depo.pardus.org.tr/bireysel/ozelhavuz   wheezy                   main         non-free
+#deb [arch=amd64,i386] ftp://localhost/bireysel/anahavuz     jessie                   main contrib non-free
+#deb [arch=amd64,i386] ftp://localhost/bireysel/anahavuz     jessie-proposed-updates  main contrib non-free
+#deb [arch=amd64,i386] ftp://localhost/bireysel/cokluortam   jessie                   main         non-free
+#deb [arch=amd64,i386] ftp://localhost/bireysel/guvenlik     jessie/updates           main contrib non-free
+#deb [arch=amd64,i386] ftp://localhost/bireysel/ozelhavuz    jessie                   main         non-free
+
+#deb [arch=amd64,i386] ftp://ftp.de.debian.org/debian/                  wheezy                    main contrib non-free
+#deb [arch=amd64,i386] ftp://ftp.de.debian.org/debian/                  wheezy-proposed-updates   main contrib non-free
+#deb [arch=amd64,i386] http://deb-multimedia.org/                       wheezy                    main         non-free
+#deb [arch=amd64,i386] http://security.debian.org/                      wheezy/updates            main contrib non-free
+#deb [arch=amd64,i386] ftp://depo.pardus.org.tr/bireysel/ozelhavuz      wheezy                    main         non-free
+#deb [arch=amd64,i386] ftp://backports.debian.org/debian-backports/     wheezy                    main contrib non-free
+
+#deb [arch=amd64,i386] ftp://depo.pardus.org.tr/bireysel/anahavuz    wheezy                   main contrib non-free
+#deb [arch=amd64,i386] ftp://depo.pardus.org.tr/bireysel/anahavuz    wheezy-proposed-updates  main contrib non-free
+#deb [arch=amd64,i386] ftp://depo.pardus.org.tr/bireysel/cokluortam  wheezy                   main         non-free
+#deb [arch=amd64,i386] ftp://depo.pardus.org.tr/bireysel/guvenlik    wheezy/updates           main contrib non-free
+#deb [arch=amd64,i386] ftp://depo.pardus.org.tr/bireysel/ozelhavuz   wheezy                   main         non-free
 
 deb [arch=amd64,i386] ftp://localhost/bireysel/anahavuz    wheezy                  main contrib non-free
 deb [arch=amd64,i386] ftp://localhost/bireysel/anahavuz    wheezy-proposed-updates main contrib non-free
 deb [arch=amd64,i386] ftp://localhost/bireysel/cokluortam  wheezy                  main         non-free
 deb [arch=amd64,i386] ftp://localhost/bireysel/guvenlik    wheezy/updates          main contrib non-free
 deb [arch=amd64,i386] ftp://localhost/bireysel/ozelhavuz   wheezy                  main         non-free
-
-########## deb [arch=amd64,i386] ftp://localhost/bireysel/anahavuz    sid                     main contrib non-free
-########## deb [arch=amd64,i386] ftp://localhost/bireysel/cokluortam  sid                     main         non-free
-########## deb [arch=amd64,i386] ftp://localhost/bireysel/ozelhavuz   sid                     main         non-free

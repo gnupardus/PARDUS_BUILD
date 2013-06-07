@@ -1,0 +1,3 @@
+deb ftp://depo.pardus.org.tr/bireysel/anahavuz     sid                      main contrib non-free
+deb ftp://depo.pardus.org.tr/bireysel/cokluortam   sid                      main         non-free
+deb ftp://depo.pardus.org.tr/bireysel/ozelhavuz    sid                      main         non-free
