@@ -1,3 +1,4 @@
+less                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Pager program similar to more
 libmtp-runtime                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Media Transfer Protocol (MTP) runtime tools
 mtp-tools                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Media Transfer Protocol (MTP) library tools
 
@@ -25,14 +26,17 @@ libnss-winbind                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 libpam-winbind                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Samba nameservice and authentication integration plugins
 winbind                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Samba nameservice integration server
 
-nvidia-glx                       |32|--| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|---| NVIDIA metapackage
-nvidia-kernel-486                |32|--| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|---| NVIDIA kernel module for Linux (486 flavor)
-nvidia-kernel-686-pae            |32|--| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|---| NVIDIA kernel module for Linux (686-pae flavor)
-nvidia-kernel-amd64              |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|---| NVIDIA kernel module for Linux (amd64 flavor)
-nvidia-settings                  |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|---| Tool for configuring the NVIDIA graphics driver
-nvidia-xconfig                   |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|---| X configuration tool for non-free NVIDIA drivers
-xserver-xorg-video-nvidia        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA binary Xorg driver
-nvidia-vdpau-driver              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|---| NVIDIA vdpau driver
+glx-alternative-nvidia           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| allows the selection of NVIDIA as GLX provider
+nvidia-glx                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA metapackage
+nvidia-kernel-486                |32|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| NVIDIA kernel module for Linux (486 flavor)
+nvidia-kernel-686-pae            |32|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| NVIDIA kernel module for Linux (686-pae flavor)
+nvidia-kernel-amd64              |--|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| NVIDIA kernel module for Linux (amd64 flavor)
+nvidia-kernel-dkms               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA binary kernel module DKMS source
+nvidia-kernel-source             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA binary kernel module source
+nvidia-settings                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| Tool for configuring the NVIDIA graphics driver
+nvidia-xconfig                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| X configuration tool for non-free NVIDIA drivers
+xserver-xorg-video-nvidia        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| NVIDIA binary Xorg driver
+nvidia-vdpau-driver              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| NVIDIA vdpau driver
 
 
 software-properties-kde          |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| manage the repositories that you install software from (kde)
@@ -48,6 +52,7 @@ libfglrx-amdxvba1                |32|64| |KDE|GNOME|XFCE| |......|Fatih|Kurumsal
 fglrx-control                    |32|64| |KDE|GNOME|XFCE| |......|Fatih|Kurumsal|Topluluk| |wheezy|sid| control panel for the non-free ATI/AMD RadeonHD display driver
 fglrx-driver                     |32|64| |KDE|GNOME|XFCE| |......|Fatih|Kurumsal|Topluluk| |wheezy|sid| non-free ATI/AMD RadeonHD display driver
 fglrx-modules-dkms               |32|64| |KDE|GNOME|XFCE| |......|Fatih|Kurumsal|Topluluk| |wheezy|sid| dkms module source for the non-free ATI/AMD RadeonHD display driver
+glx-alternative-fglrx            |32|64| |KDE|GNOME|XFCE| |......|Fatih|Kurumsal|Topluluk| |wheezy|sid| allows the selection of FGLRX as GLX provider
 x264                             |32|64| |KDE|GNOME|XFCE| |......|Fatih|Kurumsal|Topluluk| |wheezy|sid| video encoder for the H.264/MPEG-4 AVC standard
 cfengine-community               |32|64| |KDE|GNOME|XFCE| |------|Fatih|--------|--------| |wheezy|sid| xxxxxxxxxxxxxxx
 grub-customizer                  |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
@@ -56,7 +61,7 @@ libcanberra-gtk3-module          |32|64| |---|GNOME|----| |------|Fatih|Kurumsal
 libcanberra-gtk-module           |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| translates GTK+ widgets signals to event sounds
 libcanberra-pulse                |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| PulseAudio backend for libcanberra
 totem-plugins                    |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Plugins for the Totem media player
-update-notifier                  |32|64| |---|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Daemon which notifies about package updates
+update-notifier                  |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|---| Daemon which notifies about package updates
 update-notifier-kde              |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| update notifier for the KDE Plasma Desktop
 software-center                  |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Utility for browsing, installing, and removing software
 python-piston-mini-client        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| software-center icin authentication ara birimi

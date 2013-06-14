@@ -189,6 +189,13 @@ lb config --system live
 lb config --parent-distribution $DIST_BASE 
 lb config  --firmware-binary false
 
+if [ "$DIST_BASE" == "sid" ]
+then
+    lb config  --updates false
+    lb config  --security false
+    lb config  --backports false
+fi
+
 cp -f ../packages/*          config/packages.chroot/
 
 mkdir -p config/includes.chroot/opt/PARDUS/
@@ -237,27 +244,30 @@ lb config --mirror-bootstrap $DEBIAN_POOL
 
 lb config --parent-mirror-chroot $DEBIAN_POOL
 lb config --parent-mirror-chroot-security $SECURITY_POOL
-lb config --parent-mirror-chroot-updates $DEBIAN_POOL
-lb config --parent-mirror-chroot-backports $BACKPORTS_POOL
 lb config --mirror-chroot $DEBIAN_POOL
 lb config --mirror-chroot-security $SECURITY_POOL
-lb config --mirror-chroot-updates $DEBIAN_POOL
-lb config --mirror-chroot-backports $BACKPORTS_POOL
 
 lb config --parent-mirror-binary $DEBIAN_POOL
 lb config --parent-mirror-binary-security $SECURITY_POOL
-lb config --parent-mirror-binary-updates $DEBIAN_POOL
-lb config --parent-mirror-binary-backports $BACKPORTS_POOL
 lb config --mirror-binary $DEBIAN_POOL
 lb config --mirror-binary-security $SECURITY_POOL
-lb config --mirror-binary-updates $DEBIAN_POOL
-lb config --mirror-binary-backports $BACKPORTS_POOL
 
 
-lb config --parent-mirror-debian-installer $DEBIAN_POOL
+#lb config --parent-mirror-debian-installer $DEBIAN_POOL
 lb config --mirror-debian-installer $DEBIAN_POOL
 
 
+if [ "$DIST_BASE" == "wheezy" ]
+then
+    lb config --mirror-binary-updates $DEBIAN_POOL
+    lb config --mirror-binary-backports $BACKPORTS_POOL
+    lb config --parent-mirror-binary-updates $DEBIAN_POOL
+    lb config --parent-mirror-binary-backports $BACKPORTS_POOL
+    lb config --mirror-chroot-updates $DEBIAN_POOL
+    lb config --mirror-chroot-backports $BACKPORTS_POOL
+    lb config --parent-mirror-chroot-updates $DEBIAN_POOL
+    lb config --parent-mirror-chroot-backports $BACKPORTS_POOL
+fi
 
 
 echo "$PACKAGES"                      > config/package-lists/pardus.list.chroot
