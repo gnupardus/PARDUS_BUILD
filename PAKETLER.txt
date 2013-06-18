@@ -94,7 +94,8 @@ starboardsoftware                |32|64| |KDE|GNOME|XFCE| |------|Fatih|--------
 thegate                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|--------|--------| |wheezy|sid| xxxxxxxxxxxxxxx
 tlsimgesi                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
 webmin                           |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| xxxxxxxxxxxxxxx
-icedtea-6-plugin                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| plugin based on OpenJDK and IcedTea to execute Java applets
+icedtea-6-plugin                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| plugin based on OpenJDK and IcedTea to execute Java applets
+icedtea-7-plugin                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| plugin based on OpenJDK and IcedTea to execute Java applets
 libgtk2.0-bin                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| programs for the GTK+ graphical user interface library
 libclutter-1.0-common            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Open GL based interactive canvas library (common files)
 aisleriot                        |32|64| |---|GNOME|----| |------|-----|--------|Topluluk| |wheezy|sid| GNOME solitaire card game collection
