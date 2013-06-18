@@ -198,6 +198,7 @@ cups-common                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 cups-pdf                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| PDF writer backend for CUPS
 cups-pk-helper                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| PolicyKit helper to configure cups with fine-grained privileges
 cups-ppdc                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Common UNIX Printing System(tm) - PPD manipulation utilities
+cups-browsed                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| OpenPrinting CUPS Filters - cups-browsed
 curl                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| command line tool for transferring data with URL syntax
 dash                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| POSIX-compliant shell
 davfs2                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| mount a WebDAV resource as a regular file system
@@ -1035,7 +1036,7 @@ python-sip                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 python-smbc                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Python bindings for the Samba client library
 python-soappy                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| SOAP Support for Python
 python-support                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| automated rebuilding support for Python modules
-python-twisted                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Event-based framework for internet applications (dependency package)
+python-twisted                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| Event-based framework for internet applications (dependency package)
 python-uno                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Python-UNO bridge
 python-urlgrabber                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| A high-level cross-protocol url-grabber
 python-vte                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Python bindings for the VTE widget set
