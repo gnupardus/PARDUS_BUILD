@@ -29,15 +29,9 @@ winbind                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 
 glx-alternative-nvidia           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| allows the selection of NVIDIA as GLX provider
 nvidia-glx                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA metapackage
-nvidia-kernel-486                |32|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| NVIDIA kernel module for Linux (486 flavor)
-nvidia-kernel-686-pae            |32|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| NVIDIA kernel module for Linux (686-pae flavor)
-nvidia-kernel-amd64              |--|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| NVIDIA kernel module for Linux (amd64 flavor)
-nvidia-kernel-dkms               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA binary kernel module DKMS source
-nvidia-kernel-source             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA binary kernel module source
-nvidia-settings                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| Tool for configuring the NVIDIA graphics driver
-nvidia-xconfig                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| X configuration tool for non-free NVIDIA drivers
-xserver-xorg-video-nvidia        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| NVIDIA binary Xorg driver
-nvidia-vdpau-driver              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| NVIDIA vdpau driver
+nvidia-kernel-dkms               |--|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA binary kernel module DKMS source
+xserver-xorg-video-nvidia        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA binary Xorg driver
+nvidia-vdpau-driver              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA vdpau driver
 
 
 software-properties-kde          |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| manage the repositories that you install software from (kde)

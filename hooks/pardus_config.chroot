@@ -10,7 +10,7 @@ PARDUS_LANG=`cat /opt/PARDUS/pardus_lang.txt`
 
 # MESA ' yi default OpenGL motoru yapalim
 
-apt-get install --reinstall glx-alternative-mesa 
+apt-get install --reinstall libgl1-mesa-glx glx-alternative-mesa 
 update-alternatives --set glx /usr/lib/mesa-diverted
 
 update-alternatives --install /usr/bin/x-www-browser x-www-browser /usr/bin/firefox 100
