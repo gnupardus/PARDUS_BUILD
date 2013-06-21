@@ -1,4 +1,4 @@
-primus                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| client-side GPU offloading for NVIDIA Optimus
+primus--gid1000sorunu            |--|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| client-side GPU offloading for NVIDIA Optimus
 less                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Pager program similar to more
 libmtp-runtime                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Media Transfer Protocol (MTP) runtime tools
 mtp-tools                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Media Transfer Protocol (MTP) library tools
