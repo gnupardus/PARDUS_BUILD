@@ -91,12 +91,12 @@ function PARAMETRELERI_KONTROL_ET()
             DELETE_BASE=wheezy
             case "$PARDUS_LANG" in
                 en)
-                    PARDUS_DAGITIM_LANG=
-                    PARDUS_dagitim_lang=
+                    PARDUS_DAGITIM_LANG=Community
+                    PARDUS_dagitim_lang=community
                    ;;
                 *)
-                    PARDUS_DAGITIM_LANG=
-                    PARDUS_dagitim_lang=
+                    PARDUS_DAGITIM_LANG=Topluluk
+                    PARDUS_dagitim_lang=topluluk
                    ;;
             esac
             ;;
