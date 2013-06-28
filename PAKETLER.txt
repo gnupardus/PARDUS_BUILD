@@ -505,6 +505,7 @@ inkscape                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 inputattach                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| utility to connect serial-attached peripherals to the input subsystem
 insserv                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Tool to organize boot sequence using LSB init.d script dependencies
 intel-microcode                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Processor microcode data file for Intel CPUs
+iucode-tool                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| Intel processor microcode tool
 intltool                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Utility scripts for internationalizing XML
 intltool-debian                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Help i18n of RFC822 compliant config files
 iproute                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| networking and traffic control tools
