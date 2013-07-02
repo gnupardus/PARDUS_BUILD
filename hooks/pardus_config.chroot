@@ -102,8 +102,8 @@ fi
 ###### CFEngine ayarlaniyor
 if [ "$PARDUS_DAGITIM" == "Fatih" ]
 then
-    /var/cfengine/bin/cf-agent --bootstrap --policy-server 193.140.100.83
-    /etc/init.d/cfengine3 stop
+    #/var/cfengine/bin/cf-agent --bootstrap --policy-server 193.140.100.83
+    #/etc/init.d/cfengine3 stop
     mv -f /usr/share/applications/kde4/hitachi-starboard.desktop /usr/share/applications/hitachi-starboard.desktop
 fi
 
