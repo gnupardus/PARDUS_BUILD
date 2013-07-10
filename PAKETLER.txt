@@ -1,3 +1,7 @@
+libsane-extras                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Media Transfer Protocol (MTP) library tools
+libtxc-dxtn0                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Media Transfer Protocol (MTP) library tools
+
+
 primus--gid1000sorunu            |--|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| client-side GPU offloading for NVIDIA Optimus
 pstoedit                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| PostScript and PDF files to editable vector graphics converter
 less                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Pager program similar to more
@@ -47,7 +51,7 @@ software-properties-gtk          |32|64| |---|GNOME|XFCE| |------|Fatih|Kurumsal
 xvba-va-driver                   |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| XvBA-based backend for VA API (AMD fglrx implementation)
 xserver-xephyr                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| nested X server
 putty                            |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|sid| Telnet/SSH client for X
-python-aptdaemon.pkcompat        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| PackageKit compatibilty for AptDaemon
+python-aptdaemon.pkcompat        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|---| PackageKit compatibilty for AptDaemon
 cpuid                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Intel and AMD x86 CPUID display program
 libfglrx-amdxvba1                |32|64| |KDE|GNOME|XFCE| |......|Fatih|Kurumsal|Topluluk| |wheezy|sid| AMD XvBA (X-Video Bitstream Acceleration) runtime libraries
 fglrx-control                    |32|64| |KDE|GNOME|XFCE| |......|Fatih|Kurumsal|Topluluk| |wheezy|sid| control panel for the non-free ATI/AMD RadeonHD display driver
@@ -971,8 +975,6 @@ pulseaudio-module-lirc           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 pulseaudio-module-x11            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X11 module for PulseAudio sound server
 pulseaudio-module-zeroconf       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Zeroconf module for PulseAudio sound server
 pulseaudio-utils                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Command line tools for the PulseAudio sound server
-python2.6                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| An interactive high-level object-oriented language (version 2.6)
-python2.6-minimal                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| A minimal subset of the Python language (version 2.6)
 python2.7                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| An interactive high-level object-oriented language (version 2.7)
 python2.7-minimal                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| A minimal subset of the Python language (version 2.7)
 python                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| interactive high-level object-oriented language (default version)
