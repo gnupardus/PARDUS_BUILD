@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# sudo vi /usr/share/live/build/hooks/0310-update-apt-xapian-index.chroot
+
 set -e
 
 unset GREP_OPTIONS
