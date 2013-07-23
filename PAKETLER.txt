@@ -1,8 +1,6 @@
+swapspace                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| dynamic swap space manager
+ethtool                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| display or change Ethernet device settings
 tdb-tools                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Trivial Database - bundled binaries
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
 libsane-extras                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| API library for scanners -- extra backends
 libtxc-dxtn0                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| S3 Texture Compression (S3TC) library
 
@@ -42,9 +40,10 @@ nvidia-xconfig                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 nvidia-settings                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| tool for configuring the NVIDIA graphics driver
 nvidia-detect                    |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA GPU detection utility
 nvidia-glx                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA metapackage
-nvidia-kernel-amd64              |--|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA kernel module for Linux (amd64 flavor)
-nvidia-kernel-486                |32|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA kernel module for Linux (486 flavor)
-nvidia-kernel-686-pae            |32|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA kernel module for Linux (686-pae flavor)
+nvidia-kernel-dkms               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA binary kernel module DKMS source
+nvidia-kernel-amd64              |--|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA kernel module for Linux (amd64 flavor)
+nvidia-kernel-486                |--|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA kernel module for Linux (486 flavor)
+nvidia-kernel-686-pae            |--|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA kernel module for Linux (686-pae flavor)
 xserver-xorg-video-nvidia        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA binary Xorg driver
 nvidia-vdpau-driver              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA vdpau driver
 
@@ -988,7 +987,6 @@ python-apt                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 python-apt-common                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Python interface to libapt-pkg (locales)
 python-argparse                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| optparse-inspired command-line parsing library
 python-cairo                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Python bindings for the Cairo vector graphics library
-python-central                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| register and build utility for Python packages
 python-chardet                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| universal character encoding detector
 python-crypto                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| cryptographic algorithms and protocols for Python
 python-cups                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Python bindings for CUPS
