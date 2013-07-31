@@ -97,7 +97,7 @@ pardus-icon-theme-milky-svg      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal
 pardus-kdm-theme                 |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
 pardus-ksplash-theme             |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
 pardus-ksplash-theme-milky       |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
-pardus-plymouth-theme            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|---| xxxxxxxxxxxxxxx
+pardus-plymouth-theme            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
 pardus-sound-theme               |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
 starboardsoftware                |32|64| |KDE|GNOME|XFCE| |------|Fatih|--------|--------| |wheezy|sid| xxxxxxxxxxxxxxx
 tlsimgesi                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
@@ -925,9 +925,9 @@ plasma-widget-networkmanagement  |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal
 plasma-widgets-addons            |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| additional widgets for Plasma
 plasma-widgets-workspace         |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| plasma widgets and containments for the KDE Plasma Workspace
 playonlinux                      |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|sid| This program is a front-end for wine.
-plymouth                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|---| Graphical Boot Animation and Logger
-plymouth-drm                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|---| Graphical Boot Animation and Logger
-plymouth-x11                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|---| Graphical Boot Animation and Logger
+plymouth                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Graphical Boot Animation and Logger
+plymouth-drm                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Graphical Boot Animation and Logger
+plymouth-x11                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Graphical Boot Animation and Logger
 pm-utils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| utilities and scripts for power management
 po-debconf                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| tool for managing templates file translations with gettext
 policykit-1                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| framework for managing administrative policies and privileges

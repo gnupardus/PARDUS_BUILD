@@ -16,11 +16,6 @@ update-alternatives --set glx /usr/lib/mesa-diverted
 update-alternatives --install /usr/bin/x-www-browser x-www-browser /usr/bin/firefox 100
 
 
-# UTC yerine LOCAL kullanalım. Windows ile saat farkı oluşmasın
-
-sed -i "s/UTC/LOCAL/" /etc/adjtime
-
-
 # software-center ' in dizini acilmiyor , elle acalim
 
 mkdir -p /var/cache/software-center/xapian
@@ -83,12 +78,12 @@ else
          cp -f /opt/PARDUS/files/sources.list_wine /etc/apt/sources.list
      
          # Multiarch ile 32Bit wine kurulacak
-         # dpkg --add-architecture i386
-         # apt-get update
-         # apt-get -y install winetricks    wine-bin:i386 libwine-alsa:i386 libwine-capi:i386 libwine-cms:i386 libwine-gl:i386 libwine-gphoto2:i386 \
-                                          # libwine-openal:i386 libwine-oss:i386 libwine-print:i386 libwine-sane:i386 libc6-i686:i386 libgl1-mesa-dri:i386 \
-                                          # libvdpau1:i386 libfglrx-amdxvba1:i386 libfglrx:i386 libgl1-fglrx-glx:i386 nvidia-vdpau-driver:i386 \
-                                          # libwine-bin:i386 libwine:i386 libcups2:i386 libgssapi-krb5-2:i386 libk5crypto3:i386 libkrb5-3:i386 libkrb5support0:i386
+         dpkg --add-architecture i386
+         apt-get update
+         apt-get -y install winetricks    wine-bin:i386 libwine-alsa:i386 libwine-capi:i386 libwine-cms:i386 libwine-gl:i386 libwine-gphoto2:i386 \
+                                          libwine-openal:i386 libwine-oss:i386 libwine-print:i386 libwine-sane:i386 libc6-i686:i386 libgl1-mesa-dri:i386 \
+                                          libvdpau1:i386 libfglrx-amdxvba1:i386 libfglrx:i386 libgl1-fglrx-glx:i386 nvidia-vdpau-driver:i386 \
+                                          libwine-bin:i386 libwine:i386 libcups2:i386 libgssapi-krb5-2:i386 libk5crypto3:i386 libkrb5-3:i386 libkrb5support0:i386
     fi
 fi
 

@@ -6,6 +6,10 @@ dpkg --configure -a
 PARDUS_DAGITIM=`cat /opt/PARDUS/pardus_dagitim.txt`
 
 
+# UTC yerine LOCAL kullanalım. Windows ile saat farkı oluşmasın
+
+sed -i "s/UTC/LOCAL/" /etc/adjtime
+
 ##### Eger yukluyse GNOME ' da gsettings ayarlarini tekrarlamak gerekiyor
 
 if [ -d /etc/gdm3 ]
