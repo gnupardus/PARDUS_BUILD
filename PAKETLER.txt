@@ -706,7 +706,7 @@ libreoffice-core                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 libreoffice-draw                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| office productivity suite -- drawing
 libreoffice-emailmerge           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| office productivity suite -- email mail merge
 libreoffice-filter-binfilter     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|---| office productivity suite -- legacy filters (e.g. StarOffice 5.2)
-libreoffice-filter-mobiledev     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| office productivity suite -- mobile devices filters
+libreoffice-filter-mobiledev     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|---| office productivity suite -- mobile devices filters
 libreoffice-gnome                |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| office productivity suite -- GNOME integration
 libreoffice-gtk3                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| office productivity suite -- GTK+ 3.0 integration
 libreoffice-help-en-us           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| office productivity suite -- English_american help
