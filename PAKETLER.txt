@@ -873,7 +873,7 @@ oxygen-icon-theme                |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal
 p7zip                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| 7z file archiver with high compression ratio
 p7zip-full                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| 7z and 7za file archivers with high compression ratio
 p7zip-rar                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| non-free rar module for p7zip
-pango-graphite                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| SILGraphite support for pango
+pango-graphite                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| SILGraphite support for pango
 parted                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| disk partition manipulator
 partitionmanager                 |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| A partition management utility
 passwd                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| change and administer password and group data
