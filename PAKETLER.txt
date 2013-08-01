@@ -70,7 +70,7 @@ libcanberra-gtk3-module          |32|64| |---|GNOME|----| |------|Fatih|Kurumsal
 libcanberra-gtk-module           |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| translates GTK+ widgets signals to event sounds
 libcanberra-pulse                |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| PulseAudio backend for libcanberra
 totem-plugins                    |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Plugins for the Totem media player
-update-notifier                  |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|---| Daemon which notifies about package updates
+gnome-packagekit                 |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Graphical distribution neutral software manager
 update-notifier-kde              |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| update notifier for the KDE Plasma Desktop
 software-center                  |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Utility for browsing, installing, and removing software
 python-piston-mini-client        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| software-center icin authentication ara birimi
@@ -873,7 +873,7 @@ oxygen-icon-theme                |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal
 p7zip                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| 7z file archiver with high compression ratio
 p7zip-full                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| 7z and 7za file archivers with high compression ratio
 p7zip-rar                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| non-free rar module for p7zip
-pango-graphite                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| SILGraphite support for pango
+pango-graphite                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| SILGraphite support for pango
 parted                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| disk partition manipulator
 partitionmanager                 |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| A partition management utility
 passwd                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| change and administer password and group data
@@ -1042,7 +1042,7 @@ python-sip                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 python-smbc                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Python bindings for the Samba client library
 python-soappy                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| SOAP Support for Python
 python-support                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| automated rebuilding support for Python modules
-python-twisted                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| Event-based framework for internet applications (dependency package)
+python-twisted                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Event-based framework for internet applications (dependency package)
 python-uno                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|---| Python-UNO bridge
 python3-uno                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|sid| Python-UNO bridge
 python-urlgrabber                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| A high-level cross-protocol url-grabber
@@ -1264,6 +1264,7 @@ xserver-xorg-input-elographics   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 xserver-xorg-input-evdev         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X.Org X server -- evdev input driver
 xserver-xorg-input-joystick      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X.Org X server -- joystick input driver
 xserver-xorg-input-kbd           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X.Org X server -- keyboard input driver
+xserver-xorg-input-tslib         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| tslib touchscreen driver for X.Org/XFree86 server
 xserver-xorg-input-mouse         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X.Org X server -- mouse input driver
 xserver-xorg-input-multitouch    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Multitouch X input driver
 xserver-xorg-input-mutouch       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Multitouch X input driver
@@ -1285,6 +1286,7 @@ xserver-xorg-video-intel         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 xserver-xorg-video-ivtv          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X.Org X server -- IVTV display driver
 xserver-xorg-video-mach64        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X.Org X server -- ATI Mach64 display driver
 xserver-xorg-video-mga           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X.Org X server -- MGA display driver
+xserver-xorg-video-modesetting   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| X.Org X server -- Generic modesetting driver
 xserver-xorg-video-neomagic      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X.Org X server -- Neomagic display driver
 xserver-xorg-video-nouveau       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X.Org X server -- Nouveau display driver
 xserver-xorg-video-openchrome    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X.Org X server -- VIA display driver
