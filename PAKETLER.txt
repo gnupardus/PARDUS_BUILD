@@ -24,12 +24,6 @@ simple-scan                      |32|64| |---|GNOME|----| |------|Fatih|Kurumsal
 gpointing-device-settings        |32|64| |---|GNOME|----| |------|-----|Kurumsal|Topluluk| |wheezy|sid| configuration tool for pointing devices
 kde-config-touchpad              |32|64| |KDE|-----|----| |------|-----|Kurumsal|Topluluk| |wheezy|sid| touchpad configuration tool (synaptiks)
 
-cinnamon                         |32|64| |---|GNOME|----| |------|-----|--------|Topluluk| |wheezy|sid| Cinnamon desktop
-cinnamon-themes                  |32|64| |---|GNOME|----| |------|-----|--------|Topluluk| |wheezy|sid| Cinnamon themes
-muffin-common                    |32|64| |---|GNOME|----| |------|-----|--------|Topluluk| |wheezy|sid| shared files for the Muffin window manager
-libmuffin0                       |32|64| |---|GNOME|----| |------|-----|--------|Topluluk| |wheezy|sid| window manager library from the Muffin window manager
-gir1.2-muffin-3.0                |32|64| |---|GNOME|----| |------|-----|--------|Topluluk| |wheezy|sid| GObject introspection data for Muffin
-
 florence                         |32|64| |---|GNOME|----| |------|Fatih|--------|--------| |wheezy|sid| extensible and scalable virtual keyboard for GNOME
 
 libnss-winbind                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Samba nameservice integration plugins
