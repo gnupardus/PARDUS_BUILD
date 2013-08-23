@@ -1,3 +1,4 @@
+pardus-icons-ironvolt            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| New official icon set of the Pardus distribution.
 apper                            |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| KDE package management tool using PackageKit
 swapspace                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| dynamic swap space manager
 ethtool                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| display or change Ethernet device settings
@@ -66,9 +67,6 @@ libcanberra-gtk-module           |32|64| |---|GNOME|----| |------|Fatih|Kurumsal
 libcanberra-pulse                |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| PulseAudio backend for libcanberra
 totem-plugins                    |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Plugins for the Totem media player
 gnome-packagekit                 |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Graphical distribution neutral software manager
-update-notifier-kde              |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| update notifier for the KDE Plasma Desktop
-software-center                  |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Utility for browsing, installing, and removing software
-python-piston-mini-client        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| software-center icin authentication ara birimi
 gir1.2-gstreamer-0.10            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| GObject introspection data for the GStreamer library -SoftwareCenter
 libsasl2-2                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
 libsasl2-modules                 |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
@@ -265,8 +263,7 @@ expect                           |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------
 fakeroot                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| tool for simulating superuser privileges
 fancontrol                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| utilities to read temperature/voltage/fan sensors
 ffmpeg                           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| audio/video encoder, streaming server & audio/video file converter.
-ffmpegthumbnailer                |32|64| |---|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| fast and lightweight video thumbnailer
-ffmpegthumbs                     |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| video thumbnail generator using ffmpeg
+ffmpegthumbnailer                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| fast and lightweight video thumbnailer
 file                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Determines file type using "magic" numbers
 file-roller                      |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| archive manager for GNOME
 filezilla                        |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|sid| Full-featured graphical FTP/FTPS/SFTP client

@@ -87,10 +87,10 @@ else
     fi
 fi
 
-#if [ "$PARDUS_DAGITIM" == "Topluluk" ]
-#then
-    #apt-get -y --force-yes install skype:i386
-#fi
+if [ "$PARDUS_DAGITIM" == "Topluluk" ]
+then
+    apt-get -y --force-yes install teamviewer7 skype:i386
+fi
 
 
 ###### gtk-record-mydesktop duzeltiliyor
