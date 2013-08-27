@@ -5,8 +5,8 @@
 set -e
 
 unset GREP_OPTIONS
-PARDUS_SURUM="2.0"
-PARDUS_ISO_SURUM="2.0rc3"
+PARDUS_SURUM="2013"
+PARDUS_ISO_SURUM="2013.8"
 DIST_ARCH=i386
 PARDUS_ARCH=32
 PARDUS_desk="kde"
@@ -91,6 +91,8 @@ function PARAMETRELERI_KONTROL_ET()
             PARDUS_dagitim=topluluk
             DIST_BASE=sid
             DELETE_BASE=wheezy
+            PARDUS_SURUM="2.0"
+            PARDUS_ISO_SURUM="2.0rc3"
             case "$PARDUS_LANG" in
                 en)
                     PARDUS_DAGITIM_LANG=Community
