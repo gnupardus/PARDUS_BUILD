@@ -66,7 +66,7 @@ libcanberra-gtk3-module          |32|64| |---|GNOME|----| |------|Fatih|Kurumsal
 libcanberra-gtk-module           |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| translates GTK+ widgets signals to event sounds
 libcanberra-pulse                |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| PulseAudio backend for libcanberra
 totem-plugins                    |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Plugins for the Totem media player
-gnome-packagekit                 |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Graphical distribution neutral software manager
+gnome-packagekit                 |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |------|sid| Graphical distribution neutral software manager
 gir1.2-gstreamer-1.0             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|sid| GObject introspection data for the GStreamer library -SoftwareCenter
 gir1.2-gstreamer-0.10            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|---| GObject introspection data for the GStreamer library -SoftwareCenter
 libsasl2-2                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
