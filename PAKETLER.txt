@@ -1,5 +1,5 @@
 pardus-icons-ironvolt            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| New official icon set of the Pardus distribution.
-apper                            |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| KDE package management tool using PackageKit
+apper                            |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |------|sid| KDE package management tool using PackageKit
 swapspace                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| dynamic swap space manager
 ethtool                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| display or change Ethernet device settings
 tdb-tools                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Trivial Database - bundled binaries
