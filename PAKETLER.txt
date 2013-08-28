@@ -742,9 +742,6 @@ libva-egl1                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 libva-tpi1                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Video Acceleration (VA) API for Linux -- TPI runtime
 libwmf-bin                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Windows metafile conversion tools
 libwww-perl                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| simple and consistent interface to the world-wide web
-libwww-robotrules-perl           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| database of robots.txt-derived permissions
-libx11-guitest-perl              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| collection of functions for X11 GUI wheezy/interaction
-libx11-protocol-perl             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Perl module for the X Window System Protocol, version 11
 libxcb1                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X C Binding
 libxcb-composite0                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X C Binding, composite extension
 libxcb-damage0                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X C Binding, damage extension
