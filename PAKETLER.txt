@@ -68,7 +68,7 @@ libcanberra-pulse                |32|64| |---|GNOME|----| |------|Fatih|Kurumsal
 totem-plugins                    |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Plugins for the Totem media player
 gnome-packagekit                 |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |------|sid| Graphical distribution neutral software manager
 gir1.2-gstreamer-1.0             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|sid| GObject introspection data for the GStreamer library -SoftwareCenter
-gir1.2-gstreamer-0.10            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|---| GObject introspection data for the GStreamer library -SoftwareCenter
+gir1.2-gstreamer-0.10            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| GObject introspection data for the GStreamer library -SoftwareCenter
 libsasl2-2                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
 libsasl2-modules                 |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
 pardus-artwork-release           |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
@@ -446,21 +446,21 @@ gsettings-desktop-schemas        |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal
 gsfonts                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Fonts for the Ghostscript interpreter(s)
 gsfonts-other                    |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Additional fonts for the ghostscript interpreter
 gsfonts-x11                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Make Ghostscript fonts available to X11
-gstreamer0.10-alsa               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| GStreamer plugin for ALSA
-gstreamer0.10-crystalhd          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| Crystal HD Video Decoder (GStreamer plugin)
-gstreamer0.10-ffmpeg             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| FFmpeg plugin for GStreamer
-gstreamer0.10-gconf              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| GStreamer plugin for getting the sink/source information from GConf
-gstreamer0.10-gnomevfs           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| GStreamer plugin for GnomeVFS
-gstreamer0.10-nice               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| ICE library (GStreamer plugin)
-gstreamer0.10-plugins-bad        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| GStreamer plugins from the "bad" set
-gstreamer0.10-plugins-base       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| GStreamer plugins from the "base" set
-gstreamer0.10-plugins-base-apps  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| GStreamer helper programs from the "base" set
-gstreamer0.10-plugins-good       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| GStreamer plugins from the "good" set
-gstreamer0.10-plugins-ugly       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| GStreamer plugins from the "ugly" set
-gstreamer0.10-pulseaudio         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| GStreamer plugin for PulseAudio
-gstreamer0.10-tools              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| Tools for use with GStreamer
-gstreamer0.10-x                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| GStreamer plugins for X11 and Pango
-gstreamer0.10-tools              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| Tools for use with GStreamer
+gstreamer0.10-alsa               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| GStreamer plugin for ALSA
+gstreamer0.10-crystalhd          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Crystal HD Video Decoder (GStreamer plugin)
+gstreamer0.10-ffmpeg             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| FFmpeg plugin for GStreamer
+gstreamer0.10-gconf              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| GStreamer plugin for getting the sink/source information from GConf
+gstreamer0.10-gnomevfs           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| GStreamer plugin for GnomeVFS
+gstreamer0.10-nice               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| ICE library (GStreamer plugin)
+gstreamer0.10-plugins-bad        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| GStreamer plugins from the "bad" set
+gstreamer0.10-plugins-base       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| GStreamer plugins from the "base" set
+gstreamer0.10-plugins-base-apps  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| GStreamer helper programs from the "base" set
+gstreamer0.10-plugins-good       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| GStreamer plugins from the "good" set
+gstreamer0.10-plugins-ugly       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| GStreamer plugins from the "ugly" set
+gstreamer0.10-pulseaudio         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| GStreamer plugin for PulseAudio
+gstreamer0.10-tools              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Tools for use with GStreamer
+gstreamer0.10-x                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| GStreamer plugins for X11 and Pango
+gstreamer0.10-tools              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Tools for use with GStreamer
 gstreamer1.0-alsa                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| GStreamer plugin for ALSA
 gstreamer1.0-clutter             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| Clutter PLugin for GStreamer 1.0
 gstreamer1.0-libav               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| FFmpeg plugin for GStreamer
