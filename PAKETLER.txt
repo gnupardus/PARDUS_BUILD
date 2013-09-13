@@ -66,7 +66,9 @@ libcanberra-gtk3-module          |32|64| |---|GNOME|----| |------|Fatih|Kurumsal
 libcanberra-gtk-module           |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| translates GTK+ widgets signals to event sounds
 libcanberra-pulse                |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| PulseAudio backend for libcanberra
 totem-plugins                    |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Plugins for the Totem media player
-gnome-packagekit                 |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |------|sid| Graphical distribution neutral software manager
+gnome-packagekit                 |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Graphical distribution neutral software manager
+python-packagekit-gtk            |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Python GTK+ widgets for PackageKit clients
+packagekit-tools                 |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Provides PackageKit command-line tools
 gir1.2-gstreamer-1.0             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|sid| GObject introspection data for the GStreamer library -SoftwareCenter
 gir1.2-gstreamer-0.10            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| GObject introspection data for the GStreamer library -SoftwareCenter
 libsasl2-2                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
@@ -124,7 +126,6 @@ apt                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 aptitude                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| terminal-based package manager (terminal interface only)
 apt-show-versions                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| lists available package versions with distribution
 apt-utils                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| APT utility programs
-apt-xapian-index                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| maintenance and search tools for a Xapian index of Debian packages
 ark                              |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| archive utility
 aspell                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| GNU Aspell spell-checker
 aspell-en                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| English dictionary for GNU Aspell
@@ -488,7 +489,7 @@ gvfs-libs                        |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal
 gwenview                         |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| image viewer
 gzip                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| GNU compression utilities
 hannah-foo2zjs                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Graphical firmware downloader for the foo2zjs package
-hdparm                           |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|sid| tune hard disk parameters for high performance
+hdparm                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| tune hard disk parameters for high performance
 hfsplus                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Tools to access HFS+ formatted volumes
 hfsprogs                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| mkfs and fsck for HFS and HFS+ file systems
 hfsutils                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Tools for reading and writing Macintosh volumes
@@ -1053,7 +1054,6 @@ python-urlgrabber                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 python-vte                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Python bindings for the VTE widget set
 python-wadllib                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Python library for navigating WADL files
 python-webkit                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| WebKit/Gtk Python bindings
-python-xapian                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Xapian search engine interface for Python
 python-xcbgen                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X C Binding - protocol binding generator
 python-xdg                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Python library to access freedesktop.org standards
 python-xlib                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Interface for Python to the X11 Protocol

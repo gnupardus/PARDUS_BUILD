@@ -6,3 +6,4 @@ pardus-config-gnome-tr           |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal
 libreoffice-l10n-tr              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| office productivity suite -- Turkish language package
 libreoffice-help-tr              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| office productivity suite -- Turkish help package
 manpages-tr                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Turkish version of the manual pages
+pardus-translate-tr              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| This package contains proper Turkish translation files
