@@ -266,6 +266,7 @@ fakeroot                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 fancontrol                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| utilities to read temperature/voltage/fan sensors
 ffmpeg                           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| audio/video encoder, streaming server & audio/video file converter.
 ffmpegthumbnailer                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| fast and lightweight video thumbnailer
+ffmpegthumbs                     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| video thumbnail generator using ffmpeg
 file                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Determines file type using "magic" numbers
 file-roller                      |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| archive manager for GNOME
 filezilla                        |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|sid| Full-featured graphical FTP/FTPS/SFTP client

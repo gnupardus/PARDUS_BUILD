@@ -33,4 +33,4 @@ deb [arch=amd64,i386] ftp://localhost/topluluk/ozelhavuz   sid                  
 
 #deb [arch=amd64,i386] ftp://ftp.us.debian.org/debian/                  sid                    main contrib non-free
 #deb [arch=amd64,i386] http://deb-multimedia.org/                       sid                    main         non-free
-#deb [arch=amd64,i386] ftp://depo.pardus.org.tr/topluluk/ozelhavuz      sid                    main         non-free
+#deb [arch=amd64,i386] ftp://depo.pardus.org.tr/topluluk/ozelhavuz      sid                    main contrib non-free
