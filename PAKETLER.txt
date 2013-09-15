@@ -24,6 +24,7 @@ scanbuttond                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 simple-scan                      |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Simple Scanning Utility
 gpointing-device-settings        |32|64| |---|GNOME|----| |------|-----|Kurumsal|Topluluk| |wheezy|sid| configuration tool for pointing devices
 kde-config-touchpad              |32|64| |KDE|-----|----| |------|-----|Kurumsal|Topluluk| |wheezy|sid| touchpad configuration tool (synaptiks)
+kio-mtp                          |32|64| |KDE|-----|----| |------|-----|Kurumsal|Topluluk| |wheezy|sid| access to MTP devices for applications using the KDE Platform
 
 florence                         |32|64| |---|GNOME|----| |------|Fatih|--------|--------| |wheezy|sid| extensible and scalable virtual keyboard for GNOME
 
@@ -69,6 +70,8 @@ totem-plugins                    |32|64| |---|GNOME|----| |------|Fatih|Kurumsal
 gnome-packagekit                 |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Graphical distribution neutral software manager
 python-packagekit-gtk            |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Python GTK+ widgets for PackageKit clients
 packagekit-tools                 |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Provides PackageKit command-line tools
+gir1.2-webkit-1.0                |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |------|sid| GObject introspection data for the WebKit library
+gir1.2-webkit2-3.0               |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |------|sid| GObject introspection data for the GTK+ port of the WebKit2 library
 gir1.2-gstreamer-1.0             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|sid| GObject introspection data for the GStreamer library -SoftwareCenter
 gir1.2-gstreamer-0.10            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| GObject introspection data for the GStreamer library -SoftwareCenter
 libsasl2-2                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
