@@ -92,7 +92,7 @@ function PARAMETRELERI_KONTROL_ET()
             DIST_BASE=sid
             DELETE_BASE=wheezy
             PARDUS_SURUM="2.0"
-            PARDUS_ISO_SURUM="2.0rc3"
+            PARDUS_ISO_SURUM="2.0"
             case "$PARDUS_LANG" in
                 en)
                     PARDUS_DAGITIM_LANG=Community
@@ -188,7 +188,7 @@ cp -f ../isolinux/$DIST_BASE"_"$DIST_ARCH/$PARDUS_LANG/* isolinux
 
 lb config -a $DIST_ARCH --verbose --apt apt --parent-distribution $DIST_BASE --distribution $DIST_BASE --binary-images iso-hybrid
 lb config --apt-options  '--force-yes -y'
-lb config --system live
+lb config --system live 
 lb config --parent-distribution $DIST_BASE 
 lb config  --firmware-binary false
 
@@ -250,28 +250,26 @@ lb config --parent-mirror-chroot $DEBIAN_POOL
 lb config --parent-mirror-chroot-security $SECURITY_POOL
 lb config --mirror-chroot $DEBIAN_POOL
 lb config --mirror-chroot-security $SECURITY_POOL
+lb config --parent-mirror-chroot-updates $DEBIAN_POOL
 
 lb config --parent-mirror-binary $DEBIAN_POOL
 lb config --parent-mirror-binary-security $SECURITY_POOL
 lb config --mirror-binary $DEBIAN_POOL
 lb config --mirror-binary-security $SECURITY_POOL
+lb config --parent-mirror-binary-updates $DEBIAN_POOL
 
+lb config --mirror-binary-updates $DEBIAN_POOL
+lb config --parent-mirror-binary-updates $DEBIAN_POOL
+lb config --mirror-chroot-updates $DEBIAN_POOL
+lb config --parent-mirror-chroot-updates $DEBIAN_POOL
+
+lb config --mirror-binary-backports $BACKPORTS_POOL
+lb config --parent-mirror-binary-backports $BACKPORTS_POOL
+lb config --mirror-chroot-backports $BACKPORTS_POOL
+lb config --parent-mirror-chroot-backports $BACKPORTS_POOL
 
 #lb config --parent-mirror-debian-installer $DEBIAN_POOL
 lb config --mirror-debian-installer $DEBIAN_POOL
-
-
-if [ "$DIST_BASE" == "wheezy" ]
-then
-    lb config --mirror-binary-updates $DEBIAN_POOL
-    lb config --mirror-binary-backports $BACKPORTS_POOL
-    lb config --parent-mirror-binary-updates $DEBIAN_POOL
-    lb config --parent-mirror-binary-backports $BACKPORTS_POOL
-    lb config --mirror-chroot-updates $DEBIAN_POOL
-    lb config --mirror-chroot-backports $BACKPORTS_POOL
-    lb config --parent-mirror-chroot-updates $DEBIAN_POOL
-    lb config --parent-mirror-chroot-backports $BACKPORTS_POOL
-fi
 
 
 echo "$PACKAGES"                      > config/package-lists/pardus.list.chroot
@@ -361,6 +359,7 @@ lb config --iso-publisher "ULAKBIM - http://www.ulakbim.gov.tr"
 
 ls -l -R config
 
+# sh -x /usr/bin/lb build --verbose --debug 2>&1 | tee build.log
 lb build 2>&1 | tee build.log
 
 cd ..

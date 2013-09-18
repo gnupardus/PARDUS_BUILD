@@ -617,7 +617,6 @@ lib32gmpxx4                      |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 lib32go0                         |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Runtime library for GNU Go applications (32bit)
 lib32gomp1                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| GCC OpenMP (GOMP) support library (32bit)
 lib32itm1                        |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| GNU Transactional Memory Library (32bit)
-lib32mpfr4                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| multiple precision floating-point computation (32bit)
 lib32mudflap0                    |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| GCC mudflap shared support libraries (32bit)
 lib32ncurses5                    |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| shared libraries for terminal handling (32-bit)
 lib32ncursesw5                   |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| shared libraries for terminal handling (wide character support) (32-bit)
