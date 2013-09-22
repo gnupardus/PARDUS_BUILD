@@ -24,6 +24,8 @@ scanbuttond                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 simple-scan                      |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Simple Scanning Utility
 gpointing-device-settings        |32|64| |---|GNOME|----| |------|-----|Kurumsal|Topluluk| |wheezy|sid| configuration tool for pointing devices
 kde-config-touchpad              |32|64| |KDE|-----|----| |------|-----|Kurumsal|Topluluk| |wheezy|sid| touchpad configuration tool (synaptiks)
+libcalendarsupport4              |32|64| |KDE|-----|----| |------|-----|Kurumsal|Topluluk| |wheezy|sid| KDE PIM library
+libkdepim4                       |32|64| |KDE|-----|----| |------|-----|Kurumsal|Topluluk| |wheezy|sid| calendar support library
 kio-mtp                          |32|64| |KDE|-----|----| |------|-----|Kurumsal|Topluluk| |wheezy|sid| access to MTP devices for applications using the KDE Platform
 
 florence                         |32|64| |---|GNOME|----| |------|Fatih|--------|--------| |wheezy|sid| extensible and scalable virtual keyboard for GNOME
