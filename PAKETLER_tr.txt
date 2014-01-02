@@ -1,9 +1,10 @@
 firefox-locale-tr                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Web browser based on Firefox
 thunderbird-locale-tr            |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|sid| mail/news client with RSS and integrated spam filter support
-kde-l10n-tr                      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Turkish (tr) localization files for KDE
-pardus-config-kde-tr             |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Turkish (tr) localization files for KDE
-pardus-config-gnome-tr           |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Turkish (tr) localization files for GNOME
 libreoffice-l10n-tr              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| office productivity suite -- Turkish language package
 libreoffice-help-tr              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| office productivity suite -- Turkish help package
 manpages-tr                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Turkish version of the manual pages
+kde-l10n-tr                      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Turkish (tr) localization files for KDE
 pardus-translate-tr              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| This package contains proper Turkish translation files
+pardus-config-kde-tr             |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Turkish (tr) localization files for KDE
+pardus-config-gnome-tr           |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Turkish (tr) localization files for GNOME
+pardus-config-xfce-tr            |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Turkish (tr) localization files for XFCE

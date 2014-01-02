@@ -1,12 +1,19 @@
 #!/bin/sh
 
+## live-config(7) - System Configuration Components
+## Copyright (C) 2006-2013 Daniel Baumann <mail@daniel-baumann.ch>
+##
+## This program comes with ABSOLUTELY NO WARRANTY; for details see COPYING.
+## This is free software, and you are welcome to redistribute it
+## under certain conditions; see COPYING for details.
 
-Pardus_installer_launcher ()
+
+set -e
+
+Cmdline ()
 {
-	echo -n " pardus-installer-launcher"
-
 	# Reading kernel command line
-	for _PARAMETER in ${_CMDLINE}
+	for _PARAMETER in ${LIVE_CONFIG_CMDLINE}
 	do
 		case "${_PARAMETER}" in
 			live-config.username=*|username=*)
@@ -14,11 +21,20 @@ Pardus_installer_launcher ()
 				;;
 		esac
 	done
-
-	Configure_pardus_installer_launcher
 }
 
-Configure_pardus_installer_launcher ()
+Init ()
+{
+	# Checking if already configured
+	if [ -e /var/lib/live/config/pardus-installer-launcher ]
+	then
+		exit 0
+	fi
+
+	echo -n " pardus-installer-launcher"
+}
+
+Config ()
 {
 	# KDE4 needs the desktop file somewhere else,
 	# otherwise no Home and Trash icons on the desktop.
@@ -30,6 +46,11 @@ Configure_pardus_installer_launcher ()
 		install -D -o ${LIVE_USERNAME} -g ${LIVE_USERNAME} /usr/share/applications/pardus-installer-launcher.desktop /home/${LIVE_USERNAME}/Desktop/pardus-installer-launcher.desktop
 		chown ${LIVE_USERNAME}:${LIVE_USERNAME} /home/${LIVE_USERNAME}/Desktop -R
 	fi
+
+	# Creating state file
+	touch /var/lib/live/config/pardus-installer-launcher
 }
 
-Pardus_installer_launcher
+Cmdline
+Init
+Config

@@ -5,8 +5,8 @@
 set -e
 
 unset GREP_OPTIONS
-PARDUS_SURUM="2013"
-PARDUS_ISO_SURUM="2013.08_29"
+PARDUS_SURUM="2.0.91"
+PARDUS_ISO_SURUM="2.0.91"
 DIST_ARCH=i386
 PARDUS_ARCH=32
 PARDUS_desk="kde"
@@ -91,8 +91,8 @@ function PARAMETRELERI_KONTROL_ET()
             PARDUS_dagitim=topluluk
             DIST_BASE=sid
             DELETE_BASE=wheezy
-            PARDUS_SURUM="2.0"
-            PARDUS_ISO_SURUM="2.0"
+            PARDUS_SURUM="2.0.91"
+            PARDUS_ISO_SURUM="2.0.91"
             case "$PARDUS_LANG" in
                 en)
                     PARDUS_DAGITIM_LANG=Community
@@ -149,6 +149,8 @@ function PARAMETRELERI_KONTROL_ET()
 }
 
 
+ulimit -n 8192
+
 PARAMETRELERI_KONTROL_ET $*
 
 
@@ -190,7 +192,8 @@ lb config -a $DIST_ARCH --verbose --apt apt --parent-distribution $DIST_BASE --d
 lb config --apt-options  '--force-yes -y'
 lb config --system live 
 lb config --parent-distribution $DIST_BASE 
-lb config  --firmware-binary false
+lb config --firmware-binary false
+# lb config --initsystem systemd
 
 if [ "$DIST_BASE" == "sid" ]
 then
@@ -230,6 +233,18 @@ cp -f ../files/sources.list_"$PARDUS_dagitim"  config/includes.chroot/opt/PARDUS
 
 if [ "$DIST_BASE" == "wheezy" ]
 then
+    lb config --parent-mirror-chroot-updates $DEBIAN_POOL
+    lb config --parent-mirror-binary-updates $DEBIAN_POOL
+    lb config --mirror-binary-updates $DEBIAN_POOL
+    lb config --parent-mirror-binary-updates $DEBIAN_POOL
+    lb config --mirror-chroot-updates $DEBIAN_POOL
+    lb config --parent-mirror-chroot-updates $DEBIAN_POOL
+    lb config --mirror-binary-backports $BACKPORTS_POOL
+    lb config --parent-mirror-binary-backports $BACKPORTS_POOL
+    lb config --mirror-chroot-backports $BACKPORTS_POOL
+    lb config --parent-mirror-chroot-backports $BACKPORTS_POOL
+
+
     if ! [ "$PARDUS_DAGITIM" == "Sunucu" ]
     then
         echo "deb $DEBIAN_POOL      wheezy-proposed-updates   main contrib non-free"  >> config/archives/pardus-mirrors.list.chroot
@@ -250,23 +265,11 @@ lb config --parent-mirror-chroot $DEBIAN_POOL
 lb config --parent-mirror-chroot-security $SECURITY_POOL
 lb config --mirror-chroot $DEBIAN_POOL
 lb config --mirror-chroot-security $SECURITY_POOL
-lb config --parent-mirror-chroot-updates $DEBIAN_POOL
 
 lb config --parent-mirror-binary $DEBIAN_POOL
 lb config --parent-mirror-binary-security $SECURITY_POOL
 lb config --mirror-binary $DEBIAN_POOL
 lb config --mirror-binary-security $SECURITY_POOL
-lb config --parent-mirror-binary-updates $DEBIAN_POOL
-
-lb config --mirror-binary-updates $DEBIAN_POOL
-lb config --parent-mirror-binary-updates $DEBIAN_POOL
-lb config --mirror-chroot-updates $DEBIAN_POOL
-lb config --parent-mirror-chroot-updates $DEBIAN_POOL
-
-lb config --mirror-binary-backports $BACKPORTS_POOL
-lb config --parent-mirror-binary-backports $BACKPORTS_POOL
-lb config --mirror-chroot-backports $BACKPORTS_POOL
-lb config --parent-mirror-chroot-backports $BACKPORTS_POOL
 
 #lb config --parent-mirror-debian-installer $DEBIAN_POOL
 lb config --mirror-debian-installer $DEBIAN_POOL
@@ -274,16 +277,11 @@ lb config --mirror-debian-installer $DEBIAN_POOL
 
 echo "$PACKAGES"                      > config/package-lists/pardus.list.chroot
 
+# mkdir -p config/includes.chroot/lib/live/config-hooks
+# cp -f ../live-config/*            config/includes.chroot/lib/live/config-hooks/
 mkdir -p config/includes.chroot/lib/live/config
 cp -f ../live-config/*            config/includes.chroot/lib/live/config/
-
-cp -f ../hooks/*                        config/hooks
-
-########## if [ "$PARDUS_DESK_ENV" == "GNOME" ]
-########## then
-   ########## mkdir -p                                       config/includes.chroot/usr/share/backgrounds/gnome/
-   ########## cp -f ../files/Pardus_Mood.png                 config/includes.chroot/usr/share/backgrounds/gnome/
-########## fi
+cp -f ../hooks/*                  config/hooks
 
 cp -f ../files/pardus.preseed.chroot       config/preseed/pardus.cfg.chroot
 cat ../files/pardus.preseed.chroot.$PARDUS_LANG >>  config/preseed/pardus.cfg.chroot
@@ -359,12 +357,12 @@ lb config --iso-publisher "ULAKBIM - http://www.ulakbim.gov.tr"
 
 ls -l -R config
 
-# sh -x /usr/bin/lb build --verbose --debug 2>&1 | tee build.log
+# sh -x /usr/bin/lb build --verbose 2>&1 | tee build.log
 lb build 2>&1 | tee build.log
 
 cd ..
 
-if ! [ -e LIVE/binary.hybrid.iso ]
+if ! [ -e LIVE/*.hybrid.iso ]
 then
     echo "ALARM\nALARM. ISO not found"
     exit 3
@@ -383,8 +381,8 @@ else
     PARDUS_ISO_NAME="pardus_"$PARDUS_dagitim_lang"_"$PARDUS_ISO_SURUM"_"$PARDUS_desk"_"$PARDUS_ARCH"bit""_"$PARDUS_LANG
 fi
 
-mv     -f LIVE/binary.hybrid.iso     ISO/"$PARDUS_ISO_NAME".iso
-mv     -f LIVE/build.log             ISO/"$PARDUS_ISO_NAME".log
+mv     -f LIVE/*.hybrid.iso     ISO/"$PARDUS_ISO_NAME".iso
+cp     -f LIVE/build.log             ISO/"$PARDUS_ISO_NAME".log
 
 cd ISO
 md5sum    "$PARDUS_ISO_NAME".iso > "$PARDUS_ISO_NAME".md5

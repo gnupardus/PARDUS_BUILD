@@ -1,5 +1,3 @@
-deb [arch=amd64,i386] ftp://localhost/bireysel/anahavuz    wheezy                  main contrib non-free
-deb [arch=amd64,i386] ftp://localhost/bireysel/anahavuz    wheezy-proposed-updates main contrib non-free
-deb [arch=amd64,i386] ftp://localhost/bireysel/cokluortam  wheezy                  main         non-free
-deb [arch=amd64,i386] ftp://localhost/bireysel/guvenlik    wheezy/updates          main contrib non-free
-deb [arch=amd64,i386] ftp://localhost/bireysel/ozelhavuz   wheezy                  main         non-free
+# deb [arch=amd64,i386] ftp://localhost/topluluk/anahavuz    sid                     main contrib non-free
+# deb [arch=amd64,i386] ftp://localhost/topluluk/cokluortam  sid                     main         non-free
+# deb [arch=amd64,i386] ftp://localhost/topluluk/ozelhavuz   sid                     main contrib non-free

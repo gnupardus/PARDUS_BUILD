@@ -2,3 +2,4 @@ firefox-locale-en                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 thunderbird-locale-en            |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|sid| mail/news client with RSS and integrated spam filter support
 pardus-config-kde-en             |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| English (us) localization files for KDE
 pardus-config-gnome-en           |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| English (us) localization files for GNOME
+pardus-config-xfce-en            |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| English (us) localization files for XFCE

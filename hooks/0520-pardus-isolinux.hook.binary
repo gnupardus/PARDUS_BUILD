@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+
+echo "REPLACING ISOLINUX"
+pwd
+ls -l
+
+cp -r -f isolinux ../ORJ.isolinux
+cp -r -f ../isolinux/* isolinux/
+
+echo "DONE"
