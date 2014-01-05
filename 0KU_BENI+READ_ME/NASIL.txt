@@ -7,7 +7,7 @@ ADIM 2 :
 
       DVD uretme sistemini indirin.
 
-      Konsolda "git clone https://github.com/pardustopluluk/PARDUS_BUILD" komutunu calisitirin.
+      Konsolda "git clone https://github.com/gnupardus/PARDUS_BUILD" komutunu calisitirin.
 
       Daha sonra "cd PARDUS_BUILD" ile dizine girin.
 
