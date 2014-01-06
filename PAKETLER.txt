@@ -705,7 +705,8 @@ libxcb-res0                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 libxcb-screensaver0              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X C Binding, screensaver extension
 libxcb-shape0                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X C Binding, shape extension
 libxcb-shm0                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X C Binding, shm extension
-libxcb-sync0                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X C Binding, sync extension
+libxcb-sync0                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| X C Binding, sync extension
+libxcb-sync1                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| X C Binding, sync extension
 libxcb-util0                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| utility libraries for X C Binding -- atom, aux and event
 libxcb-xevie0                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X C Binding, xevie extension
 libxcb-xf86dri0                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X C Binding, xf86dri extension
@@ -1110,7 +1111,6 @@ starboardsoftware                |32|64| |KDE|GNOME|XFCE| |------|Fatih|--------
 strace                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| A system call tracer
 subversion                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Advanced version control system
 sudo                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Provide limited super user privileges to specific users
-sux                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| wrapper around su which will transfer your X credentials
 swapspace                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| dynamic swap space manager
 synaptic                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Graphical package manager
 syslog-ng                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Next generation system logging daemon (metapackage)
