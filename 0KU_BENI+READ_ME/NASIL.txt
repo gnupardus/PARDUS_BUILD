@@ -29,11 +29,11 @@ ADIM 3 :
 
 ADIM 4 :
 
-     KDE   icin  sudo ./BUILD.sh tr bireysel KDE   
+     KDE   icin  sudo ./BUILD.sh tr topluluk KDE   
 
-     GNOME icin  sudo ./BUILD.sh tr bireysel GNOME 
+     GNOME icin  sudo ./BUILD.sh tr topluluk GNOME 
 
-     XFCE  icin  sudo ./BUILD.sh tr bireysel XFCE  
+     XFCE  icin  sudo ./BUILD.sh tr topluluk XFCE  
 
      demeniz yeter.
 

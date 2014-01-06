@@ -29,11 +29,11 @@ STEP 3 :
 
 STEP 4 :
 
-     For KDE   sudo ./BUILD.sh tr bireysel KDE   
+     For KDE   sudo ./BUILD.sh tr topluluk KDE   
 
-     For GNOME sudo ./BUILD.sh tr bireysel GNOME 
+     For GNOME sudo ./BUILD.sh tr topluluk GNOME 
 
-     For XFCE  sudo ./BUILD.sh tr bireysel XFCE  
+     For XFCE  sudo ./BUILD.sh tr topluluk XFCE  
 
      After a while it will ask "Password for root on localhost?". Just ENTER (leave it empty)
 
