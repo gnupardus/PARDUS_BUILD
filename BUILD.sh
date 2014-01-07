@@ -5,8 +5,8 @@
 set -e
 
 unset GREP_OPTIONS
-PARDUS_SURUM="2.0.91"
-PARDUS_ISO_SURUM="2.0.91"
+PARDUS_SURUM="2.1beta"
+PARDUS_ISO_SURUM="2.1beta"
 DIST_ARCH=i386
 PARDUS_ARCH=32
 PARDUS_desk="kde"
@@ -91,8 +91,6 @@ function PARAMETRELERI_KONTROL_ET()
             PARDUS_dagitim=topluluk
             DIST_BASE=sid
             DELETE_BASE=wheezy
-            PARDUS_SURUM="2.0.91"
-            PARDUS_ISO_SURUM="2.0.91"
             case "$PARDUS_LANG" in
                 en)
                     PARDUS_DAGITIM_LANG=Community
@@ -159,11 +157,11 @@ LOCALHOST=$5
 
 if [ "$LOCALHOST" == "localhost" ]
 then
-    DEBIAN_POOL="ftp://localhost/$PARDUS_dagitim/anahavuz/"
-    SECURITY_POOL="ftp://localhost/$PARDUS_dagitim/guvenlik/"
-    MULTIMEDIA_POOL="ftp://localhost/$PARDUS_dagitim/cokluortam/"
-    BACKPORTS_POOL="ftp://localhost/$PARDUS_dagitim/geritasima/"
-    OZEL_HAVUZ="ftp://localhost/$PARDUS_dagitim/ozelhavuz/"
+    DEBIAN_POOL="ftp://localhost/havuzlar/$PARDUS_dagitim/anahavuz/"
+    SECURITY_POOL="ftp://localhost/havuzlar/$PARDUS_dagitim/guvenlik/"
+    MULTIMEDIA_POOL="ftp://localhost/havuzlar/$PARDUS_dagitim/cokluortam/"
+    BACKPORTS_POOL="ftp://localhost/havuzlar/$PARDUS_dagitim/geritasima/"
+    OZEL_HAVUZ="ftp://localhost/havuzlar/$PARDUS_dagitim/ozelhavuz/"
 else
     DEBIAN_POOL="ftp://depo.pardus.org.tr/$PARDUS_dagitim/anahavuz/"
     SECURITY_POOL="ftp://depo.pardus.org.tr/$PARDUS_dagitim/guvenlik/"
