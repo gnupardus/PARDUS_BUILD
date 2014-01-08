@@ -5,7 +5,7 @@
 set -e
 
 unset GREP_OPTIONS
-PARDUS_SURUM="2.1beta"
+PARDUS_SURUM="2.1"
 PARDUS_ISO_SURUM="2.1beta"
 DIST_ARCH=i386
 PARDUS_ARCH=32
@@ -157,11 +157,11 @@ LOCALHOST=$5
 
 if [ "$LOCALHOST" == "localhost" ]
 then
-    DEBIAN_POOL="ftp://localhost/havuzlar/$PARDUS_dagitim/anahavuz/"
-    SECURITY_POOL="ftp://localhost/havuzlar/$PARDUS_dagitim/guvenlik/"
-    MULTIMEDIA_POOL="ftp://localhost/havuzlar/$PARDUS_dagitim/cokluortam/"
-    BACKPORTS_POOL="ftp://localhost/havuzlar/$PARDUS_dagitim/geritasima/"
-    OZEL_HAVUZ="ftp://localhost/havuzlar/$PARDUS_dagitim/ozelhavuz/"
+    DEBIAN_POOL="ftp://localhost/$PARDUS_dagitim/anahavuz/"
+    SECURITY_POOL="ftp://localhost/$PARDUS_dagitim/guvenlik/"
+    MULTIMEDIA_POOL="ftp://localhost/$PARDUS_dagitim/cokluortam/"
+    BACKPORTS_POOL="ftp://localhost/$PARDUS_dagitim/geritasima/"
+    OZEL_HAVUZ="ftp://localhost/$PARDUS_dagitim/ozelhavuz/"
 else
     DEBIAN_POOL="ftp://depo.pardus.org.tr/$PARDUS_dagitim/anahavuz/"
     SECURITY_POOL="ftp://depo.pardus.org.tr/$PARDUS_dagitim/guvenlik/"
@@ -390,6 +390,11 @@ echo ""
 echo "  $PARDUS_ISO_NAME.iso hazir !                     "
 echo ""
 echo "***************************************************************"
+
+if [ -d /VDB1/FTP/iso/$PARDUS_ISO_SURUM ]
+then
+    ISO_TARGET="/VDB1/FTP/iso/$PARDUS_ISO_SURUM/$PARDUS_LANG"
+fi
 
 if [ -d /SDA1/FTP/qetujgda/gunluk ]
 then
