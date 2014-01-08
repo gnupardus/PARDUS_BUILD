@@ -193,6 +193,11 @@ lb config --parent-distribution $DIST_BASE
 lb config --firmware-binary false
 # lb config --initsystem systemd
 
+if [ "$DIST_ARCH" == "i386" ]
+then
+    lb config --linux-flavours "486 686-pae"
+fi
+
 if [ "$DIST_BASE" == "sid" ]
 then
     lb config  --updates false
