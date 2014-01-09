@@ -771,7 +771,7 @@ mtools                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 mtp-tools                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Media Transfer Protocol (MTP) library tools
 mtr-tiny                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Full screen ncurses traceroute tool
 multiarch-support                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Transitional package to ensure multiarch compatibility
-mysql-client                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| MySQL database client (metapackage depending on the latest version)
+mysql-client                     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| MySQL database client (metapackage depending on the latest version)
 nautilus-sendto                  |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| integrates Evolution and Pidgin into the Nautilus file manager
 nautilus-share                   |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Nautilus extension to share folder using Samba
 ncurses-base                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| basic terminal type definitions
