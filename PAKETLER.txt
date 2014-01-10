@@ -1,5 +1,3 @@
-registry-tools                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| tools for viewing and manipulating the Windows registry
-samba-vfs-modules                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| Samba Virtual FileSystem plugins
 accountsservice                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| query and manipulate user account information
 acl                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Access control list utilities
 acpid                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Advanced Configuration and Power Interface event daemon
@@ -97,6 +95,7 @@ crda                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 cron                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| process scheduling daemon
 cryptsetup                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| configures encrypted block devices
 cups                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Common UNIX Printing System(tm) - server
+cups-backend-bjnp                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| printer backend for Canon BJNP protocol
 cups-browsed                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| OpenPrinting CUPS Filters - cups-browsed
 cups-bsd                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Common UNIX Printing System(tm) - BSD commands
 cups-client                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Common UNIX Printing System(tm) - client programs (SysV)
@@ -807,17 +806,17 @@ ntpdate                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 ntrack-module-libnl-0            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| libnl based ntrack module
 nvidia-detect                    |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA GPU detection utility
 nvidia-driver                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA metapackage
-nvidia-legacy-173xx-driver       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA metapackage (173xx legacy version)
-nvidia-legacy-304xx-driver       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| NVIDIA metapackage (304xx legacy version)
-nvidia-legacy-96xx-driver        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| NVIDIA metapackage (96xx legacy version)
 nvidia-kernel-dkms               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA binary kernel module DKMS source
+nvidia-legacy-173xx-driver       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA metapackage (173xx legacy version)
 nvidia-legacy-173xx-kernel-dkms  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA binary kernel module DKMS source (173xx legacy version)
-nvidia-legacy-96xx-kernel-dkms   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| NVIDIA binary kernel module DKMS source (96xx legacy version)
+nvidia-legacy-304xx-driver       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| NVIDIA metapackage (304xx legacy version)
 nvidia-legacy-304xx-kernel-dkms  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| NVIDIA binary kernel module DKMS source (304xx legacy version)
+nvidia-legacy-96xx-driver        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| NVIDIA metapackage (96xx legacy version)
+nvidia-legacy-96xx-kernel-dkms   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| NVIDIA binary kernel module DKMS source (96xx legacy version)
 nvidia-settings                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| tool for configuring the NVIDIA graphics driver
 nvidia-settings-legacy-173xx     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| tool for configuring the NVIDIA graphics driver (173xx legacy version)
-nvidia-settings-legacy-96xx      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| tool for configuring the NVIDIA graphics driver (96xx legacy version)
 nvidia-settings-legacy-304xx     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| tool for configuring the NVIDIA graphics driver (304xx legacy version)
+nvidia-settings-legacy-96xx      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| tool for configuring the NVIDIA graphics driver (96xx legacy version)
 nvidia-vdpau-driver              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA vdpau driver
 nvidia-xconfig                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X configuration tool for non-free NVIDIA drivers
 obex-data-server                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| D-Bus service for OBEX client and server side functionality
@@ -945,6 +944,7 @@ printer-driver-all               |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 printer-driver-c2050             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| printer driver for Lexmark 2050 Color Jetprinter
 printer-driver-c2esp             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| printer driver for Kodak ESP AiO color inkjet Series
 printer-driver-cjet              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| printer driver for Canon LBP laser printers
+printer-driver-dymo              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|sid| printer driver for Lexmark 2050 Color Jetprinter
 printer-driver-escpr             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| printer driver for Epson Inkjet that use ESC/P-R
 printer-driver-foo2zjs           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| printer driver for ZjStream-based printers
 printer-driver-gutenprint        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| printer drivers for CUPS
@@ -1063,6 +1063,7 @@ rarian-compat                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 rdate                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| sets the system's date from a remote host
 readahead-fedora                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| Fedora's implementation of readahead to preload boot process files
 readline-common                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| GNU readline and history libraries, common files
+registry-tools                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| tools for viewing and manipulating the Windows registry
 reiser4progs                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| administration utilities for the Reiser4 filesystem
 reiserfsprogs                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| User-level tools for ReiserFS filesystems
 rfkill                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| tool for enabling and disabling wireless devices
@@ -1083,6 +1084,7 @@ runit                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 samba                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| SMB/CIFS file, print, and login server for Unix
 samba-common                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| common files used by both the Samba server and client
 samba-common-bin                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| common files used by both the Samba server and client
+samba-vfs-modules                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| Samba Virtual FileSystem plugins
 sane-utils                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| API library for scanners -- utilities
 scanbuttond                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Scanner button daemon
 scdaemon                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| GNU privacy guard - password agent
@@ -1293,8 +1295,8 @@ xserver-xorg-video-neomagic      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 xserver-xorg-video-nouveau       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X.Org X server -- Nouveau display driver
 xserver-xorg-video-nvidia        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA binary Xorg driver
 xserver-xorg-video-nvidia-legacy-173xx  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| NVIDIA binary Xorg driver (173xx legacy version)
-xserver-xorg-video-nvidia-legacy-96xx   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| NVIDIA binary Xorg driver (96xx legacy version)
 xserver-xorg-video-nvidia-legacy-304xx  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|sid| NVIDIA binary Xorg driver (304xx legacy version)
+xserver-xorg-video-nvidia-legacy-96xx   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|---| NVIDIA binary Xorg driver (96xx legacy version)
 xserver-xorg-video-openchrome    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X.Org X server -- VIA display driver
 xserver-xorg-video-qxl           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X.Org X server -- QXL display driver
 xserver-xorg-video-r128          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| X.Org X server -- ATI r128 display driver
