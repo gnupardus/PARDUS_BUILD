@@ -845,12 +845,12 @@ pardus-artwork-release           |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal
 pardus-artwork-release-old       |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
 pardus-config                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
 pardus-config-gnome              |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
-pardus-config-gnome-bireysel     |32|64| |---|GNOME|----| |------|-----|--------|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-config-gnome-topluluk     |32|64| |---|GNOME|----| |------|-----|--------|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
 pardus-config-gnome-fatih        |32|64| |---|GNOME|----| |------|Fatih|--------|--------| |wheezy|sid| xxxxxxxxxxxxxxx
 pardus-config-gnome-kurumsal     |32|64| |---|GNOME|----| |------|-----|Kurumsal|--------| |wheezy|sid| xxxxxxxxxxxxxxx
 pardus-config-gnome-sunucu       |32|64| |---|GNOME|----| |Sunucu|-----|--------|--------| |wheezy|sid| xxxxxxxxxxxxxxx
 pardus-config-kde                |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
-pardus-config-kde-bireysel       |32|64| |KDE|-----|----| |------|-----|--------|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
+pardus-config-kde-topluluk       |32|64| |KDE|-----|----| |------|-----|--------|Topluluk| |wheezy|sid| xxxxxxxxxxxxxxx
 pardus-config-kde-fatih          |32|64| |KDE|-----|----| |------|Fatih|--------|--------| |wheezy|sid| xxxxxxxxxxxxxxx
 pardus-config-kde-kurumsal       |32|64| |KDE|-----|----| |------|-----|Kurumsal|--------| |wheezy|sid| xxxxxxxxxxxxxxx
 pardus-config-kde-sunucu         |32|64| |KDE|-----|----| |Sunucu|-----|        |--------| |wheezy|sid| xxxxxxxxxxxxxxx
