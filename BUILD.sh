@@ -163,16 +163,16 @@ then
     BACKPORTS_POOL="ftp://localhost/$PARDUS_dagitim/geritasima/"
     OZEL_HAVUZ="ftp://localhost/$PARDUS_dagitim/ozelhavuz/"
 else
-    DEBIAN_POOL="ftp://depo.pardus.org.tr/$PARDUS_dagitim/anahavuz/"
-    SECURITY_POOL="ftp://depo.pardus.org.tr/$PARDUS_dagitim/guvenlik/"
-    MULTIMEDIA_POOL="ftp://depo.pardus.org.tr/$PARDUS_dagitim/cokluortam/"
-    BACKPORTS_POOL="ftp://depo.pardus.org.tr/$PARDUS_dagitim/geritasima/"
-    OZEL_HAVUZ="ftp://depo.pardus.org.tr/$PARDUS_dagitim/ozelhavuz/"
+    DEBIAN_POOL="ftp://community.pardus.org.tr/$PARDUS_dagitim/anahavuz/"
+    SECURITY_POOL="ftp://community.pardus.org.tr/$PARDUS_dagitim/guvenlik/"
+    MULTIMEDIA_POOL="ftp://community.pardus.org.tr/$PARDUS_dagitim/cokluortam/"
+    BACKPORTS_POOL="ftp://community.pardus.org.tr/$PARDUS_dagitim/geritasima/"
+    OZEL_HAVUZ="ftp://community.pardus.org.tr/$PARDUS_dagitim/ozelhavuz/"
     ###### DEBIAN_POOL="ftp://ftp.tr.debian.org/debian/"
     ###### SECURITY_POOL="http://security.debian.org/"
     ###### MULTIMEDIA_POOL="http://www.deb-multimedia.org/"
     ###### BACKPORTS_POOL="deb ftp://ftp.de.debian.org/debian-backports/"
-    ###### OZEL_HAVUZ="ftp://depo.pardus.org.tr/ozelhavuz/"
+    ###### OZEL_HAVUZ="ftp://community.pardus.org.tr/topluluk/ozelhavuz/"
 fi
 
 
