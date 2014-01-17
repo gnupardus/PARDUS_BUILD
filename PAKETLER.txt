@@ -539,7 +539,6 @@ lib32gomp1                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 lib32itm1                        |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| GNU Transactional Memory Library (32bit)
 lib32ncurses5                    |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| shared libraries for terminal handling (32-bit)
 lib32ncursesw5                   |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| shared libraries for terminal handling (wide character support) (32-bit)
-lib32nss-mdns                    |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| NSS module for Multicast DNS name resolution (32-bits version)
 lib32objc3                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Runtime library for GNU Objective-C applications (32bit)
 lib32objc4                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| Runtime library for GNU Objective-C applications (32bit)
 lib32quadmath0                   |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|sid| GCC Quad-Precision Math Library (32bit)
