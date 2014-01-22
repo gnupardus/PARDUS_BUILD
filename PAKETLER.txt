@@ -344,6 +344,7 @@ gnome-themes-standard            |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal
 gnome-tweak-tool                 |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| tool to adjust advanced configuration settings for GNOME
 gnome-user-guide                 |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNOME user's guide
 gnome-user-share                 |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| User level public file sharing via WebDAV or ObexFTP
+gnome-xcf-thumbnailer            |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |------|jessie| GNOME thumbnailer for GIMP XCF files.
 gnu-fdisk                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|-------| Linux fdisk replacement based on libparted
 gnupg2                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU privacy guard - a free PGP replacement (new v2.x)
 gnupg                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU privacy guard - a free PGP replacement
@@ -478,6 +479,7 @@ kde-config-tablet                |32|64| |KDE|-----|----| |------|-----|Kurumsal
 kde-config-touchpad              |32|64| |KDE|-----|----| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| touchpad configuration tool (synaptiks)
 kdegames                         |32|64| |KDE|-----|----| |------|-----|--------|Topluluk| |wheezy|jessie| games from the official KDE release
 kdegraphics-libs-data            |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| data files for libraries from the kdegraphics module
+kdegraphics-thumbnailers         |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |------|jessie| graphics file format thumbnailers for KDE SC
 kdelibs5-data                    |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| core shared data for all KDE Applications
 kdelibs5-plugins                 |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| core plugins for KDE Applications
 kdelibs-bin                      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| core executables for KDE Applications
@@ -845,15 +847,15 @@ pardus-artwork-release           |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal
 pardus-artwork-release-old       |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-config                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-config-gnome              |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
-pardus-config-gnome-topluluk     |32|64| |---|GNOME|----| |------|-----|--------|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-config-gnome-fatih        |32|64| |---|GNOME|----| |------|Fatih|--------|--------| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-config-gnome-kurumsal     |32|64| |---|GNOME|----| |------|-----|Kurumsal|--------| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-config-gnome-sunucu       |32|64| |---|GNOME|----| |Sunucu|-----|--------|--------| |wheezy|jessie| xxxxxxxxxxxxxxx
+pardus-config-gnome-topluluk     |32|64| |---|GNOME|----| |------|-----|--------|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-config-kde                |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
-pardus-config-kde-topluluk       |32|64| |KDE|-----|----| |------|-----|--------|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-config-kde-fatih          |32|64| |KDE|-----|----| |------|Fatih|--------|--------| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-config-kde-kurumsal       |32|64| |KDE|-----|----| |------|-----|Kurumsal|--------| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-config-kde-sunucu         |32|64| |KDE|-----|----| |Sunucu|-----|        |--------| |wheezy|jessie| xxxxxxxxxxxxxxx
+pardus-config-kde-topluluk       |32|64| |KDE|-----|----| |------|-----|--------|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-config-xfce               |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Pardus XFCE Configuration
 pardus-config-xfce-topluluk      |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Pardus Community XFCE Configuration
 pardus-config-xorg               |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
@@ -958,6 +960,7 @@ printer-driver-ptouch            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 printer-driver-pxljr             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver for HP Color LaserJet 35xx/36xx
 printer-driver-sag-gdi           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver for Ricoh Aficio SP 1000s/SP 1100s
 printer-driver-splix             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Driver for Samsung and Xerox SPL2 and SPLc laser printers
+print-manager                    |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |------|jessie| printer configuration and monitoring tools
 prism2-usb-firmware-installer    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| firmware files for the prism2_usb kernel driver
 procmail                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Versatile e-mail processor
 procps                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| /proc file system utilities
@@ -1117,8 +1120,8 @@ swapspace                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 synaptic                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Graphical package manager
 syslog-ng                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Next generation system logging daemon (metapackage)
 sysstat                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| system performance tools for Linux
-system-config-printer            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| graphical interface to configure the printing system
-system-config-printer-udev       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Utilities to detect and configure printers automatically
+system-config-printer            |32|64| |---|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| graphical interface to configure the printing system
+system-config-printer-udev       |32|64| |---|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Utilities to detect and configure printers automatically
 systemsettings                   |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| KDE System Settings
 system-tools-backends            |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| System Tools to manage computer configuration -- scripts
 sysvinit                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| System-V-like init utilities
