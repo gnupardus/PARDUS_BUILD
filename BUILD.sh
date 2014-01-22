@@ -6,7 +6,7 @@ set -e
 
 unset GREP_OPTIONS
 PARDUS_SURUM="2.1"
-PARDUS_ISO_SURUM="2.1beta2"
+PARDUS_ISO_SURUM="2.1jessie"
 DIST_ARCH=i386
 PARDUS_ARCH=32
 PARDUS_desk="kde"
@@ -17,7 +17,7 @@ PARDUS_DAGITIM_LANG="Topluluk"
 PARDUS_lang_surum=$PARDUS_dagitim_lang"_"$PARDUS_SURUM
 PARDUS_LANG_SURUM=$PARDUS_DAGITIM_LANG" "$PARDUS_SURUM
 DIST_BASE=wheezy
-DELETE_BASE=sid
+DELETE_BASE=jessie
 
 if [ "`uname -m`" == "x86_64" ]
 then
@@ -89,7 +89,7 @@ function PARAMETRELERI_KONTROL_ET()
         topluluk|Topluluk)
             PARDUS_DAGITIM=Topluluk
             PARDUS_dagitim=topluluk
-            DIST_BASE=sid
+            DIST_BASE=jessie
             DELETE_BASE=wheezy
             case "$PARDUS_LANG" in
                 en)
@@ -158,10 +158,13 @@ LOCALHOST=$5
 if [ "$LOCALHOST" == "localhost" ]
 then
     DEBIAN_POOL="ftp://localhost/$PARDUS_dagitim/anahavuz/"
+    #DEBIAN_POOL="ftp://193.140.98.166/$PARDUS_dagitim/anahavuz/"
     SECURITY_POOL="ftp://localhost/$PARDUS_dagitim/guvenlik/"
     MULTIMEDIA_POOL="ftp://localhost/$PARDUS_dagitim/cokluortam/"
+    #MULTIMEDIA_POOL="ftp://193.140.98.166/$PARDUS_dagitim/cokluortam/"
     BACKPORTS_POOL="ftp://localhost/$PARDUS_dagitim/geritasima/"
     OZEL_HAVUZ="ftp://localhost/$PARDUS_dagitim/ozelhavuz/"
+    #OZEL_HAVUZ="ftp://193.140.98.166/$PARDUS_dagitim/ozelhavuz/"
 else
     DEBIAN_POOL="ftp://community.pardus.org.tr/$PARDUS_dagitim/anahavuz/"
     SECURITY_POOL="ftp://community.pardus.org.tr/$PARDUS_dagitim/guvenlik/"
@@ -199,7 +202,7 @@ then
     lb config --linux-flavours "486 686-pae"
 fi
 
-if [ "$DIST_BASE" == "sid" ]
+if [ "$DIST_BASE" == "jessie" ]
 then
     lb config  --updates false
     lb config  --security false
@@ -256,8 +259,8 @@ then
     echo "deb $MULTIMEDIA_POOL  wheezy                    main         non-free"  >> config/archives/pardus-mirrors.list.chroot
     echo "deb $OZEL_HAVUZ       wheezy                    main contrib non-free"  >> config/archives/pardus-mirrors.list.chroot
 else
-    echo "deb $MULTIMEDIA_POOL  sid                    main         non-free"  >> config/archives/pardus-mirrors.list.chroot
-    echo "deb $OZEL_HAVUZ       sid                    main contrib non-free"  >> config/archives/pardus-mirrors.list.chroot
+    echo "deb $MULTIMEDIA_POOL  jessie                   main         non-free"  >> config/archives/pardus-mirrors.list.chroot
+    echo "deb $OZEL_HAVUZ       jessie                   main contrib non-free"  >> config/archives/pardus-mirrors.list.chroot
 fi
 
 lb config --parent-archive-areas "main contrib non-free"
