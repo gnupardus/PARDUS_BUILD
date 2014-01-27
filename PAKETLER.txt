@@ -1147,6 +1147,7 @@ tzdata-java                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 ucf                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Update Configuration File: preserve user changes to config files.
 udev                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| /dev/ and hotplug management daemon
 udisks                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| storage media interface
+udisks2                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| D-BUS service to access and manipulate storage devices
 ufraw                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| standalone importer for raw camera images
 ufraw-batch                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| batch importer for raw camera images
 ufsutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| UFS filesystems utilities
