@@ -137,8 +137,6 @@ dmidecode                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 dmraid                           |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| Device-Mapper Software RAID support tool
 dmsetup                          |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| Linux Kernel Device Mapper userspace library
 dmz-cursor-theme                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Style neutral, scalable cursor theme
-dnet-common                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Base package for Linux DECnet
-dnet-progs                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| DECnet user programs and daemons
 dnsmasq-base                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Small caching DNS proxy and DHCP/TFTP server
 dnsutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Clients provided with BIND
 dolphin                          |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| file manager
