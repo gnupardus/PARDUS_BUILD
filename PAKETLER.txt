@@ -1053,7 +1053,6 @@ qtcurve                          |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal
 qtcurve-i18n                     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Translation files for QtCurve
 quassel                          |32|64| |KDE|-----|----| |------|-----|--------|Topluluk| |wheezy|jessie| distributed IRC client - Qt-based monolithic core+client
 quassel-data                     |32|64| |KDE|-----|----| |------|-----|--------|Topluluk| |wheezy|jessie| distributed IRC client - shared data (Qt version)
-radvd                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Router Advertisement Daemon
 rar                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Archiver for .rar files
 rarian-compat                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Documentation meta-data library (compatibility tools)
 rdate                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| sets the system's date from a remote host
