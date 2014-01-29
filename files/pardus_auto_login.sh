@@ -21,3 +21,7 @@ then
     ######## #sed -i "s|^#\?.*AutomaticLogin .*=.*|AutomaticLogin = $PARDUS_USER_NAME|" /etc/gdm3/daemon.conf
     sed -i "s|^#\?.*AutomaticLogin .*=.*|AutomaticLogin = $PARDUS_USER_NAME\nTimedLoginEnable = true\nTimedLogin = $PARDUS_USER_NAME\nTimedLoginDelay = 0|" /etc/gdm3/daemon.conf
 fi
+if [ -e /etc/lightdm/lightdm.conf ]
+then
+    sed -i -r -e "s|^#.*autologin-user=.*\$|autologin-user=${PARDUS_USER_NAME}|" -e "s|^#.*autologin-user-timeout=.*\$|autologin-user-timeout=0|" /etc/lightdm/lightdm.conf
+fi
