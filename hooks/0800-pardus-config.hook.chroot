@@ -82,12 +82,12 @@ else
                                      libvdpau1:i386 libfglrx-amdxvba1:i386 libfglrx:i386 libgl1-fglrx-glx:i386 nvidia-vdpau-driver:i386 \
                                      libwine-bin:i386 libwine:i386 libcups2:i386 libgssapi-krb5-2:i386 libk5crypto3:i386 libkrb5-3:i386 libkrb5support0:i386 \
                                      libmpfr4:i386 playonlinux \
-                                     libnss-mdns:i386
+                                     libnss-mdns:i386 libxrandr2:i386 libxtst6:i386 libxi6:i386
 fi
 
 if [ "$PARDUS_DAGITIM" == "Topluluk" ]
 then
-    apt-get -y --force-yes install teamviewer7 skype:i386
+    apt-get -y --force-yes install teamviewer:i386 skype:i386
 fi
 
 
