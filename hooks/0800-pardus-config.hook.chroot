@@ -87,7 +87,7 @@ fi
 
 if [ "$PARDUS_DAGITIM" == "Topluluk" ]
 then
-    apt-get -y --force-yes install teamviewer:i386 skype:i386
+    apt-get -y --force-yes install skype:i386
 fi
 
 
