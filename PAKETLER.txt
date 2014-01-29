@@ -58,6 +58,7 @@ bluez-pcmcia-support             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 brasero                          |32|64| |---|GNOME|----| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| CD/DVD burning application for GNOME
 brasero-cdrkit                   |32|64| |---|GNOME|----| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| cdrkit extensions for the Brasero burning application
 broadcom-sta-dkms                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| dkms source for the Broadcom STA Wireless driver
+browser-plugin-libreoffice       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| office productivity suite -- Mozilla plugin
 browser-plugin-vlc               |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| multimedia plugin for web browsers based on VLC
 bsdmainutils                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| collection of more utilities from FreeBSD
 bsdutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Basic utilities from 4.4BSD-Lite
