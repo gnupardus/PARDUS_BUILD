@@ -22,7 +22,6 @@ aptitude                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 apt-show-versions                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| lists available package versions with distribution
 apt-utils                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| APT utility programs
 archivemount                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| mounts an archive for access as a file system
-teamviewer                       |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Topluluk| |wheezy|jessie| TeamViewer (Remote Control Application)
 ark                              |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| archive utility
 aspell                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU Aspell spell-checker
 aspell-en                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| English dictionary for GNU Aspell
@@ -1124,6 +1123,7 @@ tcl8.5                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 tcpd                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Wietse Venema's TCP wrapper utilities
 tcpdump                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| command-line network traffic analyzer
 tdb-tools                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Trivial Database - bundled binaries
+teamviewer                       |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Topluluk| |wheezy|jessie| TeamViewer (Remote Control Application)
 telnet                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The telnet client
 testdisk                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Partition scanner and disk recovery tool
 thunderbird                      |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| mail/news client with RSS and integrated spam filter support
@@ -1147,8 +1147,8 @@ tzdata                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 tzdata-java                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| time zone and daylight-saving time data for use by java runtimes
 ucf                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Update Configuration File: preserve user changes to config files.
 udev                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| /dev/ and hotplug management daemon
-udisks                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| storage media interface
 udisks2                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| D-BUS service to access and manipulate storage devices
+udisks                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| storage media interface
 ufraw                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| standalone importer for raw camera images
 ufraw-batch                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| batch importer for raw camera images
 ufsutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| UFS filesystems utilities
@@ -1260,6 +1260,7 @@ xserver-xephyr                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 xserver-xorg-core                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Xorg X server - core server
 xserver-xorg-input-acecad        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- AceCad input driver
 xserver-xorg-input-aiptek        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- Aiptek input driver
+xserver-xorg-input-all           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- input driver metapackage
 xserver-xorg-input-elographics   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- ELOGraphics input driver
 xserver-xorg-input-evdev         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- evdev input driver
 xserver-xorg-input-joystick      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- joystick input driver
@@ -1270,6 +1271,7 @@ xserver-xorg-input-mutouch       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 xserver-xorg-input-synaptics     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Synaptics TouchPad driver for X.Org server
 xserver-xorg-input-vmmouse       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- VMMouse input driver to use with VMWare
 xserver-xorg-input-wacom         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- Wacom input driver
+xserver-xorg-video-all           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- output driver metapackage
 xserver-xorg-video-apm           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| X.Org X server -- APM display driver
 xserver-xorg-video-ark           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| X.Org X server -- ark display driver
 xserver-xorg-video-ati           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- AMD/ATI display driver wrapper
@@ -1285,6 +1287,7 @@ xserver-xorg-video-intel         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 xserver-xorg-video-ivtv          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- IVTV display driver
 xserver-xorg-video-mach64        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- ATI Mach64 display driver
 xserver-xorg-video-mga           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- MGA display driver
+xserver-xorg-video-modesetting   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| X.Org X server -- Generic modesetting driver
 xserver-xorg-video-modesetting   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| X.Org X server -- Generic modesetting driver
 xserver-xorg-video-neomagic      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- Neomagic display driver
 xserver-xorg-video-nouveau       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- Nouveau display driver
