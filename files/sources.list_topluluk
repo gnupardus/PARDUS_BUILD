@@ -1,3 +1,5 @@
 deb ftp://community.pardus.org.tr/topluluk/anahavuz     jessie                      main contrib non-free
+deb ftp://community.pardus.org.tr/topluluk/anahavuz     jessie-proposed-updates     main contrib non-free
+deb ftp://community.pardus.org.tr/topluluk/guvenlik     jessie/updates              main contrib non-free
 deb ftp://community.pardus.org.tr/topluluk/cokluortam   jessie                      main         non-free
 deb ftp://community.pardus.org.tr/topluluk/ozelhavuz    jessie                      main contrib non-free
