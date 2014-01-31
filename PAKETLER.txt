@@ -855,6 +855,7 @@ pardus-icon-theme-blue           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 pardus-icon-theme-green          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-kdm-theme                 |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-ksplash-theme             |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
+pardus-ksplash-theme-milky       |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-plymouth-theme            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-sound-theme               |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 parted                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| disk partition manipulator
