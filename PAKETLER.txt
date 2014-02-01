@@ -300,9 +300,9 @@ glew-utils                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 glib-networking                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| network-related giomodules for GLib
 glib-networking-common           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| network-related giomodules for GLib - data files
 glib-networking-services         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| network-related giomodules for GLib - D-Bus services
-glx-alternative-fglrx            |32|64| |KDE|GNOME|XFCE| |......|Fatih|Kurumsal|Topluluk| |wheezy|jessie| allows the selection of FGLRX as GLX provider
+glx-alternative-fglrx            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| allows the selection of FGLRX as GLX provider
 glx-alternative-mesa             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| allows the selection of MESA as GLX provider
-glx-alternative-nvidia           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| allows the selection of NVIDIA as GLX provider
+glx-alternative-nvidia           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| allows the selection of NVIDIA as GLX provider
 glx-diversions                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| prepare for using accelerated GLX implementations from GPU vendors
 gnome-alsamixer                  |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ALSA sound mixer for GNOME
 gnome-applets                    |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Various applets for the GNOME panel - binary files
@@ -670,7 +670,6 @@ libreoffice-zemberek             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 libsane-extras                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| API library for scanners -- extra backends
 libsasl2-2                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 libsasl2-modules                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Cyrus SASL - pluggable authentication modules
-libsasl2-modules                 |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 libsub-name-perl                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| module for assigning a new name to referenced sub
 libswitch-perl                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| switch statement for Perl
 libtext-charwidth-perl           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| get display widths of characters on the terminal
