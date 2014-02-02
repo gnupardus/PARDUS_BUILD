@@ -90,6 +90,8 @@ then
     apt-get -y --force-yes install skype:i386
 fi
 
+# Gereksiz paketleri kaldıralım
+apt-get purge tasksel-data tasksel rsyslog
 
 ###### gtk-record-mydesktop duzeltiliyor
 if [ -e /usr/share/applications/gtk-recordmydesktop.desktop ]
