@@ -10,8 +10,9 @@ PARDUS_USER_NAME=`ls -1 /home/`
 if [ -d /etc/kde4 ]
 then
     echo "KDE4 found"
-    sed -i "s|^#\?AutoLoginEnable=.*|AutoLoginEnable=true|" /etc/kde4/kdm/kdmrc
-    sed -i "s|^#\?AutoLoginUser=.*|AutoLoginUser=$PARDUS_USER_NAME|" /etc/kde4/kdm/kdmrc
+    #sed -i "s|^#\?AutoLoginEnable=.*|AutoLoginEnable=true|" /etc/kde4/kdm/kdmrc
+    #sed -i "s|^#\?AutoLoginUser=.*|AutoLoginUser=$PARDUS_USER_NAME|" /etc/kde4/kdm/kdmrc
+    genkdmconf
 fi
 
 if [ -d /etc/gdm3 ]

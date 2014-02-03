@@ -91,7 +91,7 @@ then
 fi
 
 # Gereksiz paketleri kaldıralım
-apt-get purge tasksel-data tasksel rsyslog
+apt-get -y --force-yes purge tasksel-data tasksel rsyslog
 
 ###### gtk-record-mydesktop duzeltiliyor
 if [ -e /usr/share/applications/gtk-recordmydesktop.desktop ]
