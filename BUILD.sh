@@ -330,7 +330,7 @@ then
     cp  ../files/preseed_"$PARDUS_LANG".cfg config/debian-installer/preseed.cfg
     cat ../files/preseed_common.cfg >> config/debian-installer/preseed.cfg
     # preseed.cfg atamasi yapildiktan sonr tekrar lb config demek gerekiyor
-    lb config
+    #lb config
 
     rm -f config/packages.chroot/inxi*
     rm -f config/packages.chroot/pardus-installer*
