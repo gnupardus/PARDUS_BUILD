@@ -291,8 +291,6 @@ then
         sed -i "1,10d" isolinux/live.cfg
     fi
     sed -i "s/ splash quiet --//" isolinux/live.cfg
-else
-    sed -i "s/file=\/cdrom\/install\/preseed.cfg //" isolinux/live.cfg
 fi
 
 ###### lsb-release 
