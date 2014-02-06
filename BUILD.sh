@@ -240,18 +240,6 @@ cp -f ../files/sources.list_"$PARDUS_dagitim"  config/includes.chroot/opt/PARDUS
 
 if [ "$DIST_BASE" == "wheezy" ]
 then
-    lb config --parent-mirror-chroot-updates $DEBIAN_POOL
-    lb config --parent-mirror-binary-updates $DEBIAN_POOL
-    lb config --mirror-binary-updates $DEBIAN_POOL
-    lb config --parent-mirror-binary-updates $DEBIAN_POOL
-    lb config --mirror-chroot-updates $DEBIAN_POOL
-    lb config --parent-mirror-chroot-updates $DEBIAN_POOL
-    lb config --mirror-binary-backports $BACKPORTS_POOL
-    lb config --parent-mirror-binary-backports $BACKPORTS_POOL
-    lb config --mirror-chroot-backports $BACKPORTS_POOL
-    lb config --parent-mirror-chroot-backports $BACKPORTS_POOL
-
-
     if ! [ "$PARDUS_DAGITIM" == "Sunucu" ]
     then
         echo "deb $DEBIAN_POOL      wheezy-proposed-updates   main contrib non-free"  >> config/archives/pardus-mirrors.list.chroot
