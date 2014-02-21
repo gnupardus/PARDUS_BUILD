@@ -1253,7 +1253,6 @@ xorg                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 xorriso                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| command line ISO 9660 and Rock Ridge manipulation tool
 xsane                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| featureful graphical frontend for SANE (Scanner Access Now Easy)
 xserver-common                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| common files used by various X servers
-xserver-xfbdev                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Linux framebuffer device tiny X server
 xserver-xorg-core                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Xorg X server - core server
 xserver-xorg-input-acecad        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- AceCad input driver
 xserver-xorg-input-aiptek        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- Aiptek input driver
