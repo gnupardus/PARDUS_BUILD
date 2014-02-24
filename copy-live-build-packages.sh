@@ -1,6 +1,6 @@
 #!/bin/sh
 
-SRC_DIR=/VDB1/FTP
+SRC_DIR=/ARSIV/POOLS
 
 rm -f live-build_4.0~alpha*_all.deb
 rm -f live-config-doc_4.0~alpha*_all.deb
