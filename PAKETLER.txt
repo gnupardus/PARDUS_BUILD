@@ -1076,7 +1076,6 @@ samba-common                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 samba-common-bin                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| common files used by both the Samba server and client
 samba-vfs-modules                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| Samba Virtual FileSystem plugins
 sane-utils                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| API library for scanners -- utilities
-scanbuttond                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Scanner button daemon
 scdaemon                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU privacy guard - password agent
 scribus                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Open Source Desktop Page Layout - squeeze branch
 seahorse                         |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNOME front end for GnuPG
