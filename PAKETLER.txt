@@ -179,6 +179,8 @@ filezilla-common                 |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal
 findutils                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities for finding files--find, xargs
 firefox                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Web browser based on Firefox
 firmware-atheros                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Binary firmware for Atheros wireless cards
+firmware-b43-installer           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| firmware installer for the b43 driver
+firmware-b43legacy-installer     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| firmware installer for the b43legacy driver
 firmware-bnx2                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Binary firmware for Broadcom NetXtremeII
 firmware-bnx2x                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Binary firmware for Broadcom NetXtreme II 10Gb
 firmware-intelwimax              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Binary firmware for Intel WiMAX Connection
@@ -194,6 +196,7 @@ firmware-netxen                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 firmware-qlogic                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Binary firmware for QLogic IBA7220, QLA1xxx, ISP2xxx and SP2x2
 firmware-ralink                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Binary firmware for Ralink wireless cards
 firmware-realtek                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Binary firmware for Realtek wired and wireless network adapters
+firmware-ti-connectivity         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Binary firmware for TI Connectivity wireless network adapters
 flac                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Free Lossless Audio Codec - command line tools
 flashplayer-mozilla              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Macromedia Flash Player.
 flex                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| A fast lexical analyzer generator.
