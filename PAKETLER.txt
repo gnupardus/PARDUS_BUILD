@@ -435,7 +435,7 @@ hp-ppd                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 html2text                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| advanced HTML to text converter
 htop                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| interactive processes viewer
 hwdata                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| hardware identification / configuration data
-hwinfo                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Hardware identification system
+hwinfo                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| Hardware identification system
 hyphen-en-us                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| US English hyphenation patterns for LibreOffice/OpenOffice.org
 i965-va-driver                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Video Acceleration (VA) API for Linux -- i965 VA driver
 ibus-qt4                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| qt-immodule for ibus (QT4)
