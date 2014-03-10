@@ -3,6 +3,7 @@ acl                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 acpid                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Advanced Configuration and Power Interface event daemon
 acpi-support                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| scripts for handling many ACPI events
 acpi-support-base                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| scripts for handling base ACPI events such as the power button
+acpitool                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| command line ACPI client
 adduser                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| add and remove users and groups
 aisleriot                        |32|64| |---|GNOME|----| |------|-----|--------|Topluluk| |wheezy|jessie| GNOME solitaire card game collection
 akonadi-server                   |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Akonadi PIM storage service
@@ -90,6 +91,8 @@ console-setup-linux              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 coreutils                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU core utilities
 cpio                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU cpio -- a program to manage archives of files
 cpp                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU C preprocessor (cpp)
+cpufreqd                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| fully configurable daemon for dynamic frequency and voltage scaling
+cpufrequtils                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities to deal with the cpufreq Linux kernel feature
 cpufrequtils                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities to deal with the cpufreq Linux kernel feature
 cpuid                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Intel and AMD x86 CPUID display program
 crda                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| wireless Central Regulatory Domain Agent
@@ -145,6 +148,7 @@ dosfstools                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 dpatch                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| patch maintenance system for Debian source packages
 dpkg                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Debian package management system
 dpkg-dev                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Debian package development tools
+driconf                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| DRI configuration applet
 dv4l                             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Redirect V4L API to access a camcorder from a V4L program
 dvd+rw-tools                     |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| DVD+-RW/R tools
 e2fslibs                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ext2/ext3/ext4 file system libraries
@@ -751,8 +755,8 @@ man-db                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 manpages                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Manual pages about using a GNU/Linux system
 mawk                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| a pattern scanning and text processing language
 mdadm                            |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| tool to administer Linux MD arrays (software RAID)
-menu                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| generates programs menu for all menu-aware applications
 media-player-info                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Media player identification files
+menu                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| generates programs menu for all menu-aware applications
 menu-l10n                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| generates programs menu for all menu-aware applications
 menu-xdg                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| freedesktop.org menu compliant window manager scripts
 mesa-utils                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Miscellaneous Mesa GL utilities
@@ -831,10 +835,10 @@ orage                            |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal
 os-prober                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utility to detect other OSes on a set of drives
 oss-compat                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Open Sound System (OSS) compatibility package
 oxygen-icon-theme                |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Oxygen icon theme
+p11-kit                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| p11-glue utilities, proxy and trust modules
 p7zip                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| 7z file archiver with high compression ratio
 p7zip-full                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| 7z and 7za file archivers with high compression ratio
 p7zip-rar                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| non-free rar module for p7zip
-p11-kit                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| p11-glue utilities, proxy and trust modules
 packagekit-gtk3-module           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|jessie| Install fonts automatically using PackageKit
 packagekit-tools                 |32|64| |RKD|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Provides PackageKit command-line tools
 pango-graphite                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| SILGraphite support for pango
@@ -1085,6 +1089,7 @@ samba-vfs-modules                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 sane-utils                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| API library for scanners -- utilities
 scdaemon                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU privacy guard - password agent
 scribus                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Open Source Desktop Page Layout - squeeze branch
+sdparm                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Output and modify SCSI device parameters
 seahorse                         |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNOME front end for GnuPG
 sed                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The GNU sed stream editor
 sensible-utils                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Utilities for sensible alternative selection
@@ -1134,8 +1139,8 @@ time                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 tk                               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The Tk toolkit for Tcl and X11 (default version) - run-time files
 tk8.5                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Tk toolkit for Tcl and X11, v8.5 - run-time files
 tlsimgesi                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
-toshset                          |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| Access much of the Toshiba laptop hardware interface
 tomboy                           |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| desktop note taking program using Wiki style links
+toshset                          |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| Access much of the Toshiba laptop hardware interface
 totem-plugins                    |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Plugins for the Totem media player
 tp-smapi-dkms                    |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ThinkPad hardware/firmware access modules source - dkms version
 traceroute                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Traces the route taken by packets over an IPv4/IPv6 network
@@ -1175,12 +1180,12 @@ util-linux                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 util-linux-locales               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Locales files for util-linux
 uuid-runtime                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| runtime components for the Universally Unique ID library
 uvcdynctrl                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Command line tool to control v4l2 devices
-v86d                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| daemon to run x86 code in an emulated environment
 v4l2loopback-dkms                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Source for the v4l2loopback driver (DKMS)
 v4l2loopback-utils               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Commandline utilities for the for the v4l2-loopback module
 v4l2ucp                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Video for Linux 2 Universal Control Panel
 v4l-conf                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|-------| tool to configure video4linux drivers
 v4l-utils                        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Collection of command line video4linux utilities
+v86d                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| daemon to run x86 code in an emulated environment
 vainfo                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Video Acceleration (VA) API for Linux -- info program
 vbetool                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| run real-mode video BIOS code to alter hardware state
 vcdimager                        |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| VideoCD (VCD) image mastering and ripping tool
