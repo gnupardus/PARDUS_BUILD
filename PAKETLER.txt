@@ -173,9 +173,6 @@ fancontrol                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 ffmpeg                           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| audio/video encoder, streaming server & audio/video file converter.
 ffmpegthumbnailer                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| fast and lightweight video thumbnailer
 ffmpegthumbs                     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| video thumbnail generator using ffmpeg
-fglrx-control                    |32|64| |KDE|GNOME|XFCE| |......|Fatih|Kurumsal|Topluluk| |wheezy|jessie| control panel for the non-free ATI/AMD RadeonHD display driver
-fglrx-driver                     |32|64| |KDE|GNOME|XFCE| |......|Fatih|Kurumsal|Topluluk| |wheezy|jessie| non-free ATI/AMD RadeonHD display driver
-fglrx-modules-dkms               |32|64| |KDE|GNOME|XFCE| |......|Fatih|Kurumsal|Topluluk| |wheezy|jessie| dkms module source for the non-free ATI/AMD RadeonHD display driver
 file                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Determines file type using "magic" numbers
 file-roller                      |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| archive manager for GNOME
 filezilla                        |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| Full-featured graphical FTP/FTPS/SFTP client
@@ -308,10 +305,6 @@ glew-utils                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 glib-networking                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| network-related giomodules for GLib
 glib-networking-common           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| network-related giomodules for GLib - data files
 glib-networking-services         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| network-related giomodules for GLib - D-Bus services
-glx-alternative-fglrx            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| allows the selection of FGLRX as GLX provider
-glx-alternative-mesa             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| allows the selection of MESA as GLX provider
-glx-alternative-nvidia           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| allows the selection of NVIDIA as GLX provider
-glx-diversions                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| prepare for using accelerated GLX implementations from GPU vendors
 gnome-alsamixer                  |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ALSA sound mixer for GNOME
 gnome-applets                    |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Various applets for the GNOME panel - binary files
 gnome-backgrounds                |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Set of backgrounds packaged with the GNOME desktop
@@ -591,7 +584,6 @@ libdpkg-perl                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 libegl1-mesa                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| free implementation of the EGL API -- runtime
 libegl1-mesa-drivers             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| free implementation of the EGL API -- hardware drivers
 libencode-locale-perl            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utility to determine the locale encoding
-libfglrx-amdxvba1                |32|64| |KDE|GNOME|XFCE| |......|Fatih|Kurumsal|Topluluk| |wheezy|jessie| AMD XvBA (X-Video Bitstream Acceleration) runtime libraries
 libfile-basedir-perl             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Perl module to use the freedesktop basedir specification
 libfile-copy-recursive-perl      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Perl extension for recursively copying files and directories
 libfile-desktopentry-perl        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Perl module to handle freedesktop .desktop files
@@ -812,12 +804,6 @@ nmap                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 ntfs-3g                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| read/write NTFS driver for FUSE
 ntp                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Network Time Protocol daemon and utility programs
 ntrack-module-libnl-0            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| libnl based ntrack module
-nvidia-detect                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| NVIDIA GPU detection utility
-nvidia-driver                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| NVIDIA metapackage
-nvidia-kernel-dkms               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| NVIDIA binary kernel module DKMS source
-nvidia-settings                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| tool for configuring the NVIDIA graphics driver
-nvidia-vdpau-driver              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| NVIDIA vdpau driver
-nvidia-xconfig                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X configuration tool for non-free NVIDIA drivers
 obex-data-server                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| D-Bus service for OBEX client and server jessiee functionality
 obexd-client                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| D-Bus OBEX client
 odbcinst1debian2                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Support library for accessing odbc ini files
@@ -857,7 +843,6 @@ pardus-config-kde-sunucu         |32|64| |KDE|-----|----| |Sunucu|-----|        
 pardus-config-kde-topluluk       |32|64| |KDE|-----|----| |------|-----|--------|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-config-xfce               |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Pardus XFCE Configuration
 pardus-config-xfce-topluluk      |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Pardus Community XFCE Configuration
-pardus-config-xorg               |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-icons-ironvolt            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| New official icon set of the Pardus distribution.
 pardus-icon-theme-blue           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-icon-theme-green          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
@@ -1303,7 +1288,6 @@ xserver-xorg-video-modesetting   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 xserver-xorg-video-modesetting   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| X.Org X server -- Generic modesetting driver
 xserver-xorg-video-neomagic      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- Neomagic display driver
 xserver-xorg-video-nouveau       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- Nouveau display driver
-xserver-xorg-video-nvidia        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| NVIDIA binary Xorg driver
 xserver-xorg-video-openchrome    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- VIA display driver
 xserver-xorg-video-qxl           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| X.Org X server -- QXL display driver
 xserver-xorg-video-r128          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- ATI r128 display driver
@@ -1322,7 +1306,6 @@ xserver-xorg-video-tseng         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 xserver-xorg-video-vesa          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- VESA display driver
 xserver-xorg-video-vmware        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- VMware display driver
 xserver-xorg-video-voodoo        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| X.Org X server -- Voodoo display driver
-xvba-va-driver                   |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| XvBA-based backend for VA API (AMD fglrx implementation)
 xz-utils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| XZ-format compression utilities
 yelp                             |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Help browser for GNOME
 zd1211-firmware                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Firmware images for the zd1211rw wireless driver
