@@ -126,6 +126,7 @@ debianutils                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 debootstrap                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Bootstrap a basic Debian system
 deborphan                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| program that can find unused packages, e.g. libraries
 deluge-gtk                       |32|64| |---|GNOME|----| |------|-----|--------|Topluluk| |wheezy|jessie| bittorrent client written in Python/PyGTK (GTK+ ui)
+deluge                           |32|64| |---|GNOME|----| |------|-----|--------|Topluluk| |wheezy|jessie| bittorrent client written in Python/PyGTK
 desktop-base                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| common files for the Debian Desktop
 desktop-file-utils               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Utilities for .desktop files
 dia                              |32|64| |KDE|-----|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Diagram editor
