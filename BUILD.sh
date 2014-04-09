@@ -6,7 +6,7 @@ set -e
 
 unset GREP_OPTIONS
 PARDUS_SURUM="3.0"
-PARDUS_ISO_SURUM="3.0rc2"
+PARDUS_ISO_SURUM="3.0rc2.1"
 DIST_ARCH=i386
 PARDUS_ARCH=32
 PARDUS_desk="kde"
@@ -396,9 +396,9 @@ then
     ISO_TARGET="/SDA1/FTP/qetujgda/gunluk/$PARDUS_LANG"
 fi
 
-if [ -d /ARSIV ]
+if [ -d /ADAK ]
 then
-    ISO_TARGET="/ARSIV"
+    ISO_TARGET="/ADAK"
 fi
 
 if ! [ "$ISO_TARGET" == "" ]
