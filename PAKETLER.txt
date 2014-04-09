@@ -759,7 +759,6 @@ mime-support                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 minissdpd                        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| keep memory of all UPnP devices that announced themselves
 mlocate                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| quickly find files on the filesystem based on their name
 mobile-broadband-provider-info   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| database of mobile broadband service providers
-modemmanager                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| D-Bus service for managing modems
 module-assistant                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| tool to make module package creation easier
 module-init-tools                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| tools for managing Linux kernel modules
 mono-runtime                     |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Mono runtime
