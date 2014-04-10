@@ -63,7 +63,6 @@ browser-plugin-libreoffice       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 browser-plugin-vlc               |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| multimedia plugin for web browsers based on VLC
 bsdmainutils                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| collection of more utilities from FreeBSD
 bsdutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Basic utilities from 4.4BSD-Lite
-btrfs-tools                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Checksumming Copy on Write Filesystem utilities
 build-essential                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Informational list of build-essential packages
 busybox                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Tiny utilities for small and embedded systems
 bzip2                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| high-quality block-sorting file compressor - utilities
@@ -1098,7 +1097,7 @@ starboardsoftware                |32|64| |KDE|GNOME|XFCE| |------|Fatih|--------
 strace                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| A system call tracer
 subversion                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Advanced version control system
 sudo                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Provide limited super user privileges to specific users
-swapspace                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| dynamic swap space manager
+dphys-swapfile                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Autogenerate and use a swap file
 synaptic                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Graphical package manager
 syslog-ng                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Next generation system logging daemon (metapackage)
 sysstat                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| system performance tools for Linux
