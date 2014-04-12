@@ -179,6 +179,7 @@ filezilla                        |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal
 filezilla-common                 |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| Architecture independent files for filezilla
 findutils                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities for finding files--find, xargs
 firefox                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Web browser based on Firefox
+firmware-zd1211                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| firmware images for the zd1211rw wireless driver
 firmware-atheros                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Binary firmware for Atheros wireless cards
 firmware-b43-installer           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| firmware installer for the b43 driver
 firmware-b43legacy-installer     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| firmware installer for the b43legacy driver
@@ -1307,6 +1308,6 @@ xserver-xorg-video-vmware        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 xserver-xorg-video-voodoo        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| X.Org X server -- Voodoo display driver
 xz-utils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| XZ-format compression utilities
 yelp                             |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Help browser for GNOME
-zd1211-firmware                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Firmware images for the zd1211rw wireless driver
+zd1211-firmware                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| Firmware images for the zd1211rw wireless driver
 zenity                           |32|64| |KDE|GNOME|RXFCE |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Display graphical dialog boxes from shell scripts
 zip                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Archiver for .zip files
