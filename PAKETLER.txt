@@ -636,6 +636,7 @@ libnet-dbus-perl                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 libnet-http-perl                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| module providing low-level HTTP connection client
 libnet-ssleay-perl               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Perl module for Secure Sockets Layer (SSL)
 libnss-mdns                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| NSS module for Multicast DNS name resolution
+libnss-myhostname                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| nss module providing fallback resolution for the current hostname
 libnss-winbind                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Samba nameservice integration plugins
 libopengl-perl                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Perl interface providing graphics display using OpenGL
 libosmesa6                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Mesa Off-screen rendering extension
