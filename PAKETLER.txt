@@ -1081,6 +1081,7 @@ seahorse                         |32|64| |---|GNOME|----| |------|Fatih|Kurumsal
 sed                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The GNU sed stream editor
 sensible-utils                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Utilities for sensible alternative selection
 setserial                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| controls configuration of serial ports
+sg3-utils                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities for devices using the SCSI command set
 sgml-base                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| SGML infrastructure and SGML catalog file support
 sgml-data                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| common SGML and XML data
 shared-mime-info                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| FreeDesktop.org shared MIME database and spec
