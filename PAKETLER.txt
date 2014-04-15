@@ -1086,6 +1086,7 @@ sgml-base                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 sgml-data                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| common SGML and XML data
 shared-mime-info                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| FreeDesktop.org shared MIME database and spec
 simple-scan                      |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Simple Scanning Utility
+smartmontools                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| control and monitor storage systems using S.M.A.R.T.
 smb4k                            |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Samba (SMB) share advanced browser for KDE
 smbclient                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| command-line SMB/CIFS clients for Unix
 smbldap-tools                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Scripts to manage Unix and Samba accounts stored on LDAP
