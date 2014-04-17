@@ -1,4 +1,4 @@
-firefox-locale-en                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Web browser based on Firefox
+firefox-locale-en                |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Web browser based on Firefox
 pardus-config-gnome-en           |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| English (us) localization files for GNOME
 pardus-config-kde-en             |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| English (us) localization files for KDE
 pardus-config-xfce-en            |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| English (us) localization files for XFCE
