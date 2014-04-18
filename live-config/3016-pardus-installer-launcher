@@ -8,7 +8,7 @@
 ## under certain conditions; see COPYING for details.
 
 
-set -e
+set +e
 
 Cmdline ()
 {
