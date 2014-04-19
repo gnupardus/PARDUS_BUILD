@@ -5,13 +5,12 @@ if [ -e finish-install*.udeb ]
 then
     echo "SUNUCU AYARLARI YAPILIYOR"
 
-    ls -l binary
+    ls -l
 
-    rm -f binary/pool/main/f/finish-install/finish-install*.udeb
-    cp finish-install_*.udeb binary/pool/main/f/finish-install/
+    rm -f pool/main/f/finish-install/finish-install*.udeb
+    cp finish-install_*.udeb pool/main/f/finish-install/
 
     ## finish-install icin MD5 ayari yapmak zorundayiz
-    cd binary
     if [ -d dists/wheezy/main/debian-installer/binary-i386 ]
     then
         rm -f dists/wheezy/main/debian-installer/binary-i386/Packages*
