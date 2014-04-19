@@ -219,15 +219,6 @@ cd  config/includes.chroot/opt/PARDUS/files
     rm -f "$DELETE_BASE"_*
 cd -
 
-if [ "$PARDUS_DAGITIM" == "Sunucu" ]
-then
-    mkdir -p config/includes.chroot/usr/share/applications/
-    cp -f ../files/webmin.desktop                 config/includes.chroot/usr/share/applications/
-    cp -f ../files/webmin.jpg                     config/includes.chroot/usr/share/applications/
-
-    cp -f ../files/finish-install*.udeb .
-fi
-
 echo "Pardus $PARDUS_LANG_SURUM \\n \\l"    > config/includes.chroot/opt/PARDUS/files/issue
 echo "Pardus $PARDUS_LANG_SURUM"            > config/includes.chroot/opt/PARDUS/files/issue.net
 echo "$PARDUS_LANG"                         > config/includes.chroot/opt/PARDUS/pardus_lang.txt
@@ -286,6 +277,12 @@ cat ../files/pardus.preseed.chroot.$PARDUS_LANG >>  config/preseed/pardus.cfg.ch
 sed -i "s|XYZ|$PARDUS_LANG_SURUM $PARDUS_DESK_ENV|" isolinux/live.cfg
 if [ "$PARDUS_DAGITIM" == "Sunucu" ]
 then
+    mkdir -p config/includes.chroot/usr/share/applications/
+    cp -f ../files/webmin.desktop                 config/includes.chroot/usr/share/applications/
+    cp -f ../files/webmin.jpg                     config/includes.chroot/usr/share/applications/
+
+    cp -f ../files/finish-install*.udeb config/includes.binary
+
     if [ "$DIST_ARCH" == "i386" ]
     then
         sed -i "1,10d" isolinux/live.cfg
@@ -325,15 +322,14 @@ then
     lb config --debian-installer live
     lb config --debian-installer-gui true
     lb config --debian-installer-distribution wheezy
-    cp  ../files/preseed_"$PARDUS_LANG".cfg config/debian-installer/preseed.cfg
-    cat ../files/preseed_common.cfg >> config/debian-installer/preseed.cfg
-    # preseed.cfg atamasi yapildiktan sonr tekrar lb config demek gerekiyor
-    #lb config
+    cp  ../files/preseed_"$PARDUS_LANG".cfg config/preseed/sunucu_preseed.cfg
+    cat ../files/sunucu_preseed.cfg >> config/preseed/sunucu_preseed.cfg
+    cat config/preseed/* > config/includes.binary/preseed.cfg
 
     rm -f config/packages.chroot/inxi*
     rm -f config/packages.chroot/pardus-installer*
     rm -f config/packages.chroot/mint-translation*
-    rm -f config/includes.chroot/lib/live/config/3016-create-live-desktop-shortcuts
+    rm -f config/includes.chroot/lib/live/config/3016-pardus-installer-launcher
 else
     lb config --debian-installer false
     rm -f config/packages.chroot/debian-installer-launcher*
@@ -346,7 +342,7 @@ lb config --security             true
 lb config --memtest none
 lb config --source false 
 lb config --iso-preparer  "Pardus"
-lb config --iso-publisher "ULAKBIM - http://www.ulakbim.gov.tr"
+lb config --iso-publisher "Pardus Communiry http://community.pardus.org.tr"
 
 ls -l -R config
 

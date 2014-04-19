@@ -1,14 +1,11 @@
 #!/bin/sh
 set +
 
-if [ -e binary/install/preseed.cfg ]
+if [ -e finish-install*.udeb ]
 then
     echo "SUNUCU AYARLARI YAPILIYOR"
 
     ls -l binary
-
-    cp binary/install/preseed.cfg binary/install/gtk/
-    cp binary/install/preseed.cfg binary/live/
 
     rm -f binary/pool/main/f/finish-install/finish-install*.udeb
     cp finish-install_*.udeb binary/pool/main/f/finish-install/
