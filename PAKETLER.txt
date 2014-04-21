@@ -303,7 +303,6 @@ git                              |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|Kurumsal
 git-daemon-run                   |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| fast, scalable, distributed revision control system
 gkbd-capplet                     |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNOME Panel applet for libgnomekbd
 gksu                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| graphical frontend to su
-glew-utils                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| OpenGL Extension Wrangler - utilities
 glib-networking                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| network-related giomodules for GLib
 glib-networking-common           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| network-related giomodules for GLib - data files
 glib-networking-services         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| network-related giomodules for GLib - D-Bus services
