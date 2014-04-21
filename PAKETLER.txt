@@ -164,8 +164,8 @@ espeak                           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 espeak-data                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Multi-lingual software speech synthesizer: speech data files
 ethtool                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| display or change Ethernet device settings
 evince                           |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Document (PostScript, PDF) viewer
-exif                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| command-line utility to show EXIF information in JPEG files
-exiv2                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| EXIF/IPTC metadata manipulation tool
+exif                             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| command-line utility to show EXIF information in JPEG files
+exiv2                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| EXIF/IPTC metadata manipulation tool
 expect                           |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| Automates interactive applications
 fakeroot                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| tool for simulating superuser privileges
 fancontrol                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities to read temperature/voltage/fan sensors
@@ -639,7 +639,6 @@ libnet-ssleay-perl               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 libnss-mdns                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| NSS module for Multicast DNS name resolution
 libnss-myhostname                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| nss module providing fallback resolution for the current hostname
 libnss-winbind                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Samba nameservice integration plugins
-libopengl-perl                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Perl interface providing graphics display using OpenGL
 libosmesa6                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Mesa Off-screen rendering extension
 libpam-ck-connector              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ConsoleKit PAM module
 libpam-gnome-keyring             |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| PAM module to unlock the GNOME keyring upon login
