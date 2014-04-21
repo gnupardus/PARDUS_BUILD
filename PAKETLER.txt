@@ -72,7 +72,6 @@ ca-certificates-java             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 cdparanoia                       |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| audio extraction tool for sampling CDs
 cdrdao                           |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| records CDs in Disk-At-Once (DAO) mode
 cfengine-community               |32|64| |KDE|GNOME|XFCE| |------|Fatih|--------|--------| |wheezy|jessie| xxxxxxxxxxxxxxx
-cfv                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| versatile file checksum creator and verifier
 cheese                           |32|64| |---|GNOME|----| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| tool to take pictures and videos from your webcam
 chromium                         |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Topluluk| |wheezy|jessie| Google's open source chromium web browser
 chromium-inspector               |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Topluluk| |wheezy|jessie| page inspector for the chromium browser
