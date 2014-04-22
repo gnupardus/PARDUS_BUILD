@@ -151,6 +151,11 @@ ulimit -n 8192
 
 PARAMETRELERI_KONTROL_ET $*
 
+set +e
+killall webmin
+killall teamviewerd
+set -e
+
 
 PARDUS_DESK_ENV=$3
 LOCALHOST=$5
