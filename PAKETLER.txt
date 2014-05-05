@@ -178,7 +178,6 @@ filezilla                        |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal
 filezilla-common                 |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| Architecture independent files for filezilla
 findutils                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities for finding files--find, xargs
 firefox                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Web browser based on Firefox
-iceweasel                        |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| Web browser based on Firefox
 firmware-atheros                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Binary firmware for Atheros wireless cards
 firmware-b43-installer           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| firmware installer for the b43 driver
 firmware-b43legacy-installer     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| firmware installer for the b43legacy driver
@@ -386,6 +385,7 @@ gstreamer0.10-tools              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 gstreamer0.10-x                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GStreamer plugins for X11 and Pango
 gstreamer1.0-alsa                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| GStreamer plugin for ALSA
 gstreamer1.0-clutter             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| Clutter PLugin for GStreamer 1.0
+gstreamer1.0-crystalhd           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| Crystal HD Video Decoder (GStreamer plugin)
 gstreamer1.0-libav               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| FFmpeg plugin for GStreamer
 gstreamer1.0-nice                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| ICE library (GStreamer plugin)
 gstreamer1.0-plugins-bad         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| GStreamer plugins from the "bad" set
@@ -429,13 +429,14 @@ hp-ppd                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 html2text                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| advanced HTML to text converter
 htop                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| interactive processes viewer
 hwdata                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| hardware identification / configuration data
-hwinfo                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| Hardware identification system
+hwinfo                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Hardware identification system
 hyphen-en-us                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| US English hyphenation patterns for LibreOffice/OpenOffice.org
 i965-va-driver                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Video Acceleration (VA) API for Linux -- i965 VA driver
 ibus-qt4                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| qt-immodule for ibus (QT4)
 icc-profiles                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ICC color profiles for use with color profile aware software
 icedtea-6-plugin                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| plugin based on OpenJDK and IcedTea to execute Java applets
 icedtea-7-plugin                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| plugin based on OpenJDK and IcedTea to execute Java applets
+iceweasel                        |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| Web browser based on Firefox
 icoutils                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Create and extract MS Windows icons and cursors
 ifhp                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|-------| Printer filter for HP LaserJet printers
 ijsgutenprint                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| inkjet server - Ghostscript driver for Gutenprint
@@ -728,7 +729,6 @@ linux-image-amd64                |--|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 linux-libc-dev                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Linux support headers for userspace development
 lirc                             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| infra-red remote control support
 lm-sensors                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities to read temperature/voltage/fan sensors
-sensord                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| hardware sensor information logging daemon
 locales                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Embedded GNU C Library: National Language (locale) data [support]
 locales-all                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Embedded GNU C Library: Precompiled locale data
 login                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| system login tools
@@ -1079,6 +1079,7 @@ sdparm                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 seahorse                         |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNOME front end for GnuPG
 sed                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The GNU sed stream editor
 sensible-utils                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Utilities for sensible alternative selection
+sensord                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| hardware sensor information logging daemon
 setserial                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| controls configuration of serial ports
 sg3-utils                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities for devices using the SCSI command set
 sgml-base                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| SGML infrastructure and SGML catalog file support
@@ -1107,9 +1108,9 @@ syslog-ng                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 sysstat                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| system performance tools for Linux
 system-config-printer            |32|64| |---|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| graphical interface to configure the printing system
 system-config-printer-udev       |32|64| |---|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Utilities to detect and configure printers automatically
+systemd-sysv                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| system and service manager - SysV links
 systemsettings                   |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| KDE System Settings
 system-tools-backends            |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| System Tools to manage computer configuration -- scripts
-systemd-sysv                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| system and service manager - SysV links
 sysvinit                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| System-V-like init utilities
 sysvinit-utils                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| System-V-like utilities
 t1utils                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Collection of simple Type 1 font manipulation programs
