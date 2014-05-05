@@ -1074,7 +1074,7 @@ samba-common-bin                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 samba-vfs-modules                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| Samba Virtual FileSystem plugins
 sane-utils                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| API library for scanners -- utilities
 scdaemon                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU privacy guard - password agent
-scribus                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Open Source Desktop Page Layout - squeeze branch
+scribus                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| Open Source Desktop Page Layout - squeeze branch
 sdparm                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Output and modify SCSI device parameters
 seahorse                         |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNOME front end for GnuPG
 sed                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The GNU sed stream editor
