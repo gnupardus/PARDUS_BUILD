@@ -369,7 +369,7 @@ gsfonts                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 gsfonts-other                    |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Additional fonts for the ghostscript interpreter
 gsfonts-x11                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Make Ghostscript fonts available to X11
 gstreamer0.10-alsa               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GStreamer plugin for ALSA
-gstreamer0.10-crystalhd          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Crystal HD Video Decoder (GStreamer plugin)
+gstreamer0.10-crystalhd          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------- Crystal HD Video Decoder (GStreamer plugin)
 gstreamer0.10-ffmpeg             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| FFmpeg plugin for GStreamer
 gstreamer0.10-gconf              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GStreamer plugin for getting the sink/source information from GConf
 gstreamer0.10-gnomevfs           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GStreamer plugin for GnomeVFS
