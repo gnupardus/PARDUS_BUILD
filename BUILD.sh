@@ -194,7 +194,7 @@ rm -r -f  isolinux
 mkdir isolinux
 cp -f ../isolinux/$DIST_BASE"_"$DIST_ARCH/$PARDUS_LANG/* isolinux
 
-lb init
+lb init --distribution $DIST_BASE
 lb config -a $DIST_ARCH --verbose --apt apt --parent-distribution $DIST_BASE --distribution $DIST_BASE --binary-images iso-hybrid
 lb config --apt-options  '--force-yes -y'
 lb config --system live 
