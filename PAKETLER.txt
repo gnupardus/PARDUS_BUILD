@@ -43,7 +43,7 @@ base-passwd                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 bash                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU Bourne Again SHell
 bash-completion                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| programmable completion for the bash shell
 bc                               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The GNU bc arbitrary precision calculator language
-bind9-host                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Version of 'host' bundled with BIND 9.X
+bind9                            |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| Internet Domain Name Server
 binfmtc                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Execute C program as script
 binfmt-support                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Support for extra binary formats
 binutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU assembler, linker and binary utilities
