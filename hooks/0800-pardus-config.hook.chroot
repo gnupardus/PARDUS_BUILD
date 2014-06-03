@@ -75,6 +75,7 @@ else
     apt-get -y install winetricks    wine-bin:i386 libwine-alsa:i386 libwine-capi:i386 libwine-cms:i386 libwine-gl:i386 libwine-gphoto2:i386 \
                                      libwine-openal:i386 libwine-oss:i386 libwine-print:i386 libwine-sane:i386 libc6-i686:i386 libgl1-mesa-dri:i386 \
                                      libvdpau1:i386 \
+                                     p11-kit \
                                      libwine-bin:i386 libwine:i386 libcups2:i386 libgssapi-krb5-2:i386 libk5crypto3:i386 libkrb5-3:i386 libkrb5support0:i386 \
                                      libmpfr4:i386 playonlinux \
                                      libnss-mdns:i386 libxrandr2:i386 libxtst6:i386 libxi6:i386 libxau6:i386

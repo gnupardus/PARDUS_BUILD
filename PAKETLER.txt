@@ -1,3 +1,4 @@
+lzop                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| fast compression program
 accountsservice                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| query and manipulate user account information
 acl                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Access control list utilities
 acpid                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Advanced Configuration and Power Interface event daemon
@@ -325,7 +326,7 @@ gnome-mime-data                  |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal
 gnome-nettool                    |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| network information tool for GNOME
 gnome-packagekit                 |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Graphical distribution neutral software manager
 gnome-power-manager              |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| power management tool for the GNOME desktop
-gnome-ppp                        |32|64| |---|GNOME|----| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| modem internet connection tool for the GNOME Desktop
+gnome-ppp                        |32|64| |---|GNOME|----| |------|-----|Kurumsal|Topluluk| |wheezy|------| modem internet connection tool for the GNOME Desktop
 gnome-screensaver                |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNOME screen saver and locker
 gnome-screenshot                 |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| screenshot application for GNOME
 gnome-search-tool                |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNOME tool to search files
@@ -345,7 +346,7 @@ gnome-tweak-tool                 |32|64| |---|GNOME|----| |------|Fatih|Kurumsal
 gnome-user-guide                 |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNOME user's guide
 gnome-user-share                 |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| User level public file sharing via WebDAV or ObexFTP
 gnome-xcf-thumbnailer            |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |------|jessie| GNOME thumbnailer for GIMP XCF files.
-gnu-fdisk                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|-------| Linux fdisk replacement based on libparted
+gnu-fdisk                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| Linux fdisk replacement based on libparted
 gnupg2                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU privacy guard - a free PGP replacement (new v2.x)
 gnupg                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU privacy guard - a free PGP replacement
 gnupg-agent                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU privacy guard - password agent
@@ -354,7 +355,7 @@ gpart                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 gparted                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNOME partition editor
 gpgsm                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU privacy guard - S/MIME version
 gpgv                             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU privacy guard - signature verification tool
-gpointing-device-settings        |32|64| |---|GNOME|----| |------|fatih|Kurumsal|Topluluk| |wheezy|-------| configuration tool for pointing devices
+gpointing-device-settings        |32|64| |---|GNOME|----| |------|fatih|Kurumsal|Topluluk| |wheezy|------| configuration tool for pointing devices
 gpr                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GUI for lpr: print files and configure printer-specific options
 gpsd                             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Global Positioning System - daemon
 grep                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU grep, egrep and fgrep
@@ -402,7 +403,7 @@ gtk2-engines-oxygen              |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal
 gtk2-engines-pixbuf              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| pixbuf-based theme for GTK+ 2.x
 gtk3-engines-oxygen              |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Oxygen widget theme for GTK3-based applications
 gtkam-gimp                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| gtkam gimp plugin to open digital camera pictures
-gtklp                            |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|-------| printing tool for CUPS on the GNOME Desktop
+gtklp                            |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| printing tool for CUPS on the GNOME Desktop
 gtk-recordmydesktop              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Graphical frontend for recordMyDesktop screencast tool
 gucharmap                        |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Unicode character picker and font browser
 gutenprint-locales               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| locale data files for Gutenprint
@@ -421,7 +422,7 @@ hfsprogs                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 hfsutils                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Tools for reading and writing Macintosh volumes
 hicolor-icon-theme               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| default fallback theme for FreeDesktop.org icon themes
 hostname                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utility to set/show the host name or domain name
-hpijs-ppds                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| HP Linux Printing and Imaging - HPIJS PPD files
+hpijs-ppds                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| HP Linux Printing and Imaging - HPIJS PPD files
 hplip                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| HP Linux Printing and Imaging System (HPLIP)
 hplip-data                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| HP Linux Printing and Imaging - data files
 hplip-gui                        |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| HP Linux Printing and Imaging - GUI utilities (Qt-based)
@@ -438,7 +439,7 @@ icedtea-6-plugin                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 icedtea-7-plugin                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| plugin based on OpenJDK and IcedTea to execute Java applets
 iceweasel                        |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| Web browser based on Firefox
 icoutils                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Create and extract MS Windows icons and cursors
-ifhp                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|-------| Printer filter for HP LaserJet printers
+ifhp                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Printer filter for HP LaserJet printers
 ijsgutenprint                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| inkjet server - Ghostscript driver for Gutenprint
 imagemagick                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| image manipulation programs
 info                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Standalone GNU Info documentation browser
@@ -642,7 +643,7 @@ libnss-winbind                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 libosmesa6                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Mesa Off-screen rendering extension
 libpam-ck-connector              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ConsoleKit PAM module
 libpam-gnome-keyring             |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| PAM module to unlock the GNOME keyring upon login
-libpam-krb5                      |--|--| |---|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| PAM module for MIT Kerberos - !LIVE_DVD ile sorunlu!
+libpam-krb5                      |32|64| |---|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| PAM module for MIT Kerberos - !LIVE_DVD ile sorunlu!
 libpam-winbind                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Samba nameservice and authentication integration plugins
 libpthread-stubs0                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| pthread stubs not provided by native libc
 libregexp-assemble-perl          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Assemble multiple Regular Expressions into a single RE
@@ -772,7 +773,9 @@ mtools                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 mtp-tools                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Media Transfer Protocol (MTP) library tools
 mtr-tiny                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Full screen ncurses traceroute tool
 multiarch-support                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Transitional package to ensure multiarch compatibility
-mysql-client                     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| MySQL database client (metapackage depending on the latest version)
+mysql-server                     |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| MySQL database server
+phpmyadmin                       |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| MySQL web administration tool
+mysql-client                     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| MySQL database client
 nautilus-sendto                  |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| integrates Evolution and Pidgin into the Nautilus file manager
 nautilus-share                   |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Nautilus extension to share folder using Samba
 ncurses-base                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| basic terminal type definitions
@@ -925,12 +928,11 @@ pppconfig                        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 pppoe                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| PPP over Ethernet driver
 pptp-linux                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Point-to-Point Tunneling Protocol (PPTP) Client
 preload                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| adaptive readahead daemon
-primus--gid1000sorunu            |--|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| client-jessiee GPU offloading for NVIDIA Optimus
 printer-driver-all               |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer drivers metapackage
 printer-driver-c2050             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver for Lexmark 2050 Color Jetprinter
 printer-driver-c2esp             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver for Kodak ESP AiO color inkjet Series
 printer-driver-cjet              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver for Canon LBP laser printers
-printer-driver-dymo              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|-------| printer driver for Lexmark 2050 Color Jetprinter
+printer-driver-dymo              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|jessie| printer driver for Lexmark 2050 Color Jetprinter
 printer-driver-escpr             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver for Epson Inkjet that use ESC/P-R
 printer-driver-foo2zjs           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver for ZjStream-based printers
 printer-driver-gutenprint        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer drivers for CUPS
@@ -1023,7 +1025,7 @@ python-reportlab-accel           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 python-rsvg                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Python bindings for the RSVG library
 python-simplejson                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| simple, fast, extensible JSON encoder/decoder for Python
 python-sip                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Python/C++ bindings generator runtime library
-python-smbc                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| Python bindings for the Samba client library
+python-smbc                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Python bindings for the Samba client library
 python-soappy                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| SOAP Support for Python
 python-support                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| automated rebuilding support for Python modules
 python-twisted                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Event-based framework for internet applications (dependency package)
@@ -1074,7 +1076,7 @@ samba-common-bin                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 samba-vfs-modules                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| Samba Virtual FileSystem plugins
 sane-utils                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| API library for scanners -- utilities
 scdaemon                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU privacy guard - password agent
-scribus                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| Open Source Desktop Page Layout - squeeze branch
+scribus                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Open Source Desktop Page Layout - squeeze branch
 sdparm                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Output and modify SCSI device parameters
 seahorse                         |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNOME front end for GnuPG
 sed                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The GNU sed stream editor
@@ -1213,7 +1215,7 @@ wireless-regdb                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 wireless-tools                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Tools for manipulating Linux Wireless Extensions
 wodim                            |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| command line CD/DVD writing tool
 wpasupplicant                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| client support for WPA and WPA2 (IEEE 802.11i)
-wvdial                           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| intelligent Point-to-Point Protocol dialer
+wvdial                           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| intelligent Point-to-Point Protocol dialer
 wwwconfig-common                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Debian web auto configuration
 x11-apps                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X applications
 x11-common                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X Window System (X.Org) infrastructure
@@ -1244,7 +1246,7 @@ xfonts-100dpi                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 xfonts-75dpi                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| 75 dpi fonts for X
 xfonts-base                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| standard fonts for X
 xfonts-encodings                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Encodings for X.Org fonts
-xfonts-mathml                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Type1 Symbol font for MathML
+xfonts-mathml                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| Type1 Symbol font for MathML
 xfonts-scalable                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| scalable fonts for X
 xfonts-terminus                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Fixed-width fonts for fast reading
 xfonts-utils                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X Window System font utility programs
@@ -1290,8 +1292,7 @@ xserver-xorg-video-intel         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 xserver-xorg-video-ivtv          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- IVTV display driver
 xserver-xorg-video-mach64        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- ATI Mach64 display driver
 xserver-xorg-video-mga           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- MGA display driver
-xserver-xorg-video-modesetting   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| X.Org X server -- Generic modesetting driver
-xserver-xorg-video-modesetting   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| X.Org X server -- Generic modesetting driver
+xserver-xorg-video-modesetting   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- Generic modesetting driver
 xserver-xorg-video-neomagic      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- Neomagic display driver
 xserver-xorg-video-nouveau       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- Nouveau display driver
 xserver-xorg-video-openchrome    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- VIA display driver
@@ -1314,6 +1315,6 @@ xserver-xorg-video-vmware        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 xserver-xorg-video-voodoo        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| X.Org X server -- Voodoo display driver
 xz-utils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| XZ-format compression utilities
 yelp                             |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Help browser for GNOME
-zd1211-firmware                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| Firmware images for the zd1211rw wireless driver
+zd1211-firmware                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Firmware images for the zd1211rw wireless driver
 zenity                           |32|64| |KDE|GNOME|RXFCE |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Display graphical dialog boxes from shell scripts
 zip                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Archiver for .zip files
