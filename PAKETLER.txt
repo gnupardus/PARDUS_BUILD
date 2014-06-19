@@ -49,7 +49,6 @@ binfmtc                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 binfmt-support                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Support for extra binary formats
 binutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU assembler, linker and binary utilities
 bison                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| A parser generator that is compatible with YACC
-blcr-dkms                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| DKMS support for BLCR kernel module
 blender                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Very fast and versatile 3D modeller/renderer
 bluedevil                        |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The KDE Bluetooth stack
 bluez                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Bluetooth tools and daemons
@@ -630,7 +629,6 @@ liblwp-mediatypes-perl           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 liblwp-protocol-https-perl       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| https driver for LWP::UserAgent
 libmagickcore5-extra             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| low-level image manipulation library - extra codecs
 libmailtools-perl                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Manipulate email in perl programs
-libmono-i18n-west4.0-cil         |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Mono I18N.West library (for CLI 4.0)
 libmtp-runtime                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Media Transfer Protocol (MTP) runtime tools
 libmx-bin                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| toolkit for the Moblin user experience (utilities)
 libnet-dbus-glib-perl            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| extension for the DBus GLib bindings
@@ -1049,7 +1047,7 @@ quassel-data                     |32|64| |KDE|-----|----| |------|-----|--------
 rar                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Archiver for .rar files
 rarian-compat                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Documentation meta-data library (compatibility tools)
 rdate                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| sets the system's date from a remote host
-readahead-fedora                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Fedora's implementation of readahead to preload boot process files
+readahead-fedora                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Fedora's implementation of readahead to preload boot process files
 readline-common                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU readline and history libraries, common files
 realpath                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Return the canonicalized absolute pathname
 registry-tools                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| tools for viewing and manipulating the Windows registry
