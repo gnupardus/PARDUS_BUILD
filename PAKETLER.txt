@@ -1130,7 +1130,6 @@ time                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 tk                               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The Tk toolkit for Tcl and X11 (default version) - run-time files
 tk8.5                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Tk toolkit for Tcl and X11, v8.5 - run-time files
 tlsimgesi                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
-tomboy                           |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| desktop note taking program using Wiki style links
 toshset                          |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| Access much of the Toshiba laptop hardware interface
 totem-plugins                    |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Plugins for the Totem media player
 tp-smapi-dkms                    |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ThinkPad hardware/firmware access modules source - dkms version
