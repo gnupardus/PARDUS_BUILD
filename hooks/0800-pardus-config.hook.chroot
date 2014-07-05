@@ -4,10 +4,6 @@ set -x
 
 echo "PARDUS_CONFIG BASLADI"
 
-# live-build ' teki hatayı giderelim
-rm -f /etc/mtab
-ln -s /proc/self/mounts /etc/mtab
-
 PARDUS_DAGITIM=`cat /opt/PARDUS/pardus_dagitim.txt`
 PARDUS_ARCH=`cat /opt/PARDUS/pardus_arch.txt`
 PARDUS_LANG=`cat /opt/PARDUS/pardus_lang.txt`
