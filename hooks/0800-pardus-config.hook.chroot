@@ -83,7 +83,7 @@ fi
 
 if [ "$PARDUS_DAGITIM" == "Topluluk" ]
 then
-    apt-get -y --force-yes install skype:i386 libasound2-plugins:i386
+    apt-get -y --force-yes install skype:i386 teamviewer:i386 libasound2-plugins:i386
 fi
 
 # Gereksiz paketleri kaldıralım

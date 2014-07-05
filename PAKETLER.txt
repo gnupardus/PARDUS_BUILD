@@ -1129,7 +1129,6 @@ tcl8.5                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 tcpd                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Wietse Venema's TCP wrapper utilities
 tcpdump                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| command-line network traffic analyzer
 tdb-tools                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Trivial Database - bundled binaries
-teamviewer                       |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Topluluk| |wheezy|jessie| TeamViewer (Remote Control Application)
 telnet                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The telnet client
 testdisk                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Partition scanner and disk recovery tool
 thunderbird                      |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| mail/news client with RSS and integrated spam filter support
