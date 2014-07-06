@@ -200,7 +200,7 @@ firmware-samsung                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 firmware-ti-connectivity         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| Binary firmware for TI Connectivity wireless network adapters
 firmware-zd1211                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| firmware images for the zd1211rw wireless driver
 flac                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Free Lossless Audio Codec - command line tools
-flashplayer-mozilla              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie" Macromedia Flash Player.
+flashplayer-mozilla              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Macromedia Flash Player.
 flex                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| A fast lexical analyzer generator.
 florence                         |32|64| |---|GNOME|----| |------|Fatih|--------|--------| |wheezy|jessie| extensible and scalable virtual keyboard for GNOME
 folks-common                     |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| library to aggregates people into metacontacts (common files)
