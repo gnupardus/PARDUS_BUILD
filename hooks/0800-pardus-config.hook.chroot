@@ -2,6 +2,11 @@
 set -e
 set -x
 
+# /etc/mtab ' i düzeltelim
+
+rm -f /etc/mtab
+ln -s /proc/mounts /etc/mtab
+
 echo "PARDUS_CONFIG BASLADI"
 
 PARDUS_DAGITIM=`cat /opt/PARDUS/pardus_dagitim.txt`
