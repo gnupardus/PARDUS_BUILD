@@ -1243,6 +1243,7 @@ xfce4                            |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal
 xfce4-goodies                    |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| enhancements for the Xfce4 Desktop Environment
 xfce4-mixer                      |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Xfce mixer application
 xfce4-power-manager              |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| power manager for Xfce desktop
+xfce4-screenshooter              |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| screenshots utility for Xfce
 xfce4-session                    |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Xfce4 Session Manager
 xfce4-settings                   |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| graphical application for managing Xfce settings
 xfdesktop4                       |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xfce desktop background, icons and root menu manager
