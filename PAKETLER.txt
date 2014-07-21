@@ -896,6 +896,7 @@ plasma-dataengines-workspace     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal
 plasma-desktop                   |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| KDE Plasma workspace for desktop and laptop computers
 plasma-desktopthemes-artwork     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| desktop themes for KDE Plasma Workspaces
 plasma-netbook                   |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| KDE Plasma workspace for netbook computers
+plasma-nm                        |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Network Management widget for KDE Plasma workspaces
 plasma-runners-addons            |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| additional runners for Plasma and Krunner
 plasma-scriptengine-javascript   |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| JavaScript script engine for Plasma
 plasma-scriptengine-python       |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Python script engine for Plasma
@@ -906,7 +907,6 @@ plasma-scriptengine-webkit       |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal
 plasma-wallpapers-addons         |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| additional wallpaper plugins for Plasma
 plasma-widget-folderview         |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| plasma widget showing the content of a folder
 plasma-widget-lancelot           |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| lancelot widget for Plasma
-plasma-widget-networkmanagement  |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Network Management widget for KDE Plasma workspaces
 plasma-widgets-addons            |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| additional widgets for Plasma
 plasma-widgets-workspace         |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| plasma widgets and containments for the KDE Plasma Workspace
 plymouth                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Graphical Boot Animation and Logger
