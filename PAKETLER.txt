@@ -298,7 +298,6 @@ gir1.2-gstreamer-1.0             |32|64| |---|GNOME|----| |------|Fatih|Kurumsal
 gir1.2-mx-1.0                    |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GObject introspection data for the libmx library
 gir1.2-nautilus-3.0              |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| libraries for nautilus components - gir bindings
 gir1.2-udisks-2.0                |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| GObject based library to access udisks2 - introspection data
-gir1.2-webkit-1.0                |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |------|jessie| GObject introspection data for the WebKit library
 gir1.2-webkit2-3.0               |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |------|jessie| GObject introspection data for the GTK+ port of the WebKit2 library
 git                              |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| fast, scalable, distributed revision control system
 git-daemon-run                   |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| fast, scalable, distributed revision control system
