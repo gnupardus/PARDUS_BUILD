@@ -173,7 +173,7 @@ ffmpeg                           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 ffmpegthumbnailer                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| fast and lightweight video thumbnailer
 ffmpegthumbs                     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| video thumbnail generator using ffmpeg
 file                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Determines file type using "magic" numbers
-file-roller                      |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| archive manager for GNOME
+file-roller                      |32|64| |---|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| archive manager for GNOME
 filezilla                        |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| Full-featured graphical FTP/FTPS/SFTP client
 filezilla-common                 |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| Architecture independent files for filezilla
 findutils                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities for finding files--find, xargs
@@ -849,9 +849,9 @@ pardus-config-kde-sunucu         |32|64| |KDE|-----|----| |Sunucu|-----|        
 pardus-config-kde-topluluk       |32|64| |KDE|-----|----| |------|-----|--------|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-config-xfce               |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Pardus XFCE Configuration
 pardus-config-xfce-topluluk      |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Pardus Community XFCE Configuration
-pardus-icons-ironvolt            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| New official icon set of the Pardus distribution.
-pardus-icon-theme-blue           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
-pardus-icon-theme-green          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
+pardus-icons-ironvolt            |32|64| |KDE|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| New official icon set of the Pardus distribution.
+pardus-icon-theme-blue           |32|64| |KDE|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
+pardus-icon-theme-green          |32|64| |KDE|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-kdm-theme                 |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-ksplash-theme-milky       |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-plymouth-theme            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
