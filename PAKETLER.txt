@@ -407,11 +407,11 @@ gtklp                            |32|64| |---|GNOME|----| |------|Fatih|Kurumsal
 gtk-recordmydesktop              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Graphical frontend for recordMyDesktop screencast tool
 gucharmap                        |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Unicode character picker and font browser
 gutenprint-locales               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| locale data files for Gutenprint
-gvfs                             |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| userspace virtual filesystem - GIO module
-gvfs-backends                    |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| userspace virtual filesystem - backends
-gvfs-common                      |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| userspace virtual filesystem - common data files
-gvfs-daemons                     |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| userspace virtual filesystem - servers
-gvfs-libs                        |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| userspace virtual filesystem - private libraries
+gvfs                             |32|64| |---|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| userspace virtual filesystem - GIO module
+gvfs-backends                    |32|64| |---|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| userspace virtual filesystem - backends
+gvfs-common                      |32|64| |---|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| userspace virtual filesystem - common data files
+gvfs-daemons                     |32|64| |---|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| userspace virtual filesystem - servers
+gvfs-libs                        |32|64| |---|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| userspace virtual filesystem - private libraries
 gwenview                         |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| image viewer
 gzip                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU compression utilities
 hannah-foo2zjs                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Graphical firmware downloader for the foo2zjs package
@@ -775,6 +775,7 @@ mtools                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 mtp-tools                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Media Transfer Protocol (MTP) library tools
 mtr-tiny                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Full screen ncurses traceroute tool
 multiarch-support                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Transitional package to ensure multiarch compatibility
+mupdf                            |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| lightweight PDF viewer
 mysql-client                     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| MySQL database client
 mysql-server                     |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| MySQL database server
 nautilus-sendto                  |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| integrates Evolution and Pidgin into the Nautilus file manager
@@ -1061,9 +1062,10 @@ registry-tools                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 reiser4progs                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| administration utilities for the Reiser4 filesystem
 reiserfsprogs                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| User-level tools for ReiserFS filesystems
 rfkill                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| tool for enabling and disabling wireless devices
-rhythmbox                        |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| music player and organizer for GNOME
+rhythmbox                        |32|64| |---|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| music player and organizer for GNOME
 rhythmbox-plugin-cdrecorder      |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| burning plugin for rhythmbox music player
 rhythmbox-plugins                |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| plugins for rhythmbox music player
+ristretto                        |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| lightweight picture-viewer for the Xfce desktop environment
 rpcbind                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| converts RPC program numbers into universal addresses
 rpm2cpio                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| tool to convert RPM package to CPIO archive
 rpm                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| package manager for RPM
@@ -1130,6 +1132,7 @@ tcpdump                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 tdb-tools                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Trivial Database - bundled binaries
 telnet                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The telnet client
 testdisk                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Partition scanner and disk recovery tool
+thunar-volman                    |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Thunar extension for volumes management
 thunderbird                      |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| mail/news client with RSS and integrated spam filter support
 time                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The GNU time program for measuring cpu resource usage
 tk                               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The Tk toolkit for Tcl and X11 (default version) - run-time files
@@ -1240,6 +1243,7 @@ xdg-user-dirs-gtk                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 xdg-utils                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| desktop integration utilities from freedesktop.org
 xfce4                            |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Meta-package for the Xfce Lightweight Desktop Environment
 xfce4-goodies                    |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| enhancements for the Xfce4 Desktop Environment
+xfce4-mixer                      |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Xfce mixer application
 xfce4-mixer                      |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Xfce mixer application
 xfce4-power-manager              |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| power manager for Xfce desktop
 xfce4-screenshooter              |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| screenshots utility for Xfce
