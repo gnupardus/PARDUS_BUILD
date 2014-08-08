@@ -24,7 +24,7 @@ STEP 3 :
 
       Remove package(s) you dont want from PAKETLER.txt.
 
-      Ypu can chanhge BUILD.sh in an editor (gedit, kwrite, vim , nano)
+      You can chanhge BUILD.sh in an editor (gedit, kwrite, vim , nano)
 
 
 STEP 4 :
