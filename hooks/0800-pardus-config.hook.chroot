@@ -153,13 +153,13 @@ fi
 
 ##### Pardus Plymouth Theme
 
-if [ -e /etc/plymouth/plymouthd.conf ]
-then
-    echo "Plymouth AYARLANIYOR"
-    # echo FRAMEBUFFER=y > /etc/initramfs-tools/conf.d/splash
-    plymouth-set-default-theme -R pardus
-    echo "Pardus PlyMouth Theme AYARLANDI"
-fi
+####### if [ -e /etc/plymouth/plymouthd.conf ]
+####### then
+    ####### echo "Plymouth AYARLANIYOR"
+    ####### # echo FRAMEBUFFER=y > /etc/initramfs-tools/conf.d/splash
+    ####### plymouth-set-default-theme -R pardus
+    ####### echo "Pardus PlyMouth Theme AYARLANDI"
+####### fi
 
 
 
