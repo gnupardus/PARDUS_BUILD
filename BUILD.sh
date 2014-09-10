@@ -5,8 +5,8 @@
 set -e
 
 unset GREP_OPTIONS
-PARDUS_SURUM="3.0"
-PARDUS_ISO_SURUM="3.0"
+PARDUS_SURUM="3.1"
+PARDUS_ISO_SURUM="3.1BETA1"
 DIST_ARCH=i386
 PARDUS_ARCH=32
 PARDUS_desk="kde"
@@ -194,7 +194,8 @@ rm -r -f  isolinux
 mkdir isolinux
 cp -f ../isolinux/$DIST_BASE"_"$DIST_ARCH/$PARDUS_LANG/* isolinux
 
-lb init --distribution $DIST_BASE
+lb clean
+lb config --distribution $DIST_BASE
 lb config -a $DIST_ARCH --verbose --apt apt --parent-distribution $DIST_BASE --distribution $DIST_BASE --binary-images iso-hybrid
 lb config --apt-options  '--force-yes -y'
 lb config --system live 

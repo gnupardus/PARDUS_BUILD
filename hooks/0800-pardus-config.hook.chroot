@@ -82,7 +82,7 @@ else
                                      libvdpau1:i386 libgpm2:i386 libosmesa6:i386 libsane:i386 libsane-extras:i386 libxcomposite1:i386 \
                                      libxcursor1:i386 libxinerama1:i386 libxslt1.1:i386 \
                                      libwine-bin:i386 libwine:i386 libcups2:i386 libgssapi-krb5-2:i386 libk5crypto3:i386 libkrb5-3:i386 libkrb5support0:i386 \
-                                     libmpfr4:i386 playonlinux \
+                                     libmpfr4:i386 libbz2-1.0:i386 playonlinux \
                                      libnss-mdns:i386 libxrandr2:i386 libxtst6:i386 libxi6:i386 libxau6:i386
 fi
 

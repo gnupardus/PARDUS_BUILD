@@ -52,10 +52,8 @@ bison                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 blender                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Very fast and versatile 3D modeller/renderer
 bluedevil                        |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The KDE Bluetooth stack
 bluez                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Bluetooth tools and daemons
-bluez-alsa                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Bluetooth ALSA support
 bluez-cups                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Bluetooth printer driver for CUPS
 bluez-firmware                   |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Firmware for Bluetooth devices
-bluez-pcmcia-support             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| PCMCIA support files for BlueZ 2.0 Bluetooth tools
 brasero                          |32|64| |---|GNOME|----| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| CD/DVD burning application for GNOME
 brasero-cdrkit                   |32|64| |---|GNOME|----| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| cdrkit extensions for the Brasero burning application
 broadcom-sta-dkms                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| dkms source for the Broadcom STA Wireless driver
@@ -289,7 +287,7 @@ gimp                             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 gimp-data                        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Data files for GIMP
 gimp-data-extras                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| An extra set of brushes, palettes, and gradients for The GIMP
 gimp-gutenprint                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| print plugin for the GIMP
-gimp-ufraw                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| gimp importer for raw camera images
+gimp-ufraw                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| gimp importer for raw camera images
 gir1.2-brasero-3.0               |32|64| |---|GNOME|----| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| CD/DVD burning library for GNOME - GObject introspection data
 gir1.2-gdesktopenums-3.0         |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GObject introspection for GSettings desktop-wide schemas
 gir1.2-gnomedesktop-3.0          |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Introspection data for GnomeDesktop
@@ -306,7 +304,7 @@ gksu                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 glib-networking                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| network-related giomodules for GLib
 glib-networking-common           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| network-related giomodules for GLib - data files
 glib-networking-services         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| network-related giomodules for GLib - D-Bus services
-gnome-alsamixer                  |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ALSA sound mixer for GNOME
+gnome-alsamixer                  |32|64| |---|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ALSA sound mixer for GNOME
 gnome-applets                    |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Various applets for the GNOME panel - binary files
 gnome-backgrounds                |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Set of backgrounds packaged with the GNOME desktop
 gnome-bluetooth                  |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNOME Bluetooth tools
@@ -535,7 +533,7 @@ laptop-detect                    |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal
 ldb-tools                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| LDAP-like embedded database - tools
 less                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Pager program similar to more
 lib32asound2                     |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| shared library for ALSA applications (32 bit)
-lib32bz2-1.0                     |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| high-quality block-sorting file compressor library - 32bit runtime
+lib32bz2-1.0                     |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| high-quality block-sorting file compressor library - 32bit runtime
 lib32cr0                         |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| (32bit) Libraries to Checkpoint and Restart Linux processes
 lib32ffi5                        |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| Foreign Function Interface library runtime (32bit)
 lib32gcc1                        |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GCC support library (32 bit Version)
@@ -910,7 +908,7 @@ plasma-widget-lancelot           |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal
 plasma-widgets-addons            |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| additional widgets for Plasma
 plasma-widgets-workspace         |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| plasma widgets and containments for the KDE Plasma Workspace
 plymouth                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Graphical Boot Animation and Logger
-plymouth-drm                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Graphical Boot Animation and Logger
+plymouth-drm                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| Graphical Boot Animation and Logger
 plymouth-x11                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Graphical Boot Animation and Logger
 pm-utils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities and scripts for power management
 po-debconf                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| tool for managing templates file translations with gettext
@@ -1157,8 +1155,8 @@ udev                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 udisks2                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| D-BUS service to access and manipulate storage devices
 udisks                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| storage media interface
 udisks-glue                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| simple automount daemon with support for user-defined actions
-ufraw                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| standalone importer for raw camera images
-ufraw-batch                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| batch importer for raw camera images
+ufraw                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| standalone importer for raw camera images
+ufraw-batch                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| batch importer for raw camera images
 ufsutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| UFS filesystems utilities
 ufw                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| program for managing a Netfilter firewall
 unattended-upgrades              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| automatic installation of security upgrades
