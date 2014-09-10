@@ -992,7 +992,7 @@ python-gi                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 python-gi-cairo                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Python Cairo bindings for the GObject library
 python-glade2                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GTK+ bindings: Glade support
 python-gnome2                    |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Python bindings for the GNOME desktop environment
-python-gnupginterface            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Python interface to GnuPG (GPG)
+python-gnupginterface            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| Python interface to GnuPG (GPG)
 python-gobject-2                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| deprecated static Python bindings for the GObject library
 python-gobject                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Python 2.x bindings for GObject - transitional package
 python-gpgme                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| python wrapper for the GPGME library
