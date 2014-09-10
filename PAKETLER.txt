@@ -1074,7 +1074,6 @@ ruby-kde4                        |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal
 ruby-plasma                      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Plasma Ruby bindings
 ruby-qt4                         |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Qt 4 bindings for the Ruby language
 ruby-qt4-webkit                  |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| QtWebKit bindings for the Ruby language
-runit                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| system-wide service supervision
 samba                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| SMB/CIFS file, print, and login server for Unix
 samba-common                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| common files used by both the Samba server and client
 samba-common-bin                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| common files used by both the Samba server and client
@@ -1115,7 +1114,7 @@ syslog-ng                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 sysstat                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| system performance tools for Linux
 system-config-printer            |32|64| |---|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| graphical interface to configure the printing system
 system-config-printer-udev       |32|64| |---|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Utilities to detect and configure printers automatically
-systemd-sysv                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| system and service manager - SysV links
+systemd-sysv                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|------| system and service manager - SysV links
 systemsettings                   |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| KDE System Settings
 system-tools-backends            |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| System Tools to manage computer configuration -- scripts
 sysvinit                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| System-V-like init utilities
