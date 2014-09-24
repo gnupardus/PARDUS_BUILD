@@ -8,9 +8,6 @@ adduser                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 aisleriot                        |32|64| |---|GNOME|----| |------|-----|--------|Topluluk| |wheezy|jessie| GNOME solitaire card game collection
 akonadi-server                   |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Akonadi PIM storage service
 alacarte                         |32|64| |---|GNOME|----| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| easy GNOME menu editing tool
-alien                            |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| convert and install rpm and other packages
-alsa-base                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ALSA driver configuration files
-alsa-firmware-loaders            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ALSA software loaders for specific hardware
 alsa-utils                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Utilities for configuring and using ALSA
 amarok                           |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| easy to use media player based on the KDE Platform
 amarok-common                    |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| architecture independent files for Amarok
@@ -22,7 +19,6 @@ apt                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 aptitude                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| terminal-based package manager (terminal interface only)
 apt-show-versions                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| lists available package versions with distribution
 apt-utils                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| APT utility programs
-archivemount                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| mounts an archive for access as a file system
 ark                              |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| archive utility
 arp-scan                         |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| arp scanning and fingerprinting tool
 aspell                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU Aspell spell-checker
@@ -31,9 +27,6 @@ at                               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 atmel-firmware                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Firmware for Atmel at76c50x wireless networking chips.
 at-spi2-core                     |32|64| |---|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Assistive Technology Service Provider Interface (dbus core)
 audacity                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| fast, cross-platform audio editor
-autoconf                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| automatic configure script builder
-automake                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Tool for generating GNU Standards-compliant Makefiles
-autopoint                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The autopoint program from GNU gettext
 avahi-autoipd                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Avahi IPv4LL network address configuration daemon
 avahi-daemon                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Avahi mDNS/DNS-SD daemon
 avahi-utils                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Avahi browsing, publishing and discovery utilities
@@ -43,12 +36,9 @@ base-files                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 base-passwd                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Debian base system master password and group files
 bash                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU Bourne Again SHell
 bash-completion                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| programmable completion for the bash shell
-bc                               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The GNU bc arbitrary precision calculator language
 bind9                            |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| Internet Domain Name Server
-binfmtc                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Execute C program as script
 binfmt-support                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Support for extra binary formats
 binutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU assembler, linker and binary utilities
-bison                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| A parser generator that is compatible with YACC
 blender                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Very fast and versatile 3D modeller/renderer
 bluedevil                        |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The KDE Bluetooth stack
 bluez                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Bluetooth tools and daemons
@@ -287,7 +277,7 @@ gimp                             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 gimp-data                        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Data files for GIMP
 gimp-data-extras                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| An extra set of brushes, palettes, and gradients for The GIMP
 gimp-gutenprint                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| print plugin for the GIMP
-gimp-ufraw                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| gimp importer for raw camera images
+gimp-ufraw                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| gimp importer for raw camera images
 gir1.2-brasero-3.0               |32|64| |---|GNOME|----| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| CD/DVD burning library for GNOME - GObject introspection data
 gir1.2-gdesktopenums-3.0         |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GObject introspection for GSettings desktop-wide schemas
 gir1.2-gnomedesktop-3.0          |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Introspection data for GnomeDesktop
@@ -627,7 +617,6 @@ liblist-moreutils-perl           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 liblocale-gettext-perl           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| module using libc functions for internationalization in Perl
 liblwp-mediatypes-perl           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| module to guess media type for a file or a URL
 liblwp-protocol-https-perl       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| https driver for LWP::UserAgent
-libmagickcore5-extra             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| low-level image manipulation library - extra codecs
 libmailtools-perl                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Manipulate email in perl programs
 libmtp-runtime                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Media Transfer Protocol (MTP) runtime tools
 libmx-bin                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| toolkit for the Moblin user experience (utilities)
@@ -644,7 +633,6 @@ libpam-gnome-keyring             |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal
 libpam-krb5                      |32|64| |---|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| PAM module for MIT Kerberos - !LIVE_DVD ile sorunlu!
 libpam-winbind                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Samba nameservice and authentication integration plugins
 libpthread-stubs0                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| pthread stubs not provided by native libc
-libregexp-assemble-perl          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Assemble multiple Regular Expressions into a single RE
 libreoffice                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| office productivity suite
 libreoffice-base                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| office productivity suite -- database
 libreoffice-base-core            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| office productivity suite -- shared library
@@ -1154,8 +1142,8 @@ udev                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 udisks2                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| D-BUS service to access and manipulate storage devices
 udisks                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| storage media interface
 udisks-glue                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| simple automount daemon with support for user-defined actions
-ufraw                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| standalone importer for raw camera images
-ufraw-batch                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| batch importer for raw camera images
+ufraw                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| standalone importer for raw camera images
+ufraw-batch                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| batch importer for raw camera images
 ufsutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| UFS filesystems utilities
 ufw                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| program for managing a Netfilter firewall
 unattended-upgrades              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| automatic installation of security upgrades

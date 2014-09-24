@@ -5,7 +5,7 @@ echo "REPLACING ISOLINUX"
 pwd
 ls -l
 
-cp -r -f isolinux ../ORJ.isolinux
-cp -r -f ../isolinux/* isolinux/
+cp -r -f isolinux ORJ.isolinux
+cp -r -f ../isolinux/* binary/isolinux/
 
 echo "DONE"

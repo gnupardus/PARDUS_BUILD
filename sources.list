@@ -4,6 +4,12 @@ deb [arch=amd64,i386] ftp://localhost/topluluk/cokluortam  jessie               
 deb [arch=amd64,i386] ftp://localhost/topluluk/ozelhavuz   jessie                  main contrib non-free
 deb [arch=amd64,i386] ftp://localhost/topluluk/guvenlik    jessie/updates          main contrib non-free
 
+#deb ftp://community.pardus.org.tr/topluluk/anahavuz     jessie                      main contrib non-free
+#deb ftp://community.pardus.org.tr/topluluk/anahavuz     jessie-proposed-updates     main contrib non-free
+#deb ftp://community.pardus.org.tr/topluluk/guvenlik     jessie/updates              main contrib non-free
+#deb ftp://community.pardus.org.tr/topluluk/cokluortam   jessie                      main         non-free
+#deb ftp://community.pardus.org.tr/topluluk/ozelhavuz    jessie                      main contrib non-free
+
 #deb [arch=amd64,i386] ftp://localhost/topluluk/anahavuz    sid                     main contrib non-free
 #deb [arch=amd64,i386] ftp://localhost/topluluk/cokluortam  sid                     main         non-free
 #deb [arch=amd64,i386] ftp://localhost/topluluk/ozelhavuz   sid                     main contrib non-free
