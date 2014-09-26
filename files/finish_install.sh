@@ -39,7 +39,7 @@ fi
 
 # Remove packages
 update-rc.d live-installer remove
-DEBS="mint-translations pardus-installer-* live-boot live-boot-initramfs-tools live-config live-config-sysvinit live-tools"
+DEBS="mint-translations pardus-installer-* live-boot live-boot-initramfs-tools live-config live-config-sysvinit live-tools inxi live-config-systemd "
 ########## if [ "$PARDUS_DAGITIM" == "Sunucu" ]
 ########## then
     ########## DEBS=$DEBS" virtualbox-ose-guest-dkms"
