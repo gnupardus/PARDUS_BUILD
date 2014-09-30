@@ -74,35 +74,28 @@ cron                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 cryptsetup                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| configures encrypted block devices
 cups                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Common UNIX Printing System(tm) - server
 cups-backend-bjnp                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| printer backend for Canon BJNP protocol
-cups-browsed                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| OpenPrinting CUPS Filters - cups-browsed
 cups-bsd                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Common UNIX Printing System(tm) - BSD commands
 cups-client                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Common UNIX Printing System(tm) - client programs (SysV)
 cups-common                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Common UNIX Printing System(tm) - common files
 cups-filters                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|jessie| OpenPrinting CUPS Filters
-cups-pdf                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| PDF writer backend for CUPS
-cups-pk-helper                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| PolicyKit helper to configure cups with fine-grained privileges
+cups-pdf                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| PDF writer backend for CUPS
+cups-pk-helper                   |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| PolicyKit helper to configure cups with fine-grained privileges
 cups-ppdc                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Common UNIX Printing System(tm) - PPD manipulation utilities
 curl                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| command line tool for transferring data with URL syntax
 dash                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| POSIX-compliant shell
-davfs2                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| mount a WebDAV resource as a regular file system
 davmail                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| DavMail POP/IMAP/SMTP/Caldav/Carddav/LDAP Exchange Gateway
 dbus                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| simple interprocess messaging system (daemon and utilities)
 dbus-x11                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| simple interprocess messaging system (X11 deps)
-dc                               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The GNU dc arbitrary precision reverse-polish calculator
 dconf-gsettings-backend          |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| simple configuration storage system - GSettings back-end
 dconf-service                    |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| simple configuration storage system - D-Bus service
 dconf-tools                      |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| simple configuration storage system - utilities
 debconf                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Debian configuration management system
 debconf-i18n                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| full internationalization support for debconf
 debconf-utils                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| debconf utilities
-debhelper                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| helper programs for debian/rules
 debianutils                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Miscellaneous utilities specific to Debian
-debootstrap                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Bootstrap a basic Debian system
-deborphan                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| program that can find unused packages, e.g. libraries
 deluge                           |32|64| |---|GNOME|----| |------|-----|--------|Topluluk| |wheezy|jessie| bittorrent client written in Python/PyGTK
 deluge-gtk                       |32|64| |---|GNOME|----| |------|-----|--------|Topluluk| |wheezy|jessie| bittorrent client written in Python/PyGTK (GTK+ ui)
 desktop-base                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| common files for the Debian Desktop
-desktop-file-utils               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Utilities for .desktop files
 dia                              |32|64| |KDE|-----|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Diagram editor
 dia-gnome                        |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Diagram editor (GNOME version)
 dialog                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Displays user-friendly dialog boxes from shell scripts
@@ -113,17 +106,14 @@ digikam                          |32|64| |KDE|-----|----| |------|Fatih|Kurumsal
 discover                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| hardware identification system
 dkms                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Dynamic Kernel Module Support Framework
 dmidecode                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| SMBIOS/DMI table decoder
-dmraid                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Device-Mapper Software RAID support tool
+dmraid                           |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| Device-Mapper Software RAID support tool
 dmsetup                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Linux Kernel Device Mapper userspace library
 dmz-cursor-theme                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Style neutral, scalable cursor theme
-dnsmasq-base                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Small caching DNS proxy and DHCP/TFTP server
-dnsutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Clients provided with BIND
+dnsmasq-base                     |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| Small caching DNS proxy and DHCP/TFTP server
+dnsutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| Clients provided with BIND
 dolphin                          |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| file manager
 dosfstools                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities for making and checking MS-DOS FAT filesystems
-dpatch                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| patch maintenance system for Debian source packages
 dpkg                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Debian package management system
-dpkg-dev                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Debian package development tools
-driconf                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| DRI configuration applet
 dv4l                             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Redirect V4L API to access a camcorder from a V4L program
 dvd+rw-tools                     |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| DVD+-RW/R tools
 e2fslibs                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ext2/ext3/ext4 file system libraries
@@ -919,6 +909,7 @@ printer-driver-hpcups            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 printer-driver-hpijs             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| HP Linux Printing and Imaging - gs IJS driver (hpijs)
 printer-driver-m2300w            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver for Minolta magicolor 2300W/2400W color laser printers
 printer-driver-min12xxw          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver for KonicaMinolta PagePro 1[234]xxW
+printer-driver-cups-pdf          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|jessie| printer driver for PDF writing via CUPS
 printer-driver-pnm2ppa           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver for HP-GDI printers
 printer-driver-postscript-hp     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| HP Printers PostScript Descriptions
 printer-driver-ptouch            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver Brother P-touch label printers
