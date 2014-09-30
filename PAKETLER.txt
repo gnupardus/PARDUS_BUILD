@@ -120,18 +120,10 @@ e2fslibs                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 e2fsprogs                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ext2/ext3/ext4 file system utilities
 ecryptfs-utils                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ecryptfs cryptographic filesystem (utilities)
 eject                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ejects CDs and operates CD-Changers under Linux
-enblend                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| image blending tool
-enchant                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Wrapper for various spell checker engines (binary programs)
-enfuse                           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| image exposure blending tool
 eog                              |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Eye of GNOME graphics viewer program
 escputil                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| maintenance utility for Epson Stylus printers
-esound-common                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Enlightened Sound Daemon - Common files
-espeak                           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Multi-lingual software speech synthesizer
-espeak-data                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Multi-lingual software speech synthesizer: speech data files
 ethtool                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| display or change Ethernet device settings
 evince                           |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Document (PostScript, PDF) viewer
-exif                             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| command-line utility to show EXIF information in JPEG files
-exiv2                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| EXIF/IPTC metadata manipulation tool
 expect                           |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| Automates interactive applications
 fakeroot                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| tool for simulating superuser privileges
 fancontrol                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities to read temperature/voltage/fan sensors
