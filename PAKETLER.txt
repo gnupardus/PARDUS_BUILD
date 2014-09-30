@@ -16,9 +16,8 @@ amd64-microcode                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 apache2                          |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| Apache HTTP Server metapackage
 apper                            |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |------|jessie| KDE package management tool using PackageKit
 apt                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Advanced front-end for dpkg
-aptitude                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| terminal-based package manager (terminal interface only)
+aptitude                         |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| terminal-based package manager (terminal interface only)
 apt-show-versions                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| lists available package versions with distribution
-apt-utils                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| APT utility programs
 ark                              |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| archive utility
 arp-scan                         |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| arp scanning and fingerprinting tool
 aspell                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU Aspell spell-checker
@@ -39,7 +38,6 @@ bash-completion                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 bind9                            |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| Internet Domain Name Server
 binfmt-support                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Support for extra binary formats
 binutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU assembler, linker and binary utilities
-blender                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Very fast and versatile 3D modeller/renderer
 bluedevil                        |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The KDE Bluetooth stack
 bluez                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Bluetooth tools and daemons
 bluez-cups                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Bluetooth printer driver for CUPS
@@ -52,12 +50,9 @@ browser-plugin-vlc               |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 bsdmainutils                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| collection of more utilities from FreeBSD
 bsdutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Basic utilities from 4.4BSD-Lite
 build-essential                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Informational list of build-essential packages
-busybox                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Tiny utilities for small and embedded systems
 bzip2                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| high-quality block-sorting file compressor - utilities
-cabextract                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Microsoft Cabinet file unpacker
 ca-certificates                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Common CA certificates
 ca-certificates-java             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Common CA certificates (JKS keystore)
-cdparanoia                       |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| audio extraction tool for sampling CDs
 cdrdao                           |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| records CDs in Disk-At-Once (DAO) mode
 cfengine-community               |32|64| |KDE|GNOME|XFCE| |------|Fatih|--------|--------| |wheezy|jessie| xxxxxxxxxxxxxxx
 cheese                           |32|64| |---|GNOME|----| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| tool to take pictures and videos from your webcam
@@ -65,22 +60,15 @@ chromium                         |32|64| |KDE|GNOME|XFCE| |------|-----|--------
 chromium-inspector               |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Topluluk| |wheezy|jessie| page inspector for the chromium browser
 chromium-l10n                    |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Topluluk| |wheezy|jessie| chromium-browser language packages
 cifs-utils                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Common Internet File System utilities
-cmake                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| cross-platform, open-source make system
-cmake-data                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| CMake data files (modules, templates and documentation)
-colord                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| system service to manage device colour profiles -- system daemon
 colorgcc                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Colorizer for GCC warning/error messages
 comgt                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Option GlobeTrotter and Vodafone datacard control tool
-console-data                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| keymaps, fonts, charset maps, fallback tables for console-tools
 consolekit                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| framework for defining and tracking users, sessions and seats
 console-setup                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| console font and keymap setup program
-console-setup-linux              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Linux specific part of console-setup
 coreutils                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU core utilities
 cpio                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU cpio -- a program to manage archives of files
 cpp                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU C preprocessor (cpp)
 cpufreqd                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| fully configurable daemon for dynamic frequency and voltage scaling
 cpufrequtils                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities to deal with the cpufreq Linux kernel feature
-cpufrequtils                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities to deal with the cpufreq Linux kernel feature
-cpuid                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Intel and AMD x86 CPUID display program
 crda                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| wireless Central Regulatory Domain Agent
 cron                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| process scheduling daemon
 cryptsetup                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| configures encrypted block devices
