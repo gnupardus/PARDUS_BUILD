@@ -60,6 +60,7 @@ chromium                         |32|64| |KDE|GNOME|XFCE| |------|-----|--------
 chromium-inspector               |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Topluluk| |wheezy|jessie| page inspector for the chromium browser
 chromium-l10n                    |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Topluluk| |wheezy|jessie| chromium-browser language packages
 cifs-utils                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Common Internet File System utilities
+colord                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| system service to manage device colour profiles -- system daemon
 colorgcc                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Colorizer for GCC warning/error messages
 comgt                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Option GlobeTrotter and Vodafone datacard control tool
 consolekit                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| framework for defining and tracking users, sessions and seats
@@ -124,6 +125,8 @@ eog                              |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal
 escputil                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| maintenance utility for Epson Stylus printers
 ethtool                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| display or change Ethernet device settings
 evince                           |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Document (PostScript, PDF) viewer
+exfat-fuse                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| read and write exFAT driver for FUSE
+exfat-utils                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities to create, check, label and dump exFAT
 expect                           |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| Automates interactive applications
 fancontrol                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities to read temperature/voltage/fan sensors
 ffmpeg                           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| audio/video encoder, streaming server & audio/video file converter.
@@ -805,7 +808,7 @@ patch                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 pavucontrol                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| PulseAudio Volume Control
 pciutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Linux PCI Utilities
 pcmciautils                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| PCMCIA utilities for Linux 2.6
-pepperflashplugin-nonfree        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|jessie| Pepper Flash Player - browser plugin
+pepperflashplugin-nonfree        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|------| Pepper Flash Player - browser plugin
 perl                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Larry Wall's Practical Extraction and Report Language
 perl-base                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| minimal Perl system
 perl-modules                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Core Perl modules
@@ -879,6 +882,7 @@ printer-driver-all               |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 printer-driver-c2050             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver for Lexmark 2050 Color Jetprinter
 printer-driver-c2esp             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver for Kodak ESP AiO color inkjet Series
 printer-driver-cjet              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver for Canon LBP laser printers
+printer-driver-cups-pdf          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|jessie| printer driver for PDF writing via CUPS
 printer-driver-dymo              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|jessie| printer driver for Lexmark 2050 Color Jetprinter
 printer-driver-escpr             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver for Epson Inkjet that use ESC/P-R
 printer-driver-foo2zjs           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver for ZjStream-based printers
@@ -887,7 +891,6 @@ printer-driver-hpcups            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 printer-driver-hpijs             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| HP Linux Printing and Imaging - gs IJS driver (hpijs)
 printer-driver-m2300w            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver for Minolta magicolor 2300W/2400W color laser printers
 printer-driver-min12xxw          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver for KonicaMinolta PagePro 1[234]xxW
-printer-driver-cups-pdf          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|jessie| printer driver for PDF writing via CUPS
 printer-driver-pnm2ppa           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver for HP-GDI printers
 printer-driver-postscript-hp     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| HP Printers PostScript Descriptions
 printer-driver-ptouch            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver Brother P-touch label printers
