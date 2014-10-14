@@ -1,4 +1,4 @@
 #! /bin/sh
 
-echo "Calling pardus-xorg-conf"
-/etc/init.d/pardus-xorg-conf
+# echo "Calling pardus-xorg-conf"
+# /etc/init.d/pardus-xorg-conf
