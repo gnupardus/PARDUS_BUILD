@@ -426,6 +426,7 @@ kcalc                            |32|64| |KDE|-----|----| |------|Fatih|Kurumsal
 kdeartwork-theme-icon            |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| additional icon themes
 kdebase-bin                      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| core binaries for the KDE base applications
 kdebase-runtime                  |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| runtime components from the official KDE release
+kde-config-gtk-style             |32|64| |KDE|-----|----| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| KDE configuration module for GTK+ 2.x and GTK+ 3.x styles selection
 kde-config-tablet                |32|64| |KDE|-----|----| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| implements a KDE configuration GUI for the Wacom drivers
 kde-config-touchpad              |32|64| |KDE|-----|----| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| touchpad configuration tool (synaptiks)
 kdegames                         |32|64| |KDE|-----|----| |------|-----|--------|Topluluk| |wheezy|jessie| games from the official KDE release
