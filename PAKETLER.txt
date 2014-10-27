@@ -488,8 +488,6 @@ lib32cr0                         |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 lib32ffi5                        |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| Foreign Function Interface library runtime (32bit)
 lib32gcc1                        |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GCC support library (32 bit Version)
 lib32gfortran3                   |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Runtime library for GNU Fortran applications (32bit)
-lib32go0                         |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Runtime library for GNU Go applications (32bit)
-lib32gomp1                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GCC OpenMP (GOMP) support library (32bit)
 lib32itm1                        |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU Transactional Memory Library (32bit)
 lib32ncurses5                    |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| shared libraries for terminal handling (32-bit)
 lib32ncursesw5                   |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| shared libraries for terminal handling (wide character support) (32-bit)
