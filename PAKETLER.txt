@@ -1087,7 +1087,7 @@ totem-plugins                    |32|64| |---|GNOME|----| |------|Fatih|Kurumsal
 tp-smapi-dkms                    |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ThinkPad hardware/firmware access modules source - dkms version
 traceroute                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Traces the route taken by packets over an IPv4/IPv6 network
 tree                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| displays directory tree, in color
-tsconf                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| touch screen library common files
+tsconf                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| touch screen library common files
 ttf-dejavu                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Metapackage to pull in ttf-dejavu-core and ttf-dejavu-extra
 ttf-dejavu-core                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Vera font family derivate with additional characters
 ttf-dejavu-extra                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Vera font family derivate with additional characters
