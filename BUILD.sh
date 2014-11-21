@@ -205,7 +205,7 @@ lb config --firmware-binary false
 
 if [ "$DIST_ARCH" == "i386" ]
 then
-    lb config --linux-flavours "486 686-pae"
+    lb config --linux-flavours "586 686-pae"
 fi
 
 if [ "$DIST_BASE" == "jessie" ]
