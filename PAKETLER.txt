@@ -665,10 +665,12 @@ libxfce4ui-utils                 |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal
 libxml-parser-perl               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Perl module for parsing XML files
 lightdm                          |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| simple display manager
 linux-base                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Linux image base package
-linux-headers-486                |32|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Header files for Linux 2.6-486 (meta-package)
+linux-headers-486                |32|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| Header files for Linux 2.6-486 (meta-package)
+linux-headers-586                |32|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| Header files for Linux 586 (meta-package)
 linux-headers-686-pae            |32|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Header files for Linux 2.6-686 (meta-package)
 linux-headers-amd64              |--|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Header files for Linux amd64 configuration
-linux-image-486                  |32|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Linux for old PCs (meta-package)
+linux-image-486                  |32|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| Linux for old PCs (meta-package)
+linux-image-586                  |32|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| Linux for old PCs (meta-package)
 linux-image-686-pae              |32|--| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Linux for modern PCs (meta-package)
 linux-image-amd64                |--|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Linux 3.2 for 64-bit PC
 linux-libc-dev                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Linux support headers for userspace development
