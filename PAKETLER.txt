@@ -810,7 +810,7 @@ patch                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 pavucontrol                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| PulseAudio Volume Control
 pciutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Linux PCI Utilities
 pcmciautils                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| PCMCIA utilities for Linux 2.6
-pepperflashplugin-nonfree        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|------| Pepper Flash Player - browser plugin
+pepperflashplugin-nonfree        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|jessie| Pepper Flash Player - browser plugin
 perl                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Larry Wall's Practical Extraction and Report Language
 perl-base                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| minimal Perl system
 perl-modules                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Core Perl modules
