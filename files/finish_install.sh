@@ -3,6 +3,11 @@
 # finish package configuratins 
 dpkg --configure -a
 
+#Kullanıcının gruplarını ayarlayalım
+
+KULLANICI=`ls /home`
+usermod -G "audio,cdrom,dip,floppy,video,plugdev,netdev,users,scanner,bluetooth,games" $KULLANICI
+
 PARDUS_DAGITIM=`cat /opt/PARDUS/pardus_dagitim.txt`
 
 
@@ -27,6 +32,7 @@ cp -f /opt/PARDUS/files/sources.list /etc/apt/sources.list
 if [ "$PARDUS_DAGITIM" == "Topluluk" ] 
 then
     sh /opt/PARDUS/files/pardus_auto_login.sh
+    systemctl enable syslog-ng.service
 fi
 
 
