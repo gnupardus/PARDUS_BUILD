@@ -757,8 +757,11 @@ ntfs-3g                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 ntp                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Network Time Protocol daemon and utility programs
 ntpdate                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| client for setting system time from NTP servers
 ntrack-module-libnl-0            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| libnl based ntrack module
+obexfs                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| mount filesystem of ObexFTP capable devices
+obexftp                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| file transfer utility for devices that use the OBEX protocol
+obexpushd                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| program for receiving files via Bluetooth or IRDA
+bluez-obexd                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| bluez obex daemon
 obex-data-server                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| D-Bus service for OBEX client and server jessiee functionality
-obexd-client                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| D-Bus OBEX client
 odbcinst1debian2                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Support library for accessing odbc ini files
 odbcinst                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Helper program for accessing odbc ini files
 okular                           |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| universal document viewer
@@ -950,6 +953,7 @@ python-httplib2                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 python-imaging                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Python Imaging Library
 python-kde4                      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Python bindings for the KDE Development Platform
 python-keyring                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| store and access your passwords safely
+python3-keyring                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| store and access your passwords safely
 python-launchpadlib              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Launchpad web services client library
 python-lazr.restfulclient        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| client for lazr.restful-based web services
 python-lazr.uri                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| library for parsing, manipulating, and generating URIs
@@ -1019,7 +1023,6 @@ rpm2cpio                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 rpm                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| package manager for RPM
 rpm-common                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| common files for RPM
 rsync                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| fast, versatile, remote (and local) file-copying tool
-rtkit                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Realtime Policy and Watchdog Daemon
 ruby-kde4                        |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| KDE bindings for the Ruby language
 ruby-plasma                      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Plasma Ruby bindings
 ruby-qt4                         |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Qt 4 bindings for the Ruby language
