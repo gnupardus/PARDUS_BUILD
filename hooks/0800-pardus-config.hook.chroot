@@ -6,6 +6,7 @@ set -x
 
 rm -f /etc/mtab
 ln -s /proc/mounts /etc/mtab
+rm -f /root/packages.chroot
 
 echo "PARDUS_CONFIG BASLADI"
 
