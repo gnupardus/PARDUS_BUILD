@@ -304,7 +304,6 @@ gpgsm                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 gpgv                             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU privacy guard - signature verification tool
 gpointing-device-settings        |32|64| |---|GNOME|----| |------|fatih|Kurumsal|Topluluk| |wheezy|------| configuration tool for pointing devices
 gpr                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GUI for lpr: print files and configure printer-specific options
-gpsd                             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Global Positioning System - daemon
 grep                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU grep, egrep and fgrep
 groff-base                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU troff text-formatting system (base system components)
 growisofs                        |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| DVD+-RW/R recorder

@@ -6,7 +6,7 @@ dpkg --configure -a
 #Kullanıcının gruplarını ayarlayalım
 
 KULLANICI=`ls /home`
-usermod -G "sudo,audio,cdrom,dip,floppy,video,plugdev,netdev,users,scanner,bluetooth,games" $KULLANICI
+usermod -G "sudo,audio,cdrom,dip,lpadmin,floppy,video,plugdev,netdev,users,scanner,bluetooth,games" $KULLANICI
 
 PARDUS_DAGITIM=`cat /opt/PARDUS/pardus_dagitim.txt`
 
