@@ -1160,7 +1160,6 @@ wamerican                        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 webmin                           |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| xxxxxxxxxxxxxxx
 wget                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| retrieves files from the web
 whiptail                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Displays user-friendly dialog boxes from shell scripts
-whois                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| intelligent WHOIS client
 wicd                             |32|64| |---|-----|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| wired and wireless network manager - metapackage
 wicd-cli                         |32|64| |---|-----|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| wired and wireless network manager - scriptable console client
 wicd-curses                      |32|64| |---|-----|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| wired and wireless network manager - Curses client
