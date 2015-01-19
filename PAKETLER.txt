@@ -679,6 +679,7 @@ locales                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 locales-all                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Embedded GNU C Library: Precompiled locale data
 login                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| system login tools
 logrotate                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Log rotation utility
+lsb                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Linux Standard Base 4.1 support package
 lsb-base                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Linux Standard Base 3.2 init script functionality
 lsb-release                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Linux Standard Base version reporting utility
 lshw                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| information about hardware configuration
