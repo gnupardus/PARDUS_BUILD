@@ -42,6 +42,7 @@ bluedevil                        |32|64| |KDE|-----|----| |------|Fatih|Kurumsal
 bluez                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Bluetooth tools and daemons
 bluez-cups                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Bluetooth printer driver for CUPS
 bluez-firmware                   |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Firmware for Bluetooth devices
+bluez-obexd                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| bluez obex daemon
 brasero                          |32|64| |---|GNOME|----| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| CD/DVD burning application for GNOME
 brasero-cdrkit                   |32|64| |---|GNOME|----| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| cdrkit extensions for the Brasero burning application
 broadcom-sta-dkms                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| dkms source for the Broadcom STA Wireless driver
@@ -79,7 +80,7 @@ cups-bsd                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 cups-client                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Common UNIX Printing System(tm) - client programs (SysV)
 cups-common                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Common UNIX Printing System(tm) - common files
 cups-filters                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|jessie| OpenPrinting CUPS Filters
-cups-pdf                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| PDF writer backend for CUPS
+cups-pdf                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| PDF writer backend for CUPS
 cups-pk-helper                   |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| PolicyKit helper to configure cups with fine-grained privileges
 cups-ppdc                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Common UNIX Printing System(tm) - PPD manipulation utilities
 curl                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| command line tool for transferring data with URL syntax
@@ -450,6 +451,7 @@ kde-workspace-bin                |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal
 kde-workspace-kgreet-plugins     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| KDE greet libraries for authentication
 kde-zeroconf                     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| zeroconf plugins and kio slaves for KDE
 kdm                              |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| KDE Display Manager for X11
+kedicad2b                        |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |------|jessie| 2D CAD software
 kernel-package                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| A utility for building Linux kernel related Debian packages.
 keyboard-configuration           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| system-wide keyboard preferences
 kfind                            |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| file search utility
@@ -757,11 +759,10 @@ ntfs-3g                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 ntp                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Network Time Protocol daemon and utility programs
 ntpdate                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| client for setting system time from NTP servers
 ntrack-module-libnl-0            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| libnl based ntrack module
+obex-data-server                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| D-Bus service for OBEX client and server jessiee functionality
 obexfs                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| mount filesystem of ObexFTP capable devices
 obexftp                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| file transfer utility for devices that use the OBEX protocol
 obexpushd                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| program for receiving files via Bluetooth or IRDA
-bluez-obexd                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| bluez obex daemon
-obex-data-server                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| D-Bus service for OBEX client and server jessiee functionality
 odbcinst1debian2                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Support library for accessing odbc ini files
 odbcinst                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Helper program for accessing odbc ini files
 okular                           |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| universal document viewer
@@ -804,7 +805,7 @@ pardus-icon-theme-blue           |32|64| |KDE|GNOME|----| |------|Fatih|Kurumsal
 pardus-icon-theme-green          |32|64| |KDE|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-kdm-theme                 |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-ksplash-theme-milky       |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
-pardus-plymouth-theme            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| xxxxxxxxxxxxxxx
+pardus-plymouth-theme            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 pardus-sound-theme               |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
 parted                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| disk partition manipulator
 partitionmanager                 |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| A partition management utility
@@ -859,9 +860,9 @@ plasma-widget-folderview         |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal
 plasma-widget-lancelot           |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| lancelot widget for Plasma
 plasma-widgets-addons            |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| additional widgets for Plasma
 plasma-widgets-workspace         |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| plasma widgets and containments for the KDE Plasma Workspace
-plymouth                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| Graphical Boot Animation and Logger
+plymouth                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Graphical Boot Animation and Logger
 plymouth-drm                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| Graphical Boot Animation and Logger
-plymouth-x11                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| Graphical Boot Animation and Logger
+plymouth-x11                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Graphical Boot Animation and Logger
 pm-utils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities and scripts for power management
 po-debconf                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| tool for managing templates file translations with gettext
 policykit-1                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| framework for managing administrative policies and privileges
@@ -923,6 +924,7 @@ python2.7-minimal                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 python                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| interactive high-level object-oriented language (default version)
 python3                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| interactive high-level object-oriented language (default python3 version)
 python3-dbus.mainloop.qt         |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| D-Bus Support for PyQt4 with Python 3
+python3-keyring                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| store and access your passwords safely
 python3-uno                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|jessie| Python-UNO bridge
 python-apt                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Python interface to libapt-pkg
 python-apt-common                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Python interface to libapt-pkg (locales)
@@ -953,7 +955,6 @@ python-httplib2                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 python-imaging                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Python Imaging Library
 python-kde4                      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Python bindings for the KDE Development Platform
 python-keyring                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| store and access your passwords safely
-python3-keyring                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| store and access your passwords safely
 python-launchpadlib              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Launchpad web services client library
 python-lazr.restfulclient        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| client for lazr.restful-based web services
 python-lazr.uri                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| library for parsing, manipulating, and generating URIs
@@ -1080,6 +1081,7 @@ tcl8.5                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 tcpd                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Wietse Venema's TCP wrapper utilities
 tcpdump                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| command-line network traffic analyzer
 tdb-tools                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Trivial Database - bundled binaries
+telegram                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|jessie| Telegram Desktop
 telnet                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The telnet client
 testdisk                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Partition scanner and disk recovery tool
 thunar-volman                    |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Thunar extension for volumes management
@@ -1112,6 +1114,7 @@ ufraw-batch                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 ufsutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| UFS filesystems utilities
 ufw                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| program for managing a Netfilter firewall
 unattended-upgrades              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| automatic installation of security upgrades
+unetbootin                       |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |------|jessie| installer of Linux/BSD distributions to a partition or USB drive
 unionfs-fuse                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Fuse implementation of unionfs
 unixodbc                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Basic ODBC tools
 unoconv                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| converter between LibreOffice document formats

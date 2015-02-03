@@ -7,6 +7,7 @@ set -x
 rm -f /etc/mtab
 ln -s /proc/mounts /etc/mtab
 rm -f /root/packages.chroot
+rm -f /usr/share/applications/display-im6*
 
 echo "PARDUS_CONFIG BASLADI"
 

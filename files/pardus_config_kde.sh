@@ -12,7 +12,7 @@ rm -f /etc/xdg/menus/debian-menu.menu
 
 rm -f /etc/xdg/autostart/pulseaudio-kde.desktop
 #rm -f /etc/xdg/autostart/pulseaudio.desktop
-#rm -f /etc/xdg/autostart/hplip-systray.desktop
+rm -f /etc/xdg/autostart/hplip-systray.desktop
 
  
 echo "KDE AYARLANDI"
