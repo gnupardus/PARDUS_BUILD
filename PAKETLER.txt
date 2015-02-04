@@ -233,11 +233,6 @@ gedit-plugins                    |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal
 ghostscript                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| interpreter for the PostScript language and for PDF
 ghostscript-cups                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| interpreter for the PostScript language and for PDF - CUPS filters
 ghostscript-x                    |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| interpreter for the PostScript language and for PDF - X11 support
-gimp                             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The GNU Image Manipulation Program
-gimp-data                        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Data files for GIMP
-gimp-data-extras                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| An extra set of brushes, palettes, and gradients for The GIMP
-gimp-gutenprint                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| print plugin for the GIMP
-gimp-ufraw                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| gimp importer for raw camera images
 gir1.2-brasero-3.0               |32|64| |---|GNOME|----| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| CD/DVD burning library for GNOME - GObject introspection data
 gir1.2-gdesktopenums-3.0         |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GObject introspection for GSettings desktop-wide schemas
 gir1.2-gnomedesktop-3.0          |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Introspection data for GnomeDesktop
@@ -247,14 +242,11 @@ gir1.2-mx-1.0                    |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal
 gir1.2-nautilus-3.0              |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| libraries for nautilus components - gir bindings
 gir1.2-udisks-2.0                |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| GObject based library to access udisks2 - introspection data
 gir1.2-webkit2-3.0               |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |------|jessie| GObject introspection data for the GTK+ port of the WebKit2 library
-git                              |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| fast, scalable, distributed revision control system
-git-daemon-run                   |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| fast, scalable, distributed revision control system
 gkbd-capplet                     |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNOME Panel applet for libgnomekbd
 gksu                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| graphical frontend to su
 glib-networking                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| network-related giomodules for GLib
 glib-networking-common           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| network-related giomodules for GLib - data files
 glib-networking-services         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| network-related giomodules for GLib - D-Bus services
-gnome-alsamixer                  |32|64| |---|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ALSA sound mixer for GNOME
 gnome-applets                    |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Various applets for the GNOME panel - binary files
 gnome-backgrounds                |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Set of backgrounds packaged with the GNOME desktop
 gnome-bluetooth                  |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNOME Bluetooth tools
@@ -326,6 +318,7 @@ gstreamer0.10-plugins-bad        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 gstreamer0.10-plugins-base       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GStreamer plugins from the "base" set
 gstreamer0.10-plugins-base-apps  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GStreamer helper programs from the "base" set
 gstreamer0.10-plugins-good       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GStreamer plugins from the "good" set
+gstreamer0.10-plugins-really-bad |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GStreamer plugins from the "bad" set
 gstreamer0.10-plugins-ugly       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GStreamer plugins from the "ugly" set
 gstreamer0.10-pulseaudio         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GStreamer plugin for PulseAudio
 gstreamer0.10-tools              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Tools for use with GStreamer
@@ -343,13 +336,12 @@ gstreamer1.0-plugins-good        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 gstreamer1.0-plugins-ugly        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| GStreamer plugins from the "ugly" set
 gstreamer1.0-pulseaudio          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| GStreamer plugin for PulseAudio
 gstreamer1.0-tools               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| Tools for use with GStreamer
-gstreamer1.0-tools               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| Tools for use with GStreamer
+gstreamer1.0-vaapi               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| VA-API plugins for GStreamer
 gstreamer1.0-x                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| GStreamer plugins for X11 and Pango
 gtk2-engines-aurora              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Aurora gtk+-2.0 theme engine
 gtk2-engines-oxygen              |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Oxygen widget theme for GTK+-based applications
 gtk2-engines-pixbuf              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| pixbuf-based theme for GTK+ 2.x
 gtk3-engines-oxygen              |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Oxygen widget theme for GTK3-based applications
-gtkam-gimp                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| gtkam gimp plugin to open digital camera pictures
 gtklp                            |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| printing tool for CUPS on the GNOME Desktop
 gtk-recordmydesktop              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Graphical frontend for recordMyDesktop screencast tool
 gucharmap                        |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Unicode character picker and font browser
@@ -362,11 +354,8 @@ gvfs-libs                        |32|64| |---|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 gwenview                         |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| image viewer
 gzip                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU compression utilities
 hannah-foo2zjs                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Graphical firmware downloader for the foo2zjs package
-hddtemp                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| hard drive temperature monitoring utility
-hdparm                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| tune hard disk parameters for high performance
 hfsplus                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Tools to access HFS+ formatted volumes
 hfsprogs                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| mkfs and fsck for HFS and HFS+ file systems
-hfsutils                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Tools for reading and writing Macintosh volumes
 hicolor-icon-theme               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| default fallback theme for FreeDesktop.org icon themes
 hostname                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utility to set/show the host name or domain name
 hpijs-ppds                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| HP Linux Printing and Imaging - HPIJS PPD files
@@ -374,48 +363,45 @@ hplip                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 hplip-data                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| HP Linux Printing and Imaging - data files
 hplip-gui                        |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| HP Linux Printing and Imaging - GUI utilities (Qt-based)
 hp-ppd                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| HP Postscript Printer Definition (PPD) files
-html2text                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| advanced HTML to text converter
 htop                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| interactive processes viewer
 hwdata                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| hardware identification / configuration data
 hwinfo                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Hardware identification system
-hyphen-en-us                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| US English hyphenation patterns for LibreOffice/OpenOffice.org
 i965-va-driver                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Video Acceleration (VA) API for Linux -- i965 VA driver
+ibus                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Intelligent Input Bus - core
+ibus-gtk                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Intelligent Input Bus - GTK+2 support
+ibus-gtk3                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Intelligent Input Bus - GTK+3 support
 ibus-qt4                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| qt-immodule for ibus (QT4)
+ibus-wayland                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| Intelligent Input Bus - Wayland support
 icc-profiles                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ICC color profiles for use with color profile aware software
+icc-profiles-free                |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ICC color profiles for use with color profile aware software
 icedtea-6-plugin                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| plugin based on OpenJDK and IcedTea to execute Java applets
 icedtea-7-plugin                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| plugin based on OpenJDK and IcedTea to execute Java applets
 iceweasel                        |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| Web browser based on Firefox
-icoutils                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Create and extract MS Windows icons and cursors
 ifhp                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Printer filter for HP LaserJet printers
 ijsgutenprint                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| inkjet server - Ghostscript driver for Gutenprint
 imagemagick                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| image manipulation programs
 info                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Standalone GNU Info documentation browser
 initramfs-tools                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| tools for generating an initramfs
-initscripts                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| scripts for initializing and shutting down the system
 inkscape                         |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| vector-based drawing program
 inputattach                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utility to connect serial-attached peripherals to the input subsystem
-insserv                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Tool to organize boot sequence using LSB init.d script dependencies
 intel-microcode                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Processor microcode data file for Intel CPUs
 intltool                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Utility scripts for internationalizing XML
 intltool-debian                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Help i18n of RFC822 compliant config files
-iproute                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| networking and traffic control tools
+iproute2                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| networking and traffic control tools
+iproute                          |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|------| networking and traffic control tools
 iptables                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| administration tools for packet filtering and NAT
 iputils-arping                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Tool to send ICMP echo requests to an ARP address
 iputils-ping                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Tools to test the reachability of network hosts
 iputils-tracepath                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Tools to trace the network path to a remote host
-ir-keytable                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Alter keymaps of Remote Controller devices
 irqbalance                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Daemon to balance interrupts for SMP systems
 isc-dhcp-client                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ISC DHCP client
 isc-dhcp-common                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| common files used by all the isc-dhcp* packages
 isc-dhcp-server                  |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| ISC DHCP server for automatic IP address assignment
-iso-codes                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ISO language, territory, currency, script codes and their translations
 iucode-tool                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| Intel processor microcode tool
 ivtv-utils                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities for use with the ivtv kernel driver
 iw                               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| tool for configuring Linux wireless devices
 jackd2                           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| JACK Audio Connection Kit (server and example clients)
 jackd2-firewire                  |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| JACK Audio Connection Kit (FFADO and FreeBoB backends)
-java-common                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Base of all Java packages
-javascript-common                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Base support for javascript library packages
 jfsutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities for managing the JFS filesystem
 k3b                              |32|64| |KDE|-----|----| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| Sophisticated CD/DVD burning application
 k3b-i18n                         |32|64| |KDE|-----|----| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| Sophisticated CD/DVD burning application - localizations files
@@ -593,6 +579,7 @@ libpam-krb5                      |32|64| |---|-----|----| |Sunucu|Fatih|Kurumsal
 libpam-winbind                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Samba nameservice and authentication integration plugins
 libpthread-stubs0                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| pthread stubs not provided by native libc
 libreoffice                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| office productivity suite
+libreoffice-avmedia-backend-vlc  |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|jessie| VLC backend for LibreOffice
 libreoffice-base                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| office productivity suite -- database
 libreoffice-base-core            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| office productivity suite -- shared library
 libreoffice-calc                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| office productivity suite -- spreadsheet
@@ -1273,6 +1260,8 @@ xserver-xorg-video-tseng         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 xserver-xorg-video-vesa          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- VESA display driver
 xserver-xorg-video-vmware        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| X.Org X server -- VMware display driver
 xserver-xorg-video-voodoo        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| X.Org X server -- Voodoo display driver
+xwayland                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| Xwayland X server
+xwayland                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| Xwayland X server
 xz-utils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| XZ-format compression utilities
 yelp                             |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Help browser for GNOME
 zd1211-firmware                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Firmware images for the zd1211rw wireless driver
