@@ -405,11 +405,11 @@ jackd2-firewire                  |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 jfsutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities for managing the JFS filesystem
 k3b                              |32|64| |KDE|-----|----| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| Sophisticated CD/DVD burning application
 k3b-i18n                         |32|64| |KDE|-----|----| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| Sophisticated CD/DVD burning application - localizations files
+kalarm                           |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| alarm message, command and email scheduler
 kamera                           |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| digital camera support for KDE applications
 kamoso                           |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| tool to take pictures and videos from your webcam
-kbd                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Linux console font and keytable utilities
 kcalc                            |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| simple and scientific calculator
-kdeartwork-theme-icon            |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| additional icon themes
+kdeartwork                       |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| themes, styles and other artwork from the official KDE release
 kdebase-bin                      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| core binaries for the KDE base applications
 kdebase-runtime                  |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| runtime components from the official KDE release
 kde-config-gtk-style             |32|64| |KDE|-----|----| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| KDE configuration module for GTK+ 2.x and GTK+ 3.x styles selection
@@ -438,15 +438,10 @@ kde-workspace-kgreet-plugins     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal
 kde-zeroconf                     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| zeroconf plugins and kio slaves for KDE
 kdm                              |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| KDE Display Manager for X11
 kedicad2b                        |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |------|jessie| 2D CAD software
-kernel-package                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| A utility for building Linux kernel related Debian packages.
-keyboard-configuration           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| system-wide keyboard preferences
 kfind                            |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| file search utility
-kgpg                             |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| graphical front end for GNU Privacy Guard
-khelpcenter4                     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| help center
 kinfocenter                      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| system information viewer
 kio-mtp                          |32|64| |KDE|-----|----| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| access to MTP devices for applications using the KDE Platform
 kipi-plugins                     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| image manipulation/handling plugins for KIPI aware programs
-klibc-utils                      |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| small utilities built with klibc for early boot
 kmag                             |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| screen magnifier tool
 kmess                            |32|64| |KDE|-----|----| |------|-----|--------|Topluluk| |wheezy|jessie| MSN messenger for KDE
 kmix                             |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| volume control and mixer
@@ -461,11 +456,9 @@ ksysguard                        |32|64| |KDE|-----|----| |------|Fatih|Kurumsal
 ksysguardd                       |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| System Guard Daemon
 ksystemlog                       |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| system log viewer
 kuser                            |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| user and group administration tool
-kvkbd                            |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Virtual keyboard for KDE
 kwalletmanager                   |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| secure password wallet manager
 kwin-style-qtcurve               |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Unified window decoration for KDE and GTK+
 kwrite                           |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| simple graphical text editor
-lame                             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| LAME Ain't an MP3 Encoder
 laptop-detect                    |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| attempt to detect a laptop
 ldb-tools                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| LDAP-like embedded database - tools
 less                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Pager program similar to more
