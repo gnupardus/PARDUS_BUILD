@@ -8,6 +8,7 @@ adduser                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 aisleriot                        |32|64| |---|GNOME|----| |------|-----|--------|Topluluk| |wheezy|jessie| GNOME solitaire card game collection
 akonadi-server                   |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Akonadi PIM storage service
 alacarte                         |32|64| |---|GNOME|----| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| easy GNOME menu editing tool
+alsa-firmware-loaders            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ALSA software loaders for specific hardware
 alsa-utils                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Utilities for configuring and using ALSA
 amarok                           |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| easy to use media player based on the KDE Platform
 amarok-common                    |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| architecture independent files for Amarok
@@ -47,6 +48,7 @@ brasero                          |32|64| |---|GNOME|----| |Sunucu|-----|Kurumsal
 brasero-cdrkit                   |32|64| |---|GNOME|----| |Sunucu|-----|Kurumsal|Topluluk| |wheezy|jessie| cdrkit extensions for the Brasero burning application
 broadcom-sta-dkms                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| dkms source for the Broadcom STA Wireless driver
 browser-plugin-libreoffice       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| office productivity suite -- Mozilla plugin
+browser-plugin-packagekit        |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|jessie| Plugin to install missing plugins using PackageKit
 browser-plugin-vlc               |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| multimedia plugin for web browsers based on VLC
 bsdmainutils                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| collection of more utilities from FreeBSD
 bsdutils                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Basic utilities from 4.4BSD-Lite
@@ -80,7 +82,7 @@ cups-bsd                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 cups-client                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Common UNIX Printing System(tm) - client programs (SysV)
 cups-common                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Common UNIX Printing System(tm) - common files
 cups-filters                     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|jessie| OpenPrinting CUPS Filters
-cups-pdf                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| PDF writer backend for CUPS
+cups-pdf                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| PDF writer backend for CUPS
 cups-pk-helper                   |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| PolicyKit helper to configure cups with fine-grained privileges
 cups-ppdc                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Common UNIX Printing System(tm) - PPD manipulation utilities
 curl                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| command line tool for transferring data with URL syntax
@@ -139,11 +141,14 @@ filezilla                        |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal
 filezilla-common                 |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| Architecture independent files for filezilla
 findutils                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities for finding files--find, xargs
 firefox                          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Web browser based on Firefox
+firmware-adi                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| Binary firmware for Analog Devices Inc. DSL modem chips
 firmware-atheros                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Binary firmware for Atheros wireless cards
 firmware-b43-installer           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| firmware installer for the b43 driver
 firmware-b43legacy-installer     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| firmware installer for the b43legacy driver
 firmware-bnx2                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Binary firmware for Broadcom NetXtremeII
 firmware-bnx2x                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Binary firmware for Broadcom NetXtreme II 10Gb
+firmware-brcm80211               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| Binary firmware for Broadcom 802.11 wireless cards
+firmware-crystalhd               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| Crystal HD Video Decoder (firmware)
 firmware-intelwimax              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Binary firmware for Intel WiMAX Connection
 firmware-ipw2x00                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Binary firmware for Intel Pro Wireless 2100, 2200 and 2915
 firmware-ivtv                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Binary firmware for iTVC15-family MPEG codecs (ivtv and pvrusb2 drivers)
@@ -329,6 +334,7 @@ gstreamer1.0-clutter             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 gstreamer1.0-crystalhd           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| Crystal HD Video Decoder (GStreamer plugin)
 gstreamer1.0-libav               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| FFmpeg plugin for GStreamer
 gstreamer1.0-nice                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| ICE library (GStreamer plugin)
+gstreamer1.0-packagekit          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|jessie| GStreamer plugin to install codecs using PackageKit
 gstreamer1.0-plugins-bad         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| GStreamer plugins from the "bad" set
 gstreamer1.0-plugins-base        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| GStreamer plugins from the "base" set
 gstreamer1.0-plugins-base-apps   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |------|jessie| GStreamer helper programs from the "base" set
@@ -759,6 +765,7 @@ p7zip                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 p7zip-full                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| 7z and 7za file archivers with high compression ratio
 p7zip-rar                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| non-free rar module for p7zip
 packagekit-gtk3-module           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|jessie| Install fonts automatically using PackageKit
+packagekit-tools                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|jessie| Provides PackageKit command-line tools
 packagekit-tools                 |32|64| |RKD|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Provides PackageKit command-line tools
 pango-graphite                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| SILGraphite support for pango
 pardus-artwork-release           |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| xxxxxxxxxxxxxxx
@@ -860,6 +867,7 @@ pppoe                            |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 pptp-linux                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Point-to-Point Tunneling Protocol (PPTP) Client
 preload                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| adaptive readahead daemon
 printer-driver-all               |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer drivers metapackage
+printer-driver-brlaser           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|jessie| printer driver for (some) Brother laser printers
 printer-driver-c2050             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver for Lexmark 2050 Color Jetprinter
 printer-driver-c2esp             |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver for Kodak ESP AiO color inkjet Series
 printer-driver-cjet              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| printer driver for Canon LBP laser printers
