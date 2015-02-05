@@ -15,7 +15,6 @@ amarok-common                    |32|64| |KDE|-----|----| |------|Fatih|Kurumsal
 amarok-utils                     |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| utilities for Amarok media player
 amd64-microcode                  |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Processor microcode firmware for AMD CPUs
 apache2                          |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| Apache HTTP Server metapackage
-apper                            |32|64| |KDE|-----|----| |------|Fatih|Kurumsal|Topluluk| |------|jessie| KDE package management tool using PackageKit
 apt                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Advanced front-end for dpkg
 aptitude                         |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| terminal-based package manager (terminal interface only)
 apt-show-versions                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| lists available package versions with distribution
