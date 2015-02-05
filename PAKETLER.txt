@@ -461,7 +461,6 @@ kwin-style-qtcurve               |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal
 kwrite                           |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| simple graphical text editor
 laptop-detect                    |32|64| |KDE|GNOME|XFCE| |------|-----|Kurumsal|Topluluk| |wheezy|jessie| attempt to detect a laptop
 ldb-tools                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| LDAP-like embedded database - tools
-less                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Pager program similar to more
 lib32asound2                     |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| shared library for ALSA applications (32 bit)
 lib32bz2-1.0                     |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| high-quality block-sorting file compressor library - 32bit runtime
 lib32cr0                         |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| (32bit) Libraries to Checkpoint and Restart Linux processes
@@ -474,12 +473,12 @@ lib32ncursesw5                   |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 lib32objc3                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| Runtime library for GNU Objective-C applications (32bit)
 lib32objc4                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |------|jessie| Runtime library for GNU Objective-C applications (32bit)
 lib32quadmath0                   |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GCC Quad-Precision Math Library (32bit)
+lib32readline5                   |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU readline and history libraries, run-time libraries (32-bit)
 lib32readline6                   |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU readline and history libraries, run-time libraries (32-bit)
 lib32stdc++6                     |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GNU Standard C++ Library v3 (32 bit Version)
 lib32tinfo5                      |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| shared low-level terminfo library for terminal handling (32-bit)
 lib32v4l-0                       |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| Collection of video4linux support libraries (32 bits)
 lib32z1                          |--|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| compression library - 32 bit runtime
-libaacs0                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| free-and-libre implementation of AACS
 libalgorithm-merge-perl          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Perl module for three-way merge of textual data
 libapache2-mod-auth-kerb         |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| apache2 module for Kerberos authentication
 libapache2-mod-auth-openid       |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| OpenID authentication module for Apache2
@@ -568,7 +567,6 @@ libnss-winbind                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 libosmesa6                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Mesa Off-screen rendering extension
 libpam-ck-connector              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| ConsoleKit PAM module
 libpam-gnome-keyring             |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| PAM module to unlock the GNOME keyring upon login
-libpam-krb5                      |32|64| |---|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| PAM module for MIT Kerberos - !LIVE_DVD ile sorunlu!
 libpam-winbind                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Samba nameservice and authentication integration plugins
 libpthread-stubs0                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|------| pthread stubs not provided by native libc
 libreoffice                      |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| office productivity suite
@@ -582,8 +580,8 @@ libreoffice-draw                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal
 libreoffice-emailmerge           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| office productivity suite -- email mail merge
 libreoffice-filter-binfilter     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| office productivity suite -- legacy filters (e.g. StarOffice 5.2)
 libreoffice-filter-mobiledev     |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|------| office productivity suite -- mobile devices filters
-libreoffice-gnome                |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| office productivity suite -- GNOME integration
-libreoffice-gtk3                 |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| office productivity suite -- GTK+ 3.0 integration
+libreoffice-gnome                |32|64| |---|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| office productivity suite -- GNOME integration
+libreoffice-gtk3                 |32|64| |---|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| office productivity suite -- GTK+ 3.0 integration
 libreoffice-help-en-us           |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| office productivity suite -- English_american help
 libreoffice-impress              |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| office productivity suite -- presentation
 libreoffice-java-common          |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| office productivity suite -- arch-independent Java support files
@@ -660,7 +658,6 @@ lm-sensors                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 locales                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Embedded GNU C Library: National Language (locale) data [support]
 locales-all                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Embedded GNU C Library: Precompiled locale data
 login                            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| system login tools
-logrotate                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Log rotation utility
 lsb                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Linux Standard Base 4.1 support package
 lsb-base                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Linux Standard Base 3.2 init script functionality
 lsb-release                      |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Linux Standard Base version reporting utility
