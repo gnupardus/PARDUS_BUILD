@@ -682,6 +682,7 @@ menu                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 menu-l10n                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| generates programs menu for all menu-aware applications
 menu-xdg                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| freedesktop.org menu compliant window manager scripts
 mesa-utils                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Miscellaneous Mesa GL utilities
+mesa-vdpau-drivers               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Mesa VDPAU video acceleration drivers
 metacity                         |32|64| |---|GNOME|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| lightweight GTK+ window manager
 midisport-firmware               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Firmware loader for M-Audio's MidiSport devices
 mime-support                     |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| MIME files 'mime.types' & 'mailcap', and support programs
@@ -698,8 +699,8 @@ mpg123                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 mscompress                       |32|64| |KDE|GNOME|XFCE| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Microsoft "compress.exe/expand.exe" compatible (de)compressor
 mtools                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Tools for manipulating MSDOS files
 mtp-tools                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Media Transfer Protocol (MTP) library tools
-mtr-tiny                         |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Full screen ncurses traceroute tool
-multiarch-support                |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Transitional package to ensure multiarch compatibility
+mtr-tiny                         |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| Full screen ncurses traceroute tool
+multiarch-support                |--|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Transitional package to ensure multiarch compatibility
 mupdf                            |32|64| |---|-----|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| lightweight PDF viewer
 mysql-client                     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| MySQL database client
 mysql-server                     |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| MySQL database server
@@ -714,8 +715,6 @@ ndiswrapper-dkms                 |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal
 ndiswrapper-utils-1.9            |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Userspace utilities for the ndiswrapper Linux kernel module
 netbase                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Basic TCP/IP networking system
 netcat-openbsd                   |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| TCP/IP swiss army knife
-netcat-traditional               |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| TCP/IP swiss army knife
-netpbm                           |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Graphics conversion tools between image formats
 net-tools                        |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The NET-3 networking toolkit
 network-manager                  |32|64| |KDE|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| network management framework (daemon and userspace tools)
 network-manager-gnome            |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| network management framework (GNOME frontend)
@@ -731,7 +730,7 @@ network-manager-vpnc             |32|64| |KDE|GNOME|----| |------|Fatih|Kurumsal
 network-manager-vpnc-gnome       |32|64| |---|GNOME|----| |------|Fatih|Kurumsal|Topluluk| |wheezy|jessie| network management framework (VPNC plugin GNOME GUI)
 nfs-common                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| NFS support files common to client and server
 nfs-kernel-server                |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| support for NFS kernel server
-nmap                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| The Network Mapper
+nmap                             |32|64| |KDE|GNOME|XFCE| |Sunucu|-----|--------|--------| |wheezy|jessie| The Network Mapper
 ntfs-3g                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| read/write NTFS driver for FUSE
 ntp                              |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Network Time Protocol daemon and utility programs
 ntpdate                          |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| client for setting system time from NTP servers
@@ -814,7 +813,6 @@ pidgin-plugin-pack               |32|64| |KDE|GNOME|XFCE| |------|-----|--------
 pidgin-sipe                      |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Topluluk| |wheezy|jessie| Pidgin protocol plugin to connect to MS Office Communicator
 pidgin-skype                     |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Topluluk| |wheezy|jessie| Skype plugin for libpurple messengers
 pidgin-twitter                   |32|64| |KDE|GNOME|XFCE| |------|-----|--------|Topluluk| |wheezy|jessie| Pidgin plugin for Twitter
-pigz                             |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Parallel Implementation of GZip
 pinentry-gtk2                    |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| GTK+-2-based PIN or pass-phrase entry dialog for GnuPG
 pinentry-qt4                     |32|64| |KDE|-----|----| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| Qt-4-based PIN or pass-phrase entry dialog for GnuPG
 pkg-config                       |32|64| |KDE|GNOME|XFCE| |Sunucu|Fatih|Kurumsal|Topluluk| |wheezy|jessie| manage compile and link flags for libraries
